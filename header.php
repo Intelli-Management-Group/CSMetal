@@ -15,7 +15,7 @@
         <link rel="manifest" href="./img/icons/favicon/site.webmanifest"> -->
         <style>
             .header {
-                padding: 10px 15px;
+                padding: 10px 0;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;

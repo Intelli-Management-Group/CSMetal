@@ -222,6 +222,8 @@
 
         <!-- Become a Customer -->
         <div class="container">
+            <div class="line line-left"></div>
+            <div class="line line-right"></div>
             <div class="row section-padding pl-0 pr-0">
                 <div class="col-sm-12 col-md-6">
                     <img src="img/Home/img_2.jpg" alt="image 2" style="width: 100%;">
@@ -234,9 +236,9 @@
                     </div>
                 </div>
             </div>
-
         </div>
-        <div style="padding: 100px"></div>
+        <!-- <div style="padding: 100px"></div> -->
+        <?php include 'footer.php'; ?>
 
         <script>
             // Bolt drop-down effect
