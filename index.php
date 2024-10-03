@@ -19,10 +19,14 @@
     </head>
     <body>
         <div class="container">
-            <div class="row pt-5 pb-5">
+            <div class="line line-left"></div>
+            <div class="line line-1-3"></div>
+            <div class="line line-2-3"></div>
+            <div class="line line-right"></div>
+            <div class="row section-padding">
                 <div class="col-sm-8">
-                    <h5><span class="text-color">/</span>Founded in 1995</h5>
-                    <h1>WE ARE BUILDING THE </br> FUTURE OF STEEL</h1>
+                    <h5><span class="text-color">/ </span>Founded in 1995</h5>
+                    <h1 class="display-3">WE ARE BUILDING THE FUTURE OF STEEL</h1>
                 </div>
             </div>
         </div>
@@ -30,17 +34,21 @@
         <!-- banner -->
         <div class="image-container">
             <img src="./img/Home/banner_home.jpg" alt="Home Banner" class="image">
-            <div class="col-sm-4 image-button">
+            <a class="col-sm-4 image-button" href="">
                 <div class="d-flex justify-content-between w-100">
                     <h5 class="mb-0">LEARN MORE</h5>
                     <h5 class="mb-0">→</h5>
                 </div>
-            </div>
+            </a>
         </div>
 
         <div class="container">
+            <div class="line line-left"></div>
+            <div class="line line-1-3"></div>
+            <div class="line line-2-3"></div>
+            <div class="line line-right"></div>
             <!-- Intro Section -->
-            <div class="row pt-5 pb-5">
+            <div class="row section-padding">
                 <div class="col-sm-12 col-md-4">
                     <h4>Sustainable, visionary steel solutions that serve customers and communities, people and planet.</h4>
                 </div>
@@ -55,24 +63,25 @@
             </div>
 
             <!-- Featured Section -->
-            <div class="row pt-5 pb-5">
+            <div class="row section-padding">
                 <div class="col-sm-12 col-md-4 pl-0">
                     <div class="grey-widget-wrap">
-                        <h5><span class="text-color">/</span>Become a customer</h5>
+                        <h5><span class="text-color">/ </span>Become a customer</h5>
                         <h3 class="mt-5 mb-5">CHOOSE CS FOR FAST, HIGH-QUALITY CUSTOM PARTS</h3>
                         <div class="arrow">→</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4 pl-0">
-                    <div class="grey-widget-wrap machine-widget">
-                        <h5><span class="text-color">/</span>Machine</h5>
+                    <div class="grey-widget-wrap">
+                        <h5><span class="text-color">/ </span>Machine</h5>
                         <h3 class="mt-5 mb-5">Automated Tube </br> Forming Machine</h3>
                         <div class="arrow">→</div>
+                        <img src="./img/Home/img_1.png" alt="machine" class="machine-widget">
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4 pl-0">
                     <div class="grey-widget-wrap">
-                        <h5><span class="text-color">/</span>Technology</h5>
+                        <h5><span class="text-color">/ </span>Technology</h5>
                         <h3 class="mt-5 mb-5">GOM Scan</h3>
                         <div class="arrow">→</div>
                     </div>
@@ -80,7 +89,7 @@
             </div>
             
             <!-- Solutions Section -->
-            <div class="row pt-5 pb-5">
+            <div class="row section-padding">
                 <div class="col-sm-12 col-md-4">
                     <h2>A GREENER </br> STEEL PROVIDER</h2>
                 </div>
@@ -99,102 +108,120 @@
                         <h5 class="mb-0">→</h5>
                     </div>
                 </div>
-                <div class="col-sm-4 pl-0 solutions">
-                    <h5 class="mb-0"><span class="text-color">/</span>Solutions</h5>
+                <div class="col-sm-4 solutions">
+                    <h5 class="mb-0"><span class="text-color">/ </span>Solutions</h5>
                 </div>
             </div>
+
             <!-- Solutions -->
-            <div class="row pt-3 pb-5">
+            <div class="row section-padding" style="padding-top:10px;">
                 <div class="col-sm-12 col-md-4">
-                    <h4>APPLIANCES</h4>
-                    <h4>AUTOMOTIVE</h4>
-                    <h4>CONSTRUCTION</h4>
-                    <h4>ELECTRICAL</h4>
+                    <a href="" class="solution-link">APPLIANCES</a>
+                    <a href="" class="solution-link">AUTOMOTIVE</a>
+                    <a href="" class="solution-link">CONSTRUCTION</a>
+                    <a href="" class="solution-link">ELECTRICAL</a>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <h4>ENERGY</h4>
-                    <h4>EUROPE</h4>
-                    <h4>INDUSTRIAL</h4>
-                    <h4>MINING</h4>
+                    <a href="" class="solution-link">ENERGY</a>
+                    <a href="" class="solution-link">EUROPE</a>
+                    <a href="" class="solution-link">INDUSTRIAL</a>
+                    <a href="" class="solution-link">MINING</a>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <h4>PACKAGING</h4>
-                    <h4>SERVICE CENTERS</h4>
-                    <h4>SUSTAINABLLE STEEL</h4>
+                    <a href="" class="solution-link">PACKAGING</a>
+                    <a href="" class="solution-link">SERVICE CENTERS</a>
+                    <a href="" class="solution-link">SUSTAINABLLE STEEL</a>
                 </div>
             </div>
 
             <!-- Products Section -->
-            <h5><span class="text-color">/</span>Products</h5>
-            <div class="row pt-3">
-                <div class="col-sm-12 col-md-4">
-                    <h2>SUSTANINABLE STEEL FOR A STRONGER TOMMORROW</h2>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <div class="product-wrap">
-                        <div class="product-image-wrap">
-                            <img src="img/Home/product_1.jpg" alt="product 1" style="width: 100%;">
-                            <div class="arrow-white"><div>→</div></div>
-                        </div>
-                        <h5 class="mt-3">CARBON STEEL PLATE</h5>
-                        <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+            <div class="section-padding">
+                <h5><span class="text-color">/ </span>Products</h5>
+                <div class="row pt-3">
+                    <div class="col-sm-12 col-md-4">
+                        <h1>SUSTANINABLE STEEL FOR A STRONGER TOMMORROW</h1>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4">
-                    <div class="product-wrap">
-                        <div class="product-image-wrap">
-                            <img src="img/Home/product_2.jpg" alt="product 2" style="width: 100%;">
-                            <div class="arrow-white"><div>→</div></div>
+                <div class="row pt-3">
+                    <div class="col-sm-12 col-md-4">
+                        <div class="product-wrap">
+                            <div class="product-image-wrap">
+                                <img src="img/Home/product_1.jpg" alt="product 1" style="width: 100%;">
+                                <a class="image-arrow" href=""><div>→</div></a>
+                            </div>
+                            <h5 class="mt-3">HINGES</h5>
+                            <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
                         </div>
-                        <h5 class="mt-3">CARBON STEEL PLATE</h5>
-                        <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4 product-margin">
+                        <div class="product-wrap">
+                            <div class="product-image-wrap">
+                                <img src="img/Home/product_2.jpg" alt="product 2" style="width: 100%;">
+                                <a class="image-arrow" href=""><div>→</div></a>
+                            </div>
+                            <h5 class="mt-3">Handles</h5>
+                            <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4">
+                        <div class="product-wrap">
+                            <div class="product-image-wrap">
+                                <img src="img/Home/product_3.jpg" alt="product 3" style="width: 100%;">
+                                <a class="image-arrow" href=""><div>→</div></a>
+                            </div>
+                            <h5 class="mt-3">Die Cast</h5>
+                            <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pt-5">
+                    <div class="col-sm-12 col-md-4">
+                        <div class="product-wrap">
+                            <div class="product-image-wrap">
+                                <img src="img/Home/product_4.jpg" alt="product 4" style="width: 100%;">
+                                <a class="image-arrow" href=""><div>→</div></a>
+                            </div>
+                            <h5 class="mt-3">Manifold</h5>
+                            <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 product-margin">
+                        <div class="product-wrap">
+                            <div class="product-image-wrap">
+                                <img src="img/Home/product_5.jpg" alt="product 5" style="width: 100%;">
+                                <a class="image-arrow" href=""><div>→</div></a>
+                            </div>
+                            <h5 class="mt-3">Advertising Fixture & OEM Products</h5>
+                            <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <div class="product-wrap">
+                            <div class="product-image-wrap">
+                                <img src="img/Home/product_5.jpg" alt="product 5" style="width: 100%;">
+                                <a class="image-arrow" href=""><div>→</div></a>
+                            </div>
+                            <h5 class="mt-3">BECOME A CUSTOMER</h5>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="row pt-3">
-                <div class="col-sm-12 col-md-4">
-                    <div class="product-wrap">
-                        <div class="product-image-wrap">
-                            <img src="img/Home/product_3.jpg" alt="product 3" style="width: 100%;">
-                            <div class="arrow-white"><div>→</div></div>
-                        </div>
-                        <h5 class="mt-3">CARBON STEEL PLATE</h5>
-                        <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <div class="product-wrap">
-                        <div class="product-image-wrap">
-                            <img src="img/Home/product_4.jpg" alt="product 4" style="width: 100%;">
-                            <div class="arrow-white"><div>→</div></div>
-                        </div>
-                        <h5 class="mt-3">CARBON STEEL PLATE</h5>
-                        <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <div class="product-wrap">
-                        <div class="product-image-wrap">
-                            <img src="img/Home/product_5.jpg" alt="product 5" style="width: 100%;">
-                            <div class="arrow-white"><div>→</div></div>
-                        </div>
-                        <h5 class="mt-3">CARBON STEEL PLATE</h5>
-                        <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Become a Customer -->
-            <div class="row pt-5 pb-5">
+        <!-- Become a Customer -->
+        <div class="container">
+            <div class="row section-padding pl-0 pr-0">
                 <div class="col-sm-12 col-md-6">
                     <img src="img/Home/img_2.jpg" alt="image 2" style="width: 100%;">
                 </div>
                 <div class="col-sm-12 col-md-6 d-flex align-items-center">
                     <div>
-                        <h5><span class="text-color">/</span>Become a customer</h5>
+                        <h5><span class="text-color">/ </span>Become a customer</h5>
                         <h3 class="mt-5 mb-5">CHOOSE CS FOR FAST, HIGH-QUALITY CUSTOM PARTS</h3>
-                        <h5>LET'S TALK</h5>
+                        <a href="" class="underline-link">LET'S TALK →</a>
                     </div>
                 </div>
             </div>
