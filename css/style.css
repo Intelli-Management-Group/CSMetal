@@ -171,6 +171,12 @@
     padding: 0 30px;
 }
 
+.customer-wrap {
+    padding: 0 10px;
+    height: 100%;
+    background-color: #eee;
+}
+
 .product-image-wrap {
     position: relative;
     display: inline-block;
@@ -266,4 +272,36 @@
     .product-margin {
         margin-top:0px;
     }
+}
+
+.bolt-container {
+    position: relative;
+    width: 100%;
+    /* max-width: 500px; */
+}
+
+.bolt-wrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.bolt-wrapper.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.bolt-wrapper:nth-child(1) {
+    top: 100px;
+}
+.bolt-wrapper:nth-child(2) {
+    top: 60px;
+    transition-delay: 0.5s;
+}
+.bolt-wrapper:nth-child(3) {
+    top: 40px;
+    transition-delay: 1s;
 }

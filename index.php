@@ -18,6 +18,7 @@
         </style>
     </head>
     <body>
+        <?php include 'header.php'; ?>
         <div class="container">
             <div class="line line-left"></div>
             <div class="line line-1-3"></div>
@@ -198,13 +199,21 @@
                             <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4">
-                        <div class="product-wrap">
-                            <div class="product-image-wrap">
-                                <img src="img/Home/product_5.jpg" alt="product 5" style="width: 100%;">
-                                <a class="image-arrow" href=""><div>→</div></a>
+                    <div class="col-sm-12 col-md-4" style="padding:0 45px;">
+                        <div class="customer-wrap">
+                            <div class="bolt-container">
+                                <div class="bolt-wrapper d-flex justify-content-center">
+                                    <img src="./img/Generic/icon_customer_1.svg" alt="SVG 1">
+                                </div>
+                                <div class="bolt-wrapper">
+                                    <img src="./img/Generic/icon_customer_2.svg" alt="SVG 2">
+                                </div>
+                                <div class="bolt-wrapper">
+                                    <img src="./img/Generic/icon_customer_3.svg" alt="SVG 3">
+                                </div>
                             </div>
-                            <h5 class="mt-3">BECOME A CUSTOMER</h5>
+                            <a class="image-arrow" href="" style="left:45px;"><div>→</div></a>
+                            <h5 class="mt-3" style="position:absolute; bottom:50px; left:60px;">BECOME A CUSTOMER</h5>
                         </div>
                     </div>
                 </div>
@@ -228,5 +237,23 @@
 
         </div>
         <div style="padding: 100px"></div>
+
+        <script>
+            // Bolt drop-down effect
+            window.addEventListener('scroll', function() {
+                const svgWrappers = document.querySelectorAll('.bolt-wrapper');
+                svgWrappers.forEach(wrapper => {
+                    const rect = wrapper.getBoundingClientRect();
+                    const windowHeight = window.innerHeight;
+
+                    if (rect.top < windowHeight - 100) {
+                        wrapper.classList.add('visible');
+                    } else {
+                        wrapper.classList.remove('visible');
+                    }
+                });
+            });
+        </script>
+
     </body>
 </html>
