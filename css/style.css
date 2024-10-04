@@ -16,6 +16,9 @@
     .line {
         width: 0;
     }
+    .appliance-card > h3 {
+        font-size: 12px !important; 
+    }
 }
 
 .line-left {
@@ -360,4 +363,8 @@
 .bolt-wrapper:nth-child(3) {
     top: 40px;
     transition-delay: 1s;
+}
+
+.upparCasetextTransform{
+    text-transform: uppercase !important;
 }

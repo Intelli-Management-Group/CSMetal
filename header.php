@@ -47,6 +47,7 @@
                 text-decoration: none;
                 font-size: 16px;
                 padding: 5px 10px;
+                text-transform: uppercase;
             }
 
             .nav-links a.active {
@@ -70,8 +71,11 @@
                         <ul class="nav-links">
                             <li><a href="./index.php" class="active">HOME</a></li>
                             <li><a href="./about.php">COMPANY</a></li>
-                            <li><a href="#">SOLUTIONS</a></li>
+                            <li><a href="./solutions.php">SOLUTIONS</a></li>
                             <li><a href="#">PRODUCTS</a></li>
+                            <li><a href="#">R&D</a></li>
+                            <li><a href="#">MEDIA</a></li>
+                            <li><a href="#">careers</a></li>
                         </ul>
                     </nav>
                 </div>
