@@ -152,7 +152,7 @@
                 left: -100%; 
                 width: 100%;
                 height: 100%;
-                background-color: orangered; 
+                background-color: #005399; 
                 transition: left 0.4s ease; 
                 z-index: 0; 
                

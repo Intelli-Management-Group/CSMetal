@@ -73,11 +73,11 @@
             }
 
             .terms a.active {
-                color: orangered;
+                color: #005399;
             }
 
             .terms a:hover {
-                color: orangered;
+                color: #005399;
                 text-decoration: none;
             }
         </style>
@@ -95,17 +95,17 @@
                     <div class="row section-padding">
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
                             <div class="info-wrap location">
-                                <h2>Location</h2>
+                                <h3>41088 Chagrin Boulevard #120 Cleveland, OH 44124</h3>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
                             <div class="info-wrap email">
-                                <h2>Email</h2>
+                                <h3>office@fabrik.com</h3>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
                             <div class="info-wrap phone">
-                                <h2>Phone Number</h2>
+                                <h3>+1 440 848 8222</h3>
                             </div>
                         </div>
                     </div>

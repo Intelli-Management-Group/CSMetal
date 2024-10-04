@@ -51,11 +51,11 @@
             }
 
             .nav-links a.active {
-                color: orangered;
+                color: #005399;
             }
 
             .nav-links a:hover {
-                color: orangered;
+                color: #005399;
                 text-decoration: none;
             }
         </style>
