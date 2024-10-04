@@ -38,7 +38,7 @@
         <div class="banner-container home-banner">
             <div class="container">
                 <div class="row">
-                    <a class="col-sm-4 image-button" href="">
+                    <a class="col-md-4 image-button" href="">
                         <div class="d-flex justify-content-between w-100">
                             <h5 class="mb-0">LEARN MORE</h5>
                             <h5 class="mb-0">→</h5>
@@ -109,13 +109,13 @@
             <!-- banner -->
             <div class="image-container">
                 <img src="./img/Home/banner_1.jpg" alt="Home Banner" class="image">
-                <div class="col-sm-4 image-button">
+                <div class="col-md-4 image-button">
                     <div class="d-flex justify-content-between w-100">
                         <h5 class="mb-0">CONTACT US</h5>
                         <h5 class="mb-0">→</h5>
                     </div>
                 </div>
-                <div class="col-sm-4 solutions">
+                <div class="col-md-4 solutions">
                     <h5 class="mb-0"><span class="text-color">/ </span>Solutions</h5>
                 </div>
             </div>
@@ -207,14 +207,14 @@
                     </div>
                     <div class="col-sm-12 col-md-4" style="padding:0 45px;">
                         <div class="customer-wrap">
-                            <div class="bolt-container">
-                                <div class="bolt-wrapper d-flex justify-content-center">
+                            <div class="nut-container">
+                                <div class="nut-wrapper d-flex justify-content-center">
                                     <img src="./img/Generic/icon_customer_1.svg" alt="SVG 1">
                                 </div>
-                                <div class="bolt-wrapper">
+                                <div class="nut-wrapper">
                                     <img src="./img/Generic/icon_customer_2.svg" alt="SVG 2">
                                 </div>
-                                <div class="bolt-wrapper">
+                                <div class="nut-wrapper">
                                     <img src="./img/Generic/icon_customer_3.svg" alt="SVG 3">
                                 </div>
                             </div>
@@ -247,9 +247,9 @@
         <?php include 'footer.php'; ?>
 
         <script>
-            // Bolt drop-down effect
+            // nut drop-down effect
             window.addEventListener('scroll', function() {
-                const svgWrappers = document.querySelectorAll('.bolt-wrapper');
+                const svgWrappers = document.querySelectorAll('.nut-wrapper');
                 svgWrappers.forEach(wrapper => {
                     const rect = wrapper.getBoundingClientRect();
                     const windowHeight = window.innerHeight;

@@ -76,7 +76,7 @@
                 
             }
             .cncBg{
-                background-image: url('./img/Solution/cnc.webp');`
+                background-image: url('./img/Solution/cnc.webp');
             }
             .cncturningBg{
                 background-image: url('./img/Solution/cnc_turning.jpg');

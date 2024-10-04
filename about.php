@@ -38,7 +38,7 @@
         <div class="banner-container about-banner">
             <div class="container">
                 <div class="row">
-                    <a class="col-sm-4 image-button-white" href="">
+                    <a class="col-md-4 image-button-white" href="">
                         <div class="d-flex justify-content-between w-100">
                             <h5 class="mb-0">FIND OUT MORE</h5>
                             <h5 class="mb-0">↘</h5>
@@ -56,7 +56,7 @@
             <!-- Company Profile -->
             <div class="row section-padding pb-0">
                 <div class="col-sm-12 col-md-4">
-                    <h4>THE NEXT GENERATION OF STEELMAKING: BREAKTHROUGHS IN QUALITY AND SPEED</h4>
+                    <h4>USE THE MOST ECONOMIC PROCESS TO ACHIEVE EXCELLENT PRODUCT AND SERVICE SATISFACTION</h4>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p>Vision and ambition drive Chi Sing’s success in metal manufacturing. The company’s inception was fueled by a desire to excel in a field where only the bold thrive. “Success comes from a strong will,” </p>
@@ -78,17 +78,19 @@
             <!-- <div class="container"> -->
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4" style="margin-top: -50px;">
-                    <!-- <h5><span class="text-color">/ </span>Experience. Transparency. Results.</h5> -->
-                    <div class="display-3">25K</div>
-                    <p>Unique Products Manufactured</p>
+                    <div class="display-3">400,000</div>
+                    <p>pcs/month</p>
+                    <p class="text-color">HANDLE</p>
                 </div>
                 <div class="col-sm-12 col-md-4" style="margin-top: 50px;">
-                    <div class="display-3">10K</div>
-                    <p>Quality Inspections Yearly Average</p>
+                    <div class="display-3">1,000,000</div>
+                    <p>pcs/month</p>
+                    <p class="text-color">STAMPING</p>
                 </div>
                 <div class="col-sm-12 col-md-4" style="margin-top: 150px;">
-                    <div class="display-3">400+</div>
-                    <p>Active Suppliers</p>
+                    <div class="display-3">50%</div>
+                    <p>utilization</p>
+                    <p class="text-color">1 SHIFT</p>
                 </div>
             </div>
         </div>
@@ -107,28 +109,139 @@
                     
                     <div class="row section-padding">
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
-                            <div class="info-wrap location">
+                            <a href="" class="info-wrap location card-arrow">
                                 <h2 class="m-0">Automated tube Forming Machine</h2>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
-                            <div class="info-wrap email">
+                            <a href="" class="info-wrap email card-arrow">
                                 <h2 class="m-0">GOM Scan</h2>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
-                            <div class="info-wrap phone">
+                            <a href="" class="info-wrap phone card-arrow">
                                 <h2 class="m-0">Metal Hardness Measurement Machine</h2>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        
-        <div style="padding: 100px;"></div>
-            
+        <!-- Core Values -->
+        <div class="container" style="border-bottom:1px solid #eee;">
+            <div class="line line-left"></div>
+            <div class="line line-1-3"></div>
+            <div class="line line-2-3"></div>
+            <div class="line line-right"></div>
+            <div class="row section-padding">
+                <div class="col-sm-12 col-md-4">
+                    <div class="display-4">THE BEST EXPERIENCE POSSIBLE</div>
+                    <p>Our core values not only define us as a company but also reflect the essence of each individual within our organization.</p>
+                </div>
+            </div>
+            <div class="row section-padding">
+                <div class="col-sm-12 col-md-4">
+                    <h4>Think big</h4>
+                    <p>Empowering each individual with confidence.</p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <h4>Never settle</h4>
+                    <p>Constantly innovating, improving and asking the right questions.</p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <h4>Be collaborative</h4>
+                    <p>We do our best when we do it together, with respect and humility.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Our Clients -->
+        <div class="container">
+            <div class="line line-left"></div>
+            <div class="line line-right"></div>
+            <div class="row section-padding d-flex justify-content-center">
+                <div class="col-sm-12 col-md-8">
+                    <h5><span class="text-color">/ </span>Our Clients</h5>
+                    <p>Distinguished by enduring partnerships with leading brands, Chi Sing has become synonymous with reliability and quality. Our work with top appliance manufacturers has not only earned us a preferred supplier status but also brought forth innovative collaborations.</p>
+                </div>
+            </div>
+            <div class="row section-padding d-flex justify-content-around pb-0">
+                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                    <img src="./img/Company/About/client_1.png" class="client" alt="client 1">
+                </div>
+                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                    <img src="./img/Company/About/client_2.png" class="client" alt="client 2">
+                </div>
+                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                    <img src="./img/Company/About/client_3.png" class="client" alt="client 3">
+                </div>
+                <div class="col-sm-6 col-md-1 p-md-3 d-flex align-items-center">
+                    <img src="./img/Company/About/client_4.png" class="client" alt="client 4">
+                </div>
+                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                    <img src="./img/Company/About/client_5.png" class="client" alt="client 5">
+                </div>
+                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                    <img src="./img/Company/About/client_6.png" class="client" alt="client 6">
+                </div>
+                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                    <img src="./img/Company/About/client_7.png" class="client" alt="client 7">
+                </div>
+                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                    <img src="./img/Company/About/client_8.png" class="client" alt="client 8">
+                </div>
+            </div>
+
+            <div class="row section-padding d-flex justify-content-around mt-md-4 pt-0">
+                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                    <img src="./img/Company/About/client_9.png" class="client" alt="client 9">
+                </div>
+                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                    <img src="./img/Company/About/client_10.png" class="client" alt="client 10">
+                </div>
+                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                    <img src="./img/Company/About/client_11.png" class="client" alt="client 11">
+                </div>
+                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                    <img src="./img/Company/About/client_12.png" class="client" alt="client 12">
+                </div>
+                <div class="col-sm-6 col-md-2 p-md-0 d-flex align-items-center">
+                    <img src="./img/Company/About/client_13.png" class="client" alt="client 13">
+                </div>
+                <div class="col-sm-6 col-md-2 p-md-0 d-flex align-items-center">
+                    <img src="./img/Company/About/client_14.png" class="client" alt="client 14">
+                </div>
+            </div>
+        </div>
+
+        <!-- Founder -->
+        <div class="container" style="border-top:1px solid #eee;">
+            <div class="line line-left"></div>
+            <div class="line line-1-3"></div>
+            <div class="line line-2-3"></div>
+            <div class="line line-right"></div>
+            <div class="row section-padding">
+                <div class="col-sm-12 col-md-4">
+                    <img src="img/Company/About/img_2.webp" alt="Founder" class="image">
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <h4>Legacy of the Founder</h4>
+                    <p>A tale of relentless pursuit marks the four-decade journey of our founder, Mr. William Ho. From the early days in a compact workshop to becoming a global manufacturing powerhouse, Chi Sing’s story is rich with milestones.</p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="image-container">
+                        <img src="img/Company/About/img_3.jpg" alt="Founder" class="image">
+                        <div class="col-md-8 image-button-bottom-right">
+                            <div class="d-flex justify-content-between w-100">
+                                <h5 class="mb-0">MEET OUR PEOPLE</h5>
+                                <h5 class="mb-0">→</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <?php include 'footer.php'; ?>
 
