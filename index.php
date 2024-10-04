@@ -14,7 +14,9 @@
         <link rel="icon" type="image/png" sizes="16x16" href="./img/icons/favicon/favicon-16x16.png">
         <link rel="manifest" href="./img/icons/favicon/site.webmanifest"> -->
         <style>
-
+            .home-banner{
+                background-image: url('./img/Home/banner_home.jpg');
+            }
         </style>
     </head>
     <body>
@@ -27,20 +29,23 @@
             <div class="row section-padding">
                 <div class="col-sm-8">
                     <h5><span class="text-color">/ </span>Founded in 1995</h5>
-                    <h1 class="display-3">WE ARE BUILDING THE FUTURE OF STEEL</h1>
+                    <h1 class="display-4">WE ARE BUILDING THE FUTURE OF STEEL</h1>
                 </div>
             </div>
         </div>
 
         <!-- banner -->
-        <div class="image-container">
-            <img src="./img/Home/banner_home.jpg" alt="Home Banner" class="image">
-            <a class="col-sm-4 image-button" href="">
-                <div class="d-flex justify-content-between w-100">
-                    <h5 class="mb-0">LEARN MORE</h5>
-                    <h5 class="mb-0">→</h5>
+        <div class="banner-container home-banner">
+            <div class="container">
+                <div class="row">
+                    <a class="col-sm-4 image-button" href="">
+                        <div class="d-flex justify-content-between w-100">
+                            <h5 class="mb-0">LEARN MORE</h5>
+                            <h5 class="mb-0">→</h5>
+                        </div>
+                    </a>
                 </div>
-            </a>
+            </div>
         </div>
 
         <div class="container">
@@ -48,6 +53,7 @@
             <div class="line line-1-3"></div>
             <div class="line line-2-3"></div>
             <div class="line line-right"></div>
+
             <!-- Intro Section -->
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4">
@@ -237,7 +243,7 @@
                 </div>
             </div>
         </div>
-        <!-- <div style="padding: 100px"></div> -->
+
         <?php include 'footer.php'; ?>
 
         <script>
@@ -256,6 +262,5 @@
                 });
             });
         </script>
-
     </body>
 </html>

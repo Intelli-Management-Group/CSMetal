@@ -69,7 +69,7 @@
                     <nav>
                         <ul class="nav-links">
                             <li><a href="./index.php" class="active">HOME</a></li>
-                            <li><a href="#">COMPANY</a></li>
+                            <li><a href="./about.php">COMPANY</a></li>
                             <li><a href="#">SOLUTIONS</a></li>
                             <li><a href="#">PRODUCTS</a></li>
                         </ul>
@@ -86,6 +86,8 @@
             for (let i = 0; i < menuLength; i++) {
                 if (menuItem[i].href === currentLocation) {
                     menuItem[i].classList.add('active');
+                } else {
+                    menuItem[i].classList.remove('active');
                 }
             }
         </script>

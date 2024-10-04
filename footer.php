@@ -37,6 +37,18 @@
                 border-left: none;
             }
 
+            @media only screen and (max-width: 767px) {
+                .email {
+                    border-left: 1px solid #eee;
+                    border-top: none;
+                }
+
+                .phone {
+                    border-left: 1px solid #eee;
+                    border-top: none;
+                }
+            }
+
             nav {
                 display: flex;
             }
@@ -76,7 +88,7 @@
                 <div class=footer>
                     <div class="row section-padding">
                         <div class="col-sm-12 col-md-6 pl-0 pr-0">
-                            <h1>Pioneering a New Era of Steelworking Excellence</h1>
+                            <h1 class="display-4">Pioneering a New Era of Steelworking Excellence</h1>
                         </div>
                     </div>
                     
