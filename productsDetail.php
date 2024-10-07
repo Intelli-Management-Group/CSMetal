@@ -13,7 +13,7 @@
      <style>
         
         .productsDetails-banner {
-            background-image: url('./img/ProductsDetail/banner.webp');
+            background-image: url('./img/Product/Diecast/banner_product_diecast.jpg');
                 background-size: cover;
                 background-position: center;
                 transition: background-size 0.2s ease; 
@@ -70,7 +70,7 @@
         <div class="container">
             <div class="row p-3">
                 <div class="col-sm-12 col-md-6 section-padding">
-                    <img src="img/Product/product-2.webp" alt="product 3" width="100%">
+                    <img src="./img/Product/Diecast/img_diecast_1.jpg" alt="product 3" width="100%">
                 </div>
                 <div class="col-sm-12 col-md-6" style="background-color: black;">
                     <div class="text-white" style="padding: 15%;">
@@ -99,7 +99,7 @@
             <div class="container pt-5">
                 <div class="row section-padding pl-0 pr-0">
                     <div class="col-sm-12 col-md-6">
-                        <img src="img/ProductsDetail/productsdetails1.webp" alt="image 2" style="width: 100%;">
+                        <img src="./img/Product/Diecast/img_diecast_2.jpg" alt="image 2" style="width: 100%;">
                     </div>
                     <div class="col-sm-12 col-md-6 d-flex align-items-center">
                         <div class="p-5">
