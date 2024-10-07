@@ -105,10 +105,10 @@
 
                 .elementor-button {
                     margin-top: 10px; /* Space above the button */
-                    background-color: #007bff; /* Button background color */
+                    background-color: #000000; /* Button background color */
                     color: white; /* Button text color */
                     border: none; /* No border for button */
-                    padding: 10px 20px; /* Padding for button */
+                    padding: 20px 30px; /* Padding for button */
                     border-radius: 4px; /* Rounded corners for button */
                     cursor: pointer; /* Pointer cursor on hover */
                 }
