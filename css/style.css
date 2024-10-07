@@ -483,3 +483,14 @@
         padding: 50px 150px;
     }
 }
+
+.history-container {
+    padding: 0 50px !important;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.history-image {
+    padding: 0 50px !important;
+}
