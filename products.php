@@ -15,9 +15,7 @@
         <link rel="icon" type="image/png" sizes="16x16" href="./img/icons/favicon/favicon-16x16.png">
         <link rel="manifest" href="./img/icons/favicon/site.webmanifest"> -->
     <style>
-        .home-banner {
-            background-image: url('./img/Product/product-banner.webp');
-        }
+
     </style>
 </head>
 
@@ -38,10 +36,11 @@
     </div>
 
     <!-- banner -->
-    <div class="banner-container home-banner">
+    <div class="image-container">
+        <img src="./img/Product/Main/banner_product.jpg" alt="Product Banner" class="banner-container">
         <div class="container">
             <div class="row">
-                <a class="col-sm-4 image-button" href="">
+                <a class="col-md-4 image-button" href="">
                     <div class="d-flex justify-content-between w-100">
                         <h5 class="mb-0">LEARN MORE</h5>
                         <h5 class="mb-0">→</h5>
@@ -78,7 +77,7 @@
             <div class="col-sm-12 col-md-4">
                 <div class="product-wrap">
                     <div class="product-image-wrap">
-                        <img src="img/Product/product-1.webp" alt="product 2" style="width: 100%;">
+                        <img src="./img/Product/Main/product_1.jpg" alt="product 2" style="width: 100%;">
                         <a class="image-arrow" href="">
                             <div>→</div>
                         </a>
@@ -91,7 +90,7 @@
             <div class="col-sm-12 col-md-4">
                 <div class="product-wrap">
                     <div class="product-image-wrap">
-                        <img src="img/Product/product-2.webp" alt="product 3" style="width: 100%;">
+                        <img src="./img/Product/Main/product_2.jpg" alt="product 3" style="width: 100%;">
                         <a class="image-arrow" href="">
                             <div>→</div>
                         </a>
@@ -103,7 +102,7 @@
             <div class="col-sm-12 col-md-4">
                 <div class="product-wrap">
                     <div class="product-image-wrap">
-                        <img src="img/Product/product-3.webp" alt="product 3" style="width: 100%;">
+                        <img src="./img/Product/Main/product_3.jpg" alt="product 3" style="width: 100%;">
                         <a class="image-arrow" href="">
                             <div>→</div>
                         </a>
@@ -123,7 +122,7 @@
             <div class="col-sm-12 col-md-4">
                 <div class="product-wrap">
                     <div class="product-image-wrap">
-                        <img src="img/Product/product-4.webp" alt="product 4" style="width: 100%;">
+                        <img src="./img/Product/Main/product_4.jpg" alt="product 4" style="width: 100%;">
                         <a class="image-arrow" href="">
                             <div>→</div>
                         </a>
@@ -136,7 +135,7 @@
             <div class="col-sm-12 col-md-4">
                 <div class="product-wrap">
                     <div class="product-image-wrap">
-                        <img src="img/Product/product-5.webp" alt="product 5" style="width: 100%;">
+                        <img src="./img/Product/Main/product_5.jpg" alt="product 5" style="width: 100%;">
                         <a class="image-arrow" href="">
                             <div>→</div>
                         </a>
