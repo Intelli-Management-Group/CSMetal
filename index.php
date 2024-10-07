@@ -14,9 +14,9 @@
         <link rel="icon" type="image/png" sizes="16x16" href="./img/icons/favicon/favicon-16x16.png">
         <link rel="manifest" href="./img/icons/favicon/site.webmanifest"> -->
         <style>
-            .home-banner{
+            /* .home-banner{
                 background-image: url('./img/Home/banner_home.jpg');
-            }
+            } */
         </style>
     </head>
     <body>
@@ -35,7 +35,8 @@
         </div>
 
         <!-- banner -->
-        <div class="banner-container home-banner">
+        <div class="image-container">
+            <img src="./img/Home/banner_home.jpg" alt="" class="banner-container">
             <div class="container">
                 <div class="row">
                     <a class="col-md-4 image-button" href="">
@@ -46,9 +47,19 @@
                     </a>
                 </div>
             </div>
+
+            <!-- <div class="row">
+                <a class="col-md-4 image-button" href="">
+                    <div class="d-flex justify-content-between w-100">
+                        <h5 class="mb-0">LEARN MORE</h5>
+                        <h5 class="mb-0">→</h5>
+                    </div>
+                </a>
+            </div> -->
+
         </div>
 
-        <div class="container">
+        <div class="container" style="border-bottom:1px solid #eee;">
             <div class="line line-left"></div>
             <div class="line line-1-3"></div>
             <div class="line line-2-3"></div>
@@ -208,7 +219,7 @@
                     <div class="col-sm-12 col-md-4" style="padding:0 45px;">
                         <div class="customer-wrap">
                             <div class="nut-container">
-                                <div class="nut-wrapper d-flex justify-content-center">
+                                <div class="nut-wrapper">
                                     <img src="./img/Generic/icon_customer_1.svg" alt="SVG 1">
                                 </div>
                                 <div class="nut-wrapper">
@@ -261,6 +272,18 @@
                     }
                 });
             });
+
+            // zoom in image when scrolling
+            window.addEventListener('scroll', function() {
+                const image = document.querySelector('.banner-container');
+                const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+                const scrollPercentage = window.scrollY / maxScroll;
+
+                const scale = 1 + scrollPercentage * 0.3;
+                image.style.transform = `scale(${scale})`;
+            });
+
+
         </script>
     </body>
 </html>

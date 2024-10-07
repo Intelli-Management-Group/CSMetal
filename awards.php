@@ -11,7 +11,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <style>
             .award-banner {
-                background-image: url('./img/Award/award_banner.webp');
+                background-image: url('./img/Company/Awards/banner_company_awards.jpg');
                 background-size: cover;
                 background-position: center;
                 transition: background-size 0.2s ease; 
@@ -41,7 +41,7 @@
             <div class="line line-right"></div>
             <div class="row section-padding">
                 <div class="col-sm-8">
-                    <h5><span class="text-color">/ </span>Award</h5>
+                    <h5><span class="text-color">/ </span>Awards</h5>
                     <div class="display-4">Embracing History, Forging Tomorrow.</div>
                 </div>
             </div>
@@ -71,17 +71,17 @@
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4 ">
                     <div class="pl-3 pr-3">
-                        <h4 class="mb-4">From Roots to Horizons: Our Steel Journey</h4>
+                        <h4 class="mb-4">Recognition and Community Involvement</h4>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <div class="pl-3 pr-3">
+                    <!-- <div class="pl-3 pr-3">
                         <p>For over a century, Fabrik has proudly led the industry, taking on the responsibility of envisioning what lies ahead. Driven by advanced technology and innovative thinking, we anticipate the future needs of our customers and the world.</p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="pl-3 pr-3">
-                       <p>Our mission extends beyond steel; it encompasses safeguarding lives and livelihoods. Every day, we immerse ourselves in purposeful work, addressing the critical tasks that demand our attention.</p>
+                       <p>Chi Sing’s industry leadership is affi rmed by a collection of awards and certifi cations. Our proactive stance on sustainability and community engagement is evident in our initiatives and partnerships, refl ecting a deep-seated commitment to social responsibility</p>
                     </div>
                 </div>
             </div>
@@ -90,54 +90,80 @@
 
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4">
-                    <img src="img/Award/award1.webp" alt="about" class="image img-fluid">    
-                    <h4>Luke Stevenson</h4>
-                    <p>CEO of Fabrik</p>
+                    <div class="d-flex flex-column align-items-center text-center">
+                        <img src="./img/Company/Awards/img_1.jpg" alt="about" class="image">    
+                        <h4>HKPC</h4>
+                        <h4 class="text-color">Appreciation Award</h4>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <img src="img/Award/award2.webp" alt="about" class="image img-fluid">    
-                    <h4>Jackson Miles</h4>
-                    <p>Vice President of Engineering</p>
+                    <div class="d-flex flex-column align-items-center text-center">
+                        <img src="./img/Company/Awards/img_2.jpg" alt="about" class="image">    
+                        <h4>The Hong Kong Exporters Association</h4>
+                        <h4 class="text-color">Appreciation Award</h4>
+                        <p>2008</p>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <img src="img/Award/award3.webp" alt="about" class="image img-fluid">    
-                    <h4>Marguerite Guzman</h4>
-                    <p>Vice President of Global Operations</p>
+                    <div class="d-flex flex-column align-items-center text-center">
+                        <img src="./img/Company/Awards/img_3.jpg" alt="about" class="image">    
+                        <h4>GE</h4>
+                        <h4 class="text-color">Distinguished Supplier Award</h4>
+                        <p>2011</p>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <img src="img/Award/award1.webp" alt="about" class="image img-fluid">    
-                    <h4>Luke Stevenson</h4>
-                    <p>CEO of Fabrik</p>
+                    <div class="d-flex flex-column align-items-center text-center">
+                        <img src="./img/Company/Awards/img_4.jpg" alt="about" class="image">    
+                        <h4>Mabe</h4>
+                        <h4 class="text-color">Best Suppliers Award</h4>
+                        <p>2012</p>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <img src="img/Award/award2.webp" alt="about" class="image img-fluid">    
-                    <h4>Jackson Miles</h4>
-                    <p>Vice President of Engineering</p>
+                    <div class="d-flex flex-column align-items-center text-center">
+                        <img src="./img/Company/Awards/img_5.jpg" alt="about" class="image">    
+                        <h4>Imagine POS</h4>
+                        <h4 class="text-color">Outstanding Award</h4>
+                        <p>2012-2013</p>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <img src="img/Award/award3.webp" alt="about" class="image img-fluid">    
-                    <h4>Marguerite Guzman</h4>
-                    <p>Vice President of Global Operations</p>
+                    <div class="d-flex flex-column align-items-center text-center">
+                        <img src="./img/Company/Awards/img_6.jpg" alt="about" class="image">    
+                        <h4>GE</h4>
+                        <h4 class="text-color">10th Anniversary Award</h4>
+                        <p>2014</p>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <img src="img/Award/award1.webp" alt="about" class="image img-fluid">    
-                    <h4>Luke Stevenson</h4>
-                    <p>CEO of Fabrik</p>
+                    <div class="d-flex flex-column align-items-center text-center">
+                        <img src="./img/Company/Awards/img_7.jpg" alt="about" class="image">    
+                        <h4>LG</h4>
+                        <h4 class="text-color">Superior Award</h4>
+                        <p>2016</p>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <img src="img/Award/award2.webp" alt="about" class="image img-fluid">    
-                    <h4>Jackson Miles</h4>
-                    <p>Vice President of Engineering</p>
+                    <div class="d-flex flex-column align-items-center text-center">
+                        <img src="./img/Company/Awards/img_8.jpg" alt="about" class="image">    
+                        <h4>GE</h4>
+                        <h4 class="text-color">Superior Quality Performance Award</h4>
+                        <p>2016</p>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <img src="img/Award/award3.webp" alt="about" class="image img-fluid">    
-                    <h4>Marguerite Guzman</h4>
-                    <p>Vice President of Global Operations</p>
+                    <div class="d-flex flex-column align-items-center text-center">
+                        <img src="./img/Company/Awards/img_9.jpg" alt="about" class="image">    
+                        <h4>HKGCC</h4>
+                        <h4 class="text-color">Member Certificate</h4>
+                        <p>2019</p>
+                    </div>
                 </div>
             </div>        
         </div>
 
-        <div style="background-color:black;">
+        <!-- <div style="background-color:black;">
             <div class="container">
                 <div class=footer>
                     <div class="row section-padding justify-content-between">
@@ -183,7 +209,7 @@
         </div>
 
         
-        <div style="padding: 100px;"></div>
+        <div style="padding: 100px;"></div> -->
             
 
         <?php include 'footer.php'; ?>
