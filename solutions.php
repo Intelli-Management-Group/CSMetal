@@ -11,7 +11,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <style>
             .solution-banner {
-                background-image: url('./img/Solution/bannes_solutions.jpg');
+                background-image: url('./img/Solution/banner_solution.jpg');
                 background-size: cover;
                 background-position: center;
                 transition: background-size 0.2s ease; 
@@ -225,8 +225,42 @@
 
             <!-- Company Profile -->
             <div class="row section-padding pb-0">
+                <div class="row pt-3">
+                    <div class="col-sm-12 col-md-4">
+                        <div class="product-wrap">
+                            <div class="product-image-wrap">
+                                <img src="./img/Solution/img_inspection.jpg" alt="product 1" style="width: 100%;">
+                                <a class="image-arrow" href=""><div>→</div></a>
+                            </div>
+                            <h5 class="mt-3">Inspection</h5>
+                            <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4">
+                        <div class="product-wrap">
+                            <div class="product-image-wrap">
+                                <img src="./img/Solution/img_machines.jpg" alt="product 2" style="width: 100%;">
+                                <a class="image-arrow" href=""><div>→</div></a>
+                            </div>
+                            <h5 class="mt-3">Machines</h5>
+                            <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4">
+                        <div class="product-wrap">
+                            <div class="product-image-wrap">
+                                <img src="./img/Solution/img_testing.jpg" alt="product 3" style="width: 100%;">
+                                <a class="image-arrow" href=""><div>→</div></a>
+                            </div>
+                            <h5 class="mt-3">Testing</h5>
+                            <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                        </div>
+                    </div>
+                </div>
                 <!-- Row 1 -->
-                <div class="col-sm-12 col-md-4">
+                <!-- <div class="col-sm-12 col-md-4">
                     <div class="row borders">
                         <div class="col-sm-10 col-md-8 pl-0 pr-0">
                             <div class="appliance-card">
@@ -261,9 +295,10 @@
                            <div class="cncBg"></div>
                         </div>
                     </div>
-                </div>
-                 <!-- Row 2 -->
-                <div class="col-sm-12 col-md-4">
+                </div> -->
+
+                <!-- Row 2 -->
+                <!-- <div class="col-sm-12 col-md-4">
                     <div class="row borders">
                         <div class="col-md-8 pl-0 pr-0">
                             <div class="appliance-card">
@@ -298,9 +333,10 @@
                            <div class="electricalBg"></div>
                         </div>
                     </div>
-                </div>
-                 <!-- Row 3 -->
-                <div class="col-sm-12 col-md-4">
+                </div> -->
+
+                <!-- Row 3 -->
+                <!-- <div class="col-sm-12 col-md-4">
                     <div class="row borders">
                         <div class="col-md-8 pl-0 pr-0">
                             <div class="appliance-card">
@@ -335,9 +371,10 @@
                            <div class="europeBg"></div>
                         </div>
                     </div>
-                </div>
-                 <!-- Row 4 -->
-                <div class="col-sm-12 col-md-4">
+                </div> -->
+                 
+                <!-- Row 4 -->
+                <!-- <div class="col-sm-12 col-md-4">
                     <div class="row borders">
                         <div class="col-md-8 pl-0 pr-0">
                             <div class="appliance-card">
@@ -372,9 +409,10 @@
                            <div class="miningBg"></div>
                         </div>
                     </div>
-                </div>
-                 <!-- Row 5 -->
-                <div class="col-sm-12 col-md-4">
+                </div> -->
+
+                <!-- Row 5 -->
+                <!-- <div class="col-sm-12 col-md-4">
                     <div class="row borders">
                         <div class="col-md-8 pl-0 pr-0">
                             <div class="appliance-card">
@@ -409,9 +447,10 @@
                            <div class="sustainable_steelBg"></div>
                         </div>
                     </div>
-                </div>
+                </div> -->
+
                 <!-- Row 6 -->
-                <div class="col-sm-12 col-md-4 pb-5">
+                <!-- <div class="col-sm-12 col-md-4 pb-5">
                     <div class="row ">
                         <div class="col-md-8 pl-0 pr-0">
                             <div class="">
@@ -446,7 +485,7 @@
                            <div class=""></div>
                         </div>
                     </div>
-                </div>               
+                </div> -->
             </div>
             <div class="row">
                 <div class="col-12 text-center p-3">
@@ -492,7 +531,7 @@
             </div> -->
         </div>
 
-        <div style="background-color:black;">
+        <!-- <div style="background-color:black;">
             <div class="container">
                 <div class=footer>
                     <div class="row section-padding justify-content-between">
@@ -538,7 +577,7 @@
         </div>
 
         
-        <div style="padding: 100px;"></div>
+        <div style="padding: 100px;"></div> -->
             
 
         <?php include 'footer.php'; ?>
