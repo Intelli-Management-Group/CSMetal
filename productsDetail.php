@@ -10,25 +10,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-     <style>
-        
-        .productsDetails-banner {
-            background-image: url('./img/Product/Diecast/banner_product_diecast.jpg');
-                background-size: cover;
-                background-position: center;
-                transition: background-size 0.2s ease; 
-                width: 100%;
-            }
-    
-            .banner-container {
-                height: 45vh !important; 
-                overflow: hidden; 
-            }
+    <script src="./js/main.js"></script>
+    <style>
     </style>
 </head>
 
 <body>
     <?php include 'header.php'; ?>
+
     <div class="container">
         <div class="line line-left"></div>
         <div class="line line-1-3"></div>
@@ -40,20 +29,19 @@
                 <h1 class="display-4">Diverse talent enables smarter steels</h1>
             </div>
         </div>
+        <div class="row">
+            <a class="col-md-4 image-button" href="#" style="top:100%">
+                <div class="d-flex justify-content-between w-100">
+                    <h5 class="mb-0">LEARN MORE</h5>
+                    <h5 class="mb-0">↘</h5>
+                </div>
+            </a>
+        </div>
     </div>
 
     <!-- banner -->
-    <div class="banner-container productsDetails-banner">
-        <div class="container">
-            <div class="row">
-                <a class="col-sm-4 image-button-white" href="">
-                    <div class="d-flex justify-content-between w-100">
-                        <h5 class="mb-0">LEARN MORE</h5>
-                        <h5 class="mb-0">↘</h5>
-                    </div>
-                </a>
-            </div>
-        </div>
+    <div class="image-container" style="z-index: -1;">
+        <img src="./img/Product/Diecast/banner_product_diecast.jpg" alt="Home Banner" class="banner-container">
     </div>
 
     <div class="container">
@@ -114,24 +102,8 @@
         </div>
     </div>
 
-
-
-
     <?php include 'footer.php'; ?>
 
-    <script>
-            window.addEventListener('scroll', function() {
-                const banner = document.querySelector('.productsDetails-banner');
-                const scrollPosition = window.scrollY;
-
-                // Calculate zoom level based on scroll position
-                const zoomLevel = 1 + (scrollPosition / 1000); // Adjust divisor to control zoom speed
-
-                // Limit the maximum zoom level to prevent excessive zoom
-                const maxZoomLevel = 1.1; // Set a maximum zoom level (e.g., 10% zoom)
-                banner.style.backgroundSize = `${Math.min(zoomLevel, maxZoomLevel) * 100}%`; // Set background size
-            });
-        </script>
 </body>
 
 </html>

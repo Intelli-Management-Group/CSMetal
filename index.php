@@ -9,14 +9,13 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="./js/main.js"></script>
         <!-- <link rel="apple-touch-icon" sizes="180x180" href="./img/icons/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="./img/icons/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="./img/icons/favicon/favicon-16x16.png">
         <link rel="manifest" href="./img/icons/favicon/site.webmanifest"> -->
         <style>
-            /* .home-banner{
-                background-image: url('./img/Home/banner_home.jpg');
-            } */
+
         </style>
     </head>
     <body>
@@ -32,31 +31,19 @@
                     <h1 class="display-4">WE ARE BUILDING THE FUTURE OF STEEL</h1>
                 </div>
             </div>
-        </div>
-
-        <!-- banner -->
-        <div class="image-container">
-            <img src="./img/Home/banner_home.jpg" alt="" class="banner-container">
-            <div class="container">
-                <div class="row">
-                    <a class="col-md-4 image-button" href="">
-                        <div class="d-flex justify-content-between w-100">
-                            <h5 class="mb-0">LEARN MORE</h5>
-                            <h5 class="mb-0">→</h5>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <!-- <div class="row">
-                <a class="col-md-4 image-button" href="">
+            <div class="row">
+                <a class="col-md-4 image-button" href="#" style="top:100%">
                     <div class="d-flex justify-content-between w-100">
                         <h5 class="mb-0">LEARN MORE</h5>
                         <h5 class="mb-0">→</h5>
                     </div>
                 </a>
-            </div> -->
+            </div>
+        </div>
 
+        <!-- banner -->
+        <div class="image-container" style="z-index: -1;">
+            <img src="./img/Home/banner_home.jpg" alt="Home Banner" class="banner-container">
         </div>
 
         <div class="container" style="border-bottom:1px solid #eee;">
@@ -119,7 +106,7 @@
 
             <!-- banner -->
             <div class="image-container">
-                <img src="./img/Home/banner_1.jpg" alt="Home Banner" class="image">
+                <img src="./img/Home/banner_1.jpg" alt="Home Banner" class="banner-container">
                 <div class="col-md-4 image-button">
                     <div class="d-flex justify-content-between w-100">
                         <h5 class="mb-0">CONTACT US</h5>
@@ -274,14 +261,14 @@
             });
 
             // zoom in image when scrolling
-            window.addEventListener('scroll', function() {
-                const image = document.querySelector('.banner-container');
-                const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
-                const scrollPercentage = window.scrollY / maxScroll;
+            // window.addEventListener('scroll', function() {
+            //     const image = document.querySelector('.banner-container');
+            //     const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+            //     const scrollPercentage = window.scrollY / maxScroll;
 
-                const scale = 1 + scrollPercentage * 0.3;
-                image.style.transform = `scale(${scale})`;
-            });
+            //     const scale = 1 + scrollPercentage * 0.3;
+            //     image.style.transform = `scale(${scale})`;
+            // });
 
 
         </script>

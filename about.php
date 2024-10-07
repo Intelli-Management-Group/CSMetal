@@ -9,14 +9,13 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="./js/main.js"></script>
         <!-- <link rel="apple-touch-icon" sizes="180x180" href="./img/icons/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="./img/icons/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="./img/icons/favicon/favicon-16x16.png">
         <link rel="manifest" href="./img/icons/favicon/site.webmanifest"> -->
         <style>
-            .about-banner{
-                background-image: url('./img/Company/About/banner_company_awards.jpg');
-            }
+
         </style>
     </head>
     <body>
@@ -32,20 +31,19 @@
                     <div class="display-4">Shaping the Future of Steel</div>
                 </div>
             </div>
+            <div class="row">
+                <a class="col-md-4 image-button" href="#" style="top:100%">
+                    <div class="d-flex justify-content-between w-100">
+                        <h5 class="mb-0">FIND OUT MORE</h5>
+                        <h5 class="mb-0">↘</h5>
+                    </div>
+                </a>
+            </div>
         </div>
 
         <!-- banner -->
-        <div class="banner-container about-banner">
-            <div class="container">
-                <div class="row">
-                    <a class="col-md-4 image-button-white" href="">
-                        <div class="d-flex justify-content-between w-100">
-                            <h5 class="mb-0">FIND OUT MORE</h5>
-                            <h5 class="mb-0">↘</h5>
-                        </div>
-                    </a>
-                </div>
-            </div>
+        <div class="image-container" style="z-index: -1;">
+            <img src="./img/Company/About/banner_company_awards.jpg" alt="about-banner" class="banner-container">
         </div>
 
         <div class="container">
@@ -68,7 +66,7 @@
             <!-- </div> -->
 
             <div class="image-container">
-                <img src="img/Company/About/img_1.png" alt="about" class="image">
+                <img src="img/Company/About/img_1.png" alt="about" class="banner-container">
                 <div class="col-sm-4 solutions py-5">
                     <h5 class="mb-0"><span class="text-color">/ </span>Experience. Transparency. Results.</h5>
                 </div>
@@ -176,7 +174,7 @@
                 <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
                     <img src="./img/Company/About/client_3.png" class="client" alt="client 3">
                 </div>
-                <div class="col-sm-6 col-md-1 p-md-3 d-flex align-items-center">
+                <div class="col-sm-6 col-md-1 p-md-2 d-flex align-items-center">
                     <img src="./img/Company/About/client_4.png" class="client" alt="client 4">
                 </div>
                 <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
@@ -194,22 +192,22 @@
             </div>
 
             <div class="row section-padding d-flex justify-content-around mt-md-4 pt-0">
-                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                <div class="col-sm-6 col-md-2 px-4 d-flex align-items-center">
                     <img src="./img/Company/About/client_9.png" class="client" alt="client 9">
                 </div>
-                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                <div class="col-sm-6 col-md-2 px-4 d-flex align-items-center">
                     <img src="./img/Company/About/client_10.png" class="client" alt="client 10">
                 </div>
-                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                <div class="col-sm-6 col-md-2 px-4 d-flex align-items-center">
                     <img src="./img/Company/About/client_11.png" class="client" alt="client 11">
                 </div>
-                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                <div class="col-sm-6 col-md-2 px-4 d-flex align-items-center">
                     <img src="./img/Company/About/client_12.png" class="client" alt="client 12">
                 </div>
-                <div class="col-sm-6 col-md-2 p-md-0 d-flex align-items-center">
+                <div class="col-sm-6 col-md-2 px-4 d-flex align-items-center">
                     <img src="./img/Company/About/client_13.png" class="client" alt="client 13">
                 </div>
-                <div class="col-sm-6 col-md-2 p-md-0 d-flex align-items-center">
+                <div class="col-sm-6 col-md-2 px-4 d-flex align-items-center">
                     <img src="./img/Company/About/client_14.png" class="client" alt="client 14">
                 </div>
             </div>

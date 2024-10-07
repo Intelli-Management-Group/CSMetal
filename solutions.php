@@ -9,15 +9,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="./js/main.js"></script>
         <style>
-            .solution-banner {
-                background-image: url('./img/Solution/banner_solution.jpg');
-                background-size: cover;
-                background-position: center;
-                transition: background-size 0.2s ease; 
-                width: 100%;
-            }
-            .ourProducts-banner{
+            /* .ourProducts-banner{
                 background-image: url('./img/Solution/ricardo-gomez.webp');
                 background-size: cover;
                 background-position: center;
@@ -34,8 +28,6 @@
                 overflow: hidden; 
             }
 
-
-            /*  */
             .borders{
                 border: 1px solid #ccc;
                 
@@ -48,7 +40,6 @@
                 display: flex; 
                 align-items: center;
                 justify-content: center;
-                /* height: 100%;  */
                 min-height:150px;
                 flex-wrap: wrap;
                 text-align:center;
@@ -119,7 +110,6 @@
                 background-image: url('./img/Solution/sustainable_steel.webp');
             }
 
-            /*  */
             .balackbg{
                 background-color:#000000 !important;
                 color:white !important;
@@ -170,7 +160,7 @@
             }
             .leftBorder{
                 border-left: 2px solid #fff !important;
-            }
+            } */
         </style>
 
     </head>
@@ -188,24 +178,23 @@
                     <div class="display-4">Tailored Steel Solutions</div>
                 </div>
             </div>
-        </div>
-
-        <!-- banner -->
-        <div class="banner-container solution-banner"> 
-            <div class="container">
-                <div class="row">
-                    <a class="col-sm-4 image-button-white" href="">
-                        <div class="d-flex justify-content-between w-100">
-                            <h5 class="mb-0">FIND OUT MORE</h5>
-                            <h5 class="mb-0">↘</h5>
-                        </div>
-                    </a>
-                </div>
+            <div class="row">
+                <a class="col-md-4 image-button" href="#" style="top:100%">
+                    <div class="d-flex justify-content-between w-100">
+                        <h5 class="mb-0">FIND OUT MORE</h5>
+                        <h5 class="mb-0">↘</h5>
+                    </div>
+                </a>
             </div>
         </div>
 
+        <!-- banner -->
+        <div class="image-container" style="z-index: -1;">
+            <img src="./img/Solution/banner_solution.jpg" alt="awards-banner" class="banner-container">
+        </div>
 
-        <div class="container">
+
+        <div class="container" style="border-bottom: 1px solid #eee;">
             <div class="line line-left"></div>
             <div class="line line-1-3"></div>
             <div class="line line-2-3"></div>
@@ -224,7 +213,7 @@
             </div>
 
             <!-- Company Profile -->
-            <div class="row section-padding pb-0">
+            <div class="row section-padding">
                 <div class="row pt-3">
                     <div class="col-sm-12 col-md-4">
                         <div class="product-wrap">
@@ -487,114 +476,28 @@
                     </div>
                 </div> -->
             </div>
-            <div class="row">
+        </div>
+
+        <div class="container">
+            <div class="line line-left"></div>
+            <div class="line line-right"></div>
+            <div class="row section-padding">
                 <div class="col-12 text-center p-3">
                     <h2>QUALITY PRODUCTS START WITH QUALITY STEEL</h2>
                 </div>
             </div>
-            <div class="ourProducts-container ourProducts-banner mb-5"> 
-                <div class="container">
-                    <div class="row">
-                        <a class="col-sm-4 image-button-white balackbg" href="">
-                            <div class="d-flex justify-content-between w-100">
-                                <h5 class="mb-0">FIND OUT MORE</h5>
-                                <h5 class="mb-0">↘</h5>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- </div> -->
-
-            <!-- <div class="image-container">
-                <img src="img/Company/About/img_1.png" alt="about" class="image">
-                <div class="col-sm-4 solutions py-5">
-                    <h5 class="mb-0"><span class="text-color">/ </span>Experience. Transparency. Results.</h5>
-                </div>
-            </div> -->
-
-            <!-- Company Strength -->
-            <!-- <div class="container"> -->
-            <!-- <div class="row section-padding">
-                <div class="col-sm-12 col-md-4" style="margin-top: -50px;">
-                    <div class="display-3">25K</div>
-                    <p>Unique Products Manufactured</p>
-                </div>
-                <div class="col-sm-12 col-md-4" style="margin-top: 50px;">
-                    <div class="display-3">10K</div>
-                    <p>Quality Inspections Yearly Average</p>
-                </div>
-                <div class="col-sm-12 col-md-4" style="margin-top: 150px;">
-                    <div class="display-3">400+</div>
-                    <p>Active Suppliers</p>
-                </div>
-            </div> -->
-        </div>
-
-        <!-- <div style="background-color:black;">
-            <div class="container">
-                <div class=footer>
-                    <div class="row section-padding justify-content-between">
-                        <div class="col-sm-12 col-md-6 pl-0 pr-0">
-                            <div class="display-4 upparCasetextTransform ">Pioneering a New Era of Steelworking Excellence</div>
-                        </div>
-                        <div class="col-sm-12 col-md-4 pl-0 pr-0">
-                            <p>Weekly industry insights delivered to your inbox.</p>
-                            <form action="/subscribe" method="post" class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-md-12">
-                                        <div class="input-group" style="border: 1px solid #fff">
-                                            <input type="email" class="form-control border-0" placeholder="Add your email Address" aria-label="Subscriber email" required style="background-color: transparent;">
-                                            <button class="btn btnBg leftBorder text-white" type="submit">
-                                                <a class="text-white">Subscribe</a>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    
-                    <div class="row section-padding">
-                        <div class="col-sm-12 col-md-4 pl-0 pr-0">
-                            <div class="info-wrap location text-left">
-                                <h5 class="m-0">41088 Chagrin Boulevard #120 Cleveland, OH 44124</h5>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4 pl-0 pr-0">
-                            <div class="info-wrap email">
-                                <h5 class="m-0">office@fabrik.com</h5>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4 pl-0 pr-0">
-                            <div class="info-wrap phone">
-                                <h5 class="m-0">+1 440 848 8222</h5>
-                            </div>
-                        </div>
+            <div class="image-container" style="margin-bottom: 50px;">
+                <img src="./img/Solution/ricardo-gomez.webp" alt="img" class="banner-container">
+                <div class="col-md-4 image-button">
+                    <div class="d-flex justify-content-between w-100">
+                        <h5 class="mb-0">EXPLORE OUR PRODUCTS</h5>
+                        <h5 class="mb-0">→</h5>
                     </div>
                 </div>
             </div>
         </div>
-
-        
-        <div style="padding: 100px;"></div> -->
-            
 
         <?php include 'footer.php'; ?>
-        <script>
-            window.addEventListener('scroll', function() {
-                const banner = document.querySelector('.solution-banner');
-                const scrollPosition = window.scrollY;
-
-                // Calculate zoom level based on scroll position
-                const zoomLevel = 1 + (scrollPosition / 1000); // Adjust divisor to control zoom speed
-
-                // Limit the maximum zoom level to prevent excessive zoom
-                const maxZoomLevel = 1.1; // Set a maximum zoom level (e.g., 10% zoom)
-                banner.style.backgroundSize = `${Math.min(zoomLevel, maxZoomLevel) * 100}%`; // Set background size
-            });
-        </script>
-
 
     </body>
 </html>

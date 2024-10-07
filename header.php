@@ -63,24 +63,41 @@
     <body>
         <div style="border-bottom: 1px solid #eee;">
             <div class="container">
-                <div class="header">
+                <div class="header" id="nav">
                     <a href="./index.php" class="logo">
                         <img src="img/Generic/logo.png" alt="Logo">
                     </a>
                     <nav>
                         <ul class="nav-links">
                             <li><a href="./index.php" class="active">HOME</a></li>
-                            <li><a href="./about.php">COMPANY</a></li>
+                            <li><a href="./about.php" id="company-link">COMPANY</a></li>
                             <li><a href="./solutions.php">SOLUTIONS</a></li>
                             <li><a href="./products.php">PRODUCTS</a></li>
-                            <li><a href="#">R&D</a></li>
-                            <li><a href="#">MEDIA</a></li>
-                            <li><a href="#">careers</a></li>
+                            <li><a href="#">FACILITIES</a></li>
+                            <li><a href="./contact.php" class="text-nowrap">CONTACT US</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </div>
+
+        <!-- Conpany -->
+        <div class="container" id="company-nav">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>ADVANCING THE ART OF STEEL MANUFACTURING</h4>
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li><a href="./about.php">About</a></li>
+                        <li><a href="./history.php">History</a></li>
+                        <li><a href="./awards.php">Awards</a></li>
+                        <li><a href="#">Become a Customer</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
         <script>
             //highlight the current page's navigation link
             const currentLocation = window.location.href;
@@ -94,6 +111,29 @@
                     menuItem[i].classList.remove('active');
                 }
             }
+
+            // Get the COMPANY link and the company-nav element
+            const companyLink = document.getElementById('company-link');
+            const companyNav = document.getElementById('company-nav');
+
+            // Show #company-nav on hover
+            companyLink.addEventListener('mouseover', () => {
+                companyNav.classList.add('show'); // Add the show class to display the company-nav
+            });
+
+            // Hide #company-nav when the mouse leaves either the link or the nav
+            // document.getElementById('nav').addEventListener('mouseout', () => {
+            //     companyNav.classList.remove('show'); // Remove the show class
+            // });
+
+            companyNav.addEventListener('mouseover', () => {
+                companyNav.classList.add('show'); // Keep it visible while hovering over company-nav
+            });
+
+            companyNav.addEventListener('mouseout', () => {
+                companyNav.classList.remove('show'); // Hide it when the mouse leaves company-nav
+            });
+
         </script>
     </body>
 </html>
