@@ -159,7 +159,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-4 product-margin">
+                    <div class="col-sm-12 col-md-4 product-margin scroll2move">
                         <div class="product-wrap">
                             <div class="product-image-wrap">
                                 <img src="img/Home/product_2.jpg" alt="product 2" style="width: 100%;">
@@ -193,7 +193,7 @@
                             <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 product-margin">
+                    <div class="col-sm-12 col-md-4 product-margin scroll2move">
                         <div class="product-wrap">
                             <div class="product-image-wrap">
                                 <img src="img/Home/product_5.jpg" alt="product 5" style="width: 100%;">
@@ -230,7 +230,9 @@
             <div class="line line-right"></div>
             <div class="row section-padding pl-0 pr-0">
                 <div class="col-sm-12 col-md-6">
-                    <img src="img/Home/img_2.jpg" alt="image 2" style="width: 100%;">
+                    <div class="image-container">
+                        <img src="img/Home/img_2.jpg" alt="image 2" class="banner-container">
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-6 d-flex align-items-center">
                     <div>
@@ -259,17 +261,6 @@
                     }
                 });
             });
-
-            // zoom in image when scrolling
-            // window.addEventListener('scroll', function() {
-            //     const image = document.querySelector('.banner-container');
-            //     const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
-            //     const scrollPercentage = window.scrollY / maxScroll;
-
-            //     const scale = 1 + scrollPercentage * 0.3;
-            //     image.style.transform = `scale(${scale})`;
-            // });
-
 
         </script>
     </body>

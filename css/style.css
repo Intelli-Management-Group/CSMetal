@@ -367,7 +367,7 @@
 }
 
 .product-margin {
-    margin-top:-100px;
+    margin-top:0;
 }
 
 @media only screen and (max-width: 767px) {
@@ -504,4 +504,8 @@
 #company-nav.show {
     display: block;
     opacity: 1;
+}
+
+.scroll2move {
+    transition: transform 0.3s ease-out;
 }

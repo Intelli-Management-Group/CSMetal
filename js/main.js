@@ -9,3 +9,15 @@ window.addEventListener('scroll', function() {
         image.style.transform = `scale(${scale})`;
     });
 });
+
+//move products widget when srolling
+if (window.innerWidth >= 768) {
+    window.addEventListener('scroll', function() {
+        const productSections = document.querySelectorAll('.scroll2move');
+        const scrollY = window.scrollY;
+        productSections.forEach(product => {
+            const movement = scrollY * 0.05;
+            product.style.transform = `translateY(-${movement}px)`;
+        });
+    });
+}
