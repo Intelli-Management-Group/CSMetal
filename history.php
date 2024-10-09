@@ -66,14 +66,16 @@
             </div>
         </div>
     </div>
-    <div class="container" style="padding: 50px 0">
+    <div class="container" style="padding: 50px 0;">
         <div class="line line-left"></div>
         <div class="line line-1-2"></div>
         <div class="line line-right"></div>
+
+        <img src="./img/Generic/logo.png" alt="logo" class="sticky-logo">
             
         <div class="row section-padding">
             <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
-                <div class="text-right">
+                <div class="text-left">
                     <h3 class="text-color">1981</h3>
                     <h5>CHI SING opened in Hong Kong</h5>
                 </div>
@@ -84,27 +86,25 @@
         </div>
 
         <div class="row section-padding">
-            <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
-                <div class="text-right">
+            <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
+                <img src="./img/Company/History/img_1982.jpg" alt="1982" class="image">
+            </div>
+            <div class="col-sm-12 col-md-6 history-container-right" data-aos="fade-up">
+                <div class="text-left">
                     <h3 class="text-color">1982</h3>
                     <h5>COMMODORE C36 stamping parts</h5>
                 </div>
-            </div>
-            <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
-                <img src="./img/Company/History/img_1982.jpg" alt="1982" class="image">
             </div>
         </div>
 
         <div class="row section-padding">
             <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
-                <div class="text-right">
+                <div class="text-left">
+                    <h3 class="text-color">1992</h3>
+                    <h5>China factory opened</h5>
+                    <hr>
                     <h3 class="text-color">1992-2002</h3>
-                    <ul>
-                        <li><h5>China factory opened</h5></li>
-                        <li><h5>Begin development of bathroom handles, towel racks, etc</h5></li>
-                    </ul>
-                    <!-- <h5>China factory opened</h5>
-                    <h5>Begin development of bathroom handles, towel racks, etc</h5> -->
+                    <h5>Begin development of bathroom handles, towel racks, etc</h5>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
@@ -113,21 +113,22 @@
         </div>
 
         <div class="row section-padding">
-            <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
-                <div class="text-right">
-                    <h3 class="text-color">2003</h3>
-                    <h5>• Business with GENERAL ELECTRIC</h5>
-                    <h5>• Electric scooter for SHARPER IMAGE</h5>
-                </div>
-            </div>
             <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
                 <img src="./img/Company/History/img_2003.jpg" alt="2003" class="image">
+            </div>
+            <div class="col-sm-12 col-md-6 history-container-right" data-aos="fade-up">
+                <div class="text-left">
+                    <h3 class="text-color">2003</h3>
+                    <h5>Business with GENERAL ELECTRIC</h5>
+                    <hr>
+                    <h5>Electric scooter for SHARPER IMAGE</h5>
+                </div>
             </div>
         </div>
 
         <div class="row section-padding">
             <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
-                <div class="text-right">
+                <div class="text-left">
                     <h3 class="text-color">2004</h3>
                     <h5>
                         Business with </br>
@@ -143,22 +144,23 @@
         </div>
 
         <div class="row section-padding">
-            <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
-                <div class="text-right">
+            <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
+                <img src="./img/Company/History/img_2005.jpg" alt="2005" class="image">
+            </div>
+            <div class="col-sm-12 col-md-6 history-container-right" data-aos="fade-up">
+                <div class="text-left">
                     <h3 class="text-color">2005</h3>
                     <h5>Business with TOTO Japan and MIDEA</h5>
                 </div>
-            </div>
-            <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
-                <img src="./img/Company/History/img_2005.jpg" alt="2005" class="image">
             </div>
         </div>
 
         <div class="row section-padding">
             <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
-                <div class="text-right">
+                <div class="text-left">
                     <h3 class="text-color">2006</h3>
                     <h5>Business with SAECO Italy to build coffee machines</h5>
+                    <hr>
                     <h5>China factory rename to Williamson MFY.CO.LTD.</h5>
                 </div>
             </div>
@@ -168,22 +170,24 @@
         </div>
 
         <div class="row section-padding">
-            <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
-                <div class="text-right">
-                    <h3 class="text-color">2007</h3>
-                    <h5>Factory expansion from 8000 to 14000 sq. meters</h5>
-                    <h5>Business with LG Korea</h5>
-                    <h5>Won LG Supplier Award</h5>
-                </div>
-            </div>
             <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
                 <img src="./img/Company/History/img_2007.jpg" alt="2007" class="image">
+            </div>
+            <div class="col-sm-12 col-md-6 history-container-right" data-aos="fade-up">
+                <div class="text-left">
+                    <h3 class="text-color">2007</h3>
+                    <h5>Factory expansion from 8000 to 14000 sq. meters</h5>
+                    <hr>
+                    <h5>Business with LG Korea</h5>
+                    <hr>
+                    <h5>Won LG Supplier Award</h5>
+                </div>
             </div>
         </div>
 
         <div class="row section-padding">
             <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
-                <div class="text-right">
+                <div class="text-left">
                     <h3 class="text-color">2009</h3>
                     <h5>Business with ELECTROLUX home products, USA</h5>
                 </div>
@@ -194,20 +198,20 @@
         </div>
 
         <div class="row section-padding">
-            <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
-                <div class="text-right">
+            <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
+                <img src="./img/Company/History/img_2010.jpg" alt="2010" class="image">
+            </div>
+            <div class="col-sm-12 col-md-6 history-container-right" data-aos="fade-up">
+                <div class="text-left">
                     <h3 class="text-color">2010</h3>
                     <h5>Business with ELECTROLUX home products, Mexico</h5>
                 </div>
-            </div>
-            <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
-                <img src="./img/Company/History/img_2010.jpg" alt="2010" class="image">
             </div>
         </div>
 
         <div class="row section-padding">
             <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
-                <div class="text-right">
+                <div class="text-left">
                     <h3 class="text-color">2011</h3>
                     <h5>Business with WHIRPOOL</h5>
                 </div>
@@ -218,23 +222,25 @@
         </div>
 
         <div class="row section-padding">
-            <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
-                <div class="text-right">
-                    <h3 class="text-color">2012</h3>
-                    <h5>Won GE Supplier Award</h5>
-                    <h5>Won MABE Supplier Award</h5>
-                </div>
-            </div>
             <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
                 <img src="./img/Company/History/img_2012.jpg" alt="2012" class="image">
+            </div>
+            <div class="col-sm-12 col-md-6 history-container-right" data-aos="fade-up">
+                <div class="text-left">
+                    <h3 class="text-color">2012</h3>
+                    <h5>Won GE Supplier Award</h5>
+                    <hr>
+                    <h5>Won MABE Supplier Award</h5>
+                </div>
             </div>
         </div>
 
         <div class="row section-padding">
             <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
-                <div class="text-right">
-                    <h3 class="text-color">2012</h3>
+                <div class="text-left">
+                    <h3 class="text-color">2013</h3>
                     <h5>Distinguished Supplier Award from MABE</h5>
+                    <hr>
                     <h5>10th Anniversary award from GENERAL ELECTRIC</h5>
                 </div>
             </div>
@@ -244,20 +250,20 @@
         </div>
 
         <div class="row section-padding">
-            <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
-                <div class="text-right">
+            <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
+                <img src="./img/Company/History/img_2014.jpg" alt="2014" class="image">
+            </div>
+            <div class="col-sm-12 col-md-6 history-container-right" data-aos="fade-up">
+                <div class="text-left">
                     <h3 class="text-color">2014</h3>
                     <h5>Business with SCHINDLER ELEVATOR</h5>
                 </div>
-            </div>
-            <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
-                <img src="./img/Company/History/img_2014.jpg" alt="2014" class="image">
             </div>
         </div>
 
         <div class="row section-padding">
             <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
-                <div class="text-right">
+                <div class="text-left">
                     <h3 class="text-color">2015</h3>
                     <h5>Business with WEBER GRILL</h5>
                 </div>
@@ -268,20 +274,20 @@
         </div>
 
         <div class="row section-padding">
-            <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
-                <div class="text-right">
+            <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
+                <img src="./img/Company/History/img_2016.jpg" alt="2016" class="image">
+            </div>
+            <div class="col-sm-12 col-md-6 history-container-right" data-aos="fade-up">
+                <div class="text-left">
                     <h3 class="text-color">2016</h3>
                     <h5>Learn manufacturing seminar at Toyota factory</h5>
                 </div>
-            </div>
-            <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
-                <img src="./img/Company/History/img_2016.jpg" alt="2016" class="image">
             </div>
         </div>
 
         <div class="row section-padding">
             <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
-                <div class="text-right">
+                <div class="text-left">
                     <h3 class="text-color">2017</h3>
                     <h5>2nd time distinguished Supplier Award from General Electric</h5>
                 </div>
@@ -292,20 +298,20 @@
         </div>
 
         <div class="row section-padding">
-            <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
-                <div class="text-right">
+            <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
+                <img src="./img/Company/History/img_2018.jpg" alt="2018" class="image">
+            </div>
+            <div class="col-sm-12 col-md-6 history-container-right" data-aos="fade-up">
+                <div class="text-left">
                     <h3 class="text-color">2018</h3>
                     <h5>New process: integrated automatic roll forming and tube cutting system, automatic stamping system</h5>
                 </div>
-            </div>
-            <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
-                <img src="./img/Company/History/img_2018.jpg" alt="2018" class="image">
             </div>
         </div>
 
         <div class="row section-padding">
             <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
-                <div class="text-right">
+                <div class="text-left">
                     <h3 class="text-color">2019-2022</h3>
                     <h5>Covid-19 did not stop us from producing. No single missing shipments</h5>
                 </div>

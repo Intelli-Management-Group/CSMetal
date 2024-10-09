@@ -29,15 +29,15 @@
         <div class="row section-padding">
             <div class="col-sm-8">
                 <h5><span class="text-color">/ </span>Solutions</h5>
-                <h1 class="display-4">Appliances</h1>
+                <h1 class="display-4">Inspection</h1>
             </div>
         </div>
-        <div class="row" style="background-color: #eee; position:relative">
+        <div class="row mx-0" style="background-color: #eee; position:relative">
             <div class="col-md-8">
                 <h4 style="padding: 20% 17% 15% 5%;">Fabrik is crucial in the USA’s emergence as a favored global auto manufacturing destination. We focus on lightweight, cost-effective, and fuel-efficient vehicle solutions, collaborating closely with the automotive sector from concept to commercialization. Our experience, expertise, and innovation consistently exceed our clients' high QCD (Quality, Cost, and Delivery) expectations.</h4>
             </div>
             <div class="col-md-4" href="#">
-                <img src="./img/SolutionInspection/banner.webp" alt="Home Banner" width="100%" style="position:absolute; bottom:10%; right: 12%;">
+                <img src="./img/SolutionInspection/banner.webp" alt="Inspection Banner" width="100%" style="position:absolute; bottom:10%; right: 12%;">
             </div>
         </div>
 

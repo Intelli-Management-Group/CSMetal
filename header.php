@@ -208,7 +208,7 @@
                     </div>
                     <div class="col-md-4">
                         <ul class="nav-links flex-column align-items-start">
-                            <li><a href="#">Stamping Parts</a></li>
+                            <li><a href="./productsDetail.php">Stamping Parts</a></li>
                             <li><a href="#">Handles</a></li>
                             <li><a href="#">Die Cast</a></li>
                             <li><a href="#">Manifold</a></li>
