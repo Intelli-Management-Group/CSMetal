@@ -95,7 +95,7 @@
 
         <div style="background-color:black;">
             <div class="container">
-                <div class=footer>
+                <div class="footer">
                     <div class="row section-padding justify-content-between">
                         <div class="col-sm-12 col-md-6 pl-0 pr-0">
                             <div class="display-4">THE BEST EXPERIENCE POSSIBLE</div>

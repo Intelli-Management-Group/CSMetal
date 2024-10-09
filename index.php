@@ -184,6 +184,8 @@
                         <h1>SUSTANINABLE STEEL FOR A STRONGER TOMMORROW</h1>
                     </div>
                 </div>
+
+                <!-- 1st row -->
                 <div class="row pt-3">
                     <div class="col-sm-12 col-md-4">
                         <div class="product-wrap">
@@ -207,7 +209,6 @@
                         </div>
                     </div>
 
-                    <!-- 2nd row -->
                     <div class="col-sm-12 col-md-4">
                         <div class="product-wrap">
                             <div class="product-image-wrap">
@@ -220,6 +221,7 @@
                     </div>
                 </div>
 
+                <!-- 2nd row -->
                 <div class="row pt-5">
                     <div class="col-sm-12 col-md-4">
                         <div class="product-wrap">

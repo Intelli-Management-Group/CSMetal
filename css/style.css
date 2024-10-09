@@ -402,6 +402,21 @@
     transition-delay: 1s;
 }
 
+@media only screen and (max-width: 767px) {
+    .nut-container {
+        height: 700px;
+    }
+    .nut-wrapper:nth-child(1) {
+        top: 150px;
+    }
+    .nut-wrapper:nth-child(2) {
+        top: 70px;
+    }
+    .nut-wrapper:nth-child(3) {
+        top: 20px;
+    }
+}
+
 .upparCasetextTransform{
     text-transform: uppercase !important;
 }
@@ -478,6 +493,17 @@
     display: flex;
     align-items: center;
     justify-content: end;
+}
+
+.history-container::after {
+    content: '';
+    position: absolute;
+    top: 50%; /* Align the line vertically at the center */
+    left: calc(100% - 40px); /* Start at the right edge of the text container */
+    width: 40px; /* Length of the line - adjust according to the layout */
+    height: 1px;
+    background-color: #eee; /* Line color */
+    transform: translateY(-50%); /* Vertically center the line */
 }
 
 .history-image {
