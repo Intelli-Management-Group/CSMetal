@@ -119,7 +119,7 @@
             </div>
 
             <!-- Solutions -->
-            <div class="row section-padding" style="padding-top:10px;">
+            <!-- <div class="row section-padding" style="padding-top:10px;">
                 <div class="col-sm-12 col-md-4">
                     <a href="" class="solution-link">APPLIANCES</a>
                     <a href="" class="solution-link">AUTOMOTIVE</a>
@@ -136,6 +136,43 @@
                     <a href="" class="solution-link">PACKAGING</a>
                     <a href="" class="solution-link">SERVICE CENTERS</a>
                     <a href="" class="solution-link">SUSTAINABLLE STEEL</a>
+                </div>
+            </div> -->
+
+            <div class="row section-padding">
+                <div class="row pt-3">
+                    <div class="col-sm-12 col-md-4">
+                        <div class="product-wrap">
+                            <div class="product-image-wrap">
+                                <img src="./img/Solution/img_inspection.jpg" alt="product 1" style="width: 100%;">
+                                <a class="image-arrow" href=""><div>→</div></a>
+                            </div>
+                            <h5 class="mt-3">Inspection</h5>
+                            <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4">
+                        <div class="product-wrap">
+                            <div class="product-image-wrap">
+                                <img src="./img/Solution/img_machines.jpg" alt="product 2" style="width: 100%;">
+                                <a class="image-arrow" href=""><div>→</div></a>
+                            </div>
+                            <h5 class="mt-3">Machines</h5>
+                            <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4">
+                        <div class="product-wrap">
+                            <div class="product-image-wrap">
+                                <img src="./img/Solution/img_testing.jpg" alt="product 3" style="width: 100%;">
+                                <a class="image-arrow" href=""><div>→</div></a>
+                            </div>
+                            <h5 class="mt-3">Testing</h5>
+                            <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
