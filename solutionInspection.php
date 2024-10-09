@@ -43,7 +43,7 @@
 
 
 
-        <div class="container" style="border-bottom:1px solid #eee;">
+        <div class="container border-bottom">
             <div class="line line-left"></div>
             <div class="line line-1-3"></div>
             <div class="line line-2-3"></div>
@@ -86,7 +86,7 @@
             </div>
         </div>
 
-        <div class="container" style="border-bottom:1px solid #eee;">
+        <div class="container border-bottom">
             <div>
                 <div class="text-center">
                     <h1 class="py-5">PRECISE DIMENSIONAL MEASUREMENT</h1>
@@ -129,7 +129,7 @@
             </div>
         </div>
     </div>
-    <div class="container" style="border-bottom:1px solid #eee;">
+    <div class="container border-bottom">
         <div>
             <div class="text-center">
                 <h1 class="py-5">HIGH STANDARDS OF QUALITY & ACCOUNTABILITY</h1>

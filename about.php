@@ -127,7 +127,7 @@
         </div>
 
         <!-- Core Values -->
-        <div class="container" style="border-bottom:1px solid #eee;">
+        <div class="container border-bottom">
             <div class="line line-left"></div>
             <div class="line line-1-3"></div>
             <div class="line line-2-3"></div>
@@ -214,7 +214,7 @@
         </div>
 
         <!-- Founder -->
-        <div class="container" style="border-top:1px solid #eee;">
+        <div class="container border-top">
             <div class="line line-left"></div>
             <div class="line line-1-3"></div>
             <div class="line line-2-3"></div>

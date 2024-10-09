@@ -46,7 +46,7 @@
             <img src="./img/Home/banner_home.jpg" alt="Home Banner" class="banner-container">
         </div>
 
-        <div class="container" style="border-bottom:1px solid #eee;">
+        <div class="container border-bottom">
             <div class="line line-left"></div>
             <div class="line line-1-3"></div>
             <div class="line line-2-3"></div>
@@ -170,6 +170,7 @@
                         </div>
                     </div>
 
+                    <!-- 2nd row -->
                     <div class="col-sm-12 col-md-4">
                         <div class="product-wrap">
                             <div class="product-image-wrap">
@@ -193,6 +194,7 @@
                             <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
                         </div>
                     </div>
+
                     <div class="col-sm-12 col-md-4 product-margin scroll2move">
                         <div class="product-wrap">
                             <div class="product-image-wrap">
@@ -203,6 +205,7 @@
                             <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
                         </div>
                     </div>
+
                     <div class="col-sm-12 col-md-4" style="padding:0 45px;">
                         <div class="customer-wrap">
                             <div class="nut-container">
@@ -216,8 +219,8 @@
                                     <img src="./img/Generic/icon_customer_3.svg" alt="SVG 3">
                                 </div>
                             </div>
-                            <a class="image-arrow" href="" style="left:45px;"><div>→</div></a>
                             <h5 class="mt-3" style="position:absolute; bottom:50px; left:60px;">BECOME A CUSTOMER</h5>
+                            <a class="image-arrow" href="" style="left:45px;"><div>→</div></a>
                         </div>
                     </div>
                 </div>

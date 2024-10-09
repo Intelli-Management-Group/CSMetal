@@ -46,7 +46,7 @@
 
     <!-- banner -->
     <div class="image-container" style="z-index: -1;">
-        <img src="./img/Solution/banner_solution.jpg" alt="Home Banner" class="banner-container">
+        <img src="./img/Product/Main/banner_product.jpg" alt="Product Banner" class="banner-container">
     </div>
 
     <div class="container">

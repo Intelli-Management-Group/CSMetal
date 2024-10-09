@@ -46,11 +46,7 @@
 }
 
 .banner-container{
-    /* background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
     width: 100%;
-    /* height: 650px; */
     position: relative;
     display: inline-block;
     transition: transform 0.2s ease;
@@ -148,13 +144,6 @@
     position: relative;
     z-index: 1;
 }
-
-/* .image-button-bottom-right {
-    top: 100%;
-    right: 100%;
-    bottom: 0;
-    right: 0;
-} */
 
 .image-button-bottom-right {
     color: white;
@@ -495,17 +484,20 @@
     padding: 0 50px !important;
 }
 
-#company-nav {
-    display: none;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-
-#company-nav.show {
-    display: block;
-    opacity: 1;
-}
-
 .scroll2move {
     transition: transform 0.3s ease-out;
+}
+
+.border-top {
+    border-top: 1px solid #eee;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #eee;
+}
+
+.color-block {
+    width: 100%;
+    height: 100%;
+    background-color: #005399;
 }

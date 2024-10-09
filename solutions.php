@@ -487,7 +487,7 @@
                 </div>
             </div>
             <div class="image-container" style="margin-bottom: 50px;">
-                <img src="./img/Solution/ricardo-gomez.webp" alt="img" class="banner-container">
+                <img src="./img/Solution/banner_solution.jpg" alt="img" class="banner-container">
                 <div class="col-md-4 image-button">
                     <div class="d-flex justify-content-between w-100">
                         <h5 class="mb-0">EXPLORE OUR PRODUCTS</h5>

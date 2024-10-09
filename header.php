@@ -15,10 +15,13 @@
         <link rel="manifest" href="./img/icons/favicon/site.webmanifest"> -->
         <style>
             .header {
-                padding: 10px 0;
                 display: flex;
-                justify-content: space-between;
+                /* justify-content: space-between; */
                 align-items: center;
+            }
+
+            .logo {
+                padding: 10px 30px;
             }
 
             .logo img {
@@ -36,18 +39,23 @@
                 align-items: center;
                 margin: 0;
                 padding: 0;
+                /* height: 100px; */
             }
 
             .nav-links li {
-                margin-left: 20px;
+                padding: 6px 20px;
+                height: 100%;
             }
 
             .nav-links a {
                 color: black;
                 text-decoration: none;
                 font-size: 16px;
-                padding: 5px 10px;
-                text-transform: uppercase;
+                /* text-transform: uppercase; */
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
             }
 
             .nav-links a.active {
@@ -58,42 +66,186 @@
                 color: #005399;
                 text-decoration: none;
             }
+
+            #company-nav {
+                display: none;
+                opacity: 0;
+                transition: opacity 0.3s ease-in-out;
+            }
+
+            #company-nav.show {
+                display: block;
+                opacity: 1;
+            }
+
+            #solutions-nav {
+                display: none;
+                opacity: 0;
+                transition: opacity 0.3s ease-in-out;
+            }
+
+            #solutions-nav.show {
+                display: block;
+                opacity: 1;
+            }
+
+            #products-nav {
+                display: none;
+                opacity: 0;
+                transition: opacity 0.3s ease-in-out;
+            }
+
+            #products-nav.show {
+                display: block;
+                opacity: 1;
+            }
+
+            #facilities-nav {
+                display: none;
+                opacity: 0;
+                transition: opacity 0.3s ease-in-out;
+            }
+
+            #facilities-nav.show {
+                display: block;
+                opacity: 1;
+            }
+
+            .menu-wrap {
+                position: absolute;
+                background-color: white;
+                z-index: 10;
+                width: 100%;
+                height: 265px;
+            }
+
+            .menu-container {
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
         </style>
     </head>
     <body>
-        <div style="border-bottom: 1px solid #eee;">
-            <div class="container">
-                <div class="header" id="nav">
-                    <a href="./index.php" class="logo">
-                        <img src="img/Generic/logo.png" alt="Logo">
-                    </a>
-                    <nav>
-                        <ul class="nav-links">
-                            <li><a href="./index.php" class="active">HOME</a></li>
-                            <li><a href="./about.php" id="company-link">COMPANY</a></li>
-                            <li><a href="./solutions.php">SOLUTIONS</a></li>
-                            <li><a href="./products.php">PRODUCTS</a></li>
-                            <li><a href="#">FACILITIES</a></li>
-                            <li><a href="./contact.php" class="text-nowrap">CONTACT US</a></li>
+        <!-- nav bar -->
+        <div class="border-bottom">
+            <!-- <div class="container"> -->
+            <div class="header" id="nav">
+                <a href="./index.php" class="logo">
+                    <img src="img/Generic/logo.png" alt="Logo">
+                </a>
+                <nav style="position: absolute; left: 50%; transform: translateX(-50%);">
+                <!-- center align the nav -->
+                    <ul class="nav-links" style="height: 100px;">
+                        <li><a href="./index.php" class="active">HOME</a></li>
+                        <li id="company-link"><a href="./about.php">COMPANY</a></li>
+                        <li id="solutions-link"><a href="./solutions.php">SOLUTIONS</a></li>
+                        <li id="products-link"><a href="./products.php">PRODUCTS</a></li>
+                        <li id="facilities-link"><a href="#">FACILITIES</a></li>
+                        <li><a href="./contact.php" class="text-nowrap">CONTACT US</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- </div> -->
+        </div>
+
+        <!-- Company -->
+        <div class="menu-wrap border-bottom" id="company-nav">
+            <div class="container menu-container">
+                <div class="line line-1-3"></div>
+                <div class="row section-padding w-100">
+                    <div class="col-md-4 d-flex align-items-center">
+                        <h4>ADVANCING THE ART OF STEEL MANUFACTURING</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="nav-links flex-column align-items-start">
+                            <li><a href="./about.php">About</a></li>
+                            <li><a href="./history.php">History</a></li>
+                            <li><a href="./awards.php">Awards</a></li>
+                            <li><a href="#">Become a Customer</a></li>
                         </ul>
-                    </nav>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Conpany -->
-        <div class="container" id="company-nav">
-            <div class="row">
-                <div class="col-md-4">
-                    <h4>ADVANCING THE ART OF STEEL MANUFACTURING</h4>
+        <!-- Solutions -->
+        <div class="menu-wrap border-bottom" id="solutions-nav">
+            <div class="container menu-container">
+                <div class="line line-1-3"></div>
+                <div class="line line-2-3"></div>
+                <div class="row section-padding w-100">
+                    <div class="col-md-4 d-flex align-items-center">
+                        <h4>STEELMAKING QUALITY AND INNOVATION</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="nav-links flex-column align-items-start">
+                            <li><a href="./solutionInspection.php">Quality Check / Inspection</a></li>
+                            <li><a href="#">Machines</a></li>
+                            <li><a href="#">Testing</a></li>
+                        </ul>
+                    </div>
+                    <!-- <div class="col-md-4">
+                        <ul class="nav-links flex-column align-items-start">
+                            <li><a href="#">GOM Scan</a></li>
+                            <li><a href="#">Inspector</a></li>
+                            <li><a href="#">Spectralight QC Machine</a></li>
+                            <li><a href="#">CS Metal Quality Management System (QMS) Overview</a></li>
+                        </ul>
+                    </div> -->
                 </div>
-                <div class="col-md-4">
-                    <ul>
-                        <li><a href="./about.php">About</a></li>
-                        <li><a href="./history.php">History</a></li>
-                        <li><a href="./awards.php">Awards</a></li>
-                        <li><a href="#">Become a Customer</a></li>
-                    </ul>
+            </div>
+        </div>
+
+        <!-- Products -->
+        <div class="menu-wrap border-bottom" id="products-nav">
+            <div class="container menu-container">
+                <div class="line line-1-3"></div>
+                <div class="row section-padding w-100">
+                    <div class="col-md-4 d-flex align-items-center">
+                        <h4>SUSTAINABLE STEEL FOR A STRONGER TOMORROW</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="nav-links flex-column align-items-start">
+                            <li><a href="#">Stamping Parts</a></li>
+                            <li><a href="#">Handles</a></li>
+                            <li><a href="#">Die Cast</a></li>
+                            <li><a href="#">Manifold</a></li>
+                            <li><a href="#">Advertising Fixtures & OEM Products</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Facilities -->
+        <div class="menu-wrap border-bottom" id="facilities-nav">
+            <div class="container menu-container">
+                <div class="line line-1-3"></div>
+                <div class="row section-padding w-100">
+                    <div class="col-md-4 d-flex align-items-center">
+                        <h4>EXCEPTIONAL DRIVING EXPERIENCES THAT ARE KINDER TO THE PLANET</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="nav-links flex-column align-items-start">
+                            <li><a href="#">Assembly Department</a></li>
+                            <li><a href="#">Cargo Loading</a></li>
+                            <li><a href="#">Dust-free Stamping Area</a></li>
+                            <li><a href="#">Engineering Course Tooling Room</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="nav-links flex-column align-items-start">
+                            <li><a href="#">Laboratory</a></li>
+                            <li><a href="#">Measuring Chamber</a></li>
+                            <li><a href="#">Polishing Area</a></li>
+                            <li><a href="#">Stamping Area</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -118,20 +270,101 @@
 
             // Show #company-nav on hover
             companyLink.addEventListener('mouseover', () => {
-                companyNav.classList.add('show'); // Add the show class to display the company-nav
+                companyNav.classList.add('show');
+                solutionsNav.classList.remove('show');
+                productsNav.classList.remove('show');
+                facilitiesNav.classList.remove('show');
             });
 
-            // Hide #company-nav when the mouse leaves either the link or the nav
-            // document.getElementById('nav').addEventListener('mouseout', () => {
-            //     companyNav.classList.remove('show'); // Remove the show class
-            // });
+            //Hide #company-nav when the mouse leaves either the link or the nav
+            document.getElementById('nav').addEventListener('mouseout', () => {
+                companyNav.classList.remove('show');
+            });
 
             companyNav.addEventListener('mouseover', () => {
-                companyNav.classList.add('show'); // Keep it visible while hovering over company-nav
+                companyNav.classList.add('show');
             });
 
             companyNav.addEventListener('mouseout', () => {
-                companyNav.classList.remove('show'); // Hide it when the mouse leaves company-nav
+                companyNav.classList.remove('show');
+                solutionsNav.classList.remove('show');
+                productsNav.classList.remove('show');
+                facilitiesNav.classList.remove('show');
+            });
+
+            const solutionsLink = document.getElementById('solutions-link');
+            const solutionsNav = document.getElementById('solutions-nav');
+
+            solutionsLink.addEventListener('mouseover', () => {
+                solutionsNav.classList.add('show');
+                companyNav.classList.remove('show');
+                productsNav.classList.remove('show');
+                facilitiesNav.classList.remove('show');
+            });
+
+            document.getElementById('nav').addEventListener('mouseout', () => {
+                solutionsNav.classList.remove('show');
+            });
+
+            solutionsNav.addEventListener('mouseover', () => {
+                solutionsNav.classList.add('show');
+            });
+
+            solutionsNav.addEventListener('mouseout', () => {
+                solutionsNav.classList.remove('show');
+                companyNav.classList.remove('show');
+                productsNav.classList.remove('show');
+                facilitiesNav.classList.remove('show');
+            });
+
+            const productsLink = document.getElementById('products-link');
+            const productsNav = document.getElementById('products-nav');
+
+            productsLink.addEventListener('mouseover', () => {
+                productsNav.classList.add('show');
+                companyNav.classList.remove('show');
+                solutionsNav.classList.remove('show');
+                facilitiesNav.classList.remove('show');
+            });
+
+            document.getElementById('nav').addEventListener('mouseout', () => {
+                productsNav.classList.remove('show');
+            });
+
+            productsNav.addEventListener('mouseover', () => {
+                productsNav.classList.add('show');
+            });
+
+            productsNav.addEventListener('mouseout', () => {
+                companyNav.classList.remove('show');
+                solutionsNav.classList.remove('show');
+                productsNav.classList.remove('show');
+                facilitiesNav.classList.remove('show');
+            });
+
+            const facilitiesLink = document.getElementById('facilities-link');
+            const facilitiesNav = document.getElementById('facilities-nav');
+
+            facilitiesLink.addEventListener('mouseover', () => {
+                facilitiesNav.classList.add('show');
+                companyNav.classList.remove('show');
+                solutionsNav.classList.remove('show');
+                productsNav.classList.remove('show');
+            });
+
+            document.getElementById('nav').addEventListener('mouseout', () => {
+                facilitiesNav.classList.remove('show');
+            });
+
+            facilitiesNav.addEventListener('mouseover', () => {
+                facilitiesNav.classList.add('show');
+            });
+
+            facilitiesNav.addEventListener('mouseout', () => {
+                companyNav.classList.remove('show');
+                solutionsNav.classList.remove('show');
+                productsNav.classList.remove('show');
+                facilitiesNav.classList.remove('show');
             });
 
         </script>
