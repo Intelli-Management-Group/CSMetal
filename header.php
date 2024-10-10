@@ -25,8 +25,8 @@
             }
 
             .logo img {
-                max-width: 150px;
-                height: auto;
+                width: auto;
+                max-height: 80px;
             }
 
             nav {
@@ -154,17 +154,20 @@
         <div class="menu-wrap border-bottom" id="company-nav">
             <div class="container menu-container">
                 <div class="line line-1-3"></div>
-                <div class="row section-padding w-100">
+                <div class="row w-100">
                     <div class="col-md-4 d-flex align-items-center">
                         <h4>ADVANCING THE ART OF STEEL MANUFACTURING</h4>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex align-items-center">
                         <ul class="nav-links flex-column align-items-start">
                             <li><a href="./about.php">About</a></li>
                             <li><a href="./history.php">History</a></li>
                             <li><a href="./awards.php">Awards</a></li>
                             <li><a href="#">Become a Customer</a></li>
                         </ul>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-center">
+                        <img src="img/Company/History/img_1981.jpg" alt="history" style="height: 200px;">
                     </div>
                 </div>
             </div>
@@ -174,12 +177,11 @@
         <div class="menu-wrap border-bottom" id="solutions-nav">
             <div class="container menu-container">
                 <div class="line line-1-3"></div>
-                <div class="line line-2-3"></div>
-                <div class="row section-padding w-100">
+                <div class="row w-100">
                     <div class="col-md-4 d-flex align-items-center">
                         <h4>STEELMAKING QUALITY AND INNOVATION</h4>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex align-items-center">
                         <ul class="nav-links flex-column align-items-start">
                             <li><a href="./solutionInspection.php">Quality Check / Inspection</a></li>
                             <li><a href="#">Machines</a></li>
@@ -194,6 +196,9 @@
                             <li><a href="#">CS Metal Quality Management System (QMS) Overview</a></li>
                         </ul>
                     </div> -->
+                    <div class="col-md-4 d-flex align-items-center">
+                        <img src="img/Solution/cnc_turning.jpg" alt="cnc_turning" style="height: 200px;">
+                    </div>
                 </div>
             </div>
         </div>
@@ -202,11 +207,11 @@
         <div class="menu-wrap border-bottom" id="products-nav">
             <div class="container menu-container">
                 <div class="line line-1-3"></div>
-                <div class="row section-padding w-100">
+                <div class="row w-100">
                     <div class="col-md-4 d-flex align-items-center">
                         <h4>SUSTAINABLE STEEL FOR A STRONGER TOMORROW</h4>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex align-items-center">
                         <ul class="nav-links flex-column align-items-start">
                             <li><a href="./productsDetail.php">Stamping Parts</a></li>
                             <li><a href="#">Handles</a></li>
@@ -215,8 +220,8 @@
                             <li><a href="#">Advertising Fixtures & OEM Products</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-4">
-
+                    <div class="col-md-4 d-flex align-items-center">
+                        <img src="img/Product/Main/product_3.jpg" alt="product" style="height: 200px;">
                     </div>
                 </div>
             </div>
@@ -226,11 +231,11 @@
         <div class="menu-wrap border-bottom" id="facilities-nav">
             <div class="container menu-container">
                 <div class="line line-1-3"></div>
-                <div class="row section-padding w-100">
+                <div class="row w-100">
                     <div class="col-md-4 d-flex align-items-center">
                         <h4>EXCEPTIONAL DRIVING EXPERIENCES THAT ARE KINDER TO THE PLANET</h4>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex align-items-center">
                         <ul class="nav-links flex-column align-items-start">
                             <li><a href="#">Assembly Department</a></li>
                             <li><a href="#">Cargo Loading</a></li>
@@ -238,7 +243,7 @@
                             <li><a href="#">Engineering Course Tooling Room</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex align-items-center">
                         <ul class="nav-links flex-column align-items-start">
                             <li><a href="#">Laboratory</a></li>
                             <li><a href="#">Measuring Chamber</a></li>
