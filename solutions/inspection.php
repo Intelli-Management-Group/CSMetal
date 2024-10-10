@@ -10,19 +10,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="./js/main.js"></script> -->
+    <script src="js/main.js"></script> -->
     <!-- <link rel="apple-touch-icon" sizes="180x180" href="./img/icons/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/icons/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./img/icons/favicon/favicon-16x16.png">
     <link rel="manifest" href="./img/icons/favicon/site.webmanifest"> -->
-    <?php include 'HTMLhead.php'; ?>
+    <?php include '../HTMLhead.php'; ?>
     <style>
 
     </style>
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php include '../header.php'; ?>
     <div class="container">
         <div class="line line-left"></div>
         <div class="line line-2-3"></div>
@@ -38,7 +38,7 @@
                 <h4 style="padding: 20% 17% 15% 5%;">Fabrik is crucial in the USA’s emergence as a favored global auto manufacturing destination. We focus on lightweight, cost-effective, and fuel-efficient vehicle solutions, collaborating closely with the automotive sector from concept to commercialization. Our experience, expertise, and innovation consistently exceed our clients' high QCD (Quality, Cost, and Delivery) expectations.</h4>
             </div>
             <div class="col-md-4" href="#">
-                <img src="./img/SolutionInspection/banner.webp" alt="Inspection Banner" width="100%" style="position:absolute; bottom:10%; right: 12%;">
+                <img src="img/SolutionInspection/banner.webp" alt="Inspection Banner" width="100%" style="position:absolute; bottom:10%; right: 12%;">
             </div>
         </div>
 
@@ -159,7 +159,7 @@
     </div>
 
 
-    <?php include 'footer.php'; ?>
+    <?php include '../footer.php'; ?>
 
     <script>
         // nut drop-down effect

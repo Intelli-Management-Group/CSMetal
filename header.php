@@ -48,6 +48,11 @@
                 height: 100%;
             }
 
+            /* .nav-links li:hover {
+                border-top: 4px solid #005399;
+                padding-top: 2px;
+            } */
+
             .nav-links a {
                 color: black;
                 text-decoration: none;
@@ -140,9 +145,9 @@
                 <!-- center align the nav -->
                     <ul class="nav-links" style="height: 100px;">
                         <li><a href="./index.php" class="active">HOME</a></li>
-                        <li id="company-link"><a href="./about.php">COMPANY</a></li>
-                        <li id="solutions-link"><a href="./solutions.php">SOLUTIONS</a></li>
-                        <li id="products-link"><a href="./products.php">PRODUCTS</a></li>
+                        <li id="company-link"><a href="company/about.php">COMPANY</a></li>
+                        <li id="solutions-link"><a href="solutions.php">SOLUTIONS</a></li>
+                        <li id="products-link"><a href="products.php">PRODUCTS</a></li>
                         <li id="facilities-link"><a href="#">FACILITIES</a></li>
                         <li><a href="./contact.php" class="text-nowrap">CONTACT US</a></li>
                     </ul>
@@ -161,9 +166,9 @@
                     </div>
                     <div class="col-md-4 d-flex align-items-center">
                         <ul class="nav-links flex-column align-items-start">
-                            <li><a href="./about.php">About</a></li>
-                            <li><a href="./history.php">History</a></li>
-                            <li><a href="./awards.php">Awards</a></li>
+                            <li><a href="company/about.php">About</a></li>
+                            <li><a href="company/history.php">History</a></li>
+                            <li><a href="company/awards.php">Awards</a></li>
                             <li><a href="#">Become a Customer</a></li>
                         </ul>
                     </div>
@@ -184,7 +189,7 @@
                     </div>
                     <div class="col-md-4 d-flex align-items-center">
                         <ul class="nav-links flex-column align-items-start">
-                            <li><a href="./solutionInspection.php">Quality Check / Inspection</a></li>
+                            <li><a href="solutions/inspection.php">Quality Check / Inspection</a></li>
                             <li><a href="#">Machines</a></li>
                             <li><a href="#">Testing</a></li>
                         </ul>
@@ -214,7 +219,7 @@
                     </div>
                     <div class="col-md-4 d-flex align-items-center">
                         <ul class="nav-links flex-column align-items-start">
-                            <li><a href="./productsDetail.php">Stamping Parts</a></li>
+                            <li><a href="products/stamping-parts.php">Stamping Parts</a></li>
                             <li><a href="#">Handles</a></li>
                             <li><a href="#">Die Cast</a></li>
                             <li><a href="#">Manifold</a></li>

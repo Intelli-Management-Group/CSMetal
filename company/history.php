@@ -11,7 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="./js/main.js"></script> -->
-    <?php include 'HTMLhead.php'; ?>
+    <?php include '../HTMLhead.php'; ?>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <style>
@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php include '../header.php'; ?>
 
     <div class="container">
         <div class="line line-left"></div>
@@ -323,7 +323,7 @@
         </div>
     </div>
 
-    <?php include 'footer.php'; ?>
+    <?php include '../footer.php'; ?>
 
     <script>
         AOS.init({

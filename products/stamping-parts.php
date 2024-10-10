@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="./js/main.js"></script> -->
-    <?php include 'HTMLhead.php'; ?>
+    <script src="js/main.js"></script> -->
+    <?php include '../HTMLhead.php'; ?>
     <style>
     </style>
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php include '../header.php'; ?>
 
     <div class="container">
         <div class="line line-left"></div>
@@ -42,7 +42,7 @@
 
     <!-- banner -->
     <div class="image-container" style="z-index: -1;">
-        <img src="./img/Product/Diecast/banner_product_diecast.jpg" alt="Home Banner" class="banner-container">
+        <img src="img/Product/Diecast/banner_product_diecast.jpg" alt="Home Banner" class="banner-container">
     </div>
 
     <div class="container">
@@ -59,7 +59,7 @@
         <div class="container">
             <div class="row p-3">
                 <div class="col-sm-12 col-md-6 section-padding">
-                    <img src="./img/Product/Diecast/img_diecast_1.jpg" alt="product 3" width="100%">
+                    <img src="img/Product/Diecast/img_diecast_1.jpg" alt="product 3" width="100%">
                 </div>
                 <div class="col-sm-12 col-md-6" style="background-color: black;">
                     <div class="text-white" style="padding: 15%;">
@@ -88,7 +88,7 @@
             <div class="container pt-5">
                 <div class="row section-padding pl-0 pr-0">
                     <div class="col-sm-12 col-md-6">
-                        <img src="./img/Product/Diecast/img_diecast_2.jpg" alt="image 2" style="width: 100%;">
+                        <img src="img/Product/Diecast/img_diecast_2.jpg" alt="image 2" style="width: 100%;">
                     </div>
                     <div class="col-sm-12 col-md-6 d-flex align-items-center">
                         <div class="p-5">
@@ -103,7 +103,7 @@
         </div>
     </div>
 
-    <?php include 'footer.php'; ?>
+    <?php include '../footer.php'; ?>
 
 </body>
 

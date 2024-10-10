@@ -9,15 +9,15 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script src="./js/main.js"></script> -->
-        <?php include 'HTMLhead.php'; ?>
+        <script src="js/main.js"></script> -->
+        <?php include '../HTMLhead.php'; ?>
         <style>
 
         </style>
 
     </head>
     <body>
-        <?php include 'header.php'; ?>
+        <?php include '../header.php'; ?>
         
         <div class="container">
             <div class="line line-left"></div>
@@ -42,7 +42,7 @@
 
         <!-- banner -->
         <div class="image-container" style="z-index: -1;">
-            <img src="./img/Company/Awards/banner_company_awards.jpg" alt="awards-banner" class="banner-container">
+            <img src="img/Company/Awards/banner_company_awards.jpg" alt="awards-banner" class="banner-container">
         </div>
 
 
@@ -75,14 +75,14 @@
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="./img/Company/Awards/img_1.jpg" alt="about" class="image">    
+                        <img src="img/Company/Awards/img_1.jpg" alt="about" class="image">    
                         <h4>HKPC</h4>
                         <h4 class="text-color">Appreciation Award</h4>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="./img/Company/Awards/img_2.jpg" alt="about" class="image">    
+                        <img src="img/Company/Awards/img_2.jpg" alt="about" class="image">    
                         <h4>The Hong Kong Exporters Association</h4>
                         <h4 class="text-color">Appreciation Award</h4>
                         <p>2008</p>
@@ -90,7 +90,7 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="./img/Company/Awards/img_3.jpg" alt="about" class="image">    
+                        <img src="img/Company/Awards/img_3.jpg" alt="about" class="image">    
                         <h4>GE</h4>
                         <h4 class="text-color">Distinguished Supplier Award</h4>
                         <p>2011</p>
@@ -98,7 +98,7 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="./img/Company/Awards/img_4.jpg" alt="about" class="image">    
+                        <img src="img/Company/Awards/img_4.jpg" alt="about" class="image">    
                         <h4>Mabe</h4>
                         <h4 class="text-color">Best Suppliers Award</h4>
                         <p>2012</p>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="./img/Company/Awards/img_5.jpg" alt="about" class="image">    
+                        <img src="img/Company/Awards/img_5.jpg" alt="about" class="image">    
                         <h4>Imagine POS</h4>
                         <h4 class="text-color">Outstanding Award</h4>
                         <p>2012-2013</p>
@@ -114,7 +114,7 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="./img/Company/Awards/img_6.jpg" alt="about" class="image">    
+                        <img src="img/Company/Awards/img_6.jpg" alt="about" class="image">    
                         <h4>GE</h4>
                         <h4 class="text-color">10th Anniversary Award</h4>
                         <p>2014</p>
@@ -122,7 +122,7 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="./img/Company/Awards/img_7.jpg" alt="about" class="image">    
+                        <img src="img/Company/Awards/img_7.jpg" alt="about" class="image">    
                         <h4>LG</h4>
                         <h4 class="text-color">Superior Award</h4>
                         <p>2016</p>
@@ -130,7 +130,7 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="./img/Company/Awards/img_8.jpg" alt="about" class="image">    
+                        <img src="img/Company/Awards/img_8.jpg" alt="about" class="image">    
                         <h4>GE</h4>
                         <h4 class="text-color">Superior Quality Performance Award</h4>
                         <p>2016</p>
@@ -138,7 +138,7 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="./img/Company/Awards/img_9.jpg" alt="about" class="image">    
+                        <img src="img/Company/Awards/img_9.jpg" alt="about" class="image">    
                         <h4>HKGCC</h4>
                         <h4 class="text-color">Member Certificate</h4>
                         <p>2019</p>
@@ -148,7 +148,7 @@
         </div>
             
 
-        <?php include 'footer.php'; ?>
+        <?php include '../footer.php'; ?>
 
     </body>
 </html>

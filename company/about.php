@@ -9,18 +9,19 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script src="./js/main.js"></script> -->
+        <script src="/js/main.js"></script> -->
         <!-- <link rel="apple-touch-icon" sizes="180x180" href="./img/icons/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="./img/icons/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="./img/icons/favicon/favicon-16x16.png">
         <link rel="manifest" href="./img/icons/favicon/site.webmanifest"> -->
-        <?php include 'HTMLhead.php'; ?>
+        <?php include '../HTMLhead.php'; ?>
+        <!-- <base href="http://localhost/csmetal/"> -->
         <style>
 
         </style>
     </head>
     <body>
-        <?php include 'header.php'; ?>
+        <?php include '../header.php'; ?>
         <div class="container">
             <div class="line line-left"></div>
             <div class="line line-1-3"></div>
@@ -44,7 +45,7 @@
 
         <!-- banner -->
         <div class="image-container" style="z-index: -1;">
-            <img src="./img/Company/About/banner_company_awards.jpg" alt="about-banner" class="banner-container">
+            <img src="img/Company/About/banner_company_awards.jpg" alt="about-banner" class="banner-container">
         </div>
 
         <div class="container">
@@ -167,49 +168,49 @@
             </div>
             <div class="row section-padding d-flex justify-content-around pb-0">
                 <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
-                    <img src="./img/Company/About/client_1.png" class="client" alt="client 1">
+                    <img src="img/Company/About/client_1.png" class="client" alt="client 1">
                 </div>
                 <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
-                    <img src="./img/Company/About/client_2.png" class="client" alt="client 2">
+                    <img src="img/Company/About/client_2.png" class="client" alt="client 2">
                 </div>
                 <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
-                    <img src="./img/Company/About/client_3.png" class="client" alt="client 3">
+                    <img src="img/Company/About/client_3.png" class="client" alt="client 3">
                 </div>
                 <div class="col-sm-6 col-md-1 p-md-2 d-flex align-items-center">
-                    <img src="./img/Company/About/client_4.png" class="client" alt="client 4">
+                    <img src="img/Company/About/client_4.png" class="client" alt="client 4">
                 </div>
                 <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
-                    <img src="./img/Company/About/client_5.png" class="client" alt="client 5">
+                    <img src="img/Company/About/client_5.png" class="client" alt="client 5">
                 </div>
                 <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
-                    <img src="./img/Company/About/client_6.png" class="client" alt="client 6">
+                    <img src="img/Company/About/client_6.png" class="client" alt="client 6">
                 </div>
                 <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
-                    <img src="./img/Company/About/client_7.png" class="client" alt="client 7">
+                    <img src="img/Company/About/client_7.png" class="client" alt="client 7">
                 </div>
                 <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
-                    <img src="./img/Company/About/client_8.png" class="client" alt="client 8">
+                    <img src="img/Company/About/client_8.png" class="client" alt="client 8">
                 </div>
             </div>
 
             <div class="row section-padding d-flex justify-content-around mt-md-4 pt-0">
                 <div class="col-sm-6 col-md-2 px-4 d-flex align-items-center">
-                    <img src="./img/Company/About/client_9.png" class="client" alt="client 9">
+                    <img src="img/Company/About/client_9.png" class="client" alt="client 9">
                 </div>
                 <div class="col-sm-6 col-md-2 px-4 d-flex align-items-center">
-                    <img src="./img/Company/About/client_10.png" class="client" alt="client 10">
+                    <img src="img/Company/About/client_10.png" class="client" alt="client 10">
                 </div>
                 <div class="col-sm-6 col-md-2 px-4 d-flex align-items-center">
-                    <img src="./img/Company/About/client_11.png" class="client" alt="client 11">
+                    <img src="img/Company/About/client_11.png" class="client" alt="client 11">
                 </div>
                 <div class="col-sm-6 col-md-2 px-4 d-flex align-items-center">
-                    <img src="./img/Company/About/client_12.png" class="client" alt="client 12">
+                    <img src="img/Company/About/client_12.png" class="client" alt="client 12">
                 </div>
                 <div class="col-sm-6 col-md-2 px-4 d-flex align-items-center">
-                    <img src="./img/Company/About/client_13.png" class="client" alt="client 13">
+                    <img src="img/Company/About/client_13.png" class="client" alt="client 13">
                 </div>
                 <div class="col-sm-6 col-md-2 px-4 d-flex align-items-center">
-                    <img src="./img/Company/About/client_14.png" class="client" alt="client 14">
+                    <img src="img/Company/About/client_14.png" class="client" alt="client 14">
                 </div>
             </div>
         </div>
@@ -242,7 +243,7 @@
             </div>
         </div>
 
-        <?php include 'footer.php'; ?>
+        <?php include '../footer.php'; ?>
 
     </body>
 </html>
