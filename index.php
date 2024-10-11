@@ -199,7 +199,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-4 product-margin scroll2move">
+                    <div class="col-sm-12 col-md-4 scroll2moveup">
                         <div class="product-wrap">
                             <div class="product-image-wrap">
                                 <img src="img/Home/product_2.jpg" alt="product 2" style="width: 100%;">
@@ -235,7 +235,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-4 product-margin scroll2move">
+                    <div class="col-sm-12 col-md-4 scroll2moveup">
                         <div class="product-wrap">
                             <div class="product-image-wrap">
                                 <img src="img/Home/product_5.jpg" alt="product 5" style="width: 100%;">

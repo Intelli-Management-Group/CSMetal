@@ -23,8 +23,10 @@
 
 <body>
     <?php include '../header.php'; ?>
+    <!-- intro -->
     <div class="container">
         <div class="line line-left"></div>
+        <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
         <div class="row section-padding">
@@ -35,85 +37,80 @@
         </div>
         <div class="row mx-0" style="background-color: #eee; position:relative">
             <div class="col-md-8">
-                <h4 style="padding: 20% 17% 15% 5%;">Fabrik is crucial in the USA’s emergence as a favored global auto manufacturing destination. We focus on lightweight, cost-effective, and fuel-efficient vehicle solutions, collaborating closely with the automotive sector from concept to commercialization. Our experience, expertise, and innovation consistently exceed our clients' high QCD (Quality, Cost, and Delivery) expectations.</h4>
+                <h4 class="solution-banner-padding">Fabrik is crucial in the USA’s emergence as a favored global auto manufacturing destination. We focus on lightweight, cost-effective, and fuel-efficient vehicle solutions, collaborating closely with the automotive sector from concept to commercialization. Our experience, expertise, and innovation consistently exceed our clients' high QCD (Quality, Cost, and Delivery) expectations.</h4>
             </div>
-            <div class="col-md-4" href="#">
-                <img src="img/SolutionInspection/banner.webp" alt="Inspection Banner" width="100%" style="position:absolute; bottom:10%; right: 12%;">
-            </div>
-        </div>
-
-
-
-        <div class="container border-bottom">
-            <div class="line line-left"></div>
-            <div class="line line-1-3"></div>
-            <div class="line line-2-3"></div>
-            <div class="line line-right"></div>
-
-            <div class="section-padding">
-                <h5><span class="text-color">/ </span>GOM SCAN</h5>
-                <div class="row pt-5">
-                    <div class="col-sm-12 col-md-4">
-                        <h1>3D SCANNING TECHNOLOGY</h1>
-                    </div>
-                </div>
-                <div class="row pt-5">
-                    <div class="col-sm-12 col-md-4">
-                        <div>
-                            <p>Welcome to our introduction to Gom Scan, a leading solution in 3D scanning technology, specifically designed for precision in metal stamping parts. With Gom Scan, we ensure the highest quality throughv rigorous first piece inspections, enabling us to detect any deviations from specifications right from the start.
-                            </p>
-                            <P>As we transition into mass production, Gom Scan plays a crucial role in maintaining consistent quality control (QC), allowing for real-time monitoring and adjustment throughout the manufacturing process. This not only enhances the reliability of our products but also drives process improvement initiatives by identifying areas for optimization.
-                            </P>
-                            <P>Join us as we explore how Gom Scan is revolutionizing the metal stamping industry, ensuring accuracy and efficiency at every stage. from the tirst inspection to large-scale production!</P>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-4 product-margin">
-                        <div class="product-wrap pt-5">
-                            <div class="pt-5">
-                                <img src="img/SolutionInspection/solution3.webp" alt="product 2" style="width: 100%;">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-4">
-                        <div class="product-wrap pt-5 mt-5">
-                            <div class="pt-5 mt-5">
-                                <img src="img/SolutionInspection/solution2.webp" alt="product 2" style="width: 100%;">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-4">
+                <img src="img/SolutionInspection/banner.webp" alt="Inspection Banner" width="100%" class="solution-banner scroll2moveup">
             </div>
         </div>
+    </div>
 
-        <div class="container border-bottom">
-            <div>
-                <div class="text-center">
-                    <h1 class="py-5">PRECISE DIMENSIONAL MEASUREMENT</h1>
-                    <iframe width="100%" height="500" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
-                    </iframe>
+    <!-- GOM Scan -->
+    <div class="container border-bottom">
+        <div class="line line-left"></div>
+        <div class="line line-1-3"></div>
+        <div class="line line-2-3"></div>
+        <div class="line line-right"></div>
+
+        <!-- GOM Scan Section -->
+        <div class="section-padding">
+            <h5><span class="text-color">/ </span>GOM SCAN</h5>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <h1>3D SCANNING TECHNOLOGY</h1>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="line line-left"></div>
-            <div class="line line-1-3"></div>
-            <div class="line line-2-3"></div>
-            <div class="line line-right"></div>
-            <div class="row section-padding">
+            <div class="row pt-5">
                 <div class="col-sm-12 col-md-4">
-                    <p>Introducing our advanced Coordinate Measuring Machine (CMM), Inspector, a state-of-the-art measuring device designed for precise dimensional inspection in manufacturing. This innovative tool features computerized movement along the X. Y, and Z axis, allowing for highly accurate measurements of both large and small inner and outer dimensions.</p>
+                    <div>
+                        <p>Welcome to our introduction to Gom Scan, a leading solution in 3D scanning technology, specifically designed for precision in metal stamping parts. With Gom Scan, we ensure the highest quality throughv rigorous first piece inspections, enabling us to detect any deviations from specifications right from the start.</p>
+                        <p>As we transition into mass production, Gom Scan plays a crucial role in maintaining consistent quality control (QC), allowing for real-time monitoring and adjustment throughout the manufacturing process. This not only enhances the reliability of our products but also drives process improvement initiatives by identifying areas for optimization.</p>
+                        <p>Join us as we explore how Gom Scan is revolutionizing the metal stamping industry, ensuring accuracy and efficiency at every stage. from the tirst inspection to large-scale production!</p>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-4">
-                    <p>The CMM Inspector is perfect for a variety of applications, delivering reliple results across different sizes and snapes of comporients. Its ability to generate detailed digital reports streamlines the quality assurance process, providing manufacturers with clear documentation of measurement results for easy analysis and compliance tracking</p>
+
+                <div class="col-sm-12 col-md-4" style="margin-top: 200px">
+                    <img src="img/SolutionInspection/solution2.webp" alt="product 2" class="image scroll2movedown">
                 </div>
-                <div class="col-sm-12 col-md-4">
-                    <p>With its advanced technology and user-friendly interface, our CMM Inspector enhances productivity and ensures the highest standards of accuracy in dimensional measurement. Experience the benefits of precision measurement with our CMM Inspector, a crucial asset for maintaining product quality and integrity in any manufacturing environment!</p>
+
+                <div class="col-sm-12 col-md-4" style="margin-top: 400px">
+                    <img src="img/SolutionInspection/solution3.webp" alt="product 2" class="image scroll2moveup">
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Inspector Section-->
+    <div class="container">
+        <div class="line line-left"></div>
+        <div class="line line-right"></div>
+        <div>
+            <div class="text-center">
+                <h1 class="py-5">PRECISE DIMENSIONAL MEASUREMENT</h1>
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/tgbNymZ7vqY?mute=1">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="line line-left"></div>
+        <div class="line line-1-3"></div>
+        <div class="line line-2-3"></div>
+        <div class="line line-right"></div>
+        <div class="row section-padding">
+            <div class="col-sm-12 col-md-4">
+                <p>Introducing our advanced Coordinate Measuring Machine (CMM), Inspector, a state-of-the-art measuring device designed for precise dimensional inspection in manufacturing. This innovative tool features computerized movement along the X. Y, and Z axis, allowing for highly accurate measurements of both large and small inner and outer dimensions.</p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <p>The CMM Inspector is perfect for a variety of applications, delivering reliple results across different sizes and snapes of comporients. Its ability to generate detailed digital reports streamlines the quality assurance process, providing manufacturers with clear documentation of measurement results for easy analysis and compliance tracking</p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <p>With its advanced technology and user-friendly interface, our CMM Inspector enhances productivity and ensures the highest standards of accuracy in dimensional measurement. Experience the benefits of precision measurement with our CMM Inspector, a crucial asset for maintaining product quality and integrity in any manufacturing environment!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Spectralight Section -->
     <div style="background-color:black;">
         <div class="container">
             <div class="row text-white" style="padding:8% 0%">
@@ -130,11 +127,13 @@
             </div>
         </div>
     </div>
-    <div class="container border-bottom">
+    <div class="container">
+        <div class="line line-left"></div>
+        <div class="line line-right"></div>
         <div>
             <div class="text-center">
                 <h1 class="py-5">HIGH STANDARDS OF QUALITY & ACCOUNTABILITY</h1>
-                <iframe width="100%" height="500" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/tgbNymZ7vqY?mute=1">
                 </iframe>
             </div>
         </div>
@@ -163,19 +162,19 @@
 
     <script>
         // nut drop-down effect
-        window.addEventListener('scroll', function() {
-            const svgWrappers = document.querySelectorAll('.nut-wrapper');
-            svgWrappers.forEach(wrapper => {
-                const rect = wrapper.getBoundingClientRect();
-                const windowHeight = window.innerHeight;
+        // window.addEventListener('scroll', function() {
+        //     const svgWrappers = document.querySelectorAll('.nut-wrapper');
+        //     svgWrappers.forEach(wrapper => {
+        //         const rect = wrapper.getBoundingClientRect();
+        //         const windowHeight = window.innerHeight;
 
-                if (rect.top < windowHeight - 100) {
-                    wrapper.classList.add('visible');
-                } else {
-                    wrapper.classList.remove('visible');
-                }
-            });
-        });
+        //         if (rect.top < windowHeight - 100) {
+        //             wrapper.classList.add('visible');
+        //         } else {
+        //             wrapper.classList.remove('visible');
+        //         }
+        //     });
+        // });
 
         // zoom in image when scrolling
         // window.addEventListener('scroll', function() {
