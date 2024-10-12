@@ -15,7 +15,6 @@
         <link rel="icon" type="image/png" sizes="16x16" href="./img/icons/favicon/favicon-16x16.png">
         <link rel="manifest" href="./img/icons/favicon/site.webmanifest"> -->
         <?php include '../HTMLhead.php'; ?>
-        <!-- <base href="http://localhost/csmetal/"> -->
         <style>
 
         </style>
@@ -136,7 +135,7 @@
             <div class="line line-right"></div>
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4">
-                    <div class="display-4">THE BEST EXPERIENCE POSSIBLE</div>
+                    <div class="display-4">CORE VALUES</div>
                     <p>Our core values not only define us as a company but also reflect the essence of each individual within our organization.</p>
                 </div>
             </div>
@@ -163,10 +162,10 @@
             <div class="row section-padding d-flex justify-content-center">
                 <div class="col-sm-12 col-md-8">
                     <h5><span class="text-color">/ </span>Our Clients</h5>
-                    <p>Distinguished by enduring partnerships with leading brands, Chi Sing has become synonymous with reliability and quality. Our work with top appliance manufacturers has not only earned us a preferred supplier status but also brought forth innovative collaborations.</p>
+                    <h3 style="text-transform: uppercase;">Distinguished by enduring partnerships with leading brands, Chi Sing has become synonymous with reliability and quality. Our work with top appliance manufacturers has not only earned us a preferred supplier status but also brought forth innovative collaborations.</h3>
                 </div>
             </div>
-            <div class="row section-padding d-flex justify-content-around pb-0">
+            <div class="row section-padding pt-0 d-flex justify-content-around pb-0">
                 <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
                     <img src="img/Company/About/client_1.png" class="client" alt="client 1">
                 </div>

@@ -178,7 +178,7 @@
             </div>
 
             <!-- Products Section -->
-            <div class="section-padding">
+            <div class="section-padding padding-bottom">
                 <h5><span class="text-color">/ </span>Products</h5>
                 <div class="row pt-3">
                     <div class="col-sm-12 col-md-4">
@@ -271,7 +271,7 @@
         <div class="container">
             <div class="line line-left"></div>
             <div class="line line-right"></div>
-            <div class="row section-padding pl-0 pr-0">
+            <div class="row section-padding-lg pl-0 pr-0">
                 <div class="col-sm-12 col-md-6">
                     <div class="image-container">
                         <img src="img/Home/img_2.jpg" alt="image 2" class="banner-container">
