@@ -34,3 +34,19 @@ if (window.innerWidth >= 768) {
         });
     });
 }
+
+// JavaScript to handle hovering and showing the corresponding image
+document.addEventListener("DOMContentLoaded", function() {
+    const links = document.querySelectorAll('.hover-link');
+    const images = document.querySelectorAll('.product-image-container img');
+
+    links.forEach(link => {
+        link.addEventListener('mouseover', function() {
+            // Remove active class from all images
+            images.forEach(img => img.classList.remove('active'));
+            // Add active class to the target image
+            const target = this.getAttribute('data-target');
+            document.getElementById(target).classList.add('active');
+        });
+    });
+});

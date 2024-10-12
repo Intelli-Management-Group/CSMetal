@@ -194,7 +194,7 @@
                                 <img src="img/Home/product_1.jpg" alt="product 1" style="width: 100%;">
                                 <a class="image-arrow" href=""><div>→</div></a>
                             </div>
-                            <h5 class="mt-3">HINGES</h5>
+                            <h5 class="mt-3">Stamping Parts</h5>
                             <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
                         </div>
                     </div>
