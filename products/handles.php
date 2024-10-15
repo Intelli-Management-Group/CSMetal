@@ -49,19 +49,19 @@
         <div class="container">
             <div class="row section-padding">
                 <div class="product-image-container col-sm-12 col-md-12 col-lg-6 p-0">
-                    <img src="img/Product/Stamping/img_hinge.jpg" alt="hinge" id="img1" class="active">
-                    <img src="img/Product/Stamping/img_bracket.jpg" alt="bracket" id="img2">
-                    <img src="img/Product/Stamping/img_wire_mesh.jpg" alt="bracket" id="img3">
-                    <img src="img/Product/Stamping/img_hood_fan.jpg" alt="bracket" id="img4">
-                    <img src="img/Product/Stamping/img_stamping.jpg" alt="bracket" id="img5">
-                    <img src="img/Product/Stamping/img_aluminum.jpg" alt="bracket" id="img6">
-                    <img src="img/Product/Stamping/img_chassis.jpg" alt="bracket" id="img7">
-                    <img src="img/Product/Stamping/img_panels.jpg" alt="bracket" id="img8">
+                    <img src="img/Product/Handle/img_handle_tubular.jpg" alt="hinge" id="img1" class="active">
+                    <img src="img/Product/Handle/img_handle_standoff.jpg" alt="bracket" id="img2">
+                    <img src="img/Product/Handle/img_handle_color.jpg" alt="bracket" id="img3">
+                    <img src="img/Product/Handle/img_handle_hydroforming.jpg" alt="bracket" id="img4">
+                    <img src="img/Product/Handle/img_handle_crs.jpg" alt="bracket" id="img5">
+                    <img src="img/Product/Handle/img_handle_brush.jpg" alt="bracket" id="img6">
+                    <img src="img/Product/Handle/img_handle_mirror.jpg" alt="bracket" id="img7">
+                    <img src="img/Product/Handle/img_handle_brush_mirror.jpg" alt="bracket" id="img8">
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center" style="background-color: #333;">
                     <div class="text-white w-100">
-                        <div style="padding: 10%;">
+                        <div style="padding: 10%">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <h1>HANDLES</h1>
@@ -69,19 +69,22 @@
                             </div>
                             
                             <div class="row" style="line-height: 3.5;">
-                                <div class="col-sm-6 col-md-6">
+                                <div class="col-sm-12 col-md-12">
                                     <div class="hover-link" data-target="img1">TUBULAR HANDLES</div>
                                     <div class="hover-link" data-target="img2">HANDLES WITH STANDOFF</div>
                                     <div class="hover-link" data-target="img3">COLOR HANDLES</div>
                                     <div class="hover-link" data-target="img4">HYDRO-FORMING HANDLES</div>
-
-                                </div>
-                                <div class="col-sm-6 col-md-6">
                                     <div class="hover-link" data-target="img5">PRINTING CRS HANDLES</div>
                                     <div class="hover-link" data-target="img6">HANDLES WITH BRUSH FINISH</div>
                                     <div class="hover-link" data-target="img7">HANDLES WITH MIRROR FINISH</div>
                                     <div class="hover-link" data-target="img8">HANDLES WITH BRUSH & MIRROR FINISH</div>
                                 </div>
+                                <!-- <div class="col-sm-6 col-md-6">
+                                    <div class="hover-link" data-target="img5">PRINTING CRS HANDLES</div>
+                                    <div class="hover-link" data-target="img6">HANDLES WITH BRUSH FINISH</div>
+                                    <div class="hover-link" data-target="img7">HANDLES WITH MIRROR FINISH</div>
+                                    <div class="hover-link" data-target="img8">HANDLES WITH BRUSH & MIRROR FINISH</div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -91,13 +94,15 @@
             <!-- Become a customer -->
             <div class="row section-padding padding-bottom pl-0 pr-0">
                 <div class="col-sm-12 col-md-6 pr-0">
-                    <img src="img/Product/Stamping/img_customer.jpg" alt="image 2" class="image">
+                    <div class="image-container">
+                        <img src="img/Product/Stamping/img_customer.jpg" alt="image 2" class="banner-container">
+                    </div>
                 </div>
 
                 <div class="col-sm-12 col-md-6 d-flex align-items-center px-5">
                     <div>
                         <h5><span class="text-color">/ </span>Become a customer</h5>
-                        <h3 class="mt-5 mb-5">LEADING THE WAY TO THE FUTURE</h3>
+                        <h3 class="mt-4 mb-4">LEADING THE WAY TO THE FUTURE</h3>
                         <p>Fabrik blends steel technology leadership with outstanding problem-solving capabilities to support customers and suppliers in shaping the future of automotive transportation.</p>
                         <a href="" class="underline-link">LET'S TALK →</a>
                     </div>

@@ -98,13 +98,15 @@
             <!-- Become a customer -->
             <div class="row section-padding padding-bottom pl-0 pr-0">
                 <div class="col-sm-12 col-md-6 pr-0">
-                    <img src="img/Product/Stamping/img_customer.jpg" alt="image 2" class="image">
+                    <div class="image-container">
+                        <img src="img/Product/Stamping/img_customer.jpg" alt="image 2" class="banner-container">
+                    </div>
                 </div>
 
                 <div class="col-sm-12 col-md-6 d-flex align-items-center px-5">
                     <div>
                         <h5><span class="text-color">/ </span>Become a customer</h5>
-                        <h3 class="mt-5 mb-5">LEADING THE WAY TO THE FUTURE</h3>
+                        <h3 class="mt-4 mb-4">LEADING THE WAY TO THE FUTURE</h3>
                         <p>Fabrik blends steel technology leadership with outstanding problem-solving capabilities to support customers and suppliers in shaping the future of automotive transportation.</p>
                         <a href="" class="underline-link">LET'S TALK →</a>
                     </div>
