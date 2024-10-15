@@ -16,9 +16,9 @@
     .line {
         width: 0;
     }
-    .appliance-card > h3 {
+    /* .appliance-card > h3 {
         font-size: 12px !important; 
-    }
+    } */
 }
 
 .line-left {
@@ -30,7 +30,7 @@
 }
 
 .line-2-3 {
-    left: 66.66%;
+    left: 66.67%;
 }
 
 .line-right {
@@ -359,12 +359,29 @@
     text-decoration: underline;
     text-decoration-color: #005399;
     text-underline-offset: 5px;
+    position: relative;
 }
+
+.underline-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 1px;
+    background-color: #005399;
+    transition: width 0.5s ease;
+  }
+  
+  .underline-link:hover::after {
+    width: 100%;
+  }
 
 .underline-link:hover {
     color: black;
-    text-decoration-color: #005399;
-    text-underline-offset: 5px;
+    text-decoration: none;
+    /* text-decoration-color: #005399;
+    text-underline-offset: 5px; */
 }
 
 /* .product-margin {
