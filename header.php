@@ -169,7 +169,7 @@
                             <li><a href="company/about.php">About</a></li>
                             <li><a href="company/history.php">History</a></li>
                             <li><a href="company/awards.php">Awards</a></li>
-                            <li><a href="#">Become a Customer</a></li>
+                            <li><a href="company/become-a-customer.php">Become a Customer</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4 d-flex align-items-center">

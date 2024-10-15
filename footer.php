@@ -113,7 +113,7 @@
                 </div>
             </div>
 
-            <hr style="background-color: #eee; margin:0;">
+            <hr class="m-0" style="background-color: #eee;">
 
             <div class="container">
                 <div class="footer section-padding pl-0">

@@ -689,3 +689,108 @@ hr {
 .hover-link:hover {
     color:#005399;
 }
+
+.customDiv{
+    margin: 0 0 30px;
+}
+/* p{
+    color:#000000 !important;
+    font-size:22px;
+} */
+
+/* .customDiv > p > a{
+    color:#000000 !important;
+    font-size:22px;
+} */
+.address{
+    color:#000000 !important;
+}
+.address:hover{
+    color:#005399 !important;
+    text-decoration:none;
+}
+.underline{
+    padding-top:5px;
+    text-decoration:underline;
+}
+.upparCasetextTransformed {
+    text-transform: uppercase; 
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    /* text-decoration: underline;
+    text-decoration-color: #005399; */
+}
+
+.upparCasetextTransformed::after {
+    content: ''; /* Create an empty pseudo-element */
+    display: block; /* Make it block-level */
+    height: 2px; /* Set the thickness of the underline */
+    background: #005399; /* Set underline color */
+    position: absolute; /* Position it absolutely */
+    left: 0; /* Align it to the left */
+    right: 0; /* Align it to the right */
+    bottom: -5px; /* Adjust this value to control the space */
+    transform: scaleX(0); /* Start with no underline */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.upparCasetextTransformed:hover::after {
+    transform: scaleX(1); 
+}
+
+/* Form */
+.elementor-widget-container {
+    background-color: #f9f9f9; /* Light background color */
+    margin-left: 1px;
+}
+
+.elementor-form-fields-wrapper {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap */
+}
+
+.elementor-field-group {
+    flex: 0 0 50%; /* Each field group takes 50% width (6 out of 12 columns) */
+    padding: 20px; /* Optional: padding around each field */
+}
+
+.elementor-field-group.elementor-col-100 {
+    flex: 0 0 100%; /* Textarea takes full width (12 out of 12 columns) */
+}
+
+.elementor-field-label {
+    display: block; /* Labels are block elements */
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+.elementor-field {
+    width: 100%; /* Make inputs and textarea take full width */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+.elementor-button {
+    margin-top: 10px; /* Space above the button */
+    background-color: #000000; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border for button */
+    padding: 20px 30px; /* Padding for button */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.elementor-button:hover {
+    background-color: #005399; /* Darker shade on hover */
+}
+
+.checkmark p {
+    display: flex;
+}
+
+.checkmark p::before {
+    content: '✓';
+    font-size: 20px;
+    color: #005399; 
+    margin-right: 10px;
+}
