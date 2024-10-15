@@ -80,7 +80,7 @@
         <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
-        <div class="row section-padding">
+        <div class="row section-padding-lg">
             <div class="col-sm-12 col-md-4">
                 <p>Introducing our advanced Coordinate Measuring Machine (CMM), Inspector, a state-of-the-art measuring device designed for precise dimensional inspection in manufacturing. This innovative tool features computerized movement along the X, Y, and Z axis, allowing for highly accurate measurements of both large and small inner and outer dimensions.</p>
             </div>
@@ -96,7 +96,7 @@
     <!-- Spectralight Section -->
     <div class="black-white-background">
         <div class="container">
-            <div class="row section-padding text-white">
+            <div class="row section-padding-lg text-white">
                 <div class="col-md-6">
                     <h5><span class="text-color">/ </span>Spectralight QC Light Booth</h5>
                     <h1>COLOR QUALITY CONTROL</h1>
@@ -116,7 +116,7 @@
             <div class="line line-right"></div>
             <div class="line line-1-3"></div>
             <div class="line line-2-3"></div>
-            <div class="row section-padding">
+            <div class="row section-padding-lg">
                 <div class="col-sm-12 col-md-4">
                     <p>The Spectralight QC Light Booth incorporates controlled light temperature management for optimal viewing conditions, ensuring consistency and reliability in color assessment. This controlled environment minimizes the impact of external light variables that can skew color perception, allowing for precise evaluation.</p>
                 </div>
@@ -147,7 +147,7 @@
         <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
-        <div class="row section-padding">
+        <div class="row section-padding-lg">
             <div class="col-sm-12 col-md-4">
                 <p>The CS Metal Quality Management System (OMS) is a customized software solution designed to ensure consistent quality throughout the manufacturing process. At the core of this OMS is a paperless quality record database that streamlines data management and enhances operational efficiency.</p>
             </div>

@@ -75,7 +75,7 @@
 
             <!-- Company Strength -->
             <!-- <div class="container"> -->
-            <div class="row section-padding">
+            <div class="row section-padding padding-bottom">
                 <div class="col-sm-12 col-md-4" style="margin-top: -50px;">
                     <div class="display-3">400,000</div>
                     <p>pcs/month</p>
@@ -97,7 +97,7 @@
         <div style="background-color:black;">
             <div class="container">
                 <div class="footer">
-                    <div class="row section-padding justify-content-between">
+                    <div class="row section-padding padding-top justify-content-between">
                         <div class="col-sm-12 col-md-6 pl-0 pr-0">
                             <div class="display-4">THE BEST EXPERIENCE POSSIBLE</div>
                         </div>
@@ -106,7 +106,7 @@
                         </div>
                     </div>
                     
-                    <div class="row section-padding">
+                    <div class="row section-padding padding-bottom">
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
                             <a href="" class="info-wrap location card-arrow">
                                 <h2 class="m-0">Automated tube Forming Machine</h2>
@@ -133,13 +133,13 @@
             <div class="line line-1-3"></div>
             <div class="line line-2-3"></div>
             <div class="line line-right"></div>
-            <div class="row section-padding">
+            <div class="row section-padding padding-top">
                 <div class="col-sm-12 col-md-4">
                     <div class="display-4">CORE VALUES</div>
                     <p>Our core values not only define us as a company but also reflect the essence of each individual within our organization.</p>
                 </div>
             </div>
-            <div class="row section-padding">
+            <div class="row section-padding padding-bottom">
                 <div class="col-sm-12 col-md-4">
                     <h4>Think big</h4>
                     <p>Empowering each individual with confidence.</p>
@@ -159,7 +159,7 @@
         <div class="container">
             <div class="line line-left"></div>
             <div class="line line-right"></div>
-            <div class="row section-padding d-flex justify-content-center">
+            <div class="row section-padding padding-top d-flex justify-content-center">
                 <div class="col-sm-12 col-md-8">
                     <h5><span class="text-color">/ </span>Our Clients</h5>
                     <h3 style="text-transform: uppercase;">Distinguished by enduring partnerships with leading brands, Chi Sing has become synonymous with reliability and quality. Our work with top appliance manufacturers has not only earned us a preferred supplier status but also brought forth innovative collaborations.</h3>
@@ -192,7 +192,7 @@
                 </div>
             </div>
 
-            <div class="row section-padding d-flex justify-content-around mt-md-4 pt-0">
+            <div class="row section-padding padding-bottom d-flex justify-content-around mt-md-4 pt-0">
                 <div class="col-sm-6 col-md-2 px-4 d-flex align-items-center">
                     <img src="img/Company/About/client_9.png" class="client" alt="client 9">
                 </div>
@@ -220,7 +220,7 @@
             <div class="line line-1-3"></div>
             <div class="line line-2-3"></div>
             <div class="line line-right"></div>
-            <div class="row section-padding">
+            <div class="row section-padding-lg">
                 <div class="col-sm-12 col-md-4">
                     <img src="img/Company/About/img_2.webp" alt="Founder" class="image">
                 </div>

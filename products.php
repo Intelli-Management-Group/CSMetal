@@ -114,57 +114,56 @@
         </div>
    
 
-    <!-- Featured Section -->
-    
-    <!-- <div class="section-padding"> -->
-
-        <div class="row pt-5 mb-5">
-            <div class="col-sm-12 col-md-4">
-                <div class="product-wrap">
-                    <div class="product-image-wrap">
-                        <img src="./img/Product/Main/product_4.jpg" alt="product 4" style="width: 100%;">
-                        <a class="image-arrow" href="">
+        <!-- Products Section -->
+        
+        <div class="section-padding">
+            <div class="row pt-5 mb-5">
+                <div class="col-sm-12 col-md-4">
+                    <div class="product-wrap">
+                        <div class="product-image-wrap">
+                            <img src="./img/Product/Main/product_4.jpg" alt="product 4" style="width: 100%;">
+                            <a class="image-arrow" href="">
+                                <div>→</div>
+                            </a>
+                        </div>
+                        <h5 class="mt-3">Structural Steel</h5>
+                        <p>Structural steel is a cost-effective construction material prized for its high strength-to-weight ratio, making it a vital component in buildings, roads, bridges, and various other structures.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 scroll2moveup">
+                    <div class="product-wrap">
+                        <div class="product-image-wrap">
+                            <img src="./img/Product/Main/product_5.jpg" alt="product 5" style="width: 100%;">
+                            <a class="image-arrow" href="">
+                                <div>→</div>
+                            </a>
+                        </div>
+                        <h5 class="mt-3">Titanium</h5>
+                        <p>Steel and titanium are prized in multiple industries for their durability and strength in harsh conditions. However, each material has unique properties suited to specific applications.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4" style="padding:0 45px;">
+                    <div class="customer-wrap">
+                        <div class="nut-container">
+                            <div class="nut-wrapper d-flex justify-content-center">
+                                <img src="./img/Generic/icon_customer_1.svg" alt="SVG 1">
+                            </div>
+                            <div class="nut-wrapper">
+                                <img src="./img/Generic/icon_customer_2.svg" alt="SVG 2">
+                            </div>
+                            <div class="nut-wrapper">
+                                <img src="./img/Generic/icon_customer_3.svg" alt="SVG 3">
+                            </div>
+                        </div>
+                        <a class="image-arrow" href="" style="left:45px;">
                             <div>→</div>
                         </a>
+                        <h5 class="mt-3" style="position:absolute; bottom:50px; left:60px;">BECOME A CUSTOMER</h5>
                     </div>
-                    <h5 class="mt-3">Structural Steel</h5>
-                    <p>Structural steel is a cost-effective construction material prized for its high strength-to-weight ratio, making it a vital component in buildings, roads, bridges, and various other structures.
-                    </p>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4 scroll2moveup">
-                <div class="product-wrap">
-                    <div class="product-image-wrap">
-                        <img src="./img/Product/Main/product_5.jpg" alt="product 5" style="width: 100%;">
-                        <a class="image-arrow" href="">
-                            <div>→</div>
-                        </a>
-                    </div>
-                    <h5 class="mt-3">Titanium</h5>
-                    <p>Steel and titanium are prized in multiple industries for their durability and strength in harsh conditions. However, each material has unique properties suited to specific applications.
-                    </p>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-4" style="padding:0 45px;">
-                <div class="customer-wrap">
-                    <div class="nut-container">
-                        <div class="nut-wrapper d-flex justify-content-center">
-                            <img src="./img/Generic/icon_customer_1.svg" alt="SVG 1">
-                        </div>
-                        <div class="nut-wrapper">
-                            <img src="./img/Generic/icon_customer_2.svg" alt="SVG 2">
-                        </div>
-                        <div class="nut-wrapper">
-                            <img src="./img/Generic/icon_customer_3.svg" alt="SVG 3">
-                        </div>
-                    </div>
-                    <a class="image-arrow" href="" style="left:45px;">
-                        <div>→</div>
-                    </a>
-                    <h5 class="mt-3" style="position:absolute; bottom:50px; left:60px;">BECOME A CUSTOMER</h5>
-                </div>
-            </div>
-        </div>
         </div>
     </div>
     <?php include 'footer.php'; ?>
