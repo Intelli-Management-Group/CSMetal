@@ -28,8 +28,8 @@
             <div class="line line-right"></div>
             <div class="row section-padding">
                 <div class="col-sm-8">
-                    <h5><span class="text-color">/ </span>Founded in 1995</h5>
-                    <h1 class="display-4">WE ARE BUILDING THE FUTURE OF STEEL</h1>
+                    <h5><span class="text-color">/ </span>Established in 1981</h5>
+                    <h1 class="display-4" style="text-transform: uppercase;">Crafting the Future with Precision</h1>
                 </div>
             </div>
             <div class="row">
@@ -56,15 +56,25 @@
             <!-- Intro Section -->
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4">
-                    <h4>Sustainable, visionary steel solutions that serve customers and communities, people and planet.</h4>
+                    <!-- <h4>Sustainable, visionary steel solutions that serve customers and communities, people and planet.</h4> -->
+                    <p>At CS Metal, we are driven by a passion for innovation and a commitment to delivering the
+highest quality in metal manufacturing. Over the last four decades, CS Metal has surpassed the
+boundaries, by using state-of-the-art technology to provide custom metal solutions that meet the
+specific needs of each of our clients. Our attention to detail and commitment to quality ensures
+every product received by clients meet the highest industry standards. </p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <h2>100%</h2>
-                    <p>Our products are 100% infinitely recyclable without quality degradation</p>
+                    <!-- <h2>100%</h2> -->
+                    <p>For over four decades, CS Metal has developed a global reputation for innovation, quality, and
+excellence. Our reputation has brought on countless partnerships with industry leaders including
+General Electric, LG, and Whirlpool. As we strive to surpass expectations and provide reliable,
+customized solutions to meet each client’s unique needs, CS Metal will remain committed to
+ongoing development. Our new goal is to solidify our position as the leading force in the metal
+manufacturing industry, continuously setting the standards for excellence and innovation. </p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <h2>90%</h2>
-                    <p>Steel contains up to 90% recycled steel content</p>
+                    <!-- <h2>90%</h2> -->
+                    <p>“Use the most economic process to achieve excellent product and service satisfaction”. </p>
                 </div>
             </div>
 
@@ -195,7 +205,7 @@
                                 <a class="image-arrow" href=""><div>→</div></a>
                             </div>
                             <h5 class="mt-3">Stamping Parts</h5>
-                            <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                            <p>CS Metal delivers a wide range of high-quality stamping solutions tailored to meet the needs of diverse industries. From brackets and wire mesh to panels, rings, or specialized parts like cooking drip bowls and vent trims, our precision-engineered components are built for durability and performance. We ensure consistent and reliable results for every application. </p>
                         </div>
                     </div>
 

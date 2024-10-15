@@ -65,7 +65,7 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="pl-3 pr-3">
-                       <p>Chi Sing’s industry leadership is affi rmed by a collection of awards and certifi cations. Our proactive stance on sustainability and community engagement is evident in our initiatives and partnerships, refl ecting a deep-seated commitment to social responsibility</p>
+                       <p>CS Metal’s industry leadership is affirmed by a collection of awards and certifications, highlighting our role as a trusted partner for global brands. Our proactive stance on sustainability and community engagement is evident in our initiatives and partnerships, reflecting a deepseated commitment to social responsibility. These awards and honors highlight our technical expertise but also our dedication to building a sustainable and responsible future. </p>
                     </div>
                 </div>
             </div>
