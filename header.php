@@ -220,10 +220,10 @@
                     <div class="col-md-4 d-flex align-items-center">
                         <ul class="nav-links flex-column align-items-start">
                             <li><a href="products/stamping-parts.php">Stamping Parts</a></li>
-                            <li><a href="#">Handles</a></li>
-                            <li><a href="#">Die Cast</a></li>
-                            <li><a href="#">Manifold</a></li>
-                            <li><a href="#">Advertising Fixtures & OEM Products</a></li>
+                            <li><a href="products/handles.php">Handles</a></li>
+                            <li><a href="products/die-cast.php">Die Cast</a></li>
+                            <li><a href="products/manifold.php">Manifold</a></li>
+                            <li><a href="products/advertising.php">Advertising Fixtures & OEM Products</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4 d-flex align-items-center">
