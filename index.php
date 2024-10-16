@@ -1,23 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- <meta charset="utf-8">
-        <title>CS Metal</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script src="./js/main.js"></script>
-        <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
-        <link rel="manifest" href="./img/favicon/site.webmanifest"> -->
         <?php include 'HTMLhead.php'; ?>
-        <style>
-
-        </style>
     </head>
     <body>
         <?php include 'header.php'; ?>
@@ -28,12 +12,12 @@
             <div class="line line-right"></div>
             <div class="row section-padding">
                 <div class="col-sm-8">
-                    <h5><span class="text-color">/ </span>Established in 1981</h5>
-                    <h1 class="display-4" style="text-transform: uppercase;">Crafting the Future with Precision</h1>
+                    <p><span class="text-color">/ </span>Established in 1981</p>
+                    <div class="title" style="font-size: 65px; font-weight: bold;">Crafting the Future with Precision</div>
                 </div>
             </div>
             <div class="row">
-                <a class="col-md-4 image-button" href="#" style="top:100%">
+                <a class="col-md-4 image-button" href="company/about.php" style="top:100%">
                     <div class="d-flex justify-content-between w-100">
                         <h5 class="mb-0">LEARN MORE</h5>
                         <h5 class="mb-0">→</h5>
@@ -82,24 +66,24 @@ manufacturing industry, continuously setting the standards for excellence and in
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4 pl-0">
                     <div class="grey-widget-wrap">
-                        <h5><span class="text-color">/ </span>Become a customer</h5>
+                        <p><span class="text-color">/ </span>Become a customer</p>
                         <h3 class="mt-5 mb-5">CHOOSE CS FOR FAST, HIGH-QUALITY CUSTOM PARTS</h3>
-                        <div class="arrow">→</div>
+                        <a class="arrow" href="company/become-a-customer.php">→</a>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4 pl-0">
                     <div class="grey-widget-wrap">
-                        <h5><span class="text-color">/ </span>Machine</h5>
+                        <p><span class="text-color">/ </span>Machine</p>
                         <h3 class="mt-5 mb-5">Automated Tube </br> Forming Machine</h3>
-                        <div class="arrow">→</div>
+                        <a class="arrow" href="">→</a>
                         <img src="./img/Home/img_1.png" alt="machine" class="machine-widget">
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4 pl-0">
                     <div class="grey-widget-wrap">
-                        <h5><span class="text-color">/ </span>Technology</h5>
+                        <p><span class="text-color">/ </span>Technology</p>
                         <h3 class="mt-5 mb-5">GOM Scan</h3>
-                        <div class="arrow">→</div>
+                        <a class="arrow" href="solutions/inspection.php">→</a>
                     </div>
                 </div>
             </div>
@@ -107,7 +91,7 @@ manufacturing industry, continuously setting the standards for excellence and in
             <!-- Solutions Section -->
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4">
-                    <h2>A GREENER </br> STEEL PROVIDER</h2>
+                    <h1>A GREENER </br> STEEL PROVIDER</h1>
                 </div>
                 <div class="col-sm-12 col-md-4"></div>
                 <div class="col-sm-12 col-md-4">
@@ -118,37 +102,16 @@ manufacturing industry, continuously setting the standards for excellence and in
             <!-- banner -->
             <div class="image-container">
                 <img src="./img/Home/banner_1.jpg" alt="Home Banner" class="banner-container">
-                <div class="col-md-4 image-button">
+                <a class="col-md-4 image-button" href="contact.php">
                     <div class="d-flex justify-content-between w-100">
                         <h5 class="mb-0">CONTACT US</h5>
                         <h5 class="mb-0">→</h5>
                     </div>
-                </div>
+                </a>
                 <div class="col-md-4 solutions">
-                    <h5 class="mb-0"><span class="text-color">/ </span>Solutions</h5>
+                    <p class="mb-0"><span class="text-color">/ </span>Solutions</p>
                 </div>
             </div>
-
-            <!-- Solutions -->
-            <!-- <div class="row section-padding" style="padding-top:10px;">
-                <div class="col-sm-12 col-md-4">
-                    <a href="" class="solution-link">APPLIANCES</a>
-                    <a href="" class="solution-link">AUTOMOTIVE</a>
-                    <a href="" class="solution-link">CONSTRUCTION</a>
-                    <a href="" class="solution-link">ELECTRICAL</a>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <a href="" class="solution-link">ENERGY</a>
-                    <a href="" class="solution-link">EUROPE</a>
-                    <a href="" class="solution-link">INDUSTRIAL</a>
-                    <a href="" class="solution-link">MINING</a>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <a href="" class="solution-link">PACKAGING</a>
-                    <a href="" class="solution-link">SERVICE CENTERS</a>
-                    <a href="" class="solution-link">SUSTAINABLLE STEEL</a>
-                </div>
-            </div> -->
 
             <div class="row section-padding">
                 <div class="row pt-3">
@@ -156,9 +119,9 @@ manufacturing industry, continuously setting the standards for excellence and in
                         <div class="product-wrap">
                             <div class="product-image-wrap">
                                 <img src="./img/Solution/img_inspection.jpg" alt="product 1" style="width: 100%;">
-                                <a class="image-arrow" href=""><div>→</div></a>
+                                <a class="image-arrow" href="solutions/inspection.php"><div>→</div></a>
                             </div>
-                            <h5 class="mt-3">Inspection</h5>
+                            <h3 class="mt-3">Inspection</h3>
                             <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
                         </div>
                     </div>
@@ -169,7 +132,7 @@ manufacturing industry, continuously setting the standards for excellence and in
                                 <img src="./img/Solution/img_machines.jpg" alt="product 2" style="width: 100%;">
                                 <a class="image-arrow" href=""><div>→</div></a>
                             </div>
-                            <h5 class="mt-3">Machines</h5>
+                            <h3 class="mt-3">Machines</h3>
                             <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
                         </div>
                     </div>
@@ -180,7 +143,7 @@ manufacturing industry, continuously setting the standards for excellence and in
                                 <img src="./img/Solution/img_testing.jpg" alt="product 3" style="width: 100%;">
                                 <a class="image-arrow" href=""><div>→</div></a>
                             </div>
-                            <h5 class="mt-3">Testing</h5>
+                            <h3 class="mt-3">Testing</h3>
                             <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
                         </div>
                     </div>
@@ -189,10 +152,10 @@ manufacturing industry, continuously setting the standards for excellence and in
 
             <!-- Products Section -->
             <div class="section-padding padding-bottom">
-                <h5><span class="text-color">/ </span>Products</h5>
+                <p><span class="text-color">/ </span>Products</p>
                 <div class="row pt-3">
                     <div class="col-sm-12 col-md-4">
-                        <h1>SUSTANINABLE STEEL FOR A STRONGER TOMMORROW</h1>
+                        <div class="title">SUSTANINABLE STEEL FOR A STRONGER TOMMORROW</div>
                     </div>
                 </div>
 
@@ -202,9 +165,9 @@ manufacturing industry, continuously setting the standards for excellence and in
                         <div class="product-wrap">
                             <div class="product-image-wrap">
                                 <img src="img/Home/product_1.jpg" alt="product 1" style="width: 100%;">
-                                <a class="image-arrow" href=""><div>→</div></a>
+                                <a class="image-arrow" href="products/stamping-parts.php"><div>→</div></a>
                             </div>
-                            <h5 class="mt-3">Stamping Parts</h5>
+                            <h3 class="mt-3">Stamping Parts</h3>
                             <p>CS Metal delivers a wide range of high-quality stamping solutions tailored to meet the needs of diverse industries. From brackets and wire mesh to panels, rings, or specialized parts like cooking drip bowls and vent trims, our precision-engineered components are built for durability and performance. We ensure consistent and reliable results for every application. </p>
                         </div>
                     </div>
@@ -213,9 +176,9 @@ manufacturing industry, continuously setting the standards for excellence and in
                         <div class="product-wrap">
                             <div class="product-image-wrap">
                                 <img src="img/Home/product_2.jpg" alt="product 2" style="width: 100%;">
-                                <a class="image-arrow" href=""><div>→</div></a>
+                                <a class="image-arrow" href="products/handles.php"><div>→</div></a>
                             </div>
-                            <h5 class="mt-3">Handles</h5>
+                            <h3 class="mt-3">Handles</h3>
                             <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
                         </div>
                     </div>
@@ -226,7 +189,7 @@ manufacturing industry, continuously setting the standards for excellence and in
                                 <img src="img/Home/product_3.jpg" alt="product 3" style="width: 100%;">
                                 <a class="image-arrow" href=""><div>→</div></a>
                             </div>
-                            <h5 class="mt-3">Die Cast</h5>
+                            <h3 class="mt-3">Die Cast</h3>
                             <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
                         </div>
                     </div>
@@ -240,7 +203,7 @@ manufacturing industry, continuously setting the standards for excellence and in
                                 <img src="img/Home/product_4.jpg" alt="product 4" style="width: 100%;">
                                 <a class="image-arrow" href=""><div>→</div></a>
                             </div>
-                            <h5 class="mt-3">Manifold</h5>
+                            <h3 class="mt-3">Manifold</h3>
                             <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
                         </div>
                     </div>
@@ -251,7 +214,7 @@ manufacturing industry, continuously setting the standards for excellence and in
                                 <img src="img/Home/product_5.jpg" alt="product 5" style="width: 100%;">
                                 <a class="image-arrow" href=""><div>→</div></a>
                             </div>
-                            <h5 class="mt-3">Advertising Fixture & OEM Products</h5>
+                            <h3 class="mt-3">Advertising Fixture & OEM Products</h3>
                             <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
                         </div>
                     </div>
@@ -270,7 +233,7 @@ manufacturing industry, continuously setting the standards for excellence and in
                                 </div>
                             </div>
                             <h5 class="mt-3" style="position:absolute; bottom:50px; left:60px;">BECOME A CUSTOMER</h5>
-                            <a class="image-arrow" href="" style="left:45px;"><div>→</div></a>
+                            <a class="image-arrow" href="company/become-a-customer.php" style="left:45px;"><div>→</div></a>
                         </div>
                     </div>
                 </div>
@@ -289,9 +252,9 @@ manufacturing industry, continuously setting the standards for excellence and in
                 </div>
                 <div class="col-sm-12 col-md-6 d-flex align-items-center">
                     <div>
-                        <h5><span class="text-color">/ </span>Become a customer</h5>
-                        <h3 class="mt-5 mb-5">CHOOSE CS FOR FAST, HIGH-QUALITY CUSTOM PARTS</h3>
-                        <a href="" class="underline-link">LET'S TALK →</a>
+                        <p><span class="text-color">/ </span>Become a customer</p>
+                        <div class="title mt-5 mb-5">CHOOSE CS FOR FAST, HIGH-QUALITY CUSTOM PARTS</div>
+                        <a href="company/become-a-customer.php" class="underline-link">LET'S TALK →</a>
                     </div>
                 </div>
             </div>

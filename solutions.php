@@ -1,20 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- <meta charset="utf-8">
-        <title>CS Metal</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script src="./js/main.js"></script> -->
         <?php include 'HTMLhead.php'; ?>
-        <style>
-
-        </style>
-
     </head>
     <body>
         <?php include 'header.php'; ?>
@@ -26,12 +13,12 @@
             <div class="line line-right"></div>
             <div class="row section-padding">
                 <div class="col-sm-8">
-                    <h5><span class="text-color">/ </span>Solutions</h5>
-                    <div class="display-4">Tailored Steel Solutions</div>
+                    <p><span class="text-color">/ </span>Solutions</p>
+                    <div class="title">Tailored Steel Solutions</div>
                 </div>
             </div>
             <div class="row">
-                <a class="col-md-4 image-button" href="#" style="top:100%">
+                <a class="col-md-4 image-button scroll2section" href="solutions.php#intro" style="top:100%">
                     <div class="d-flex justify-content-between w-100">
                         <h5 class="mb-0">FIND OUT MORE</h5>
                         <h5 class="mb-0">↘</h5>
@@ -52,7 +39,7 @@
             <div class="line line-2-3"></div>
             <div class="line line-right"></div>
 
-            <div class="row section-padding">
+            <div class="row section-padding" id="intro">
                 <div class="col-sm-12 col-md-4">
                     <h4>We supply a full range of products</h4>
                 </div>
@@ -71,7 +58,7 @@
                         <div class="product-wrap">
                             <div class="product-image-wrap">
                                 <img src="./img/Solution/img_inspection.jpg" alt="product 1" style="width: 100%;">
-                                <a class="image-arrow" href=""><div>→</div></a>
+                                <a class="image-arrow" href="solutions/inspection.php"><div>→</div></a>
                             </div>
                             <h5 class="mt-3">Inspection</h5>
                             <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
@@ -108,17 +95,17 @@
             <div class="line line-right"></div>
             <div class="row section-padding">
                 <div class="col-12 text-center p-3">
-                    <h2>QUALITY PRODUCTS START WITH QUALITY STEEL</h2>
+                    <div class="title">QUALITY PRODUCTS START WITH QUALITY STEEL</div>
                 </div>
             </div>
             <div class="image-container">
                 <img src="./img/Solution/banner_solution.jpg" alt="img" class="banner-container">
-                <div class="col-md-4 image-button">
+                <a class="col-md-4 image-button" href="products.php">
                     <div class="d-flex justify-content-between w-100">
                         <h5 class="mb-0">EXPLORE OUR PRODUCTS</h5>
                         <h5 class="mb-0">→</h5>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="padding-top"></div>
         </div>

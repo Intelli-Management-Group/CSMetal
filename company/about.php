@@ -1,19 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- <meta charset="utf-8">
-        <title>CS Metal</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script src="/js/main.js"></script> -->
-        <!-- <link rel="apple-touch-icon" sizes="180x180" href="./img/icons/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="./img/icons/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="./img/icons/favicon/favicon-16x16.png">
-        <link rel="manifest" href="./img/icons/favicon/site.webmanifest"> -->
         <?php include '../HTMLhead.php'; ?>
         <style>
 
@@ -28,12 +15,12 @@
             <div class="line line-right"></div>
             <div class="row section-padding">
                 <div class="col-sm-8">
-                    <h5><span class="text-color">/ </span>About</h5>
-                    <div class="display-4" style="text-transform: uppercase;">Crafting Excellence Through Innovation and Precision</div>
+                    <p><span class="text-color">/ </span>About</p>
+                    <div class="title">Crafting Excellence Through Innovation and Precision</div>
                 </div>
             </div>
             <div class="row">
-                <a class="col-md-4 image-button" href="#" style="top:100%">
+                <a class="col-md-4 image-button scroll2section" href="company/about.php#intro" style="top:100%">
                     <div class="d-flex justify-content-between w-100">
                         <h5 class="mb-0">FIND OUT MORE</h5>
                         <h5 class="mb-0">↘</h5>
@@ -53,7 +40,7 @@
             <div class="line line-2-3"></div>
             <div class="line line-right"></div>
             <!-- Company Profile -->
-            <div class="row section-padding pb-0">
+            <div class="row section-padding pb-0" id="intro">
                 <div class="col-sm-12 col-md-4">
                     <h4>USE THE MOST ECONOMIC PROCESS TO ACHIEVE EXCELLENT PRODUCT AND SERVICE SATISFACTION</h4>
                 </div>
@@ -64,32 +51,30 @@
                     <p>Over the past four decades, CS Metal has become a beacon of innovation and quality in metal manufacturing, serving a diverse range of industries with customized metal solutions that meet the highest standards of excellence and functionality. Our growth from a small workshop in Hong Kong to a global leader in metal fabrication is a testament to our dedication to precision, craftsmanship, and client satisfaction. </p>
                 </div>
             </div>
-            <!-- </div> -->
 
             <div class="image-container">
                 <img src="img/Company/About/img_1.png" alt="about" class="banner-container">
                 <div class="col-sm-4 solutions py-5">
-                    <h5 class="mb-0"><span class="text-color">/ </span>Experience. Transparency. Results.</h5>
+                    <p class="mb-0"><span class="text-color">/ </span>Experience. Transparency. Results.</p>
                 </div>
             </div>
 
             <!-- Company Strength -->
-            <!-- <div class="container"> -->
             <div class="row section-padding padding-bottom">
-                <div class="col-sm-12 col-md-4" style="margin-top: -50px;">
+                <div class="col-sm-12 col-md-4 scroll2movedown" style="margin-top: -100px;">
+                    <p class="text-color">HANDLE</p>
                     <div class="display-3">400,000</div>
                     <p>pcs/month</p>
-                    <p class="text-color">HANDLE</p>
                 </div>
-                <div class="col-sm-12 col-md-4" style="margin-top: 50px;">
+                <div class="col-sm-12 col-md-4 scroll2movedown" style="margin-top: 0px;">
+                    <p class="text-color">STAMPING</p>
                     <div class="display-3">1,000,000</div>
                     <p>pcs/month</p>
-                    <p class="text-color">STAMPING</p>
                 </div>
-                <div class="col-sm-12 col-md-4" style="margin-top: 150px;">
+                <div class="col-sm-12 col-md-4 scroll2movedown" style="margin-top: 100px;">
+                    <p class="text-color">1 SHIFT</p>
                     <div class="display-3">50%</div>
                     <p>utilization</p>
-                    <p class="text-color">1 SHIFT</p>
                 </div>
             </div>
         </div>
@@ -99,7 +84,7 @@
                 <div class="footer">
                     <div class="row section-padding padding-top justify-content-between">
                         <div class="col-sm-12 col-md-6 pl-0 pr-0">
-                            <div class="display-4">THE BEST EXPERIENCE POSSIBLE</div>
+                            <div class="title">THE BEST EXPERIENCE POSSIBLE</div>
                         </div>
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
                             <p>At our core, we prioritize our customers’ satisfaction, ensuring they feel valued and deeply committed to their projects. Building meaningful connections, we treat every customer like a friend, going the extra mile to ensure successful results and delivering top-quality sheet metal and fabrication solutions.</p>
@@ -109,11 +94,11 @@
                     <div class="row section-padding padding-bottom">
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
                             <a href="" class="info-wrap location card-arrow">
-                                <h2 class="m-0">Automated tube Forming Machine</h2>
+                                <h2 class="m-0">Automated Tube Forming Machine</h2>
                             </a>
                         </div>
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
-                            <a href="" class="info-wrap email card-arrow">
+                            <a href="solutions/inspection.php#gom" class="info-wrap email card-arrow">
                                 <h2 class="m-0">GOM Scan</h2>
                             </a>
                         </div>
@@ -135,7 +120,7 @@
             <div class="line line-right"></div>
             <div class="row section-padding padding-top">
                 <div class="col-sm-12 col-md-4">
-                    <div class="display-4">CORE VALUES</div>
+                    <div class="title">CORE VALUES</div>
                     <p>Our core values not only define us as a company but also reflect the essence of each individual within our organization.</p>
                 </div>
             </div>
@@ -161,7 +146,7 @@
             <div class="line line-right"></div>
             <div class="row section-padding padding-top d-flex justify-content-center">
                 <div class="col-sm-12 col-md-8">
-                    <h5><span class="text-color">/ </span>Our Clients</h5>
+                    <p><span class="text-color">/ </span>Our Clients</p>
                     <h3 style="text-transform: uppercase;">Distinguished by enduring partnerships with leading brands, Chi Sing has become synonymous with reliability and quality. Our work with top appliance manufacturers has not only earned us a preferred supplier status but also brought forth innovative collaborations.</h3>
                 </div>
             </div>

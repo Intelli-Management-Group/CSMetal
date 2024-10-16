@@ -11,8 +11,8 @@
             <div class="line line-right"></div>
             <div class="row section-padding pb-3">
                 <div class="col-sm-5">
-                    <h5><span class="text-color">/ </span>Become a Customer</h5>
-                    <h1 class="display-4">Let’s talk</h1>
+                    <p><span class="text-color">/ </span>Become a Customer</p>
+                    <div class="title">Let’s talk</div>
                     <p>Thank you for your interest in Fabrik. We’re excited to understand your needs and offer a solution that exceeds expectations.</p>
                     <h4 class="pt-5">OUR FOCUS IS THE CUSTOMER SUCCESS</h4>
                 </div>

@@ -108,7 +108,7 @@
                         <h5><span class="text-color">/ </span>Become a customer</h5>
                         <h3 class="mt-4 mb-4">LEADING THE WAY TO THE FUTURE</h3>
                         <p>Fabrik blends steel technology leadership with outstanding problem-solving capabilities to support customers and suppliers in shaping the future of automotive transportation.</p>
-                        <a href="" class="underline-link">LET'S TALK →</a>
+                        <a href="company/become-a-customer.php" class="underline-link">LET'S TALK →</a>
                     </div>
                 </div>
             </div>

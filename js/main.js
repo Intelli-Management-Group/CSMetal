@@ -48,3 +48,8 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+document.querySelector(".scroll2section").addEventListener("click", function(event) {
+    event.preventDefault();
+    document.getElementById("intro").scrollIntoView({ behavior: "smooth" });
+});

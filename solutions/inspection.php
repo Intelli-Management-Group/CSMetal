@@ -15,8 +15,8 @@
         <div class="line line-right"></div>
         <div class="row section-padding">
             <div class="col-sm-8">
-                <h5><span class="text-color">/ </span>Solutions</h5>
-                <h1 class="display-4">Inspection</h1>
+                <p><span class="text-color">/ </span>Solutions</p>
+                <div class="title">Inspection</div>
             </div>
         </div>
         <div class="row mx-0" style="background-color: #eee; position:relative">
@@ -30,7 +30,7 @@
     </div>
 
     <!-- GOM Scan Section -->
-    <div class="container border-bottom">
+    <div class="container border-bottom" id="gom">
         <div class="line line-left"></div>
         <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>
