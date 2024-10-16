@@ -187,7 +187,7 @@ manufacturing industry, continuously setting the standards for excellence and in
                         <div class="product-wrap">
                             <div class="product-image-wrap">
                                 <img src="img/Home/product_3.jpg" alt="product 3" style="width: 100%;">
-                                <a class="image-arrow" href=""><div>→</div></a>
+                                <a class="image-arrow" href="products/die-cast.php"><div>→</div></a>
                             </div>
                             <h3 class="mt-3">Die Cast</h3>
                             <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
@@ -201,7 +201,7 @@ manufacturing industry, continuously setting the standards for excellence and in
                         <div class="product-wrap">
                             <div class="product-image-wrap">
                                 <img src="img/Home/product_4.jpg" alt="product 4" style="width: 100%;">
-                                <a class="image-arrow" href=""><div>→</div></a>
+                                <a class="image-arrow" href="products/manifold.php"><div>→</div></a>
                             </div>
                             <h3 class="mt-3">Manifold</h3>
                             <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
@@ -212,7 +212,7 @@ manufacturing industry, continuously setting the standards for excellence and in
                         <div class="product-wrap">
                             <div class="product-image-wrap">
                                 <img src="img/Home/product_5.jpg" alt="product 5" style="width: 100%;">
-                                <a class="image-arrow" href=""><div>→</div></a>
+                                <a class="image-arrow" href="products/advertising.php"><div>→</div></a>
                             </div>
                             <h3 class="mt-3">Advertising Fixture & OEM Products</h3>
                             <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
