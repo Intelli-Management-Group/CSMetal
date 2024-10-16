@@ -48,7 +48,7 @@
         <!-- Product Section -->
         <div class="container">
             <div class="row section-padding">
-                <div class="product-image-container col-sm-12 col-md-6 col-lg-6 p-0">
+                <div class="product-image-container col-sm-12 col-md-7 p-0">
                     <img src="img/Product/Handle/img_handle_tubular.jpg" alt="hinge" id="img1" class="active">
                     <img src="img/Product/Handle/img_handle_standoff.jpg" alt="bracket" id="img2">
                     <img src="img/Product/Handle/img_handle_color.jpg" alt="bracket" id="img3">
@@ -59,7 +59,7 @@
                     <img src="img/Product/Handle/img_handle_brush_mirror.jpg" alt="bracket" id="img8">
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center" style="background-color: #333;">
+                <div class="col-sm-12 col-md-5 d-flex align-items-center justify-content-center" style="background-color: #333;">
                     <div class="text-white w-100">
                         <div style="padding: 10%">
                             <div class="row">
