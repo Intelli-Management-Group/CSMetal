@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="row">
-                <a class="col-md-4 image-button scroll2section" href="company/about.php#intro" style="top:100%">
+                <a class="col-md-4 image-button scroll2intro" href="#intro" style="top:100%">
                     <div class="d-flex justify-content-between w-100">
                         <h5 class="mb-0">FIND OUT MORE</h5>
                         <h5 class="mb-0">↘</h5>
@@ -151,49 +151,49 @@
                 </div>
             </div>
             <div class="row section-padding pt-0 d-flex justify-content-around pb-0">
-                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                <div class="col-6 col-md-1 p-md-0 d-flex align-items-center">
                     <img src="img/Company/About/client_1.png" class="client" alt="client 1">
                 </div>
-                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                <div class="col-6 col-md-1 p-md-0 d-flex align-items-center">
                     <img src="img/Company/About/client_2.png" class="client" alt="client 2">
                 </div>
-                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                <div class="col-6 col-md-1 p-md-0 d-flex align-items-center">
                     <img src="img/Company/About/client_3.png" class="client" alt="client 3">
                 </div>
-                <div class="col-sm-6 col-md-1 p-md-2 d-flex align-items-center">
+                <div class="col-6 col-md-1 p-md-2 d-flex align-items-center">
                     <img src="img/Company/About/client_4.png" class="client" alt="client 4">
                 </div>
-                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                <div class="col-6 col-md-1 p-md-0 d-flex align-items-center">
                     <img src="img/Company/About/client_5.png" class="client" alt="client 5">
                 </div>
-                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                <div class="col-6 col-md-1 p-md-0 d-flex align-items-center">
                     <img src="img/Company/About/client_6.png" class="client" alt="client 6">
                 </div>
-                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                <div class="col-6 col-md-1 p-md-0 d-flex align-items-center">
                     <img src="img/Company/About/client_7.png" class="client" alt="client 7">
                 </div>
-                <div class="col-sm-6 col-md-1 p-md-0 d-flex align-items-center">
+                <div class="col-6 col-md-1 p-md-0 d-flex align-items-center">
                     <img src="img/Company/About/client_8.png" class="client" alt="client 8">
                 </div>
             </div>
 
             <div class="row section-padding padding-bottom d-flex justify-content-around mt-md-4 pt-0">
-                <div class="col-sm-6 col-md-2 px-4 d-flex align-items-center">
+                <div class="col-6 col-md-2 px-4 d-flex align-items-center">
                     <img src="img/Company/About/client_9.png" class="client" alt="client 9">
                 </div>
-                <div class="col-sm-6 col-md-2 px-4 d-flex align-items-center">
+                <div class="col-6 col-md-2 px-4 d-flex align-items-center">
                     <img src="img/Company/About/client_10.png" class="client" alt="client 10">
                 </div>
-                <div class="col-sm-6 col-md-2 px-4 d-flex align-items-center">
+                <div class="col-6 col-md-2 px-4 d-flex align-items-center">
                     <img src="img/Company/About/client_11.png" class="client" alt="client 11">
                 </div>
-                <div class="col-sm-6 col-md-2 px-4 d-flex align-items-center">
+                <div class="col-6 col-md-2 px-4 d-flex align-items-center">
                     <img src="img/Company/About/client_12.png" class="client" alt="client 12">
                 </div>
-                <div class="col-sm-6 col-md-2 px-4 d-flex align-items-center">
+                <div class="col-6 col-md-2 px-4 d-flex align-items-center">
                     <img src="img/Company/About/client_13.png" class="client" alt="client 13">
                 </div>
-                <div class="col-sm-6 col-md-2 px-4 d-flex align-items-center">
+                <div class="col-6 col-md-2 px-4 d-flex align-items-center">
                     <img src="img/Company/About/client_14.png" class="client" alt="client 14">
                 </div>
             </div>

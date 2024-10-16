@@ -15,7 +15,7 @@
         <div class="line line-right"></div>
         <div class="row section-padding">
             <div class="col-sm-8">
-                <p><span class="text-color">/ </span>Stamping Parts</p>
+                <p><span class="text-color">/ </span>Die Cast</p>
                 <div class="title">Diverse talent enables smarter steels</div>
             </div>
         </div>
@@ -31,7 +31,7 @@
 
     <!-- banner -->
     <div class="image-container" style="z-index: -1;">
-        <img src="img/Product/Stamping/banner_product_stamping.jpg" alt="Home Banner" class="banner-container">
+        <img src="img/Product/Diecast/banner_product_diecast.jpg" alt="Home Banner" class="banner-container">
     </div>
 
     <div class="container">
@@ -48,19 +48,22 @@
         <!-- Product Section -->
         <div class="container">
             <div class="row section-padding">
-                <div class="product-image-container col-sm-12 col-md-6 col-lg-6 p-0">
-                    <img src="img/Product/Stamping/img_hinge.jpg" alt="hinge" id="img1" class="active">
-                    <img src="img/Product/Stamping/img_bracket.jpg" alt="bracket" id="img2">
-                    <img src="img/Product/Stamping/img_wire_mesh.jpg" alt="bracket" id="img3">
-                    <img src="img/Product/Stamping/img_hood_fan.jpg" alt="bracket" id="img4">
-                    <img src="img/Product/Stamping/img_stamping.jpg" alt="bracket" id="img5">
-                    <img src="img/Product/Stamping/img_aluminum.jpg" alt="bracket" id="img6">
-                    <img src="img/Product/Stamping/img_chassis.jpg" alt="bracket" id="img7">
-                    <img src="img/Product/Stamping/img_panels.jpg" alt="bracket" id="img8">
-                    <img src="img/Product/Stamping/img_rings.jpg" alt="bracket" id="img9">
-                    <img src="img/Product/Stamping/img_cooktop.jpg" alt="bracket" id="img10">
-                    <img src="img/Product/Stamping/img_drip_bowl.jpg" alt="bracket" id="img11">
-                    <img src="img/Product/Stamping/img_vent.jpg" alt="bracket" id="img12">
+                <div class="product-image-container die-cast-image-container col-sm-12 col-md-6 col-lg-6 p-0">
+                    <img src="img/Product/Diecast/img_diecast_1.jpg" alt="hinge" id="img1" class="active">
+                    <img src="img/Product/Diecast/img_diecast_2.jpg" alt="bracket" id="img2">
+                    <img src="img/Product/Diecast/img_diecast_3.jpg" alt="bracket" id="img3">
+                    <img src="img/Product/Diecast/img_diecast_4.jpg" alt="bracket" id="img4">
+                    <img src="img/Product/Diecast/img_diecast_5.jpg" alt="bracket" id="img5">
+                    <img src="img/Product/Diecast/img_diecast_6.jpg" alt="bracket" id="img6">
+                    <img src="img/Product/Diecast/img_diecast_7.jpg" alt="bracket" id="img7">
+                    <img src="img/Product/Diecast/img_diecast_8.jpg" alt="bracket" id="img8">
+                    <img src="img/Product/Diecast/img_diecast_9.jpg" alt="bracket" id="img9">
+                    <img src="img/Product/Diecast/img_diecast_10.jpg" alt="bracket" id="img10">
+                    <img src="img/Product/Diecast/img_diecast_11.jpg" alt="bracket" id="img11">
+                    <img src="img/Product/Diecast/img_diecast_12.jpg" alt="bracket" id="img12">
+                    <img src="img/Product/Diecast/img_diecast_13.jpg" alt="bracket" id="img13">
+                    <img src="img/Product/Diecast/img_diecast_14.jpg" alt="bracket" id="img14">
+                    <img src="img/Product/Diecast/img_diecast_15.jpg" alt="bracket" id="img15">
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center" style="background-color: #333;">
@@ -68,26 +71,29 @@
                         <div style="padding: 10%;">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <h1>STAMPING PARTS</h1>
+                                    <h1>DIE CAST</h1>
                                 </div>
                             </div>
                             
                             <div class="row">
                                 <div class="col-6">
-                                    <div class="hover-link" data-target="img1">Hinges</div>
-                                    <div class="hover-link" data-target="img2">Brackets</div>
-                                    <div class="hover-link" data-target="img3">Wire Mesh</div>
-                                    <div class="hover-link" data-target="img4">Hood Fan Accessory</div>
-                                    <div class="hover-link" data-target="img5">Stamping Parts</div>
-                                    <div class="hover-link" data-target="img6">Aluminnum Stamping Parts</div>
+                                    <div class="hover-link" data-target="img1">FOOT PEGS</div>
+                                    <div class="hover-link" data-target="img2">TWIZZER</div>
+                                    <div class="hover-link" data-target="img3">Die Cast 3</div>
+                                    <div class="hover-link" data-target="img4">Die Cast 4</div>
+                                    <div class="hover-link" data-target="img5">Die Cast 5</div>
+                                    <div class="hover-link" data-target="img6">Die Cast 6</div>
+                                    <div class="hover-link" data-target="img7">Die Cast 7</div>
+                                    <div class="hover-link" data-target="img8">Die Cast 8</div>
                                 </div>
                                 <div class="col-6">
-                                    <div class="hover-link" data-target="img7">Chassis Stamping</div>
-                                    <div class="hover-link" data-target="img8">Stamping Panels</div>
-                                    <div class="hover-link" data-target="img9">Rings</div>
-                                    <div class="hover-link" data-target="img10">Stamping Cooktop</div>
-                                    <div class="hover-link" data-target="img11">Stamping Bowl</div>
-                                    <div class="hover-link" data-target="img12">Stamping Vent Trim</div>
+                                    <div class="hover-link" data-target="img9">Die Cast 9</div>
+                                    <div class="hover-link" data-target="img10">Die Cast 10</div>
+                                    <div class="hover-link" data-target="img11">Die Cast 11</div>
+                                    <div class="hover-link" data-target="img12">Die Cast 12</div>
+                                    <div class="hover-link" data-target="img13">Die Cast 13</div>
+                                    <div class="hover-link" data-target="img14">Die Cast 14</div>
+                                    <div class="hover-link" data-target="img15">Die Cast 15</div>
                                 </div>
                             </div>
                         </div>

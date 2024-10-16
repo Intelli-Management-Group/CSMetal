@@ -5,7 +5,7 @@
 }
 
 body p {
-    /* font-size: 16px; */
+    font-size: 16px;
     font-weight: 300 !important;
 }
 
@@ -526,11 +526,11 @@ body p {
     }
 }
 
-@media only screen and (max-width: 575px) {
+/* @media only screen and (max-width: 575px) {
     .client {
         padding: 50px 150px;
     }
-}
+} */
 
 .history-container {
     padding: 0 55px 0 150px !important;
@@ -678,6 +678,10 @@ hr {
     overflow: hidden;
 }
 
+.die-cast-image-container {
+    aspect-ratio: 738 / 670;
+}
+
 .product-image-container img {
     position: absolute;
     top: 0;
@@ -695,6 +699,7 @@ hr {
 
 .hover-link {
     cursor: pointer;
+    padding: 15px 0;
 }
 
 .hover-link:hover {

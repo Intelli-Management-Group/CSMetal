@@ -37,10 +37,10 @@
         <div class="line line-right"></div>
 
         <div class="section-padding">
-            <h5><span class="text-color">/ </span>GOM SCAN</h5>
+            <p><span class="text-color">/ </span>GOM SCAN</p>
             <div class="row">
                 <div class="col-sm-12 col-md-4">
-                    <h1>3D SCANNING TECHNOLOGY</h1>
+                    <div class="title">3D SCANNING TECHNOLOGY</div>
                 </div>
             </div>
             <div class="row pt-5">
@@ -68,7 +68,7 @@
         <div class="line line-left"></div>
         <div class="line line-right"></div>
         <div class="text-center">
-            <h1 class="m-0 section-padding">PRECISE DIMENSIONAL MEASUREMENT</h1>
+            <div class="title section-padding">PRECISE DIMENSIONAL MEASUREMENT</div>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?mute=1"></iframe>
             </div>
@@ -98,8 +98,8 @@
         <div class="container">
             <div class="row section-padding-lg text-white">
                 <div class="col-md-6">
-                    <h5><span class="text-color">/ </span>Spectralight QC Light Booth</h5>
-                    <h1>COLOR QUALITY CONTROL</h1>
+                    <p><span class="text-color">/ </span>Spectralight QC Light Booth</p>
+                    <div class="title">COLOR QUALITY CONTROL</div>
                 </div>
                 <div class="col-md-6 ">
                     <p>Introducing the Spectralight QC Light Booth, a state-of-the-art quality control solution designed to ensure accurate color judgment in aesthetic components. A key feature of this booth is its use of controlled light temperature along with standardized light sources, including D65, CWF, and A light tealleratures, which are essential for simulating natural daylight and various artificial lighting conditions.</p>
@@ -135,7 +135,7 @@
         <div class="line line-left"></div>
         <div class="line line-right"></div>
         <div class="text-center">
-            <h1 class="m-0 section-padding">HIGH STANDARDS OF QUALITY & ACCOUNTABILITY</h1>
+            <div class="title section-padding">HIGH STANDARDS OF QUALITY & ACCOUNTABILITY</div>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?mute=1"></iframe>
             </div>

@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="row">
-                <a class="col-md-4 image-button scroll2section" href="company/awards.php#intro" style="top:100%">
+                <a class="col-md-4 image-button scroll2intro" href="#intro" style="top:100%">
                     <div class="d-flex justify-content-between w-100">
                         <h5 class="mb-0">FIND OUT MORE</h5>
                         <h5 class="mb-0">↘</h5>
