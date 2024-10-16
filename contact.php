@@ -23,8 +23,8 @@
             <div class="line line-right"></div>
             <div class="row section-padding">
                 <div class="col-sm-8">
-                    <h5><span class="text-color">/ </span>Contact Us</h5>
-                    <h1 class="display-4">Ready to Meet Your Steel Partner?</h1>
+                    <p><span class="text-color">/ </span>Contact Us</p>
+                    <div class="title">Ready to Meet Your Steel Partner?</div>
                 </div>
             </div>
             <div class="row">
@@ -52,7 +52,7 @@
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4 ">
                     <div class="pl-3 pr-3">
-                        <h4 class="mb-4">Headquarter info</h4>
+                        <h3 class="mb-4">Headquarter info</h3>
                         <div class="customDiv">
                             <p>
                                 <a class="address" href="#" target="_blank" rel="noopener">41088 Chagrin Boulevard #120 Cleveland, OH 44124</a>
@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="pl-3 pr-3">
-                        <h4 class="mb-4">Factory info</h4>
+                        <h3 class="mb-4">Factory info</h3>
                         <div class="customDiv">
                             <p class="mb-1">
                                 <a class="address" href="#" target="_blank" rel="noopener">+1 220 848 8666</a>
@@ -93,7 +93,7 @@
                 </div>
                 <!-- <div class="col-sm-12 col-md-4">
                     <div class="pl-3 pr-3">
-                        <h4 class="mb-4">SUPPLIER INQUIRIES</h4>
+                        <h3 class="mb-4">SUPPLIER INQUIRIES</h3>
                         <div class="customDiv">
                             <p class="mb-1">
                                 <a class="address" href="#" target="_blank" rel="noopener">+1 440 848 8222</a>
@@ -120,7 +120,7 @@
             
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4">
-                    <div class="display-4 upparCasetextTransform">We want to hear from you</div>                
+                    <div class="title upparCasetextTransform">We want to hear from you</div>                
                 </div>
             </div>
 

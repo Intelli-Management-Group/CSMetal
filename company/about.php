@@ -126,14 +126,17 @@
             </div>
             <div class="row section-padding padding-bottom">
                 <div class="col-sm-12 col-md-4">
+                    <i class="fa-regular fa-lightbulb fa-icon"></i>
                     <h3>Think big</h3>
                     <p>Empowering each individual with confidence.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
+                    <i class="fa-solid fa-rotate fa-icon"></i>
                     <h3>Never settle</h3>
                     <p>Constantly innovating, improving and asking the right questions.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
+                    <i class="fa-regular fa-handshake fa-icon"></i>
                     <h3>Be collaborative</h3>
                     <p>We do our best when we do it together, with respect and humility.</p>
                 </div>

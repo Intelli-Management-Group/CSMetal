@@ -1,19 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- <meta charset="utf-8">
-        <title>CS Metal</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
-        <link rel="manifest" href="./img/favicon/site.webmanifest"> -->
         <?php include 'HTMLhead.php'; ?>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <style>
             .header {
                 display: flex;
@@ -131,17 +120,26 @@
                 justify-content: center;
                 align-items: center;
             }
+
+            .desktop-nav {
+                display: none;
+            }
+
+            @media screen and (min-width: 1070px) {
+                .desktop-nav {
+                    display: block;
+                }
+            }
         </style>
     </head>
     <body>
         <!-- nav bar -->
         <div class="border-bottom">
-            <!-- <div class="container"> -->
             <div class="header" id="nav">
                 <a href="./index.php" class="logo">
                     <img src="img/Generic/logo.png" alt="Logo">
                 </a>
-                <nav style="position: absolute; left: 50%; transform: translateX(-50%);">
+                <nav class="desktop-nav" style="position: absolute; left: 50%; transform: translateX(-50%);">
                 <!-- center align the nav -->
                     <ul class="nav-links" style="height: 100px;">
                         <li><a href="./index.php" class="active">HOME</a></li>
@@ -153,7 +151,6 @@
                     </ul>
                 </nav>
             </div>
-            <!-- </div> -->
         </div>
 
         <!-- Company -->

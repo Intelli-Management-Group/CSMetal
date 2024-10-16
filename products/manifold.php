@@ -48,16 +48,16 @@
         <!-- Product Section -->
         <div class="container">
             <div class="row section-padding">
-                <div class="product-image-container manifold-image-container col-sm-12 col-md-12 col-lg-8 p-0">
+                <div class="product-image-container manifold-image-container col-sm-12 col-md-12 col-lg-12 p-0">
                     <img src="img/Product/Manifold/img_manifold_1.jpg" alt="manifold_1" id="img1" class="active">
                     <img src="img/Product/Manifold/img_manifold_2.jpg" alt="manifold_2" id="img2">
                     <img src="img/Product/Manifold/img_manifold_3.jpg" alt="manifold_3" id="img3">
                     <img src="img/Product/Manifold/img_manifold_4.jpg" alt="manifold_4" id="img4">
                 </div>
 
-                <div class="col-sm-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center" style="background-color: #333;">
+                <div class="col-sm-12 col-md-12 col-lg-12 d-flex align-items-center justify-content-center" style="background-color: #333;">
                     <div class="text-white w-100">
-                        <div style="padding: 10%">
+                        <div style="padding: 4%">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="title">MANIFOLD</div>
@@ -65,9 +65,11 @@
                             </div>
                             
                             <div class="row">
-                                <div class="col-12">
+                                <div class="col-6">
                                     <div class="hover-link" data-target="img1">MANIFOLD 1</div>
                                     <div class="hover-link" data-target="img2">MANIFOLD 2</div>
+                                </div>
+                                <div class="col-6">
                                     <div class="hover-link" data-target="img3">MANIFOLD 3</div>
                                     <div class="hover-link" data-target="img4">MANIFOLD 4</div>
                                 </div>

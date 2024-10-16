@@ -19,7 +19,7 @@
                 <div class="title">Inspection</div>
             </div>
         </div>
-        <div class="row mx-0" style="background-color: #eee; position:relative">
+        <div class="row mx-0 intro-container">
             <div class="col-md-8">
                 <h3 class="solution-banner-padding">Fabrik is crucial in the USA’s emergence as a favored global auto manufacturing destination. We focus on lightweight, cost-effective, and fuel-efficient vehicle solutions, collaborating closely with the automotive sector from concept to commercialization. Our experience, expertise, and innovation consistently exceed our clients' high QCD (Quality, Cost, and Delivery) expectations.</h3>
             </div>
@@ -53,11 +53,11 @@
                 </div>
 
                 <div class="col-sm-12 col-md-4 solution-image-1">
-                    <img src="img/SolutionInspection/solution2.webp" alt="product 1" class="image scroll2movedown">
+                    <img src="img/SolutionInspection/solution2.webp" alt="product 1" class="image scroll2movedown solutions-img1-margin">
                 </div>
 
                 <div class="col-sm-12 col-md-4 solution-image-2">
-                    <img src="img/SolutionInspection/solution3.webp" alt="product 2" class="image scroll2moveup">
+                    <img src="img/SolutionInspection/solution3.webp" alt="product 2" class="image scroll2moveup solutions-img2-margin">
                 </div>
             </div>
         </div>
