@@ -83,7 +83,7 @@ manufacturing industry, continuously setting the standards for excellence and in
                     <div class="grey-widget-wrap">
                         <p><span class="text-color">/ </span>Technology</p>
                         <h3 class="mt-5 mb-5">GOM Scan</h3>
-                        <a class="arrow" href="solutions/inspection.php">→</a>
+                        <a class="arrow" href="solutions/inspection.php#gom">→</a>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@ manufacturing industry, continuously setting the standards for excellence and in
             <!-- Solutions Section -->
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4">
-                    <h1>A GREENER </br> STEEL PROVIDER</h1>
+                    <div class="title">A GREENER </br> STEEL PROVIDER</div>
                 </div>
                 <div class="col-sm-12 col-md-4"></div>
                 <div class="col-sm-12 col-md-4">
@@ -232,7 +232,7 @@ manufacturing industry, continuously setting the standards for excellence and in
                                     <img src="./img/Generic/icon_customer_3.svg" alt="SVG 3">
                                 </div>
                             </div>
-                            <h5 class="mt-3" style="position:absolute; bottom:50px; left:60px;">BECOME A CUSTOMER</h5>
+                            <h3 class="mt-3" style="position:absolute; bottom:50px; left:60px; padding-right: 60px;">BECOME A CUSTOMER</h3>
                             <a class="image-arrow" href="company/become-a-customer.php" style="left:45px;"><div>→</div></a>
                         </div>
                     </div>

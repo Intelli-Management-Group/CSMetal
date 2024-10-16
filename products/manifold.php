@@ -48,19 +48,19 @@
         <!-- Product Section -->
         <div class="container">
             <div class="row section-padding">
-                <div class="product-image-container manifold-image-container col-sm-12 col-md-9 col-lg-9 p-0">
+                <div class="product-image-container manifold-image-container col-sm-12 col-md-12 col-lg-8 p-0">
                     <img src="img/Product/Manifold/img_manifold_1.jpg" alt="manifold_1" id="img1" class="active">
                     <img src="img/Product/Manifold/img_manifold_2.jpg" alt="manifold_2" id="img2">
                     <img src="img/Product/Manifold/img_manifold_3.jpg" alt="manifold_3" id="img3">
                     <img src="img/Product/Manifold/img_manifold_4.jpg" alt="manifold_4" id="img4">
                 </div>
 
-                <div class="col-sm-12 col-md-3 col-lg-3 d-flex align-items-center justify-content-center" style="background-color: #333;">
+                <div class="col-sm-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center" style="background-color: #333;">
                     <div class="text-white w-100">
                         <div style="padding: 10%">
                             <div class="row">
                                 <div class="col-12">
-                                    <h1>MANIFOLD</h1>
+                                    <div class="title">MANIFOLD</div>
                                 </div>
                             </div>
                             

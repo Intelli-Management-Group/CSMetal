@@ -68,7 +68,7 @@
                         <div style="padding: 10%;">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <h1>STAMPING PARTS</h1>
+                                    <div class="title">STAMPING PARTS</div>
                                 </div>
                             </div>
                             

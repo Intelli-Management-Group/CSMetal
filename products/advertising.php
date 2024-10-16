@@ -66,7 +66,7 @@
                         <div style="padding: 10%;">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <h1>Advertising Fixtures & OEM Products</h1>
+                                    <div class="title">Advertising Fixtures & OEM Products</div>
                                 </div>
                             </div>
                             

@@ -14,7 +14,7 @@
                     <p><span class="text-color">/ </span>Become a Customer</p>
                     <div class="title">Let’s talk</div>
                     <p>Thank you for your interest in Fabrik. We’re excited to understand your needs and offer a solution that exceeds expectations.</p>
-                    <h4 class="pt-5">OUR FOCUS IS THE CUSTOMER SUCCESS</h4>
+                    <h3 class="pt-5">OUR FOCUS IS THE CUSTOMER SUCCESS</h3>
                 </div>
             </div>
 

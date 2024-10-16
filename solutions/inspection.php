@@ -21,7 +21,7 @@
         </div>
         <div class="row mx-0" style="background-color: #eee; position:relative">
             <div class="col-md-8">
-                <h4 class="solution-banner-padding">Fabrik is crucial in the USA’s emergence as a favored global auto manufacturing destination. We focus on lightweight, cost-effective, and fuel-efficient vehicle solutions, collaborating closely with the automotive sector from concept to commercialization. Our experience, expertise, and innovation consistently exceed our clients' high QCD (Quality, Cost, and Delivery) expectations.</h4>
+                <h3 class="solution-banner-padding">Fabrik is crucial in the USA’s emergence as a favored global auto manufacturing destination. We focus on lightweight, cost-effective, and fuel-efficient vehicle solutions, collaborating closely with the automotive sector from concept to commercialization. Our experience, expertise, and innovation consistently exceed our clients' high QCD (Quality, Cost, and Delivery) expectations.</h3>
             </div>
             <div class="col-md-4">
                 <img src="img/SolutionInspection/banner.webp" alt="Inspection Banner" class="image solution-banner scroll2moveup">

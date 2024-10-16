@@ -71,7 +71,7 @@
                         <div style="padding: 10%;">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <h1>DIE CAST</h1>
+                                    <div class="title">DIE CAST</div>
                                 </div>
                             </div>
                             

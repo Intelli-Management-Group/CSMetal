@@ -64,7 +64,7 @@
                         <div style="padding: 10%">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <h1>HANDLES</h1>
+                                    <div class="title">HANDLES</div>
                                 </div>
                             </div>
                             

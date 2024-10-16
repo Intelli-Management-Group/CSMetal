@@ -45,7 +45,7 @@
             <!-- Intro Section -->
             <div class="row section-padding" id="intro">
                 <div class="col-sm-12 col-md-4">
-                    <h4>Company History</h4>
+                    <h3>Company History</h3>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p>With a rich history dating back to its establishment in 1981 in Hong Kong, Chi Sing has been a beacon of innovation and quality in metal manufacturing.</p>
@@ -66,7 +66,7 @@
                 <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
                     <div class="text-left">
                         <h3 class="text-color">1981</h3>
-                        <h6>CHI SING opened in Hong Kong</h6>
+                        <p>CHI SING opened in Hong Kong</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
@@ -81,7 +81,7 @@
                 <div class="col-sm-12 col-md-6 history-container-right" data-aos="fade-up">
                     <div class="text-left">
                         <h3 class="text-color">1982</h3>
-                        <h6>COMMODORE C36 stamping parts</h6>
+                        <p>COMMODORE C36 stamping parts</p>
                     </div>
                 </div>
             </div>
@@ -90,10 +90,10 @@
                 <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
                     <div class="text-left">
                         <h3 class="text-color">1992</h3>
-                        <h6>China factory opened</h6>
+                        <p>China factory opened</p>
                         <hr>
                         <h3 class="text-color">1992-2002</h3>
-                        <h6>Begin development of bathroom handles, towel racks, etc</h6>
+                        <p>Begin development of bathroom handles, towel racks, etc</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
@@ -108,9 +108,9 @@
                 <div class="col-sm-12 col-md-6 history-container-right" data-aos="fade-up">
                     <div class="text-left">
                         <h3 class="text-color">2003</h3>
-                        <h6>Business with GENERAL ELECTRIC</h6>
+                        <p>Business with GENERAL ELECTRIC</p>
                         <hr>
-                        <h6>Electric scooter for SHARPER IMAGE</h6>
+                        <p>Electric scooter for SHARPER IMAGE</p>
                     </div>
                 </div>
             </div>
@@ -119,12 +119,12 @@
                 <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
                     <div class="text-left">
                         <h3 class="text-color">2004</h3>
-                        <h6>
+                        <p>
                             Business with </br>
                             MABE CELAYA, </br>
                             CHRISTIAN DIOR & </br>
                             JC PENNEY
-                        </h6>
+                        </p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
@@ -139,7 +139,7 @@
                 <div class="col-sm-12 col-md-6 history-container-right" data-aos="fade-up">
                     <div class="text-left">
                         <h3 class="text-color">2005</h3>
-                        <h6>Business with TOTO Japan and MIDEA</h6>
+                        <p>Business with TOTO Japan and MIDEA</p>
                     </div>
                 </div>
             </div>
@@ -148,9 +148,9 @@
                 <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
                     <div class="text-left">
                         <h3 class="text-color">2006</h3>
-                        <h6>Business with SAECO Italy to build coffee machines</h6>
+                        <p>Business with SAECO Italy to build coffee machines</p>
                         <hr>
-                        <h6>China factory rename to Williamson MFY.CO.LTD.</h6>
+                        <p>China factory rename to Williamson MFY.CO.LTD.</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
@@ -165,11 +165,11 @@
                 <div class="col-sm-12 col-md-6 history-container-right" data-aos="fade-up">
                     <div class="text-left">
                         <h3 class="text-color">2007</h3>
-                        <h6>Factory expansion from 8000 to 14000 sq. meters</h6>
+                        <p>Factory expansion from 8000 to 14000 sq. meters</p>
                         <hr>
-                        <h6>Business with LG Korea</h6>
+                        <p>Business with LG Korea</p>
                         <hr>
-                        <h6>Won LG Supplier Award</h6>
+                        <p>Won LG Supplier Award</p>
                     </div>
                 </div>
             </div>
@@ -178,7 +178,7 @@
                 <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
                     <div class="text-left">
                         <h3 class="text-color">2009</h3>
-                        <h6>Business with ELECTROLUX home products, USA</h6>
+                        <p>Business with ELECTROLUX home products, USA</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
@@ -193,7 +193,7 @@
                 <div class="col-sm-12 col-md-6 history-container-right" data-aos="fade-up">
                     <div class="text-left">
                         <h3 class="text-color">2010</h3>
-                        <h6>Business with ELECTROLUX home products, Mexico</h6>
+                        <p>Business with ELECTROLUX home products, Mexico</p>
                     </div>
                 </div>
             </div>
@@ -202,7 +202,7 @@
                 <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
                     <div class="text-left">
                         <h3 class="text-color">2011</h3>
-                        <h6>Business with WHIRPOOL</h6>
+                        <p>Business with WHIRPOOL</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
@@ -217,9 +217,9 @@
                 <div class="col-sm-12 col-md-6 history-container-right" data-aos="fade-up">
                     <div class="text-left">
                         <h3 class="text-color">2012</h3>
-                        <h6>Won GE Supplier Award</h6>
+                        <p>Won GE Supplier Award</p>
                         <hr>
-                        <h6>Won MABE Supplier Award</h6>
+                        <p>Won MABE Supplier Award</p>
                     </div>
                 </div>
             </div>
@@ -228,9 +228,9 @@
                 <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
                     <div class="text-left">
                         <h3 class="text-color">2013</h3>
-                        <h6>Distinguished Supplier Award from MABE</h6>
+                        <p>Distinguished Supplier Award from MABE</p>
                         <hr>
-                        <h6>10th Anniversary award from GENERAL ELECTRIC</h6>
+                        <p>10th Anniversary award from GENERAL ELECTRIC</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
@@ -245,7 +245,7 @@
                 <div class="col-sm-12 col-md-6 history-container-right" data-aos="fade-up">
                     <div class="text-left">
                         <h3 class="text-color">2014</h3>
-                        <h6>Business with SCHINDLER ELEVATOR</h6>
+                        <p>Business with SCHINDLER ELEVATOR</p>
                     </div>
                 </div>
             </div>
@@ -254,7 +254,7 @@
                 <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
                     <div class="text-left">
                         <h3 class="text-color">2015</h3>
-                        <h6>Business with WEBER GRILL</h6>
+                        <p>Business with WEBER GRILL</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
@@ -269,7 +269,7 @@
                 <div class="col-sm-12 col-md-6 history-container-right" data-aos="fade-up">
                     <div class="text-left">
                         <h3 class="text-color">2016</h3>
-                        <h6>Learn manufacturing seminar at Toyota factory</h6>
+                        <p>Learn manufacturing seminar at Toyota factory</p>
                     </div>
                 </div>
             </div>
@@ -278,7 +278,7 @@
                 <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
                     <div class="text-left">
                         <h3 class="text-color">2017</h3>
-                        <h6>2nd time distinguished Supplier Award from General Electric</h6>
+                        <p>2nd time distinguished Supplier Award from General Electric</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">
@@ -293,7 +293,7 @@
                 <div class="col-sm-12 col-md-6 history-container-right" data-aos="fade-up">
                     <div class="text-left">
                         <h3 class="text-color">2018</h3>
-                        <h6>New process: integrated automatic roll forming and tube cutting system, automatic stamping system</h6>
+                        <p>New process: integrated automatic roll forming and tube cutting system, automatic stamping system</p>
                     </div>
                 </div>
             </div>
@@ -302,7 +302,7 @@
                 <div class="col-sm-12 col-md-6 history-container" data-aos="fade-up">
                     <div class="text-left">
                         <h3 class="text-color">2019-2022</h3>
-                        <h6>Covid-19 did not stop us from producing. No single missing shipments</h6>
+                        <p>Covid-19 did not stop us from producing. No single missing shipments</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 history-image" data-aos="fade-up">

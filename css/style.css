@@ -1,3 +1,8 @@
+html {
+    font-size: 16px;
+}
+
+
 .title {
     font-size: 50px;
     text-transform: uppercase;
@@ -5,7 +10,12 @@
 }
 
 body p {
-    font-size: 16px;
+    font-size: 16px !important;
+    font-weight: 300 ;
+}
+
+a {
+    font-size: 16px !important;
     font-weight: 300 !important;
 }
 
@@ -21,6 +31,7 @@ body p {
     bottom: 0;
     width: 1px;
     background-color: #eee;
+    /* z-index: -1; */
 }
 
 @media only screen and (max-width: 767px) {

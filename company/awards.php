@@ -42,7 +42,7 @@
             <div class="row section-padding" id="intro">
                 <div class="col-sm-12 col-md-4 ">
                     <div class="pl-3 pr-3">
-                        <h4 class="mb-4">Recognition and Community Involvement</h4>
+                        <h3 class="mb-4">Recognition and Community Involvement</h3>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
@@ -63,71 +63,71 @@
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
                         <img src="img/Company/Awards/img_1.jpg" alt="about" class="image">    
-                        <h4>HKPC</h4>
-                        <h4 class="text-color">Appreciation Award</h4>
+                        <h3>HKPC</h3>
+                        <h3 class="text-color">Appreciation Award</h3>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
                         <img src="img/Company/Awards/img_2.jpg" alt="about" class="image">    
-                        <h4>The Hong Kong Exporters Association</h4>
-                        <h4 class="text-color">Appreciation Award</h4>
+                        <h3>The Hong Kong Exporters Association</h3>
+                        <h3 class="text-color">Appreciation Award</h3>
                         <p>2008</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
                         <img src="img/Company/Awards/img_3.jpg" alt="about" class="image">    
-                        <h4>GE</h4>
-                        <h4 class="text-color">Distinguished Supplier Award</h4>
+                        <h3>GE</h3>
+                        <h3 class="text-color">Distinguished Supplier Award</h3>
                         <p>2011</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
                         <img src="img/Company/Awards/img_4.jpg" alt="about" class="image">    
-                        <h4>Mabe</h4>
-                        <h4 class="text-color">Best Suppliers Award</h4>
+                        <h3>Mabe</h3>
+                        <h3 class="text-color">Best Suppliers Award</h3>
                         <p>2012</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
                         <img src="img/Company/Awards/img_5.jpg" alt="about" class="image">    
-                        <h4>Imagine POS</h4>
-                        <h4 class="text-color">Outstanding Award</h4>
+                        <h3>Imagine POS</h3>
+                        <h3 class="text-color">Outstanding Award</h3>
                         <p>2012-2013</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
                         <img src="img/Company/Awards/img_6.jpg" alt="about" class="image">    
-                        <h4>GE</h4>
-                        <h4 class="text-color">10th Anniversary Award</h4>
+                        <h3>GE</h3>
+                        <h3 class="text-color">10th Anniversary Award</h3>
                         <p>2014</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
                         <img src="img/Company/Awards/img_7.jpg" alt="about" class="image">    
-                        <h4>LG</h4>
-                        <h4 class="text-color">Superior Award</h4>
+                        <h3>LG</h3>
+                        <h3 class="text-color">Superior Award</h3>
                         <p>2016</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
                         <img src="img/Company/Awards/img_8.jpg" alt="about" class="image">    
-                        <h4>GE</h4>
-                        <h4 class="text-color">Superior Quality Performance Award</h4>
+                        <h3>GE</h3>
+                        <h3 class="text-color">Superior Quality Performance Award</h3>
                         <p>2016</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
                         <img src="img/Company/Awards/img_9.jpg" alt="about" class="image">    
-                        <h4>HKGCC</h4>
-                        <h4 class="text-color">Member Certificate</h4>
+                        <h3>HKGCC</h3>
+                        <h3 class="text-color">Member Certificate</h3>
                         <p>2019</p>
                     </div>
                 </div>

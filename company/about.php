@@ -42,7 +42,7 @@
             <!-- Company Profile -->
             <div class="row section-padding pb-0" id="intro">
                 <div class="col-sm-12 col-md-4">
-                    <h4>USE THE MOST ECONOMIC PROCESS TO ACHIEVE EXCELLENT PRODUCT AND SERVICE SATISFACTION</h4>
+                    <h3>USE THE MOST ECONOMIC PROCESS TO ACHIEVE EXCELLENT PRODUCT AND SERVICE SATISFACTION</h3>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p>At CS Metal, our success in metal manufacturing is driven by a bold vision and unwavering ambition. Since our founding in 1981, we have been fueled by a desire to excel in a field where only the bold thrive. Guided by our founder’s principle that “success comes from a strong will,” we have shaped our approach to business and innovation with a relentless focus on turning ambitious metalwork concepts into reality. The name Chi Sing (CS), which translates “aspiration achieved”, reflects our commitment to this vision.</p>
@@ -60,21 +60,21 @@
             </div>
 
             <!-- Company Strength -->
-            <div class="row section-padding padding-bottom">
+            <div class="row section-padding" style="padding-bottom: 200px;">
                 <div class="col-sm-12 col-md-4 scroll2movedown" style="margin-top: -100px;">
-                    <p class="text-color">HANDLE</p>
+                    <p class="text-color" style="font-weight: bold;">HANDLE</p>
                     <div class="display-3">400,000</div>
-                    <p>pcs/month</p>
+                    <p style="font-weight: bold;">pcs/month</p>
                 </div>
                 <div class="col-sm-12 col-md-4 scroll2movedown" style="margin-top: 0px;">
-                    <p class="text-color">STAMPING</p>
+                    <p class="text-color" style="font-weight: bold;">STAMPING</p>
                     <div class="display-3">1,000,000</div>
-                    <p>pcs/month</p>
+                    <p style="font-weight: bold;">pcs/month</p>
                 </div>
                 <div class="col-sm-12 col-md-4 scroll2movedown" style="margin-top: 100px;">
-                    <p class="text-color">1 SHIFT</p>
+                    <p class="text-color" style="font-weight: bold;">1 SHIFT</p>
                     <div class="display-3">50%</div>
-                    <p>utilization</p>
+                    <p style="font-weight: bold;">utilization</p>
                 </div>
             </div>
         </div>
@@ -94,17 +94,17 @@
                     <div class="row section-padding padding-bottom">
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
                             <a href="" class="info-wrap location card-arrow">
-                                <h2 class="m-0">Automated Tube Forming Machine</h2>
+                                <h3 class="m-0">Automated Tube Forming Machine</h3>
                             </a>
                         </div>
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
                             <a href="solutions/inspection.php#gom" class="info-wrap email card-arrow">
-                                <h2 class="m-0">GOM Scan</h2>
+                                <h3 class="m-0">GOM Scan</h3>
                             </a>
                         </div>
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
                             <a href="" class="info-wrap phone card-arrow">
-                                <h2 class="m-0">Metal Hardness Measurement Machine</h2>
+                                <h3 class="m-0">Metal Hardness Measurement Machine</h3>
                             </a>
                         </div>
                     </div>
@@ -126,15 +126,15 @@
             </div>
             <div class="row section-padding padding-bottom">
                 <div class="col-sm-12 col-md-4">
-                    <h4>Think big</h4>
+                    <h3>Think big</h3>
                     <p>Empowering each individual with confidence.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <h4>Never settle</h4>
+                    <h3>Never settle</h3>
                     <p>Constantly innovating, improving and asking the right questions.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <h4>Be collaborative</h4>
+                    <h3>Be collaborative</h3>
                     <p>We do our best when we do it together, with respect and humility.</p>
                 </div>
             </div>
@@ -210,7 +210,7 @@
                     <img src="img/Company/About/img_2.webp" alt="Founder" class="image">
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <h4>Legacy of the Founder</h4>
+                    <h3>Legacy of the Founder</h3>
                     <p>A tale of relentless pursuit marks the four-decade journey of our founder, Mr. William Ho. From the early days in a compact workshop to becoming a global manufacturing powerhouse, Chi Sing’s story is rich with milestones.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">

@@ -127,7 +127,7 @@
                                 <img src="./img/Generic/icon_customer_3.svg" alt="SVG 3">
                             </div>
                         </div>
-                        <h5 class="mt-3" style="position:absolute; bottom:50px; left:60px;">BECOME A CUSTOMER</h5>
+                        <h3 class="mt-3" style="position:absolute; bottom:50px; left:60px; padding-right: 60px;">BECOME A CUSTOMER</h3>
                         <a class="image-arrow" href="company/become-a-customer.php" style="left:45px;"><div>→</div></a>
                     </div>
                 </div>
