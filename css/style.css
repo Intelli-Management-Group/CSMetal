@@ -682,6 +682,10 @@ hr {
     aspect-ratio: 738 / 670;
 }
 
+.manifold-image-container {
+    aspect-ratio: 2560 / 1030;
+}
+
 .product-image-container img {
     position: absolute;
     top: 0;
