@@ -315,7 +315,7 @@
 
         <script>
             AOS.init({
-                once: true,
+                // once: true,
                 offset: 300,
                 duration: 600,
             });

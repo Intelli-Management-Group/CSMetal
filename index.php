@@ -11,7 +11,7 @@
             <div class="line line-2-3"></div>
             <div class="line line-right"></div>
             <div class="row section-padding">
-                <div class="col-sm-8">
+                <div class="col-lg-8">
                     <p><span class="text-color">/ </span>Established in 1981</p>
                     <div class="title" style="font-size: 65px; font-weight: bold;">Crafting the Future with Precision</div>
                 </div>
