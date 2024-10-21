@@ -47,39 +47,39 @@
             <div class="row section-padding padding-bottom align-items-stretch">
                 <div class="col-sm-12 col-md-6 d-flex pl-0"> 
                     <div class="elementor-widget-container flex-fill" style="background-color: transparent;">
-                        <form class="elementor-form" method="post" name="Contact From">
+                        <form class="elementor-form" action="submit-form.php" method="POST" name="Contact From">
                             <input type="hidden" name="post_id" value="133">
                             <input type="hidden" name="form_id" value="cf6c9c3">
                             <input type="hidden" name="referer_title" value="Contact Us">
                             <input type="hidden" name="queried_id" value="133">
                             <div class="elementor-form-fields-wrapper elementor-labels-above">
-                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_6abbb17 elementor-col-50 elementor-field-required">
-                                    <label for="form-field-field_6abbb17" class="elementor-field-label">First name </label>
-                                    <input size="1" type="text" name="form_fields[field_6abbb17]" id="form-field-field_6abbb17" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true">
+                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-first_name elementor-col-50 elementor-field-required">
+                                    <label for="first_name" class="elementor-field-label">First Name </label>
+                                    <input size="1" type="text" name="form_fields[first_name]" id="first_name" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true">
                                 </div>
-                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-contact_page_form_last_name elementor-col-50 elementor-field-required">
-                                    <label for="form-field-contact_page_form_last_name" class="elementor-field-label">Last name </label>
-                                    <input size="1" type="text" name="form_fields[contact_page_form_last_name]" id="form-field-contact_page_form_last_name" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true">
+                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-last_name elementor-col-50 elementor-field-required">
+                                    <label for="last_name" class="elementor-field-label">Last Name </label>
+                                    <input size="1" type="text" name="form_fields[last_name]" id="last_name" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true">
                                 </div>
-                                <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-contact_page_form_email elementor-col-50">
-                                    <label for="form-field-contact_page_form_email" class="elementor-field-label">Email address </label>
-                                    <input size="1" type="email" name="form_fields[contact_page_form_email]" id="form-field-contact_page_form_email" class="elementor-field elementor-size-md elementor-field-textual">
+                                <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50">
+                                    <label for="email" class="elementor-field-label">Email Address </label>
+                                    <input size="1" type="email" name="form_fields[email]" id="email" class="elementor-field elementor-size-md elementor-field-textual">
                                 </div>
-                                <div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-contact_page_form_tel elementor-col-50 elementor-field-required">
-                                    <label for="form-field-contact_page_form_tel" class="elementor-field-label">Phone number </label>
-                                    <input size="1" type="tel" name="form_fields[contact_page_form_tel]" id="form-field-contact_page_form_tel" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true" pattern="[0-9()#&amp;+*-=.]+" title="Only numbers and phone characters (#, -, *, etc) are accepted.">
+                                <div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-tel elementor-col-50 elementor-field-required">
+                                    <label for="tel" class="elementor-field-label">Phone Number </label>
+                                    <input size="1" type="tel" name="form_fields[tel]" id="tel" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true" pattern="[0-9()#&amp;+*-=.]+" title="Only numbers and phone characters (#, -, *, etc) are accepted.">
                                 </div>
-                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-contact_page_form_compamy_name elementor-col-50 elementor-field-required">
-                                    <label for="form-field-contact_page_form_compamy_name" class="elementor-field-label">Company name </label>
-                                    <input size="1" type="text" name="form_fields[contact_page_form_compamy_name]" id="form-field-contact_page_form_compamy_name" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true">
+                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-compamy_name elementor-col-50 elementor-field-required">
+                                    <label for="compamy_name" class="elementor-field-label">Company Name </label>
+                                    <input size="1" type="text" name="form_fields[compamy_name]" id="compamy_name" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true">
                                 </div>
-                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-contact_page_form_compamy_address elementor-col-50 elementor-field-required">
-                                    <label for="form-field-contact_page_form_compamy_address" class="elementor-field-label">Company address </label>
-                                    <input size="1" type="text" name="form_fields[contact_page_form_compamy_address]" id="form-field-contact_page_form_compamy_address" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true">
+                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-compamy_address elementor-col-50 elementor-field-required">
+                                    <label for="compamy_address" class="elementor-field-label">Company Address </label>
+                                    <input size="1" type="text" name="form_fields[compamy_address]" id="compamy_address" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true">
                                 </div>
-                                <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-field_684e31d elementor-col-100">
-                                    <label for="form-field-field_684e31d" class="elementor-field-label">Comments/Questions </label>
-                                    <textarea class="elementor-field-textual elementor-field elementor-size-md" name="form_fields[field_684e31d]" id="form-field-field_684e31d" rows="3"></textarea>
+                                <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-messages elementor-col-100">
+                                    <label for="messages" class="elementor-field-label">Messages </label>
+                                    <textarea class="elementor-field-textual elementor-field elementor-size-md" name="form_fields[messages]" id="messages" rows="3"></textarea>
                                 </div>
                                 <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
                                     <button class="elementor-button elementor-size-sm" type="submit">
