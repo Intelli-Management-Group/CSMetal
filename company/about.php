@@ -22,8 +22,8 @@
             <div class="row">
                 <a class="col-md-4 image-button scroll2intro" href="#intro" style="top:100%">
                     <div class="d-flex justify-content-between w-100">
-                        <h5 class="mb-0">FIND OUT MORE</h5>
-                        <h5 class="mb-0">↘</h5>
+                        <div class="mb-0 button">FIND OUT MORE</div>
+                        <div class="mb-0 button">↘</div>
                     </div>
                 </a>
             </div>
@@ -42,7 +42,7 @@
             <!-- Company Profile -->
             <div class="row section-padding pb-0" id="intro">
                 <div class="col-sm-12 col-md-4">
-                    <h3>USE THE MOST ECONOMIC PROCESS TO ACHIEVE EXCELLENT PRODUCT AND SERVICE SATISFACTION</h3>
+                    <p class="slogan">USE THE MOST ECONOMIC PROCESS TO ACHIEVE EXCELLENT PRODUCT AND SERVICE SATISFACTION</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p>At CS Metal, our success in metal manufacturing is driven by a bold vision and unwavering ambition. Since our founding in 1981, we have been fueled by a desire to excel in a field where only the bold thrive. Guided by our founder’s principle that “success comes from a strong will,” we have shaped our approach to business and innovation with a relentless focus on turning ambitious metalwork concepts into reality. The name Chi Sing (CS), which translates “aspiration achieved”, reflects our commitment to this vision.</p>
@@ -62,19 +62,19 @@
             <!-- Company Strength -->
             <div class="row section-padding" style="padding-bottom: 200px;">
                 <div class="col-sm-12 col-md-4 scroll2movedown" style="margin-top: -100px;">
-                    <p class="text-color" style="font-weight: bold;">HANDLE</p>
-                    <div class="display-3">400,000</div>
-                    <p style="font-weight: bold;">pcs/month</p>
+                    <p class="text-color">HANDLE</p>
+                    <div class="display-3" style="font-weight: bold;">400,000</div>
+                    <p>pcs/month</p>
                 </div>
                 <div class="col-sm-12 col-md-4 scroll2movedown" style="margin-top: 0px;">
-                    <p class="text-color" style="font-weight: bold;">STAMPING</p>
-                    <div class="display-3">1,000,000</div>
-                    <p style="font-weight: bold;">pcs/month</p>
+                    <p class="text-color">STAMPING</p>
+                    <div class="display-3" style="font-weight: bold;">1,000,000</div>
+                    <p>pcs/month</p>
                 </div>
                 <div class="col-sm-12 col-md-4 scroll2movedown" style="margin-top: 100px;">
-                    <p class="text-color" style="font-weight: bold;">1 SHIFT</p>
-                    <div class="display-3">50%</div>
-                    <p style="font-weight: bold;">utilization</p>
+                    <p class="text-color">1 SHIFT</p>
+                    <div class="display-3" style="font-weight: bold;">50%</div>
+                    <p>utilization</p>
                 </div>
             </div>
         </div>
@@ -94,17 +94,17 @@
                     <div class="row section-padding padding-bottom">
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
                             <a href="" class="info-wrap location card-arrow">
-                                <h3 class="m-0">Automated Tube Forming Machine</h3>
+                                <h4 class="m-0">Automated Tube Forming Machine</h4>
                             </a>
                         </div>
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
                             <a href="solutions/inspection.php#gom" class="info-wrap email card-arrow">
-                                <h3 class="m-0">GOM Scan</h3>
+                                <h4 class="m-0">GOM Scan</h4>
                             </a>
                         </div>
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
                             <a href="" class="info-wrap phone card-arrow">
-                                <h3 class="m-0">Metal Hardness Measurement Machine</h3>
+                                <h4 class="m-0">Metal Hardness Measurement Machine</h4>
                             </a>
                         </div>
                     </div>
@@ -120,24 +120,24 @@
             <div class="line line-right"></div>
             <div class="row section-padding padding-top">
                 <div class="col-sm-12 col-md-4">
-                    <div class="title">CORE VALUES</div>
+                    <div class="title pb-3">CORE VALUES</div>
                     <p>Our core values not only define us as a company but also reflect the essence of each individual within our organization.</p>
                 </div>
             </div>
             <div class="row section-padding padding-bottom">
                 <div class="col-sm-12 col-md-4">
                     <i class="fa-regular fa-lightbulb fa-icon"></i>
-                    <h3>Think big</h3>
+                    <h4>Think big</h4>
                     <p>Empowering each individual with confidence.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <i class="fa-solid fa-rotate fa-icon"></i>
-                    <h3>Never settle</h3>
+                    <h4>Never settle</h4>
                     <p>Constantly innovating, improving and asking the right questions.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <i class="fa-regular fa-handshake fa-icon"></i>
-                    <h3>Be collaborative</h3>
+                    <h4>Be collaborative</h4>
                     <p>We do our best when we do it together, with respect and humility.</p>
                 </div>
             </div>
@@ -219,12 +219,12 @@
                 <div class="col-sm-12 col-md-4">
                     <div class="image-container">
                         <img src="img/Company/About/img_3.jpg" alt="Founder" class="image">
-                        <div class="col-md-8 image-button-bottom-right">
+                        <a class="col-md-8 image-button-bottom-right" href="company/history.php">
                             <div class="d-flex justify-content-between w-100">
-                                <h5 class="mb-0">MEET OUR PEOPLE</h5>
-                                <h5 class="mb-0">→</h5>
+                                <div class="mb-0 button">HISTORY</div>
+                                <div class="mb-0 button">→</div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

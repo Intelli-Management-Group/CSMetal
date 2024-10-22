@@ -20,8 +20,8 @@
             <div class="row">
                 <a class="col-md-4 image-button" href="#" style="top:100%">
                     <div class="d-flex justify-content-between w-100">
-                        <h5 class="mb-0">FIND OUT MORE</h5>
-                        <h5 class="mb-0">↘</h5>
+                        <div class="mb-0 button">FIND OUT MORE</div>
+                        <div class="mb-0 button">↘</div>
                     </div>
                 </a>
             </div>

@@ -19,8 +19,8 @@
             <div class="row">
                 <a class="col-md-4 image-button" href="company/about.php" style="top:100%">
                     <div class="d-flex justify-content-between w-100">
-                        <h5 class="mb-0">LEARN MORE</h5>
-                        <h5 class="mb-0">→</h5>
+                        <div class="mb-0 button">LEARN MORE</div>
+                        <div class="mb-0 button">→</div>
                     </div>
                 </a>
             </div>
@@ -40,25 +40,15 @@
             <!-- Intro Section -->
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4">
-                    <!-- <h4>Sustainable, visionary steel solutions that serve customers and communities, people and planet.</h4> -->
-                    <p>At CS Metal, we are driven by a passion for innovation and a commitment to delivering the
-highest quality in metal manufacturing. Over the last four decades, CS Metal has surpassed the
-boundaries, by using state-of-the-art technology to provide custom metal solutions that meet the
-specific needs of each of our clients. Our attention to detail and commitment to quality ensures
-every product received by clients meet the highest industry standards. </p>
+                    <p class="slogan">INNOVATIVE, PRECISION-DRIVEN METAL SOLUTIONS DESIGNED TO ELEVATE INDUSTRIES, ENRICH COMMUNITIES, AND PROTECT THE ENVIRONMENT.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <!-- <h2>100%</h2> -->
-                    <p>For over four decades, CS Metal has developed a global reputation for innovation, quality, and
-excellence. Our reputation has brought on countless partnerships with industry leaders including
-General Electric, LG, and Whirlpool. As we strive to surpass expectations and provide reliable,
-customized solutions to meet each client’s unique needs, CS Metal will remain committed to
-ongoing development. Our new goal is to solidify our position as the leading force in the metal
-manufacturing industry, continuously setting the standards for excellence and innovation. </p>
+                    <h3>100% Commitment</h3>
+                    <p>Our products are engineered for exceptional durability, ensuring a long lifespan and minimal environmental impact. </p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <!-- <h2>90%</h2> -->
-                    <p>“Use the most economic process to achieve excellent product and service satisfaction”. </p>
+                    <h3>98% Efficiency</h3>
+                    <p>Our metal manufacturing processes achieve up to 98% material utilization, minimizing waste and promoting sustainability. </p>
                 </div>
             </div>
 
@@ -67,7 +57,7 @@ manufacturing industry, continuously setting the standards for excellence and in
                 <div class="col-sm-12 col-md-4 pl-0">
                     <div class="grey-widget-wrap">
                         <p><span class="text-color">/ </span>Become a customer</p>
-                        <h3 class="mt-5 mb-5">CHOOSE CS FOR FAST, HIGH-QUALITY CUSTOM PARTS</h3>
+                        <h3 class="mt-5 mb-5">Choose CS for Fast, High-quality Custom Parts</h3>
                         <a class="arrow" href="company/become-a-customer.php">→</a>
                     </div>
                 </div>
@@ -104,8 +94,8 @@ manufacturing industry, continuously setting the standards for excellence and in
                 <img src="./img/Home/banner_1.jpg" alt="Home Banner" class="banner-container">
                 <a class="col-md-4 image-button" href="contact.php">
                     <div class="d-flex justify-content-between w-100">
-                        <h5 class="mb-0">CONTACT US</h5>
-                        <h5 class="mb-0">→</h5>
+                        <div class="mb-0 button">CONTACT US</div>
+                        <div class="mb-0 button">→</div>
                     </div>
                 </a>
                 <div class="col-md-4 solutions">
@@ -177,7 +167,7 @@ manufacturing industry, continuously setting the standards for excellence and in
                                 <a class="image-arrow" href="products/handles.php"><div>→</div></a>
                             </div>
                             <h3 class="mt-3">Handles</h3>
-                            <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                            <p>CS Metal offers a wide range of durable, high-quality metal handles, including tubular, hydroforming, and standoff options, with customizable options including brushed, mirror, and coloured finishes. Each handle is precisely engineered to meet industry standards, ensuring stability and style across different settings. </p>
                         </div>
                     </div>
 
@@ -188,7 +178,7 @@ manufacturing industry, continuously setting the standards for excellence and in
                                 <a class="image-arrow" href="products/die-cast.php"><div>→</div></a>
                             </div>
                             <h3 class="mt-3">Die Cast</h3>
-                            <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                            <p>Die-casting is a process that involves shaping molten metal under high pressure into a mold cavity making them ideal for industries that require durable and lightweight components. Die Cast products offered by CS Metal are precisely designed for industries that looking for durable and lightweight components. Various die-cast parts include tweezers, foot pegs, and other custom products. </p>
                         </div>
                     </div>
                 </div>
@@ -202,7 +192,7 @@ manufacturing industry, continuously setting the standards for excellence and in
                                 <a class="image-arrow" href="products/manifold.php"><div>→</div></a>
                             </div>
                             <h3 class="mt-3">Manifold</h3>
-                            <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                            <p>At CS Metal, our custom manifold solutions are designed to handle high-pressure systems and complex tasks; offering superior performance and durability. Our manifolds are tailored to the client’s exact specifications, delivering efficiency and reliability in industrial applications. </p>
                         </div>
                     </div>
 
@@ -213,11 +203,11 @@ manufacturing industry, continuously setting the standards for excellence and in
                                 <a class="image-arrow" href="products/advertising.php"><div>→</div></a>
                             </div>
                             <h3 class="mt-3">Advertising Fixture & OEM Products</h3>
-                            <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                            <p>Our custom advertising fixtures and OEM products combine functionality and aesthetic appeal. Each product is precisely manufactured to the client’s request enhancing brand presence. We’ve worked with Christian Dior, Georg Jensen, Victoria’s Secret, Hermes, and many more, showcasing our ability to deliver high quality and meet aesthetic standards. </p>
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-4" style="padding:0 45px;">
+                    <div class="col-sm-12 col-md-4" style="padding:0 35px !important;">
                         <div class="customer-wrap">
                             <div class="nut-container">
                                 <div class="nut-wrapper">
@@ -230,10 +220,11 @@ manufacturing industry, continuously setting the standards for excellence and in
                                     <img src="./img/Generic/icon_customer_3.svg" alt="SVG 3">
                                 </div>
                             </div>
-                            <h3 class="mt-3" style="position:absolute; bottom:50px; left:60px; padding-right: 60px;">BECOME A CUSTOMER</h3>
-                            <a class="image-arrow" href="company/become-a-customer.php" style="left:45px;"><div>→</div></a>
+                            <h3 class="mt-3" style="position:absolute; bottom:50px; left:50px; padding-right: 60px;">Become a Customer</h3>
+                            <a class="image-arrow" href="company/become-a-customer.php" style="left:35px;"><div>→</div></a>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -251,7 +242,8 @@ manufacturing industry, continuously setting the standards for excellence and in
                 <div class="col-sm-12 col-md-6 d-flex align-items-center">
                     <div>
                         <p><span class="text-color">/ </span>Become a customer</p>
-                        <div class="title mt-5 mb-5">CHOOSE CS FOR FAST, HIGH-QUALITY CUSTOM PARTS</div>
+                        <div class="title mt-5 mb-5">Shaping the Future of Metal Manufacturing</div>
+                        <!-- <p>At CS Metal, we’ve become synonymous with reliability and quality. Shaping the future of metal manufacturing, partner with us to experience exceptional quality and precision in every project. </p> -->
                         <a href="company/become-a-customer.php" class="underline-link">LET'S TALK →</a>
                     </div>
                 </div>

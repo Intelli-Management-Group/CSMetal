@@ -18,14 +18,14 @@
             <div class="row section-padding">
                 <div class="col-sm-8">
                     <p><span class="text-color">/ </span>History</p>
-                    <div class="title">Embracing History, Forging Tomorrow.</div>
+                    <div class="title">From Humble Beginnings to Global Leadership</div>
                 </div>
             </div>
             <div class="row">
                 <a class="col-md-4 image-button scroll2intro" href="#intro" style="top:100%">
                     <div class="d-flex justify-content-between w-100">
-                        <h5 class="mb-0">LEARN MORE</h5>
-                        <h5 class="mb-0">↘</h5>
+                        <div class="mb-0 button">LEARN MORE</div>
+                        <div class="mb-0 button">↘</div>
                     </div>
                 </a>
             </div>
@@ -45,7 +45,7 @@
             <!-- Intro Section -->
             <div class="row section-padding" id="intro">
                 <div class="col-sm-12 col-md-4">
-                    <h3>Company History</h3>
+                    <p class="slogan">Shaping the future of metal manufacturing with precision and innovation</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p>With a rich history dating back to its establishment in 1981 in Hong Kong, Chi Sing has been a beacon of innovation and quality in metal manufacturing.</p>

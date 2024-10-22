@@ -51,6 +51,8 @@
                 width: 100%;
                 display: flex;
                 align-items: center;
+                /* font-weight: bold !important;
+                letter-spacing: 1px; */
             }
 
             .nav-links a.active {
@@ -58,6 +60,28 @@
             }
 
             .nav-links a:hover {
+                color: #005399;
+                text-decoration: none;
+            }
+
+            .first-nav {
+                color: black;
+                text-decoration: none;
+                font-size: 16px;
+                /* text-transform: uppercase; */
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                font-weight: 500 !important;
+                letter-spacing: 1px;
+            }
+
+            .first-nav.active {
+                color: #005399;
+            }
+
+            .first-nav:hover {
                 color: #005399;
                 text-decoration: none;
             }
@@ -145,12 +169,12 @@
                 <nav style="position: absolute; left: 50%; transform: translateX(-50%);">
                 <!-- center align the nav -->
                     <ul class="nav-links" style="height: 100px;">
-                        <li><a href="./index.php" class="active">HOME</a></li>
-                        <li id="company-link"><a href="company/about.php">COMPANY</a></li>
-                        <li id="solutions-link"><a href="solutions.php">SOLUTIONS</a></li>
-                        <li id="products-link"><a href="products.php">PRODUCTS</a></li>
-                        <li id="facilities-link"><a href="#">FACILITIES</a></li>
-                        <li><a href="./contact.php" class="text-nowrap">CONTACT US</a></li>
+                        <li><a href="./index.php" class="first-nav active">HOME</a></li>
+                        <li id="company-link"><a href="company/about.php" class="first-nav">COMPANY</a></li>
+                        <li id="solutions-link"><a href="solutions.php" class="first-nav">SOLUTIONS</a></li>
+                        <li id="products-link"><a href="products.php" class="first-nav">PRODUCTS</a></li>
+                        <li id="facilities-link"><a href="#" class="first-nav">FACILITIES</a></li>
+                        <li><a href="./contact.php" class="text-nowrap first-nav">CONTACT US</a></li>
                     </ul>
                 </nav>
             </div>
@@ -251,7 +275,7 @@
                         </ul>
                     </div>
                     <div class="col-md-4 d-flex align-items-center">
-                        <img src="img/Company/History/img_1981.jpg" alt="history" style="height: 200px;">
+                        <img src="img/Company/About/img_2.webp" alt="history" style="height: 200px;">
                     </div>
                 </div>
             </div>

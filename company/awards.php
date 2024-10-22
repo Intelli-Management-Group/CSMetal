@@ -2,6 +2,15 @@
 <html lang="en">
     <head>
         <?php include '../HTMLhead.php'; ?>
+        <style>
+            .company {
+                font-size: 16px;
+            }
+
+            .award {
+                font-size: 24px;
+            }
+        </style>
     </head>
     <body>
         <?php include '../header.php'; ?>
@@ -14,14 +23,14 @@
             <div class="row section-padding">
                 <div class="col-sm-8">
                     <p><span class="text-color">/ </span>Awards</p>
-                    <div class="title">Embracing History, Forging Tomorrow.</div>
+                    <div class="title">Celebrating Excellence with Industry Leading Awards </div>
                 </div>
             </div>
             <div class="row">
                 <a class="col-md-4 image-button scroll2intro" href="#intro" style="top:100%">
                     <div class="d-flex justify-content-between w-100">
-                        <h5 class="mb-0">FIND OUT MORE</h5>
-                        <h5 class="mb-0">↘</h5>
+                        <div class="mb-0 button">FIND OUT MORE</div>
+                        <div class="mb-0 button">↘</div>
                     </div>
                 </a>
             </div>
@@ -42,17 +51,17 @@
             <div class="row section-padding" id="intro">
                 <div class="col-sm-12 col-md-4 ">
                     <div class="pl-3 pr-3">
-                        <h3 class="mb-4">Recognition and Community Involvement</h3>
+                        <p class="slogan">Recognition and Community Involvement</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <!-- <div class="pl-3 pr-3">
-                        <p>For over a century, Fabrik has proudly led the industry, taking on the responsibility of envisioning what lies ahead. Driven by advanced technology and innovative thinking, we anticipate the future needs of our customers and the world.</p>
-                    </div> -->
+                    <div class="pl-3 pr-3">
+                        <p>Over the years, we have received numerous prestigious awards, highlighting our dedication to delivering exceptional metal manufacturing solutions. Our proactive stance on sustainability and community engagement is evident in our initiatives and partnerships,</p>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="pl-3 pr-3">
-                       <p>CS Metal’s industry leadership is affirmed by a collection of awards and certifications, highlighting our role as a trusted partner for global brands. Our proactive stance on sustainability and community engagement is evident in our initiatives and partnerships, reflecting a deepseated commitment to social responsibility. These awards and honors highlight our technical expertise but also our dedication to building a sustainable and responsible future. </p>
+                       <p>reflecting a deep-seated commitment to social responsibility. As we continue to grow, our commitment to setting new industry standards will remain at the core of everything we do. </p>
                     </div>
                 </div>
             </div>
@@ -62,72 +71,72 @@
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="img/Company/Awards/img_1.jpg" alt="about" class="image">    
-                        <h3>HKPC</h3>
-                        <h3 class="text-color">Appreciation Award</h3>
+                        <img src="img/Company/Awards/img_1.jpg" alt="about" class="image pb-3">    
+                        <div class="company">HKPC</div>
+                        <div class="text-color award">Appreciation Award</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="img/Company/Awards/img_2.jpg" alt="about" class="image">    
-                        <h3>The Hong Kong Exporters Association</h3>
-                        <h3 class="text-color">Appreciation Award</h3>
+                        <img src="img/Company/Awards/img_2.jpg" alt="about" class="image pb-3">    
+                        <div class="company">The Hong Kong Exporters Association</div>
+                        <div class="text-color award">Appreciation Award</div>
                         <p>2008</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="img/Company/Awards/img_3.jpg" alt="about" class="image">    
-                        <h3>GE</h3>
-                        <h3 class="text-color">Distinguished Supplier Award</h3>
+                        <img src="img/Company/Awards/img_3.jpg" alt="about" class="image pb-3">    
+                        <div class="company">GE</div>
+                        <div class="text-color award">Distinguished Supplier Award</div>
                         <p>2011</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="img/Company/Awards/img_4.jpg" alt="about" class="image">    
-                        <h3>Mabe</h3>
-                        <h3 class="text-color">Best Suppliers Award</h3>
+                        <img src="img/Company/Awards/img_4.jpg" alt="about" class="image pb-3">    
+                        <div class="company">Mabe</div>
+                        <div class="text-color award">Best Suppliers Award</div>
                         <p>2012</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="img/Company/Awards/img_5.jpg" alt="about" class="image">    
-                        <h3>Imagine POS</h3>
-                        <h3 class="text-color">Outstanding Award</h3>
+                        <img src="img/Company/Awards/img_5.jpg" alt="about" class="image pb-3">    
+                        <div class="company">Imagine POS</div>
+                        <div class="text-color award">Outstanding Award</div>
                         <p>2012-2013</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="img/Company/Awards/img_6.jpg" alt="about" class="image">    
-                        <h3>GE</h3>
-                        <h3 class="text-color">10th Anniversary Award</h3>
+                        <img src="img/Company/Awards/img_6.jpg" alt="about" class="image pb-3">    
+                        <div class="company">GE</div>
+                        <div class="text-color award">10th Anniversary Award</div>
                         <p>2014</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="img/Company/Awards/img_7.jpg" alt="about" class="image">    
-                        <h3>LG</h3>
-                        <h3 class="text-color">Superior Award</h3>
+                        <img src="img/Company/Awards/img_7.jpg" alt="about" class="image pb-3">    
+                        <div class="company">LG</div>
+                        <div class="text-color award">Superior Award</div>
                         <p>2016</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="img/Company/Awards/img_8.jpg" alt="about" class="image">    
-                        <h3>GE</h3>
-                        <h3 class="text-color">Superior Quality Performance Award</h3>
+                        <img src="img/Company/Awards/img_8.jpg" alt="about" class="image pb-3">    
+                        <div class="company">GE</div>
+                        <div class="text-color award">Superior Quality Performance Award</div>
                         <p>2016</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
-                        <img src="img/Company/Awards/img_9.jpg" alt="about" class="image">    
-                        <h3>HKGCC</h3>
-                        <h3 class="text-color">Member Certificate</h3>
+                        <img src="img/Company/Awards/img_9.jpg" alt="about" class="image pb-3">    
+                        <div class="company">HKGCC</div>
+                        <div class="text-color award">Member Certificate</div>
                         <p>2019</p>
                     </div>
                 </div>

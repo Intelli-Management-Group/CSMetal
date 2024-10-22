@@ -16,14 +16,14 @@
         <div class="row section-padding">
             <div class="col-sm-8">
                 <p><span class="text-color">/ </span>Products</p>
-                <div class="title">It’s What’s Behind Our Products</div>
+                <div class="title">Precision Engineered Components for Every Industry</div>
             </div>
         </div>
         <div class="row">
             <a class="col-md-4 image-button scroll2intro" href="#intro" style="top:100%">
                 <div class="d-flex justify-content-between w-100">
-                    <h5 class="mb-0">FIND OUT MORE</h5>
-                    <h5 class="mb-0">↘</h5>
+                    <div class="mb-0 button">FIND OUT MORE</div>
+                    <div class="mb-0 button">↘</div>
                 </div>
             </a>
         </div>
@@ -43,18 +43,19 @@
         <!-- Intro Section -->
         <div class="row section-padding" id="intro">
             <div class="col-sm-12 col-md-4">
-                <h4>Serving the world with our versatile range of steel products</h4>
+                <p class="slogan">Delivering Quality, Precision, and Durability / Precision Engineered. Built to Last</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>Our steel operations revolve around our six electric arc furnace (EAF) steel mills and numerous value-added coating operations, enabling us to handle roughly 13 million tons of steel shipping. We take pride in offering one of the most diversified portfolios of value-added products within the domestic steel industry. Moreover, we’re dedicated to providing innovative supply-chain solutions that exceed customer expectations, delivering enhanced value.</p>
+                <p>At CS Metal we specialize in a diverse range of products, and pride ourselves on our expertise in creating durable appliance handles, precision stamping, and robust wire mesh. Our state-of-theart facilities also produce stylish and functional camera and cellphone cases, catering to the everevolving tech industry.</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>Furthermore, we operate under a circular manufacturing model, which prioritizes the production of high-quality, lower-carbon-emission steel using EAF technology, where recycled ferrous scrap serves as the primary input. This approach establishes Fabrik as an EAF steelmaking and circular manufacturing industry leader. The tireless efforts of our innovative teams in implementing climate change initiatives will further elevate our standards for sustainable steel production in the future.</p>
+                <p>As an OEM, we’re committed to bringing your ideas to life with custom display fixtures, logo machining, and vibrant metal color printing. CS Metal blends craftsmanship with technology to deliver exceptional products that meet and exceed our clients’ expectations. </p>
             </div>
         </div>
 
         <!-- Products Section -->
         <div class="section-padding-lg">
+            <!-- 1st row -->
             <div class="row pt-3">
                 <div class="col-sm-12 col-md-4">
                     <div class="product-wrap">
@@ -74,7 +75,7 @@
                             <a class="image-arrow" href="products/handles.php"><div>→</div></a>
                         </div>
                         <h3 class="mt-3">Handles</h3>
-                        <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                        <p>CS Metal offers a wide range of durable, high-quality metal handles, including tubular, hydroforming, and standoff options, with customizable options including brushed, mirror, and coloured finishes. Each handle is precisely engineered to meet industry standards, ensuring stability and style across different settings. </p>
                     </div>
                 </div>
 
@@ -85,7 +86,7 @@
                             <a class="image-arrow" href="products/die-cast.php"><div>→</div></a>
                         </div>
                         <h3 class="mt-3">Die Cast</h3>
-                        <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                        <p>Die-casting is a process that involves shaping molten metal under high pressure into a mold cavity making them ideal for industries that require durable and lightweight components. Die Cast products offered by CS Metal are precisely designed for industries that looking for durable and lightweight components. Various die-cast parts include tweezers, foot pegs, and other custom products. </p>
                     </div>
                 </div>
             </div>
@@ -99,7 +100,7 @@
                             <a class="image-arrow" href="products/manifold.php"><div>→</div></a>
                         </div>
                         <h3 class="mt-3">Manifold</h3>
-                        <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                        <p>At CS Metal, our custom manifold solutions are designed to handle high-pressure systems and complex tasks; offering superior performance and durability. Our manifolds are tailored to the client’s exact specifications, delivering efficiency and reliability in industrial applications. </p>
                     </div>
                 </div>
 
@@ -110,11 +111,11 @@
                             <a class="image-arrow" href="products/advertising.php"><div>→</div></a>
                         </div>
                         <h3 class="mt-3">Advertising Fixture & OEM Products</h3>
-                        <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                        <p>Our custom advertising fixtures and OEM products combine functionality and aesthetic appeal. Each product is precisely manufactured to the client’s request enhancing brand presence. We’ve worked with Christian Dior, Georg Jensen, Victoria’s Secret, Hermes, and many more, showcasing our ability to deliver high quality and meet aesthetic standards. </p>
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-4" style="padding:0 45px;">
+                <div class="col-sm-12 col-md-4" style="padding:0 35px !important;">
                     <div class="customer-wrap">
                         <div class="nut-container">
                             <div class="nut-wrapper">
@@ -127,8 +128,8 @@
                                 <img src="./img/Generic/icon_customer_3.svg" alt="SVG 3">
                             </div>
                         </div>
-                        <h3 class="mt-3" style="position:absolute; bottom:50px; left:60px; padding-right: 60px;">BECOME A CUSTOMER</h3>
-                        <a class="image-arrow" href="company/become-a-customer.php" style="left:45px;"><div>→</div></a>
+                        <h3 class="mt-3" style="position:absolute; bottom:50px; left:50px; padding-right: 60px;">Become a Customer</h3>
+                        <a class="image-arrow" href="company/become-a-customer.php" style="left:35px;"><div>→</div></a>
                     </div>
                 </div>
             </div>

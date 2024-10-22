@@ -20,8 +20,8 @@
             <div class="row">
                 <a class="col-md-4 image-button scroll2intro" href="solutions.php#intro" style="top:100%">
                     <div class="d-flex justify-content-between w-100">
-                        <h5 class="mb-0">FIND OUT MORE</h5>
-                        <h5 class="mb-0">↘</h5>
+                        <div class="mb-0 button">FIND OUT MORE</div>
+                        <div class="mb-0 button">↘</div>
                     </div>
                 </a>
             </div>
@@ -41,7 +41,7 @@
 
             <div class="row section-padding" id="intro">
                 <div class="col-sm-12 col-md-4">
-                    <h3>We supply a full range of products</h3>
+                    <p class="slogan">We supply a full range of products</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p>Companies that own or lease distribution facilities and warehouses are dedicated to optimizing operational efficiency and maximizing storage capacity. A maze of equipment, vehicles, and platforms within these complex structures supports customers’ operations and maintenance.</p>
@@ -100,8 +100,8 @@
                 <img src="./img/Solution/banner_solution.jpg" alt="img" class="banner-container">
                 <a class="col-md-4 image-button" href="products.php">
                     <div class="d-flex justify-content-between w-100">
-                        <h5 class="mb-0">EXPLORE OUR PRODUCTS</h5>
-                        <h5 class="mb-0">→</h5>
+                        <div class="mb-0 button">EXPLORE OUR PRODUCTS</div>
+                        <div class="mb-0 button">→</div>
                     </div>
                 </a>
             </div>
