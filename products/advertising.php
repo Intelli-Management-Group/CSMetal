@@ -107,15 +107,15 @@
                                     <div class="col-12">
                                         <div class="grid-container">
                                             <div class="hover-link grid-item" data-target="img1">THIERRY MUGLER PERFUME REFILL MACHINE</div>
-                                            <div class="hover-link grid-item" data-target="img6">KITCHEN UTENSILS</div>
                                             <div class="hover-link grid-item" data-target="img2">GEORG JENSEN CANDLE HOLDER</div>
-                                            <div class="hover-link grid-item" data-target="img7">BIKE STAND</div>
                                             <div class="hover-link grid-item" data-target="img3">VICTORIA’S SECRET CANDLE HOLDER</div>
-                                            <div class="hover-link grid-item" data-target="img8">ELASTIC BAND PIERCING</div>
                                             <div class="hover-link grid-item" data-target="img4">CHRISTIAN DIOR LIGHT BOX SHELF</div>
-                                            <div class="hover-link grid-item" data-target="img9">BEER KOBO</div>
                                             <div class="hover-link grid-item" data-target="img5">OEM 5</div>
-                                            <div class="hover-link grid-item" data-target="img10">oem 10</div>
+                                            <div class="hover-link grid-item" data-target="img6">KITCHEN UTENSILS</div>
+                                            <div class="hover-link grid-item" data-target="img7">BIKE STAND</div>
+                                            <div class="hover-link grid-item" data-target="img8">ELASTIC BAND PIERCING</div>
+                                            <div class="hover-link grid-item" data-target="img9">BEER KOBO</div>
+                                            <div class="hover-link grid-item" data-target="img10">OEM 10</div>
                                         </div>
                                     </div>
                                 </div>
@@ -157,13 +157,6 @@
             </div>
         </div>
     </div>
-
-    <!-- <script>
-        document.querySelector(".image-button-white").addEventListener("click", function(event) {
-            event.preventDefault();
-            document.getElementById("intro").scrollIntoView({ behavior: "smooth" });
-        });
-    </script> -->
 
     <?php include '../footer.php'; ?>
 

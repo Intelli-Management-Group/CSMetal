@@ -3,6 +3,13 @@
 
 <head>
     <?php include '../HTMLhead.php'; ?>
+    <style>
+        .carousel-control-next,
+        .carousel-control-prev ,
+        .carousel-indicators {
+            filter: invert(100%);
+        }
+    </style>
 </head>
 
 <body>
@@ -47,7 +54,7 @@
 
         <!-- Product Section -->
         <div class="container">
-            <div class="row section-padding">
+            <!-- <div class="row section-padding">
                 <div class="product-image-container manifold-image-container col-sm-12 col-md-12 col-lg-12 p-0">
                     <img src="img/Product/Manifold/img_manifold_1.jpg" alt="manifold_1" id="img1" class="active">
                     <img src="img/Product/Manifold/img_manifold_2.jpg" alt="manifold_2" id="img2">
@@ -76,7 +83,39 @@
                             </div>
                         </div>
                     </div>
+                </div> -->
+                
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/Product/Manifold/img_manifold_1.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/Product/Manifold/img_manifold_2.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/Product/Manifold/img_manifold_3.jpg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/Product/Manifold/img_manifold_4.jpg" alt="Forth slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
+
             </div>
 
             <!-- Become a customer -->
@@ -98,13 +137,6 @@
             </div>
         </div>
     </div>
-<!-- 
-    <script>
-        document.querySelector(".image-button-white").addEventListener("click", function(event) {
-            event.preventDefault();
-            document.getElementById("intro").scrollIntoView({ behavior: "smooth" });
-        });
-    </script> -->
 
     <?php include '../footer.php'; ?>
 
