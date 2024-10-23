@@ -64,7 +64,8 @@
         </div>
 
         <!-- Product Section -->
-        <div class="container">
+        <!-- <div class="container"> -->
+        <div>
             <div class="row section-padding">
                 <div class="product-image-container col-sm-12 col-md-6 col-lg-6 p-0">
                     <img src="img/Product/OEM/img_1.jpg" alt="oem 1" id="img1" class="active">

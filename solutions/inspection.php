@@ -24,7 +24,7 @@
                 <h3 class="solution-banner-padding">Fabrik is crucial in the USA’s emergence as a favored global auto manufacturing destination. We focus on lightweight, cost-effective, and fuel-efficient vehicle solutions, collaborating closely with the automotive sector from concept to commercialization. Our experience, expertise, and innovation consistently exceed our clients' high QCD (Quality, Cost, and Delivery) expectations.</h3>
             </div>
             <div class="col-md-4">
-                <img src="img/SolutionInspection/banner.webp" alt="Inspection Banner" class="image solution-banner scroll2moveup">
+                <img src="img/Solution/inspection/inspection_main.jpg" alt="Inspection Banner" class="image solution-banner scroll2moveup">
             </div>
         </div>
     </div>
@@ -53,11 +53,11 @@
                 </div>
 
                 <div class="col-sm-12 col-md-4 solution-image-1">
-                    <img src="img/SolutionInspection/solution2.webp" alt="product 1" class="image scroll2movedown solutions-img1-margin">
+                    <img src="img/Solution/inspection/img_inspection_1.jpg" alt="product 1" class="image scroll2movedown solutions-img1-margin">
                 </div>
 
                 <div class="col-sm-12 col-md-4 solution-image-2">
-                    <img src="img/SolutionInspection/solution3.webp" alt="product 2" class="image scroll2moveup solutions-img2-margin">
+                    <img src="img/Solution/inspection/img_inspection_2.jpg" alt="product 2" class="image scroll2moveup solutions-img2-margin">
                 </div>
             </div>
         </div>
@@ -107,7 +107,7 @@
             </div>
 
             <div class="image-container">
-                <img src="img/SolutionInspection/solution4.webp" alt="Spectralight" class="banner-container">
+                <img src="img/Solution/inspection/img_inspection_3.jpg" alt="Spectralight" class="banner-container">
             </div>
         </div>
 

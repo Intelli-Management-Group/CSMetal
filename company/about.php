@@ -213,7 +213,7 @@
             <div class="line line-right"></div>
             <div class="row section-padding-lg">
                 <div class="col-sm-12 col-md-4">
-                    <img src="img/Company/About/img_2.webp" alt="Founder" class="image">
+                    <img src="img/Company/About/img_2.jpg" alt="Founder" class="image">
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <h3>Legacy of the Founder</h3>

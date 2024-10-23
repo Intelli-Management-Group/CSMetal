@@ -46,7 +46,8 @@
         </div>
 
         <!-- Product Section -->
-        <div class="container">
+        <!-- <div class="container"> -->
+        <div>
             <div class="row section-padding">
                 <div class="product-image-container col-sm-12 col-md-7 p-0">
                     <img src="img/Product/Handle/img_handle_tubular.jpg" alt="hinge" id="img1" class="active">
