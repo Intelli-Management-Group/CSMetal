@@ -275,7 +275,7 @@
                         </ul>
                     </div>
                     <div class="col-md-4 d-flex align-items-center">
-                        <img src="img/Company/About/img_2.webp" alt="history" style="height: 200px;">
+                        <img src="img/Company/img_company.jpg" alt="history" style="height: 200px;">
                     </div>
                 </div>
             </div>
@@ -305,7 +305,7 @@
                         </ul>
                     </div> -->
                     <div class="col-md-4 d-flex align-items-center">
-                        <img src="img/Solution/cnc_turning.jpg" alt="cnc_turning" style="height: 200px;">
+                        <img src="img/Solution/img_solution.jpg" alt="cnc_turning" style="height: 200px;">
                     </div>
                 </div>
             </div>
@@ -329,7 +329,7 @@
                         </ul>
                     </div>
                     <div class="col-md-4 d-flex align-items-center">
-                        <img src="img/Product/Main/product_3.jpg" alt="product" style="height: 200px;">
+                        <img src="img/Product/Main/img_product.jpg" alt="product" style="height: 200px;">
                     </div>
                 </div>
             </div>
