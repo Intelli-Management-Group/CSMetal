@@ -3,11 +3,72 @@
 
 <head>
     <?php include '../HTMLhead.php'; ?>
-    <style>
+    <!-- <style>
         .carousel-control-next,
         .carousel-control-prev ,
         .carousel-indicators {
             filter: invert(100%);
+        }
+    </style> -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <style>
+        /* Container styling */
+        .slick-container {
+            width: 100%;
+            /* max-width: 600px; */
+            margin: auto;
+            position: relative;
+        }
+
+        .slick-slide img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            position: relative;
+        }
+
+        /* Position navigation arrows inside the images */
+        .slick-prev, .slick-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #fff;
+            /* font-size: 24px; */
+            z-index: 2;
+        }
+
+        .slick-prev {
+            left: 10px;
+        }
+
+        .slick-next {
+            right: 10px;
+        }
+
+        .slick-prev:before, .slick-next:before {
+            color: #0c73b2; /* Set your desired color */
+            font-size: 24px; /* Adjust the size if needed */
+        }
+
+        /* Position the dots (pagination) inside the images */
+        .slick-dots {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+        }
+
+        /* Customize dots */
+        .slick-dots li button:before {
+            font-size: 12px;
+            color: #ccc;
+            opacity: 0.8;
+        }
+
+        .slick-dots li.slick-active button:before {
+            color: #0c73b2;
         }
     </style>
 </head>
@@ -84,7 +145,7 @@
                         </div>
                     </div>
                 </div> -->
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -113,10 +174,24 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
+            </div> -->
+            <div class="slick-container">
+                <div>
+                    <img src="img/Product/Manifold/img_manifold_1.jpg" alt="Image 1">
+                </div>
+                <div>
+                    <img src="img/Product/Manifold/img_manifold_2.jpg" alt="Image 2">
+                </div>
+                <div>
+                    <img src="img/Product/Manifold/img_manifold_3.jpg" alt="Image 3">
+                </div>
+                <div>
+                    <img src="img/Product/Manifold/img_manifold_4.jpg" alt="Image 4">
+                </div>
             </div>
 
             <!-- Become a customer -->
-            <div class="row section-padding padding-bottom pl-0 pr-0">
+            <div class="row section-padding padding-top padding-bottom pl-0 pr-0">
                 <div class="col-sm-12 col-md-6 pr-0">
                     <div class="image-container">
                         <img src="img/Product/Stamping/img_customer.jpg" alt="image 2" class="banner-container">
@@ -136,6 +211,23 @@
     </div>
 
     <?php include '../footer.php'; ?>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Initialize Slick Carousel -->
+    <script>
+        $(document).ready(function(){
+            $('.slick-container').slick({
+                dots: true,                // Enable dot indicators
+                infinite: true,            // Loop through slides infinitely
+                speed: 500,                // Speed of slide transition
+                slidesToShow: 1,           // Show one slide at a time
+                slidesToScroll: 1,         // Scroll one slide at a time
+                arrows: true,              // Enable left and right arrows
+            });
+        });
+    </script>
 
 </body>
 

@@ -5,7 +5,7 @@
     <?php include '../HTMLhead.php'; ?>
     <style>
         .die-cast {
-            padding: 10px;
+            padding: 25px 25px;
         }
     </style>
 </head>
@@ -118,7 +118,7 @@
             </div>
         </div> -->
 
-        <div class="row section-padding pb-0">
+        <div class="row section-padding py-0">
             <div class="col-4 p-0">
                 <img src="img/Product/Diecast/img_diecast_1.jpg" alt="diecast_1"class="image die-cast">
             </div>
@@ -137,7 +137,7 @@
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
 
-        <div class="row section-padding pt-0">
+        <div class="row section-padding py-0">
             <div class="col-4 p-0">
                 <img src="img/Product/Diecast/img_diecast_4.jpg" alt="diecast_4"class="image die-cast">
             </div>
@@ -156,10 +156,10 @@
         <div class="line line-left"></div>
         <div class="line line-right"></div>
         <!-- Become a customer -->
-        <div class="row section-padding padding-bottom pl-0 pr-0">
+        <div class="row section-padding padding-top padding-bottom pl-0 pr-0">
             <div class="col-sm-12 col-md-6 pr-0">
                 <div class="image-container">
-                    <img src="img/Product/Stamping/img_customer.jpg" alt="image 2" class="banner-container">
+                    <img src="img/Product/Stamping/img_customer.jpg" alt="customer" class="banner-container">
                 </div>
             </div>
 
