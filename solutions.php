@@ -17,14 +17,14 @@
                     <div class="title">Tailored Steel Solutions</div>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <a class="col-md-4 image-button scroll2intro" href="solutions.php#intro" style="top:100%">
                     <div class="d-flex justify-content-between w-100">
                         <div class="mb-0 button">FIND OUT MORE</div>
                         <div class="mb-0 button">↘</div>
                     </div>
                 </a>
-            </div>
+            </div> -->
         </div>
 
         <!-- banner -->

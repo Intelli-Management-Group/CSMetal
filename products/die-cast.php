@@ -19,14 +19,14 @@
                 <div class="title">Diverse talent enables smarter steels</div>
             </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <a class="col-md-4 image-button-white scroll2intro" href="#intro" style="top:100%">
                 <div class="d-flex justify-content-between w-100">
                     <div class="mb-0 button">LEARN MORE</div>
                     <div class="mb-0 button">↘</div>
                 </div>
             </a>
-        </div>
+        </div> -->
     </div>
 
     <!-- banner -->

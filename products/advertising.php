@@ -3,6 +3,24 @@
 
 <head>
     <?php include '../HTMLhead.php'; ?>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* 2 equal columns */
+            gap: 10px; /* Adjust spacing between rows and columns */
+        }
+
+        .grid-item {
+            background-color: transparent;
+            padding: 10px;
+            color: white;
+            display: flex;
+            align-items: top;
+            justify-content: flex-start;
+            min-height: 50px; /* Ensure all grid items have at least the same height */
+            text-align: left;
+        }
+    </style>
 </head>
 
 <body>
@@ -48,7 +66,7 @@
         <!-- Product Section -->
         <div class="container">
             <div class="row section-padding">
-                <div class="product-image-container col-md-12 col-lg-8 p-0">
+                <div class="product-image-container col-sm-12 col-md-6 col-lg-6 p-0">
                     <img src="img/Product/OEM/img_1.jpg" alt="oem 1" id="img1" class="active">
                     <img src="img/Product/OEM/img_2.jpg" alt="oem 2" id="img2">
                     <img src="img/Product/OEM/img_3.jpg" alt="oem 3" id="img3">
@@ -61,7 +79,7 @@
                     <img src="img/Product/OEM/img_10.jpg" alt="oem 10" id="img10">
                 </div>
 
-                <div class="col-md-12 col-lg-4 d-flex align-items-center justify-content-center" style="background-color: #333;">
+                <div class="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center" style="background-color: #333;">
                     <div class="text-white w-100">
                         <div style="padding: 10%;">
                             <div class="row">
@@ -70,8 +88,8 @@
                                 </div>
                             </div>
                             
-                            <div class="row">
-                                <!-- <div class="col-6">
+                            <!-- <div class="row pt-3">
+                                <div class="col-6">
                                     <div class="hover-link" data-target="img1">THIERRY MUGLER PERFUME REFILL MACHINE</div>
                                     <div class="hover-link" data-target="img2">GEORG JENSEN CANDLE HOLDER</div>
                                     <div class="hover-link" data-target="img3">VICTORIA’S SECRET CANDLE HOLDER</div>
@@ -85,7 +103,24 @@
                                     <div class="hover-link" data-target="img9">BEER KOBO</div>
                                     <div class="hover-link" data-target="img10">oem 10</div>
                                 </div> -->
-                                <div class="col-12">
+                                <div class="row pt-3">
+                                    <div class="col-12">
+                                        <div class="grid-container">
+                                            <div class="hover-link grid-item" data-target="img1">THIERRY MUGLER PERFUME REFILL MACHINE</div>
+                                            <div class="hover-link grid-item" data-target="img6">KITCHEN UTENSILS</div>
+                                            <div class="hover-link grid-item" data-target="img2">GEORG JENSEN CANDLE HOLDER</div>
+                                            <div class="hover-link grid-item" data-target="img7">BIKE STAND</div>
+                                            <div class="hover-link grid-item" data-target="img3">VICTORIA’S SECRET CANDLE HOLDER</div>
+                                            <div class="hover-link grid-item" data-target="img8">ELASTIC BAND PIERCING</div>
+                                            <div class="hover-link grid-item" data-target="img4">CHRISTIAN DIOR LIGHT BOX SHELF</div>
+                                            <div class="hover-link grid-item" data-target="img9">BEER KOBO</div>
+                                            <div class="hover-link grid-item" data-target="img5">OEM 5</div>
+                                            <div class="hover-link grid-item" data-target="img10">oem 10</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="col-12">
                                     <div class="hover-link" data-target="img1">THIERRY MUGLER PERFUME REFILL MACHINE</div>
                                     <div class="hover-link" data-target="img2">GEORG JENSEN CANDLE HOLDER</div>
                                     <div class="hover-link" data-target="img3">VICTORIA’S SECRET CANDLE HOLDER</div>
@@ -96,7 +131,7 @@
                                     <div class="hover-link" data-target="img8">ELASTIC BAND PIERCING</div>
                                     <div class="hover-link" data-target="img9">BEER KOBO</div>
                                     <div class="hover-link" data-target="img10">oem 10</div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>

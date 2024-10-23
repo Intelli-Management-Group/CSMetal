@@ -11,7 +11,7 @@ html {
 
 body p {
     font-size: 16px !important;
-    font-weight: 300 ;
+    font-weight: 200 ;
 }
 
 a {
@@ -24,6 +24,7 @@ h3 {
 }
 
 .slogan {
+    font-size: 17px !important;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -99,7 +100,7 @@ h3 {
 }
 
 .text-color {
-    color: #005399;
+    color: #0c73b2;
 }
 
 .banner-container{
@@ -144,7 +145,7 @@ h3 {
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: #005399;
+    background-color: #0c73b2;
     transition: left 0.4s ease;
     z-index: 0;
 }
@@ -184,7 +185,7 @@ h3 {
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: #005399;
+    background-color: #0c73b2;
     transition: left 0.4s ease;
     z-index: 0;
 }
@@ -224,7 +225,7 @@ h3 {
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: #005399;
+    background-color: #0c73b2;
     transition: left 0.4s ease;
     z-index: 0;
 }
@@ -249,7 +250,7 @@ h3 {
 .grey-widget-wrap {
     padding: 50px 25px;
     height: 100%;
-    background-color: #E6E9EB;
+    background-color: #f7f7f7;
     position:relative;
     overflow: hidden;
     z-index: 10;
@@ -263,7 +264,7 @@ h3 {
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: #005399;
+    background-color: #0c73b2;
     z-index: -1;
     transition: left 0.5s ease;
 }
@@ -283,7 +284,7 @@ h3 {
 
 .grey-widget-wrap:hover .arrow {
     background-color: white;
-    color: #005399;
+    color: #0c73b2;
     transition-duration: 0.5s;
     border-left: 1px solid #eee;
 }
@@ -297,14 +298,14 @@ h3 {
 }
 
 .arrow {
-    background-color: #005399;
+    background-color: #0c73b2;
     color: white;
     padding: 10px 20px 10px 30px;
     position: absolute;
     bottom: 0;
     left: 0;
     cursor: pointer;
-    border-left: 1px solid #005399;
+    border-left: 1px solid #0c73b2;
     text-decoration: none;
 }
 .arrow:hover {
@@ -336,7 +337,7 @@ h3 {
 
 .image-arrow {
     background-color: white;
-    color: #005399;
+    color: #0c73b2;
     padding: 10px 20px 10px 30px;
     position: absolute;
     bottom: 0;
@@ -356,7 +357,7 @@ h3 {
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: #005399;
+    background-color: #0c73b2;
     transition: left 0.4s ease;
     z-index: 0;
 }
@@ -381,7 +382,7 @@ h3 {
 }
 
 .solution-link:hover {
-    color: #005399;
+    color: #0c73b2;
     text-decoration: none;
 }
 
@@ -406,7 +407,7 @@ h3 {
 .underline-link {
     color: black;
     text-decoration: underline;
-    text-decoration-color: #005399;
+    text-decoration-color: #0c73b2;
     text-underline-offset: 5px;
     position: relative;
 }
@@ -418,7 +419,7 @@ h3 {
     bottom: -3px;
     width: 0;
     height: 1px;
-    background-color: #005399;
+    background-color: #0c73b2;
     transition: width 0.5s ease;
   }
   
@@ -429,7 +430,7 @@ h3 {
 .underline-link:hover {
     color: black;
     text-decoration: none;
-    /* text-decoration-color: #005399;
+    /* text-decoration-color: #0c73b2;
     text-underline-offset: 5px; */
 }
 
@@ -519,7 +520,7 @@ h3 {
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: #005399;
+    background-color: #0c73b2;
     transition: left 0.4s ease;
     z-index: 0;
 }
@@ -625,7 +626,7 @@ h3 {
 .color-block {
     width: 100%;
     height: 100%;
-    background-color: #005399;
+    background-color: #0c73b2;
 }
 
 hr {
@@ -741,7 +742,7 @@ hr {
 }
 
 .hover-link:hover {
-    color:#005399;
+    color:#0c73b2;
 }
 
 .customDiv{
@@ -760,7 +761,7 @@ hr {
     color:#000000 !important;
 }
 .address:hover{
-    color:#005399 !important;
+    color:#0c73b2 !important;
     text-decoration:none;
 }
 .underline{
@@ -772,14 +773,14 @@ hr {
     -webkit-font-smoothing: antialiased;
     position: relative;
     /* text-decoration: underline;
-    text-decoration-color: #005399; */
+    text-decoration-color: #0c73b2; */
 }
 
 .upparCasetextTransformed::after {
     content: ''; /* Create an empty pseudo-element */
     display: block; /* Make it block-level */
     height: 2px; /* Set the thickness of the underline */
-    background: #005399; /* Set underline color */
+    background: #0c73b2; /* Set underline color */
     position: absolute; /* Position it absolutely */
     left: 0; /* Align it to the left */
     right: 0; /* Align it to the right */
@@ -835,7 +836,7 @@ hr {
 }
 
 .elementor-button:hover {
-    background-color: #005399; /* Darker shade on hover */
+    background-color: #0c73b2; /* Darker shade on hover */
 }
 
 .checkmark p {
@@ -845,7 +846,7 @@ hr {
 .checkmark p::before {
     content: '✓';
     font-size: 20px;
-    color: #005399; 
+    color: #0c73b2; 
     margin-right: 10px;
 }
 
@@ -873,7 +874,7 @@ hr {
 }
 
 .fa-icon{
-    color: #005399;
+    color: #0c73b2;
     font-size: 70px;
     margin-bottom: 20px;
 }

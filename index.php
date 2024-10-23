@@ -13,17 +13,17 @@
             <div class="row section-padding">
                 <div class="col-lg-8">
                     <p><span class="text-color">/ </span>Established in 1981</p>
-                    <div class="title" style="font-size: 65px; font-weight: bold;">Crafting the Future with Precision</div>
+                    <div class="title" style="font-size: 65px; font-weight: 500;">Crafting the Future with Precision</div>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <a class="col-md-4 image-button" href="company/about.php" style="top:100%">
                     <div class="d-flex justify-content-between w-100">
                         <div class="mb-0 button">LEARN MORE</div>
                         <div class="mb-0 button">→</div>
                     </div>
                 </a>
-            </div>
+            </div> -->
         </div>
 
         <!-- banner -->
@@ -57,7 +57,7 @@
                 <div class="col-sm-12 col-md-4 pl-0">
                     <div class="grey-widget-wrap">
                         <p><span class="text-color">/ </span>Become a customer</p>
-                        <h3 class="mt-5 mb-5">Choose CS for Fast, High-quality Custom Parts</h3>
+                        <h3 class="mt-5 mb-5">Choose CS for Fast, </br> High-quality Custom Parts</h3>
                         <a class="arrow" href="company/become-a-customer.php">→</a>
                     </div>
                 </div>

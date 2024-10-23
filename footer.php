@@ -9,7 +9,7 @@
 
             .info-wrap {
                 display: flex;
-                border: 1px solid #eee;
+                border: 1px solid #4b4b4b;
                 padding: 50px;
                 align-items: center;
                 justify-content: center;
@@ -28,12 +28,12 @@
 
             @media only screen and (max-width: 767px) {
                 .email {
-                    border-left: 1px solid #eee;
+                    border-left: 1px solid #4b4b4b;
                     border-top: none;
                 }
 
                 .phone {
-                    border-left: 1px solid #eee;
+                    border-left: 1px solid #4b4b4b;
                     border-top: none;
                 }
             }
@@ -62,11 +62,11 @@
             }
 
             .terms a.active {
-                color: #005399;
+                color: #0c73b2;
             }
 
             .terms a:hover {
-                color: #005399;
+                color: #0c73b2;
                 text-decoration: none;
             }
         </style>
@@ -76,12 +76,12 @@
             <div class="container">
                 <div class="footer">
                     <div class="row section-padding padding-top">
-                        <div class="col-sm-12 col-md-6 pl-0 pr-0">
+                        <div class="col-sm-12 col-md-12 pl-0 pr-0">
                             <div class="title">Pioneering a New Era of Steelworking Excellence</div>
                         </div>
                     </div>
                     
-                    <div class="row section-padding">
+                    <div class="row section-padding pt-0">
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
                             <div class="info-wrap location">
                                 <h3>41088 Chagrin Boulevard #120 Cleveland, OH 44124</h3>
@@ -101,7 +101,7 @@
                 </div>
             </div>
 
-            <hr class="m-0" style="background-color: #eee;">
+            <hr class="m-0" style="background-color: #4b4b4b;">
 
             <div class="container">
                 <div class="footer section-padding pl-0">

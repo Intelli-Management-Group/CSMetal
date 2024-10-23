@@ -3,7 +3,10 @@
     <head>
         <?php include '../HTMLhead.php'; ?>
         <style>
-
+            .solution-wrap {
+                padding: 25px 50px !important;
+                height: 150px !important;
+            }
         </style>
     </head>
     <body>
@@ -19,14 +22,14 @@
                     <div class="title">Crafting Excellence Through Innovation and Precision</div>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <a class="col-md-4 image-button scroll2intro" href="#intro" style="top:100%">
                     <div class="d-flex justify-content-between w-100">
                         <div class="mb-0 button">FIND OUT MORE</div>
                         <div class="mb-0 button">↘</div>
                     </div>
                 </a>
-            </div>
+            </div> -->
         </div>
 
         <!-- banner -->
@@ -91,19 +94,19 @@
                         </div>
                     </div>
                     
-                    <div class="row section-padding padding-bottom">
+                    <div class="row section-padding padding-bottom pt-0">
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
-                            <a href="" class="info-wrap location card-arrow">
+                            <a href="" class="info-wrap solution-wrap location card-arrow">
                                 <h4 class="m-0">Automated Tube Forming Machine</h4>
                             </a>
                         </div>
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
-                            <a href="solutions/inspection.php#gom" class="info-wrap email card-arrow">
+                            <a href="solutions/inspection.php#gom" class="info-wrap solution-wrap email card-arrow">
                                 <h4 class="m-0">GOM Scan</h4>
                             </a>
                         </div>
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
-                            <a href="" class="info-wrap phone card-arrow">
+                            <a href="" class="info-wrap solution-wrap phone card-arrow">
                                 <h4 class="m-0">Metal Hardness Measurement Machine</h4>
                             </a>
                         </div>

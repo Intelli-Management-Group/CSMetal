@@ -26,14 +26,14 @@
                     <div class="title">Celebrating Excellence with Industry Leading Awards </div>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <a class="col-md-4 image-button scroll2intro" href="#intro" style="top:100%">
                     <div class="d-flex justify-content-between w-100">
                         <div class="mb-0 button">FIND OUT MORE</div>
                         <div class="mb-0 button">↘</div>
                     </div>
                 </a>
-            </div>
+            </div> -->
         </div>
 
         <!-- banner -->
@@ -92,6 +92,9 @@
                         <p>2011</p>
                     </div>
                 </div>
+            </div>
+
+            <div class="row section-padding pt-0">
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
                         <img src="img/Company/Awards/img_4.jpg" alt="about" class="image pb-3">    
@@ -116,6 +119,9 @@
                         <p>2014</p>
                     </div>
                 </div>
+            </div>
+            
+            <div class="row section-padding pt-0">
                 <div class="col-sm-12 col-md-4">
                     <div class="d-flex flex-column align-items-center text-center">
                         <img src="img/Company/Awards/img_7.jpg" alt="about" class="image pb-3">    

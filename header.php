@@ -38,7 +38,7 @@
             }
 
             /* .nav-links li:hover {
-                border-top: 4px solid #005399;
+                border-top: 4px solid #0c73b2;
                 padding-top: 2px;
             } */
 
@@ -56,11 +56,11 @@
             }
 
             .nav-links a.active {
-                color: #005399;
+                color: #0c73b2;
             }
 
             .nav-links a:hover {
-                color: #005399;
+                color: #0c73b2;
                 text-decoration: none;
             }
 
@@ -78,11 +78,11 @@
             }
 
             .first-nav.active {
-                color: #005399;
+                color: #0c73b2;
             }
 
             .first-nav:hover {
-                color: #005399;
+                color: #0c73b2;
                 text-decoration: none;
             }
 
@@ -173,7 +173,7 @@
                         <li id="company-link"><a href="company/about.php" class="first-nav">COMPANY</a></li>
                         <li id="solutions-link"><a href="solutions.php" class="first-nav">SOLUTIONS</a></li>
                         <li id="products-link"><a href="products.php" class="first-nav">PRODUCTS</a></li>
-                        <li id="facilities-link"><a href="#" class="first-nav">FACILITIES</a></li>
+                        <!-- <li id="facilities-link"><a href="#" class="first-nav">FACILITIES</a></li> -->
                         <li><a href="./contact.php" class="text-nowrap first-nav">CONTACT US</a></li>
                     </ul>
                 </nav>
@@ -234,7 +234,7 @@
                             </div>
                         </li>
 
-                        <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                             Facilities
                             </a>
@@ -248,7 +248,7 @@
                                 <a class="dropdown-item" href="#">Polishing Area</a>
                                 <a class="dropdown-item" href="#">Stamping Area</a>
                             </div>
-                        </li>
+                        </li> -->
 
                         <li class="nav-item">
                             <a class="nav-link" href="contact.php">Contact Us</a>
