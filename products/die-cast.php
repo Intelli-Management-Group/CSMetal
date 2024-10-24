@@ -41,7 +41,7 @@
         <div class="row section-padding-lg d-flex justify-content-center" id="intro">
             <div class="col-sm-12 col-md-8">
                 <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p>
-                <h3 style="text-transform: uppercase;">Fabrik’s mission centers on crafting intelligent steels that benefit both humanity and the planet. Achieving this ambition hinges on attracting and retaining top-tier talent. Our success in this endeavor rests on fostering an inclusive workplace where every team member feels esteemed and empowered.</h3>
+                <h3>Die-casting is a process that involves shaping molten metal under high pressure into a mold cavity making them ideal for industries that require durable and lightweight components. Die Cast products offered by CS Metal are precisely designed for industries that looking for durable and lightweight components. Various die-cast parts include tweezers, foot pegs, and other custom products.</h3>
             </div>
         </div>
     </div>

@@ -109,7 +109,7 @@
         <div class="row section-padding padding-top d-flex justify-content-center" id="intro">
             <div class="col-sm-12 col-md-8">
                 <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p>
-                <h3 style="text-transform: uppercase;">Fabrik’s mission centers on crafting intelligent steels that benefit both humanity and the planet. Achieving this ambition hinges on attracting and retaining top-tier talent. Our success in this endeavor rests on fostering an inclusive workplace where every team member feels esteemed and empowered.</h3>
+                <h3>At CS Metal, our custom manifold solutions are designed to handle high-pressure systems and complex tasks; offering superior performance and durability. Our manifolds are tailored to the client’s exact specifications, delivering efficiency and reliability in industrial applications. </h3>
             </div>
         </div>
 

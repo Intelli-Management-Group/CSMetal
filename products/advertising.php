@@ -37,14 +37,14 @@
                 <div class="title">Diverse talent enables smarter steels</div>
             </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <a class="col-md-4 image-button-white scroll2intro" href="#intro" style="top:100%">
                 <div class="d-flex justify-content-between w-100">
                     <div class="mb-0 button">LEARN MORE</div>
                     <div class="mb-0 button">↘</div>
                 </div>
             </a>
-        </div>
+        </div> -->
     </div>
 
     <!-- banner -->
@@ -134,7 +134,7 @@
         <div class="row section-padding-lg d-flex justify-content-center" id="intro">
             <div class="col-sm-12 col-md-8">
                 <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p>
-                <h3 style="text-transform: uppercase;">Fabrik’s mission centers on crafting intelligent steels that benefit both humanity and the planet. Achieving this ambition hinges on attracting and retaining top-tier talent. Our success in this endeavor rests on fostering an inclusive workplace where every team member feels esteemed and empowered.</h3>
+                <h3>Our custom advertising fixtures and OEM products combine functionality and aesthetic appeal. Each product is precisely manufactured to the client’s request enhancing brand presence. We’ve worked with Christian Dior, Georg Jensen, Victoria’s Secret, Hermes, and many more, showcasing our ability to deliver high quality and meet aesthetic standards.</h3>
             </div>
         </div>
     </div>
@@ -170,7 +170,7 @@
             </div>
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/OEM/img_5.jpg" alt="oem 5" class="products-image">
-                <p class="product-name"></p>
+                <p class="product-name">OEM 5</p>
             </div>
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/OEM/img_6.jpg" alt="oem 6" class="products-image">
@@ -206,7 +206,7 @@
             </div>
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/OEM/img_9.jpg" alt="oem 9" class="products-image">
-                <p class="product-name">Beer Kobo</p>
+                <p class="product-name">BEER KOBO</p>
             </div>
 
             <div class="col-12 p-0 horizontal-line">
@@ -214,7 +214,7 @@
             </div>
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/OEM/img_10.jpg" alt="oem 10" class="products-image">
-                <p class="product-name"></p>
+                <p class="product-name">OEM 10</p>
             </div>
 
             <div class="col-12 p-0 horizontal-line">
