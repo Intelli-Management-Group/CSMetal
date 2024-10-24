@@ -207,7 +207,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-4" style="padding:0 35px !important;">
+                    <div class="col-sm-12 col-md-4 col-customer">
                         <div class="customer-wrap">
                             <div class="nut-container">
                                 <div class="nut-wrapper">
