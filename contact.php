@@ -17,14 +17,14 @@
                     <div class="title">Ready to Meet Your Steel Partner?</div>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <a class="col-md-4 image-button" href="#" style="top:100%">
                     <div class="d-flex justify-content-between w-100">
                         <div class="mb-0 button">FIND OUT MORE</div>
                         <div class="mb-0 button">↘</div>
                     </div>
                 </a>
-            </div>
+            </div> -->
         </div>
 
         <!-- banner -->
@@ -85,15 +85,15 @@
 
             <!-- Form -->
             
-            <div class="row section-padding">
-                <div class="col-sm-12 col-md-4">
-                    <div class="title upparCasetextTransform">We want to hear from you</div>                
+            <div class="row section-padding pb-0">
+                <div class="col-sm-12 col-md-8">
+                    <div class="title">We want to hear from you</div>                
                 </div>
             </div>
 
             <div class="row section-padding padding-bottom align-items-stretch">
                 <div class="col-sm-12 col-md-8 d-flex pl-0"> 
-                    <div class="elementor-widget-container flex-fill">
+                    <div class="elementor-widget-container flex-fill p-3">
                         <form class="elementor-form" action="submit-form.php" method="POST" name="Contact From">
                             <input type="hidden" name="post_id" value="133">
                             <input type="hidden" name="form_id" value="cf6c9c3">

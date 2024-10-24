@@ -47,7 +47,7 @@
             <div class="row section-padding padding-bottom align-items-stretch">
                 <div class="col-sm-12 col-md-6 d-flex pl-0"> 
                     <div class="elementor-widget-container flex-fill" style="background-color: transparent;">
-                        <form class="elementor-form" action="submit-form.php" method="POST" name="Contact From">
+                    <form class="elementor-form" action="submit-form.php" method="POST" name="Contact From">
                             <input type="hidden" name="post_id" value="133">
                             <input type="hidden" name="form_id" value="cf6c9c3">
                             <input type="hidden" name="referer_title" value="Contact Us">

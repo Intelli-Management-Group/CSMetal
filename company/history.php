@@ -5,6 +5,14 @@
         <?php include '../HTMLhead.php'; ?>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <style>
+            hr {
+                border: none !important;
+                height: 1px !important;
+                background-color: #ccc;
+                margin: 10px 0 !important;
+            }
+        </style>
     </head>
 
     <body>

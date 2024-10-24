@@ -43,7 +43,7 @@
         <div class="line line-left"></div>
         <div class="line line-right"></div>
         <!-- Intro Section -->
-        <div class="row section-padding padding-top d-flex justify-content-center" id="intro">
+        <div class="row section-padding-lg d-flex justify-content-center" id="intro">
             <div class="col-sm-12 col-md-8">
                 <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p>
                 <h3 style="text-transform: uppercase;">Fabrik’s mission centers on crafting intelligent steels that benefit both humanity and the planet. Achieving this ambition hinges on attracting and retaining top-tier talent. Our success in this endeavor rests on fostering an inclusive workplace where every team member feels esteemed and empowered.</h3>
@@ -129,7 +129,7 @@
                 <img src="img/Product/Diecast/img_diecast_3.jpg" alt="diecast_3" class="products-image">
             </div>
 
-            <div class="col-12 p-0">
+            <div class="col-12 p-0 horizontal-line">
                 <hr>
             </div>
 
@@ -145,21 +145,21 @@
         </div>
     </div>
 
-        <div class="container">
-            <div class="line line-left"></div>
-            <div class="line line-right"></div>
+    <div class="container">
+        <div class="line line-left"></div>
+        <div class="line line-right"></div>
 
-            <div class="show-more-button" id="show-more-button">Show More →</div>
-        </div>
+        <div class="show-more-button" id="show-more-button">Show More →</div>
+    </div>
 
-        <div class="container">
+    <div class="container">
         <div class="line line-left"></div>
         <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
 
         <div id="hide" class="row section-padding py-0" style="display: none;">
-            <div class="col-12 p-0">
+            <div class="col-12 p-0 horizontal-line">
                 <hr>
             </div>
             <div class="col-6 col-md-4 p-0">
@@ -172,7 +172,7 @@
                 <img src="img/Product/Diecast/img_diecast_9.jpg" alt="diecast_9" class="products-image">
             </div>
 
-            <div class="col-12 p-0">
+            <div class="col-12 p-0 horizontal-line">
                 <hr>
             </div>
             <div class="col-6 col-md-4 p-0">
@@ -185,7 +185,7 @@
                 <img src="img/Product/Diecast/img_diecast_12.jpg" alt="diecast_12" class="products-image">
             </div>
 
-            <div class="col-12 p-0">
+            <div class="col-12 p-0 horizontal-line">
                 <hr>
             </div>
             <div class="col-6 col-md-4 p-0">
@@ -197,15 +197,15 @@
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/Diecast/img_diecast_15.jpg" alt="diecast_15" class="products-image">
             </div>
-            <!-- <div class="col-12 p-0">
+            <div class="col-12 p-0 horizontal-line">
                 <hr>
-            </div> -->
+            </div>
         </div>
     </div>
 
 
 
-    <div class="container border-top">
+    <div class="container">
         <div class="line line-left"></div>
         <div class="line line-right"></div>
         <!-- Become a customer -->

@@ -89,6 +89,13 @@ h3 {
     margin-left: -25px !important;
 }
 
+@media only screen and (max-width: 575px) {
+    .row {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+}
+
 .section-padding {
     padding: 50px 25px;
 }
@@ -638,8 +645,8 @@ h3 {
 hr {
     border: none !important;
     height: 1px !important;
-    background-color: #ccc;
-    margin: 10px 0 !important;
+    background-color: #eee;
+    margin: 0px 0 !important;
 }
 
 .sticky-logo {
@@ -836,8 +843,8 @@ hr {
     background-color: #000000; /* Button background color */
     color: white; /* Button text color */
     border: none; /* No border for button */
-    padding: 20px 30px; /* Padding for button */
-    border-radius: 4px; /* Rounded corners for button */
+    padding: 10px 20px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners for button */
     cursor: pointer; /* Pointer cursor on hover */
 }
 
@@ -908,5 +915,11 @@ hr {
 }
 
 .horizontal-line {
-    color: #eee !important;
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .horizontal-line {
+        display: block;
+    }
 }
