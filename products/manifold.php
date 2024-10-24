@@ -23,7 +23,7 @@
 
         .slick-slide img {
             width: 100%;
-            height: 400px;
+            /* height: 400px; */
             object-fit: cover;
             position: relative;
         }
@@ -52,13 +52,13 @@
         }
 
         /* Position the dots (pagination) inside the images */
-        .slick-dots {
+        /* .slick-dots {
             position: absolute;
-            bottom: 15px;
+            bottom: 0px;
             left: 50%;
             transform: translateX(-50%);
             z-index: 2;
-        }
+        } */
 
         /* Customize dots */
         .slick-dots li button:before {
@@ -224,7 +224,7 @@
                 speed: 500,                // Speed of slide transition
                 slidesToShow: 1,           // Show one slide at a time
                 slidesToScroll: 1,         // Scroll one slide at a time
-                arrows: true,              // Enable left and right arrows
+                arrows: false,             // Enable left and right arrows
             });
         });
     </script>
