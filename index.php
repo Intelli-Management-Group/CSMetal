@@ -244,7 +244,7 @@
                         <p><span class="text-color">/ </span>Become a customer</p>
                         <div class="title mt-5 mb-5">Shaping the Future of Metal Manufacturing</div>
                         <!-- <p>At CS Metal, we’ve become synonymous with reliability and quality. Shaping the future of metal manufacturing, partner with us to experience exceptional quality and precision in every project. </p> -->
-                        <a href="company/become-a-customer.php" class="underline-link">LET'S TALK →</a>
+                        <a href="company/become-a-customer.php" class="underline-link">LET'S TALK &nbsp;&nbsp; →</a>
                     </div>
                 </div>
             </div>

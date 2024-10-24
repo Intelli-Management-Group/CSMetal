@@ -3,11 +3,6 @@
 
 <head>
     <?php include '../HTMLhead.php'; ?>
-    <style>
-        /* .die-cast {
-            padding: 25px 25px;
-        } */
-    </style>
 </head>
 
 <body>
@@ -120,7 +115,7 @@
 
         <div class="row section-padding py-0">
             <div class="col-6 col-md-4 p-0">
-                <img src="img/Product/Diecast/img_diecast_1.jpg" alt="diecast_1"class="products-image">
+                <img src="img/Product/Diecast/img_diecast_1.jpg" alt="diecast_1" class="products-image">
             </div>
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/Diecast/img_diecast_2.jpg" alt="diecast_2" class="products-image">
@@ -149,7 +144,7 @@
         <div class="line line-left"></div>
         <div class="line line-right"></div>
 
-        <div class="show-more-button" id="show-more-button">Show More →</div>
+        <div class="show-more-button">Show More &nbsp;&nbsp; →</div>
     </div>
 
     <div class="container">
@@ -158,12 +153,12 @@
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
 
-        <div id="hide" class="row section-padding py-0" style="display: none;">
+        <div class="row section-padding py-0 hidden-content" style="display: none;">
             <div class="col-12 p-0 horizontal-line">
                 <hr>
             </div>
             <div class="col-6 col-md-4 p-0">
-                <img src="img/Product/Diecast/img_diecast_7.jpg" alt="diecast_7"class="products-image">
+                <img src="img/Product/Diecast/img_diecast_7.jpg" alt="diecast_7" class="products-image">
             </div>
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/Diecast/img_diecast_8.jpg" alt="diecast_8" class="products-image">
@@ -176,7 +171,7 @@
                 <hr>
             </div>
             <div class="col-6 col-md-4 p-0">
-                <img src="img/Product/Diecast/img_diecast_10.jpg" alt="diecast_10"class="products-image">
+                <img src="img/Product/Diecast/img_diecast_10.jpg" alt="diecast_10" class="products-image">
             </div>
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/Diecast/img_diecast_11.jpg" alt="diecast_11" class="products-image">
@@ -189,7 +184,7 @@
                 <hr>
             </div>
             <div class="col-6 col-md-4 p-0">
-                <img src="img/Product/Diecast/img_diecast_13.jpg" alt="diecast_13"class="products-image">
+                <img src="img/Product/Diecast/img_diecast_13.jpg" alt="diecast_13" class="products-image">
             </div>
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/Diecast/img_diecast_14.jpg" alt="diecast_14" class="products-image">
@@ -203,12 +198,10 @@
         </div>
     </div>
 
-
-
+    <!-- Become a customer -->
     <div class="container">
         <div class="line line-left"></div>
         <div class="line line-right"></div>
-        <!-- Become a customer -->
         <div class="row section-padding padding-top padding-bottom pl-0 pr-0">
             <div class="col-sm-12 col-md-6 pr-0">
                 <div class="image-container">
@@ -221,29 +214,13 @@
                     <p><span class="text-color">/ </span>Become a customer</p>
                     <div class="title mt-4 mb-4">LEADING THE WAY TO THE FUTURE</div>
                     <p>Fabrik blends steel technology leadership with outstanding problem-solving capabilities to support customers and suppliers in shaping the future of automotive transportation.</p>
-                    <a href="company/become-a-customer.php" class="underline-link">LET'S TALK →</a>
+                    <a href="company/become-a-customer.php" class="underline-link">LET'S TALK &nbsp;&nbsp; →</a>
                 </div>
             </div>
         </div>
     </div>
 
     <?php include '../footer.php'; ?>
-
-    <script>
-        document.getElementById("show-more-button").addEventListener("click", function() {
-            var hiddenContent = document.getElementById("hide");
-            if (hiddenContent.style.display === "none") {
-                hiddenContent.style.display = "flex"; // Show the second row
-                this.style.display = "none";
-                //this.textContent = "Show Less"; // Change button text
-            } 
-            // else {
-            //     secondRow.style.display = "none"; // Hide the second row
-            //     this.textContent = "Show More"; // Reset button text
-            // }
-        });
-
-    </script>
 
 </body>
 

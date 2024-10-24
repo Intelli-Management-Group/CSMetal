@@ -34,10 +34,9 @@
         <img src="img/Product/Handle/banner_product_handles.jpg" alt="Home Banner" class="banner-container">
     </div>
 
-    <div class="container">
+    <!-- <div class="container">
         <div class="line line-left"></div>
         <div class="line line-right"></div>
-        <!-- Intro Section -->
         <div class="row section-padding padding-top d-flex justify-content-center" id="intro">
             <div class="col-sm-12 col-md-8">
                 <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p>
@@ -45,8 +44,6 @@
             </div>
         </div>
 
-        <!-- Product Section -->
-        <!-- <div class="container"> -->
         <div>
             <div class="row section-padding">
                 <div class="product-image-container col-sm-12 col-md-7 p-0">
@@ -80,19 +77,13 @@
                                     <div class="hover-link" data-target="img7">HANDLES WITH MIRROR FINISH</div>
                                     <div class="hover-link" data-target="img8">HANDLES WITH BRUSH & MIRROR FINISH</div>
                                 </div>
-                                <!-- <div class="col-sm-6 col-md-6">
-                                    <div class="hover-link" data-target="img5">PRINTING CRS HANDLES</div>
-                                    <div class="hover-link" data-target="img6">HANDLES WITH BRUSH FINISH</div>
-                                    <div class="hover-link" data-target="img7">HANDLES WITH MIRROR FINISH</div>
-                                    <div class="hover-link" data-target="img8">HANDLES WITH BRUSH & MIRROR FINISH</div>
-                                </div> -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Become a customer -->
+
             <div class="row section-padding padding-bottom pl-0 pr-0">
                 <div class="col-sm-12 col-md-6 pr-0">
                     <div class="image-container">
@@ -105,19 +96,118 @@
                         <p><span class="text-color">/ </span>Become a customer</p>
                         <div class="title mt-4 mb-4">LEADING THE WAY TO THE FUTURE</div>
                         <p>Fabrik blends steel technology leadership with outstanding problem-solving capabilities to support customers and suppliers in shaping the future of automotive transportation.</p>
-                        <a href="company/become-a-customer.php" class="underline-link">LET'S TALK →</a>
+                        <a href="company/become-a-customer.php" class="underline-link">LET'S TALK &nbsp;&nbsp; →</a>
                     </div>
                 </div>
             </div>
         </div>
+    </div> -->
+
+    <!-- Intro Section -->
+    <div class="container">
+        <div class="line line-left"></div>
+        <div class="line line-right"></div>
+        <div class="row section-padding-lg d-flex justify-content-center" id="intro">
+            <div class="col-sm-12 col-md-8">
+                <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p>
+                <h3 style="text-transform: uppercase;">Fabrik’s mission centers on crafting intelligent steels that benefit both humanity and the planet. Achieving this ambition hinges on attracting and retaining top-tier talent. Our success in this endeavor rests on fostering an inclusive workplace where every team member feels esteemed and empowered.</h3>
+            </div>
+        </div>
     </div>
-<!-- 
-    <script>
-        document.querySelector(".image-button-white").addEventListener("click", function(event) {
-            event.preventDefault();
-            document.getElementById("intro").scrollIntoView({ behavior: "smooth" });
-        });
-    </script> -->
+
+    <!-- Product Section -->
+    <div class="container border-top">
+        <div class="line line-left"></div>
+        <div class="line line-1-3"></div>
+        <div class="line line-2-3"></div>
+        <div class="line line-right"></div>
+
+        <div class="row section-padding py-0">
+            <div class="col-6 col-md-4 p-0">
+            <img src="img/Product/Handle/img_handle_tubular.jpg" alt="tubular" class="products-image">
+                <p class="product-name">Tubular Handles</p>
+            </div>
+            <div class="col-6 col-md-4 p-0">
+                <img src="img/Product/Handle/img_handle_standoff.jpg" alt="standoff" class="products-image">
+                <p class="product-name">Handles with Standoff</p>
+            </div>
+            <div class="col-6 col-md-4 p-0">
+                <img src="img/Product/Handle/img_handle_color.jpg" alt="handle_color" class="products-image">
+                <p class="product-name">Color Handles</p>
+            </div>
+
+            <div class="col-12 p-0 horizontal-line">
+                <hr>
+            </div>
+
+            <div class="col-6 col-md-4 p-0">
+                <img src="img/Product/Handle/img_handle_hydroforming.jpg" alt="hydroforming" class="products-image">
+                <p class="product-name">Hydro-Forming Handles</p>
+            </div>
+            <div class="col-6 col-md-4 p-0">
+                <img src="img/Product/Handle/img_handle_crs.jpg" alt="crs" class="products-image">
+                <p class="product-name">Printing CRS Handles</p>
+            </div>
+            <div class="col-6 col-md-4 p-0">
+                <img src="img/Product/Handle/img_handle_brush.jpg" alt="brush" class="products-image">
+                <p class="product-name">Handles with Brush Finish</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="line line-left"></div>
+        <div class="line line-right"></div>
+
+        <div class="show-more-button">Show More &nbsp;&nbsp; →</div>
+    </div>
+
+    <div class="container">
+        <div class="line line-left"></div>
+        <div class="line line-1-3"></div>
+        <div class="line line-2-3"></div>
+        <div class="line line-right"></div>
+
+        <div class="row section-padding py-0 hidden-content" style="display: none;">
+            <div class="col-12 p-0 horizontal-line">
+                <hr>
+            </div>
+            <div class="col-6 col-md-4 p-0">
+                <img src="img/Product/Handle/img_handle_mirror.jpg" alt="mirror" class="products-image">
+                <p class="product-name">Handles with Mirror Finish</p>
+            </div>
+            <div class="col-6 col-md-4 p-0">
+                <img src="img/Product/Handle/img_handle_brush_mirror.jpg" alt="brush_mirror" class="products-image">
+                <p class="product-name">Handles with Brush & Mirror Finish</p>
+            </div>
+
+            <div class="col-12 p-0 horizontal-line">
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <!-- Become a customer -->
+    <div class="container">
+        <div class="line line-left"></div>
+        <div class="line line-right"></div>
+        <div class="row section-padding padding-top padding-bottom pl-0 pr-0">
+            <div class="col-sm-12 col-md-6 pr-0">
+                <div class="image-container">
+                    <img src="img/Product/Stamping/img_customer.jpg" alt="customer" class="banner-container">
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 d-flex align-items-center px-5">
+                <div>
+                    <p><span class="text-color">/ </span>Become a customer</p>
+                    <div class="title mt-4 mb-4">LEADING THE WAY TO THE FUTURE</div>
+                    <p>Fabrik blends steel technology leadership with outstanding problem-solving capabilities to support customers and suppliers in shaping the future of automotive transportation.</p>
+                    <a href="company/become-a-customer.php" class="underline-link">LET'S TALK &nbsp;&nbsp; →</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <?php include '../footer.php'; ?>
 

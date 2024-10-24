@@ -58,7 +58,7 @@
                         </div>
                         <div class="customDiv">
                             <p>
-                                <a class="underline-link" href="#" target="_blank" rel="noopener">Get Directions →</a>
+                                <a class="underline-link" href="#" target="_blank" rel="noopener">Get Directions &nbsp;&nbsp; →</a>
                             </p>
                         </div>
                     </div>

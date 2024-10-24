@@ -310,6 +310,24 @@ h3 {
     height: 100%;
 }
 
+@media only screen and (max-width: 1199px) {
+    .machine-widget {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .machine-widget {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .machine-widget {
+        display: none;
+    }
+}
+
 .arrow {
     background-color: #0c73b2;
     color: white;
@@ -993,4 +1011,12 @@ hr {
     .horizontal-line {
         display: block;
     }
+}
+
+.product-name {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    /* text-transform: capitalize; */
+    font-weight: bold;
 }
