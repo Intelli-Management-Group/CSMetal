@@ -69,6 +69,27 @@
                 color: #0c73b2;
                 text-decoration: none;
             }
+
+            #scrollToTopBtn {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                display: none; /* Hidden by default */
+                background-color: #0c73b2;
+                color: white;
+                padding: 10px 18px;
+                border: none;
+                border-radius: 5px;
+                font-size: 18px;
+                cursor: pointer;
+                z-index: 1000;
+            }
+
+            #scrollToTopBtn:hover {
+                color: #0c73b2;
+                background-color: white;
+                border: 1px solid #0c73b2;
+            }
         </style>
     </head>
     <body>
@@ -115,5 +136,33 @@
                 </div>
             </div>
         </div>
+
+        <button id="scrollToTopBtn" title="Go to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+
+        <script>
+            // Get the button
+            const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+            // Show button when user scrolls down 100px from top
+            window.onscroll = function() {
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    scrollToTopBtn.style.display = "block";
+                } else {
+                    scrollToTopBtn.style.display = "none";
+                }
+            };
+
+            // Scroll to the top of the document when the button is clicked
+            scrollToTopBtn.onclick = function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            };
+
+        </script>
+
     </body>
 </html>

@@ -29,7 +29,7 @@
 
         <!-- banner -->
         <div class="image-container" style="z-index: -1;">
-            <img src="./img/Contact/contact-banner.webp" alt="Contact Banner" class="banner-container">
+            <img src="img/Contact/banner_contact.jpg" alt="Contact Banner" class="banner-container">
         </div>
 
 
@@ -144,7 +144,7 @@
                 </div>
                 <div class="col-sm-12 col-md-4 d-flex align-items-center"> 
                     <div class="image-container" style="z-index: -1;">
-                        <img src="img/Contact/rightImages.webp" alt="Contact" class="banner-container">
+                        <img src="img/Contact/img_1.jpg" alt="Contact" class="banner-container">
                     </div>
                 </div>
             </div>

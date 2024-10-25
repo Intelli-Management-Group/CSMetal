@@ -170,7 +170,7 @@
             </div>
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/OEM/img_5.jpg" alt="oem 5" class="products-image">
-                <p class="product-name">OEM 5</p>
+                <p class="product-name">MISSONI</p>
             </div>
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/OEM/img_6.jpg" alt="oem 6" class="products-image">
@@ -214,7 +214,7 @@
             </div>
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/OEM/img_10.jpg" alt="oem 10" class="products-image">
-                <p class="product-name">OEM 10</p>
+                <p class="product-name">Others</p>
             </div>
 
             <div class="col-12 p-0 horizontal-line">

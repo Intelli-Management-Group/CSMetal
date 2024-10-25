@@ -236,7 +236,7 @@
             <div class="row section-padding-lg pl-0 pr-0">
                 <div class="col-sm-12 col-md-6">
                     <div class="image-container">
-                        <img src="img/Home/img_2.jpg" alt="image 2" class="banner-container">
+                        <img src="img/Product/Stamping/img_customer.jpg" alt="image 2" class="banner-container">
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 d-flex align-items-center">
