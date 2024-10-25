@@ -153,7 +153,7 @@
             <div class="row section-padding padding-top d-flex justify-content-center">
                 <div class="col-sm-12 col-md-8">
                     <p><span class="text-color">/ </span>Our Clients</p>
-                    <h3 style="text-transform: uppercase;">Distinguished by enduring partnerships with leading brands, Chi Sing has become synonymous with reliability and quality. Our work with top appliance manufacturers has not only earned us a preferred supplier status but also brought forth innovative collaborations.</h3>
+                    <h3>Distinguished by enduring partnerships with leading brands, Chi Sing has become synonymous with reliability and quality. Our work with top appliance manufacturers has not only earned us a preferred supplier status but also brought forth innovative collaborations.</h3>
                 </div>
             </div>
             <div class="row section-padding pt-0 d-flex justify-content-around pb-0">
