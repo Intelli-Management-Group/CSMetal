@@ -215,8 +215,8 @@
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="solutions.php">All Solutions</a>
                                 <a class="dropdown-item" href="solutions/inspection.php">Inspection</a>
-                                <a class="dropdown-item" href="#">Machines</a>
-                                <a class="dropdown-item" href="#">Testing</a>
+                                <a class="dropdown-item" href="solutions/machine.php">Machines</a>
+                                <a class="dropdown-item" href="solutions/testing.php">Testing</a>
                             </div>
                         </li>
 
@@ -292,8 +292,8 @@
                     <div class="col-md-4 d-flex align-items-center">
                         <ul class="nav-links flex-column align-items-start">
                             <li><a href="solutions/inspection.php">Quality Check / Inspection</a></li>
-                            <li><a href="#">Machines</a></li>
-                            <li><a href="#">Testing</a></li>
+                            <li><a href="solutions/machine.php">Machines</a></li>
+                            <li><a href="solutions/testing.php">Testing</a></li>
                         </ul>
                     </div>
                     <!-- <div class="col-md-4">

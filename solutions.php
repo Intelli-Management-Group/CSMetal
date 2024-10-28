@@ -68,7 +68,7 @@
                     <div class="product-wrap">
                         <div class="product-image-wrap">
                             <img src="./img/Solution/img_machines.jpg" alt="product 2" style="width: 100%;">
-                            <a class="image-arrow" href=""><div>→</div></a>
+                            <a class="image-arrow" href="solutions/machine.php"><div>→</div></a>
                         </div>
                         <h3 class="mt-3">Machines</h3>
                         <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
@@ -79,7 +79,7 @@
                     <div class="product-wrap">
                         <div class="product-image-wrap">
                             <img src="./img/Solution/img_testing.jpg" alt="product 3" style="width: 100%;">
-                            <a class="image-arrow" href=""><div>→</div></a>
+                            <a class="image-arrow" href="solutions/testing.php"><div>→</div></a>
                         </div>
                         <h3 class="mt-3">Testing</h3>
                         <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>

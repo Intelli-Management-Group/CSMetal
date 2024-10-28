@@ -13,7 +13,7 @@
             <div class="row section-padding">
                 <div class="col-lg-8">
                     <p><span class="text-color">/ </span>Established in 1981</p>
-                    <div class="title" style="font-size: 65px; font-weight: 500;">Crafting the Future with Precision</div>
+                    <div class="home-title">Crafting the Future with Precision</div>
                 </div>
             </div>
             <!-- <div class="row">
@@ -65,7 +65,7 @@
                     <div class="grey-widget-wrap">
                         <p><span class="text-color">/ </span>Machine</p>
                         <h3 class="mt-5 mb-5">Automated Tube </br> Forming Machine</h3>
-                        <a class="arrow" href="">→</a>
+                        <a class="arrow" href="solutions/machine.php#machine">→</a>
                         <img src="./img/Home/img_1.png" alt="machine" class="machine-widget">
                     </div>
                 </div>
@@ -119,7 +119,7 @@
                     <div class="product-wrap">
                         <div class="product-image-wrap">
                             <img src="./img/Solution/img_machines.jpg" alt="product 2" style="width: 100%;">
-                            <a class="image-arrow" href=""><div>→</div></a>
+                            <a class="image-arrow" href="solutions/machine.php"><div>→</div></a>
                         </div>
                         <h3 class="mt-3">Machines</h3>
                         <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
@@ -130,7 +130,7 @@
                     <div class="product-wrap">
                         <div class="product-image-wrap">
                             <img src="./img/Solution/img_testing.jpg" alt="product 3" style="width: 100%;">
-                            <a class="image-arrow" href=""><div>→</div></a>
+                            <a class="image-arrow" href="solutions/testing.php"><div>→</div></a>
                         </div>
                         <h3 class="mt-3">Testing</h3>
                         <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
@@ -184,7 +184,7 @@
                 </div>
 
                 <!-- 2nd row -->
-                <div class="row pt-5">
+                <div class="row pt-md-5">
                     <div class="col-sm-12 col-md-4">
                         <div class="product-wrap">
                             <div class="product-image-wrap">
