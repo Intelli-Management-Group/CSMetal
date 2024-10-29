@@ -63,18 +63,18 @@
             </div>
 
             <!-- Company Strength -->
-            <div class="row section-padding" style="padding-bottom: 200px;">
-                <div class="col-sm-12 col-md-4 scroll2movedown" style="margin-top: -100px;">
+            <div class="row section-padding company-strength-padding">
+                <div class="col-sm-12 col-md-4 scroll2movedown company-strength-margin-1">
                     <p class="text-color">HANDLE</p>
                     <div class="display-3" style="font-weight: bold;">400,000</div>
                     <p>pcs/month</p>
                 </div>
-                <div class="col-sm-12 col-md-4 scroll2movedown" style="margin-top: 0px;">
+                <div class="col-sm-12 col-md-4 scroll2movedown">
                     <p class="text-color">STAMPING</p>
                     <div class="display-3" style="font-weight: bold;">1,000,000</div>
                     <p>pcs/month</p>
                 </div>
-                <div class="col-sm-12 col-md-4 scroll2movedown" style="margin-top: 100px;">
+                <div class="col-sm-12 col-md-4 scroll2movedown company-strength-margin-1">
                     <p class="text-color">1 SHIFT</p>
                     <div class="display-3" style="font-weight: bold;">50%</div>
                     <p>utilization</p>
@@ -121,7 +121,7 @@
             <div class="line line-1-3"></div>
             <div class="line line-2-3"></div>
             <div class="line line-right"></div>
-            <div class="row section-padding padding-top">
+            <div class="row section-padding padding-top pb-0">
                 <div class="col-sm-12 col-md-4">
                     <div class="title pb-3">CORE VALUES</div>
                     <p>Our core values not only define us as a company but also reflect the essence of each individual within our organization.</p>

@@ -36,7 +36,7 @@
 
 @media only screen and (max-width: 767px) {
     .title {
-        font-size: 45px;
+        font-size: 35px;
         text-transform: uppercase;
         line-height: 1.2;
         font-weight: 500;
@@ -69,7 +69,12 @@
         display: block;
     }
 
+    /* .image-button {
+        position: absolute !important;
+    } */
+
     .solutions {
+        position: static !important;
         border: 1px solid #eee;
     }
 
@@ -122,6 +127,18 @@
     
     .machine-img2-margin {
         margin-top: 0px;
+    }
+
+    .company-strength-padding {
+        padding-bottom: 100px;
+    }
+
+    .company-strength-margin-1 {
+        margin-top: 0;
+    }
+    
+    .company-strength-margin-1 {
+        margin-top: 0;
     }
 }
 

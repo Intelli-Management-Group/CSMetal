@@ -229,21 +229,22 @@
             </div>
         </div>
 
-        <!-- Become a Customer -->
+        <!-- Become a customer -->
         <div class="container">
             <div class="line line-left"></div>
             <div class="line line-right"></div>
-            <div class="row section-padding-lg pl-0 pr-0">
-                <div class="col-sm-12 col-md-6">
+            <div class="row section-padding padding-top padding-bottom pl-0 pr-0">
+                <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center">
                     <div class="image-container">
-                        <img src="img/Product/Stamping/img_customer.jpg" alt="image 2" class="banner-container">
+                        <img src="img/Product/Stamping/img_customer.jpg" alt="customer" class="banner-container">
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 d-flex align-items-center">
-                    <div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center px-5">
+                    <div class="pt-md-4 py-lg-0">
                         <p><span class="text-color">/ </span>Become a customer</p>
-                        <div class="title mt-5 mb-5">Shaping the Future of Metal Manufacturing</div>
-                        <!-- <p>At CS Metal, we’ve become synonymous with reliability and quality. Shaping the future of metal manufacturing, partner with us to experience exceptional quality and precision in every project. </p> -->
+                        <div class="title mt-4 mb-4">Shaping the Future of Metal Manufacturing</div>
+                        <p>At CS Metal, we’ve become synonymous with reliability and quality. Shaping the future of metal manufacturing, partner with us to experience exceptional quality and precision in every project.</p>
                         <a href="company/become-a-customer.php" class="underline-link">LET'S TALK &nbsp;&nbsp; →</a>
                     </div>
                 </div>

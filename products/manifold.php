@@ -114,97 +114,36 @@
         </div>
 
         <!-- Product Section -->
-        <!-- <div class="container"> -->
-            <!-- <div class="row section-padding">
-                <div class="product-image-container manifold-image-container col-sm-12 col-md-12 col-lg-12 p-0">
-                    <img src="img/Product/Manifold/img_manifold_1.jpg" alt="manifold_1" id="img1" class="active">
-                    <img src="img/Product/Manifold/img_manifold_2.jpg" alt="manifold_2" id="img2">
-                    <img src="img/Product/Manifold/img_manifold_3.jpg" alt="manifold_3" id="img3">
-                    <img src="img/Product/Manifold/img_manifold_4.jpg" alt="manifold_4" id="img4">
-                </div>
 
-                <div class="col-sm-12 col-md-12 col-lg-12 d-flex align-items-center justify-content-center" style="background-color: #333;">
-                    <div class="text-white w-100">
-                        <div style="padding: 4%">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="title">MANIFOLD</div>
-                                </div>
-                            </div>
-                            
-                            <div class="row">
-                                <div class="col-6">
-                                    <div class="hover-link" data-target="img1">MANIFOLD 1</div>
-                                    <div class="hover-link" data-target="img2">MANIFOLD 2</div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="hover-link" data-target="img3">MANIFOLD 3</div>
-                                    <div class="hover-link" data-target="img4">MANIFOLD 4</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-            <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="img/Product/Manifold/img_manifold_1.jpg" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="img/Product/Manifold/img_manifold_2.jpg" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="img/Product/Manifold/img_manifold_3.jpg" alt="Third slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="img/Product/Manifold/img_manifold_4.jpg" alt="Forth slide">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div> -->
-            <div class="slick-container">
-                <div>
-                    <img src="img/Product/Manifold/img_manifold_1.jpg" alt="Image 1">
-                </div>
-                <div>
-                    <img src="img/Product/Manifold/img_manifold_2.jpg" alt="Image 2">
-                </div>
-                <div>
-                    <img src="img/Product/Manifold/img_manifold_3.jpg" alt="Image 3">
-                </div>
-                <div>
-                    <img src="img/Product/Manifold/img_manifold_4.jpg" alt="Image 4">
+        <div class="slick-container">
+            <div>
+                <img src="img/Product/Manifold/img_manifold_1.jpg" alt="Image 1">
+            </div>
+            <div>
+                <img src="img/Product/Manifold/img_manifold_2.jpg" alt="Image 2">
+            </div>
+            <div>
+                <img src="img/Product/Manifold/img_manifold_3.jpg" alt="Image 3">
+            </div>
+            <div>
+                <img src="img/Product/Manifold/img_manifold_4.jpg" alt="Image 4">
+            </div>
+        </div>
+
+        <!-- Become a customer -->
+        <div class="row section-padding padding-top padding-bottom pl-0 pr-0">
+            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center">
+                <div class="image-container">
+                    <img src="img/Product/Stamping/img_customer.jpg" alt="customer" class="banner-container">
                 </div>
             </div>
 
-            <!-- Become a customer -->
-            <div class="row section-padding padding-top padding-bottom pl-0 pr-0">
-                <div class="col-sm-12 col-md-6 pr-0">
-                    <div class="image-container">
-                        <img src="img/Product/Stamping/img_customer.jpg" alt="image 2" class="banner-container">
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-6 d-flex align-items-center px-5">
-                    <div>
-                        <p><span class="text-color">/ </span>Become a customer</p>
-                        <div class="title mt-4 mb-4">LEADING THE WAY TO THE FUTURE</div>
-                        <p>Fabrik blends steel technology leadership with outstanding problem-solving capabilities to support customers and suppliers in shaping the future of automotive transportation.</p>
-                        <a href="company/become-a-customer.php" class="underline-link">LET'S TALK &nbsp;&nbsp; →</a>
-                    </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center px-5">
+                <div class="pt-md-4 py-lg-0">
+                    <p><span class="text-color">/ </span>Become a customer</p>
+                    <div class="title mt-4 mb-4">Shaping the Future of Metal Manufacturing</div>
+                    <p>At CS Metal, we’ve become synonymous with reliability and quality. Shaping the future of metal manufacturing, partner with us to experience exceptional quality and precision in every project.</p>
+                    <a href="company/become-a-customer.php" class="underline-link">LET'S TALK &nbsp;&nbsp; →</a>
                 </div>
             </div>
         </div>

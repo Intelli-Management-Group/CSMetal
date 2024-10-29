@@ -693,6 +693,18 @@ h3 {
     z-index: 1;
 }
 
+.company-strength-padding {
+    padding-bottom: 200px;
+}
+
+.company-strength-margin-1 {
+    margin-top: -100px;
+}
+
+.company-strength-margin-1 {
+    margin-top: 100px;
+}
+
 .client {
     display: block;
     width: 100%;
