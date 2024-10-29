@@ -104,8 +104,8 @@
                 </div>
 
                 <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center">
-                    <div style="padding: 0 10%;">
-                        <div class="title">Push-Pull Force Test</div>
+                    <div class="push-pull-container">
+                        <div class="title pb-3">Push-Pull Force Test</div>
                         <p>Introducing our advanced Push-Pull Force Test Machine, specifically designed to evaluate the attachment strength of mating components across various metal manufacturing processes. This machine is essential for assessing the reliability of connections made through riveting, press fitting, or welding, ensuring that every joint meets stringent quality standards.</p>
                         <p>Our engineering design and process could make attachments exceed 1500 lbs of push force, providing solutions for parts that need strong attachment and heavy loading requirements. By applying controlled force, it effectively  measures how these connections perform under stress, helping manufacturers identify potential weaknesses and improve their processes.</p>
                         <p>With its user-friendly interface and precise measurement capabilities, the Push-Pull Force Test Machine provides digital reports, enabling engineers to make informed decisions regarding design and manufacturing practices.</p>
@@ -116,21 +116,17 @@
         </div>
     </div>
 
-    <!-- Spectralight Section -->
+    <!-- Transportation Compression Test -->
     <div class="black-white-background">
         <div class="container">
             <div class="row section-padding-lg text-white">
-                <div class="col-md-6">
-                    <p><span class="text-color">/ </span>Spectralight QC Light Booth</p>
-                    <div class="title">COLOR QUALITY CONTROL</div>
-                </div>
-                <div class="col-md-6 ">
-                    <p>Introducing the Spectralight QC Light Booth, a state-of-the-art quality control solution designed to ensure accurate color judgment in aesthetic components. A key feature of this booth is its use of controlled light temperature along with standardized light sources, including D65, CWF, and A light tealleratures, which are essential for simulating natural daylight and various artificial lighting conditions.</p>
+                <div class="col-12">
+                    <div class="title text-center">Transportation Compression Test</div>
                 </div>
             </div>
 
             <div class="image-container">
-                <img src="img/Solution/inspection/img_inspection_3.jpg" alt="Spectralight" class="banner-container">
+                <img src="img/Solution/testing/img_testing_4.jpg" alt="Spectralight" class="banner-container">
             </div>
         </div>
 
@@ -141,24 +137,24 @@
             <div class="line line-2-3"></div>
             <div class="row section-padding-lg">
                 <div class="col-sm-12 col-md-4">
-                    <p>The Spectralight QC Light Booth incorporates controlled light temperature management for optimal viewing conditions, ensuring consistency and reliability in color assessment. This controlled environment minimizes the impact of external light variables that can skew color perception, allowing for precise evaluation.</p>
+                    <p>The Transportation Compression Test evaluates the durability of materials and products during shipping and handling. By simulating transit conditions, this test ensures items can withstand the pressure and forces they encounter.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>We have a single light compartment dedicated to inspecting small components to facilitate detailed analyses. For larger components and high-volume batches of colored products, a duo light booth design is provided to accommodate comprehensive evaluations without sacrificing accuracy. </p>
+                    <p>Samples are subjected to controlled compression forces that mimic weightbearing scenarios. This assessment is essential for manufacturers of fragile items, electronics, and heavy machinery, helping identify weaknesses in packaging and design.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>The primary objective of the Spectralight QC Light Booth is to evaluate a reproduction of appearance parts by comparing samples against a master target. This process enables precise detection of any color variance, empowering manufacturers to maintain high-quality standards and reduce the risk of defects. By incorporating this advanced inspection technology into your manufacturing process, you can significantly enhance product consistency, quality assurance, and ultimately, customer satisfaction. Experience the exceptional precision and reliability of the Spectralight QC Light Booth—an essential tool for any organization committed to excellence in color quality control! </p>
+                    <p>Results from the Transportation Compression Test provide insights into product resilience, enabling manufacturers to optimize packaging and enhance customer satisfaction. Invest in this testing process to ensure your products arrive safely and reliably at their destination.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Quality Management System -->
+    <!-- Transportation Vibration Test -->
     <div class="container border-top">
         <div class="line line-left"></div>
         <div class="line line-right"></div>
         <div class="text-center">
-            <div class="title section-padding">HIGH STANDARDS OF QUALITY & ACCOUNTABILITY</div>
+            <div class="title section-padding">Transportation Vibration Test</div>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?mute=1"></iframe>
             </div>
@@ -172,13 +168,13 @@
         <div class="line line-right"></div>
         <div class="row section-padding-lg">
             <div class="col-sm-12 col-md-4">
-                <p>The CS Metal Quality Management System (OMS) is a customized software solution designed to ensure consistent quality throughout the manufacturing process. At the core of this OMS is a paperless quality record database that streamlines data management and enhances operational efficiency.</p>
+                <p>The Transportation Vibration Test is an essential evaluation method that assesses the ability of products and packaging to withstand vibrations and shocks experienced during transport. This test simulates real-world shipping conditions, ensuring items remain intact and functional despite rough handling.</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>Quality data is input dally from various stages, including incoming materials inspections, in-process evaluations, critical-to-quality control charts, and finished goods inspections, This sophisticated software allows for efficient data entry and real-time quality monitoring, enabling timely identification of any issues that may arise during production.</p>
+                <p>During the test, products are subjected to controlled vibrations at various frequencies and amplitudes, mimicking the effects of different transportation modes like trucking and air freight. The goal is to identify any potential  mechanical failures or damage caused by vibration, especially in fragile items and sensitive equipment.</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>The system facilitates comprehensive quality performance management reviews, providing insights into trends and areas for improvement. Additionally, the OMS ensures quality traceability, allowing for easy tracking of materials and components throughout the manufacturing process.</p>
+                <p>Results from the Transportation Vibration Test allow manufacturers to refine packaging solutions, ensuring compliance with industry standards and enhancing product reliability. Investing in this testing process provides assurance that products will arrive at their destination in optimal condition.</p>
             </div>
         </div>
     </div>

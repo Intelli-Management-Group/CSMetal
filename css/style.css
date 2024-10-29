@@ -812,6 +812,22 @@ hr {
     background: linear-gradient(to bottom, black 40%, white 0% 40%, white 100%);
 }
 
+/* .testing-black-white-background{
+    background: linear-gradient(to bottom, black 40%, white 0% 40%, white 100%);
+}
+
+@media only screen and (max-width: 1199px) {
+    .testing-black-white-background{
+        background: linear-gradient(to bottom, black 35%, white 0% 35%, white 100%);
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .testing-black-white-background{
+        background: linear-gradient(to bottom, black 35%, white 0% 35%, white 100%);
+    }
+} */
+
 .video {
     width: 100%;
     /* height: 500px; */
@@ -1082,4 +1098,14 @@ hr {
     margin-bottom: 25px;
     /* text-transform: capitalize; */
     font-weight: bold;
+}
+
+.push-pull-container {
+    padding: 50px 10%;
+}
+
+@media only screen and (max-width: 991px) {
+    .push-pull-container {
+        padding: 50px 0;
+    }
 }
