@@ -137,7 +137,7 @@
         margin-top: 0;
     }
     
-    .company-strength-margin-1 {
+    .company-strength-margin-3 {
         margin-top: 0;
     }
 }
@@ -192,7 +192,6 @@
 }
 
 /* min-width */
-
 @media (min-width: 1400px) {
     .container {
       max-width: 1320px !important;

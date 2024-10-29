@@ -74,7 +74,7 @@
                     <div class="display-3" style="font-weight: bold;">1,000,000</div>
                     <p>pcs/month</p>
                 </div>
-                <div class="col-sm-12 col-md-4 scroll2movedown company-strength-margin-1">
+                <div class="col-sm-12 col-md-4 scroll2movedown company-strength-margin-3">
                     <p class="text-color">1 SHIFT</p>
                     <div class="display-3" style="font-weight: bold;">50%</div>
                     <p>utilization</p>
