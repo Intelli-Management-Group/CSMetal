@@ -143,11 +143,11 @@ h3 {
 } */
 
 .padding-top{ 
-    padding-top: 100px;
+    padding-top: 100px !important;
 }
 
 .padding-bottom {
-    padding-bottom: 100px;
+    padding-bottom: 100px !important;
 }
 
 .text-color {
@@ -785,11 +785,11 @@ h3 {
     transition: transform 0.3s ease-out;
 }
 
-.border-top {
+.top-border {
     border-top: 1px solid #eee;
 }
 
-.border-bottom {
+.bottom-border {
     border-bottom: 1px solid #eee;
 }
 

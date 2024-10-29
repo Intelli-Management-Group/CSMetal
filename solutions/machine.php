@@ -16,7 +16,7 @@
         <div class="row section-padding">
             <div class="col-sm-8">
                 <p><span class="text-color">/ </span>Solutions</p>
-                <div class="title">Machine</div>
+                <div class="title">Machines</div>
             </div>
         </div>
         <div class="row mx-0 intro-container">
@@ -29,7 +29,7 @@
         </div>
     </div>
 
-    <!-- <div class="container border-bottom" style="height: 100px;">
+    <!-- <div class="container bottom-border" style="height: 100px;">
         <div class="line line-left"></div>
         <div class="line line-right"></div>
     </div> -->
@@ -72,7 +72,7 @@
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
 
-        <div class="section-padding">
+        <div class="section-padding pt-0">
             <p><span class="text-color">/ </span>600t</p>
             <div class="row">
                 <div class="col-sm-12 col-md-12">
@@ -138,7 +138,7 @@
     </div>
 
     <!-- Semi-Automatic Tube Forming -->
-    <div class="container border-top">
+    <div class="container top-border">
         <div class="line line-left"></div>
         <div class="line line-right"></div>
         <div class="text-center">

@@ -30,7 +30,7 @@
     </div>
 
     <!-- GOM Scan Section -->
-    <div class="container border-bottom" id="gom">
+    <div class="container bottom-border" id="gom">
         <div class="line line-left"></div>
         <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>
@@ -131,7 +131,7 @@
     </div>
 
     <!-- Quality Management System -->
-    <div class="container border-top">
+    <div class="container top-border">
         <div class="line line-left"></div>
         <div class="line line-right"></div>
         <div class="text-center">

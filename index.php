@@ -31,14 +31,14 @@
             <img src="./img/Home/banner_home.jpg" alt="Home Banner" class="banner-container">
         </div>
 
-        <div class="container border-bottom">
+        <div class="container bottom-border">
             <div class="line line-left"></div>
             <div class="line line-1-3"></div>
             <div class="line line-2-3"></div>
             <div class="line line-right"></div>
 
             <!-- Intro Section -->
-            <div class="row section-padding">
+            <div class="row section-padding padding-top">
                 <div class="col-sm-12 col-md-4">
                     <p class="slogan">INNOVATIVE, PRECISION-DRIVEN METAL SOLUTIONS DESIGNED TO ELEVATE INDUSTRIES, ENRICH COMMUNITIES, AND PROTECT THE ENVIRONMENT.</p>
                 </div>

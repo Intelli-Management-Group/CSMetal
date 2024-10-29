@@ -134,7 +134,7 @@
     </div>
 
     <!-- Product Section -->
-    <div class="container border-top">
+    <div class="container top-border">
         <div class="line line-left"></div>
         <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>

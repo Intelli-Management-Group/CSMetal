@@ -6,7 +6,7 @@
     <body>
         <?php include '../header.php'; ?>
 
-        <div class="container border-bottom">
+        <div class="container bottom-border">
             <div class="line line-left"></div>
             <div class="line line-right"></div>
             <div class="row section-padding pb-3">

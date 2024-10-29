@@ -161,7 +161,7 @@
     </head>
     <body>
         <!-- desktop nav bar -->
-        <div class="border-bottom desktop-nav">
+        <div class="bottom-border desktop-nav">
             <div class="header" id="nav">
                 <a href="./index.php" class="logo">
                     <img src="img/Generic/logo.png" alt="Logo">
@@ -259,7 +259,7 @@
         </div>
 
         <!-- Company -->
-        <div class="menu-wrap border-bottom" id="company-nav">
+        <div class="menu-wrap bottom-border" id="company-nav">
             <div class="container menu-container">
                 <div class="line line-1-3"></div>
                 <div class="row w-100">
@@ -282,7 +282,7 @@
         </div>
 
         <!-- Solutions -->
-        <div class="menu-wrap border-bottom" id="solutions-nav">
+        <div class="menu-wrap bottom-border" id="solutions-nav">
             <div class="container menu-container">
                 <div class="line line-1-3"></div>
                 <div class="row w-100">
@@ -312,7 +312,7 @@
         </div>
 
         <!-- Products -->
-        <div class="menu-wrap border-bottom" id="products-nav">
+        <div class="menu-wrap bottom-border" id="products-nav">
             <div class="container menu-container">
                 <div class="line line-1-3"></div>
                 <div class="row w-100">
@@ -336,7 +336,7 @@
         </div>
 
         <!-- Facilities -->
-        <div class="menu-wrap border-bottom" id="facilities-nav">
+        <div class="menu-wrap bottom-border" id="facilities-nav">
             <div class="container menu-container">
                 <div class="line line-1-3"></div>
                 <div class="row w-100">

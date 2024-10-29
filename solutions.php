@@ -33,7 +33,7 @@
         </div>
 
 
-        <div class="container" style="border-bottom: 1px solid #eee;">
+        <div class="container" style="bottom-border: 1px solid #eee;">
             <div class="line line-left"></div>
             <div class="line line-1-3"></div>
             <div class="line line-2-3"></div>
@@ -88,7 +88,7 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="container top-border">
             <div class="line line-left"></div>
             <div class="line line-right"></div>
             <div class="row section-padding">

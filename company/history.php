@@ -48,7 +48,7 @@
             <img src="./img/Company/History/banner_company_history.jpg" alt="history-banner" class="banner-container">
         </div>
 
-        <div class="container border-bottom">
+        <div class="container bottom-border">
             <div class="line line-left"></div>
             <div class="line line-1-3"></div>
             <div class="line line-2-3"></div>
