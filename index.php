@@ -139,7 +139,7 @@
             </div>
 
             <!-- Products Section -->
-            <div class="section-padding padding-bottom">
+            <div class="section-padding">
                 <p><span class="text-color">/ </span>Products</p>
                 <div class="row pt-3">
                     <div class="col-sm-12 col-md-4">
@@ -220,8 +220,8 @@
                                     <img src="./img/Generic/icon_customer_3.svg" alt="SVG 3">
                                 </div>
                             </div>
-                            <h3 class="mt-3" style="position:absolute; bottom:50px; left:50px; padding-right: 60px;">Become a Customer</h3>
-                            <a class="image-arrow" href="company/become-a-customer.php" style="left:35px;"><div>→</div></a>
+                            <h3 class="become-a-customer mt-3">Become a Customer</h3>
+                            <a class="image-arrow customer-arrow" href="company/become-a-customer.php"><div>→</div></a>
                         </div>
                     </div>
                     

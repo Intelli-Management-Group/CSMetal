@@ -6,6 +6,10 @@
 }
 
 @media only screen and (max-width: 1199px) {
+    .display-3 {
+        font-size: 3rem !important;
+    }
+
     .machine-widget {
         display: none;
     }
@@ -16,6 +20,10 @@
 }
 
 @media only screen and (max-width: 991px) {
+    .display-3 {
+        font-size: 2.5rem !important;
+    }
+
     .col-customer{
         max-height: 450px;
     }
@@ -79,7 +87,7 @@
     }
 
     .col-customer{
-        max-height: 700px;
+        max-height: 800px;
     }
     .nut-container {
         height: 700px;
@@ -139,6 +147,17 @@
     
     .company-strength-margin-3 {
         margin-top: 0;
+    }
+
+    .become-a-customer {
+        bottom: 65px;
+        left: 40px;
+        padding-right: 60px;
+    }
+
+    .customer-arrow {
+        left: 25px;
+        bottom: 15px;
     }
 }
 
