@@ -29,12 +29,17 @@
         </div>
     </div>
 
+    <!-- <div class="container border-bottom" style="height: 100px;">
+        <div class="line line-left"></div>
+        <div class="line line-right"></div>
+    </div> -->
+
     <!-- Automated tube Forming Machine -->
     <div class="container" id="machine">
         <div class="line line-left"></div>
         <div class="line line-right"></div>
         <div class="text-center">
-            <div class="title section-padding">AUTOMATED TUBE FORMING MACHINE</div>
+            <div class="title section-padding padding-top">AUTOMATED TUBE FORMING MACHINE</div>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?mute=1"></iframe>
             </div>
@@ -61,7 +66,7 @@
     </div>
 
     <!-- 600t -->
-    <div class="container border-bottom">
+    <div class="container">
         <div class="line line-left"></div>
         <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>
@@ -70,7 +75,7 @@
         <div class="section-padding">
             <p><span class="text-color">/ </span>600t</p>
             <div class="row">
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-12">
                     <div class="title">Metal Stamping Press Machine</div>
                 </div>
             </div>
@@ -85,11 +90,11 @@
                 </div>
 
                 <div class="col-sm-12 col-md-4 solution-image-1">
-                    <img src="img/Solution/machine/img_machine_1.jpg" alt="product 1" class="image scroll2movedown solutions-img1-margin">
+                    <img src="img/Solution/machine/img_machine_1.jpg" alt="product 1" class="image scroll2movedown machine-img1-margin">
                 </div>
 
                 <div class="col-sm-12 col-md-4 solution-image-2">
-                    <img src="img/Solution/machine/img_machine_2.jpg" alt="product 2" class="image scroll2moveup solutions-img2-margin">
+                    <img src="img/Solution/machine/img_machine_2.jpg" alt="product 2" class="image scroll2moveup machine-img2-margin">
                 </div>
             </div>
         </div>

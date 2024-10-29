@@ -38,6 +38,10 @@ html {
     }
 }
 
+body {
+    color: black !important;
+}
+
 body p {
     font-size: 16px !important;
     font-weight: 200 ;
@@ -700,7 +704,7 @@ h3 {
 }
 @media only screen and (max-width: 767px) {
     .client {
-        padding: 20px 20px;
+        padding: 13px;
     }
 }
 
@@ -994,7 +998,7 @@ hr {
 }
 
 .intro-container {
-    background-color: #eee;
+    background-color: #f7f7f7;
     position:relative
 }
 
@@ -1003,7 +1007,7 @@ hr {
 }
 
 .solutions-img2-margin {
-    margin-top: -150px;
+    margin-top: -200px;
 }
 
 @media screen and (max-width: 767px) {
@@ -1012,6 +1016,24 @@ hr {
     }
     
     .solutions-img2-margin {
+        margin-top: 0px;
+    }
+}
+
+.machine-img1-margin {
+    margin-top: -265px;
+}
+
+.machine-img2-margin {
+    margin-top: -130px;
+}
+
+@media screen and (max-width: 767px) {
+    .machine-img1-margin {
+        margin-top: 0px;
+    }
+    
+    .machine-img2-margin {
         margin-top: 0px;
     }
 }

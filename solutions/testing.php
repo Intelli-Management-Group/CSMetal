@@ -16,7 +16,7 @@
         <div class="row section-padding">
             <div class="col-sm-8">
                 <p><span class="text-color">/ </span>Solutions</p>
-                <div class="title">Inspection</div>
+                <div class="title">Testing</div>
             </div>
         </div>
         <div class="row mx-0 intro-container">
@@ -24,12 +24,12 @@
                 <h3 class="solution-banner-padding">Fabrik is crucial in the USA’s emergence as a favored global auto manufacturing destination. We focus on lightweight, cost-effective, and fuel-efficient vehicle solutions, collaborating closely with the automotive sector from concept to commercialization. Our experience, expertise, and innovation consistently exceed our clients' high QCD (Quality, Cost, and Delivery) expectations.</h3>
             </div>
             <div class="col-md-4">
-                <img src="img/Solution/inspection/inspection_main.jpg" alt="Inspection Banner" class="image solution-banner scroll2moveup">
+                <img src="img/Solution/testing/testing_main.jpg" alt="Inspection Banner" class="image solution-banner scroll2moveup">
             </div>
         </div>
     </div>
 
-    <!-- GOM Scan Section -->
+    <!-- Hardness Meter Section -->
     <div class="container border-bottom" id="gom">
         <div class="line line-left"></div>
         <div class="line line-1-3"></div>
@@ -37,34 +37,34 @@
         <div class="line line-right"></div>
 
         <div class="section-padding">
-            <p><span class="text-color">/ </span>GOM SCAN</p>
+            <p><span class="text-color">/ </span>Hardness Meter</p>
             <div class="row">
                 <div class="col-sm-12 col-md-12">
-                    <div class="title">3D SCANNING TECHNOLOGY</div>
+                    <div class="title">precise and reliable hardness testing</div>
                 </div>
             </div>
             <div class="row pt-5">
                 <div class="col-sm-12 col-md-4">
                     <div>
-                        <p>Welcome to our introduction to Gom Scan, a leading solution in 3D scanning technology, specifically designed for precision in metal stamping parts. With Gom Scan, we ensure the highest quality throughv rigorous first piece inspections, enabling us to detect any deviations from specifications right from the start.</p>
-                        <p>As we transition into mass production, Gom Scan plays a crucial role in maintaining consistent quality control (QC), allowing for real-time monitoring and adjustment throughout the manufacturing process. This not only enhances the reliability of our products but also drives process improvement initiatives by identifying areas for optimization.</p>
-                        <p>Join us as we explore how Gom Scan is revolutionizing the metal stamping industry, ensuring accuracy and efficiency at every stage. from the tirst inspection to large-scale production!</p>
+                        <p>Introducing our advanced Metal Hardness Measurement Machine, designed for precise and reliable hardness testing of various metals. This essential tool is crucial for material validation and heat treatment validation, ensuring the integrity and durability of metal products.</p>
+                        <p>Utilizing cutting-edge technology, our hardness meter features a clear digital display and offers multiple testing scales, including Rockwell, Brinell, and Vickers, providing immediate results for both soft and hard metals. Its userfriendly interface streamlines the quality control process, making it easy for operators to obtain accurate measurements.</p>
+                        <p>By enabling effective material and heat treatment validation, our hardness meter helps minimize defects and enhance overall product quality. Experience the efficiency and reliability of our Metal Hardness Measurement Machine, a vital asset for maintaining high standards in metal production!</p>
                     </div>
                 </div>
 
                 <div class="col-sm-12 col-md-4 solution-image-1">
-                    <img src="img/Solution/inspection/img_inspection_1.jpg" alt="product 1" class="image scroll2movedown solutions-img1-margin">
+                    <img src="img/Solution/testing/img_testing_1.jpg" alt="product 1" class="image scroll2movedown solutions-img1-margin">
                 </div>
 
                 <div class="col-sm-12 col-md-4 solution-image-2">
-                    <img src="img/Solution/inspection/img_inspection_2.jpg" alt="product 2" class="image scroll2moveup solutions-img2-margin">
+                    <img src="img/Solution/testing/img_testing_2.jpg" alt="product 2" class="image scroll2moveup solutions-img2-margin">
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Inspector Section-->
-    <div class="container">
+    <!-- <div class="container">
         <div class="line line-left"></div>
         <div class="line line-right"></div>
         <div class="text-center">
@@ -89,6 +89,29 @@
             </div>
             <div class="col-sm-12 col-md-4">
                 <p>With its advanced technology and user-friendly interface, our CMM Inspector enhances productivity and ensures the highest standards of accuracy in dimensional measurement. Experience the benefits of precision measurement with our CMM Inspector, a crucial asset for maintaining product quality and integrity in any manufacturing environment!</p>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Push-Pull Force Test -->
+    <div class="container">
+        <div class="line line-left"></div>
+        <div class="line line-right"></div>
+        <div class="section-padding-lg">
+            <div class="row intro-container">
+                <div class="col-sm-12 col-md-12 col-lg-6 pl-lg-0 d-flex align-items-center justify-content-center">
+                    <img src="img/Solution/testing/img_testing_3.jpg" alt="Push-Pull Force Test" class="image">
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center">
+                    <div style="padding: 0 10%;">
+                        <div class="title">Push-Pull Force Test</div>
+                        <p>Introducing our advanced Push-Pull Force Test Machine, specifically designed to evaluate the attachment strength of mating components across various metal manufacturing processes. This machine is essential for assessing the reliability of connections made through riveting, press fitting, or welding, ensuring that every joint meets stringent quality standards.</p>
+                        <p>Our engineering design and process could make attachments exceed 1500 lbs of push force, providing solutions for parts that need strong attachment and heavy loading requirements. By applying controlled force, it effectively  measures how these connections perform under stress, helping manufacturers identify potential weaknesses and improve their processes.</p>
+                        <p>With its user-friendly interface and precise measurement capabilities, the Push-Pull Force Test Machine provides digital reports, enabling engineers to make informed decisions regarding design and manufacturing practices.</p>
+                        <!-- <p>Investing in this testing solution ensures that your components maintain high reliability and performance, ultimately enhancing product quality and customer satisfaction. Experience the benefits of our Push-Pull Force Test Machine and secure the integrity of your manufacturing processes today!</p> -->
+                    </div>
+                </div>
             </div>
         </div>
     </div>
