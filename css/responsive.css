@@ -167,6 +167,19 @@
         left: 25px;
         bottom: 15px;
     }
+
+    .image-button {
+        position: absolute !important;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        text-align: center;
+    }
+    .image-container {
+        position: relative;
+        padding-top: 58px;
+    }
 }
 
 @media only screen and (max-width: 575px) {

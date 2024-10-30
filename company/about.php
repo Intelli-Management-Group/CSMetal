@@ -106,7 +106,7 @@
                             </a>
                         </div>
                         <div class="col-sm-12 col-md-4 p-0">
-                            <a href="" class="info-wrap solution-wrap phone card-arrow">
+                            <a href="solutions/testing.php#hardness" class="info-wrap solution-wrap phone card-arrow">
                                 <h4 class="m-0">Metal Hardness Measurement Machine</h4>
                             </a>
                         </div>
