@@ -60,7 +60,7 @@
                             <a class="image-arrow" href="solutions/inspection.php"><div>→</div></a>
                         </div>
                         <h3 class="mt-3">Inspection</h3>
-                        <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                        <p>CS Metal ensures top-quality standards with advanced inspection tools: Gom Scan for early defect detection, Inspector CMM for precise measurements, Spectralight QC for color accuracy, and QMS for real-time tracking, guaranteeing excellence from inspection to production.</p>
                     </div>
                 </div>
 
@@ -71,7 +71,7 @@
                             <a class="image-arrow" href="solutions/machine.php"><div>→</div></a>
                         </div>
                         <h3 class="mt-3">Machines</h3>
-                        <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                        <p>CS Metal’s advanced machines enhance manufacturing precision: the Automated Tube Forming Machine uses AI for real-time control, the 600 Ton Stamping Press delivers low-defect stamping, the LG 1370 CNC Lathe enables precise tooling, and the Semi-Automatic Tube Forming Machine ensures high-quality, scratch-free tubes.</p>
                     </div>
                 </div>
 
@@ -82,7 +82,7 @@
                             <a class="image-arrow" href="solutions/testing.php"><div>→</div></a>
                         </div>
                         <h3 class="mt-3">Testing</h3>
-                        <p>Fabrik not only excels in steel production through the Electric Arc Furnace method, but we also proudly operate the largest and most advanced Consteel™ EAF technology in USA.</p>
+                        <p>CS Metal’s testing solutions ensure reliability. The Metal Hardness Measurement Machine offers precise hardness testing for validation. The Push-Pull Force Test evaluates connection strength over 1500 lbs. The Transportation Compression Test simulates transit conditions, while the Transportation Vibration Test assesses resilience against vibrations.</p>
                     </div>
                 </div>
             </div>

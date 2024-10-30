@@ -21,7 +21,7 @@
         </div>
         <div class="row mx-0 intro-container">
             <div class="col-md-8">
-                <h3 class="solution-banner-padding">Fabrik is crucial in the USA’s emergence as a favored global auto manufacturing destination. We focus on lightweight, cost-effective, and fuel-efficient vehicle solutions, collaborating closely with the automotive sector from concept to commercialization. Our experience, expertise, and innovation consistently exceed our clients' high QCD (Quality, Cost, and Delivery) expectations.</h3>
+                <h3 class="solution-banner-padding">CS Metal’s testing solutions ensure product quality and reliability. The Metal Hardness Measurement Machine offers precise hardness testing across multiple scales, essential for material validation. The Push-Pull Force Test Machine evaluates the strength of connections in metal components, exceeding 1500 lbs of push force to identify weaknesses. The Transportation Compression Test simulates transit conditions to assess product durability, while the Transportation Vibration Test evaluates resilience against vibrations during shipping. Together, these testing methods enhance product integrity and customer satisfaction.</h3>
             </div>
             <div class="col-md-4">
                 <img src="img/Solution/testing/testing_main.jpg" alt="Inspection Banner" class="image solution-banner scroll2moveup">
@@ -70,7 +70,7 @@
         <div class="text-center">
             <div class="title section-padding">PRECISE DIMENSIONAL MEASUREMENT</div>
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?mute=1"></iframe>
+                <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4?mute=1"></iframe>
             </div>
         </div>
     </div>
@@ -156,7 +156,7 @@
         <div class="text-center">
             <div class="title section-padding">Transportation Vibration Test</div>
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?mute=1"></iframe>
+                <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4?mute=1"></iframe>
             </div>
         </div>
     </div>

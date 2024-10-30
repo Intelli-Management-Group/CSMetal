@@ -21,7 +21,7 @@
         </div>
         <div class="row mx-0 intro-container">
             <div class="col-md-8">
-                <h3 class="solution-banner-padding">Fabrik is crucial in the USA’s emergence as a favored global auto manufacturing destination. We focus on lightweight, cost-effective, and fuel-efficient vehicle solutions, collaborating closely with the automotive sector from concept to commercialization. Our experience, expertise, and innovation consistently exceed our clients' high QCD (Quality, Cost, and Delivery) expectations.</h3>
+                <h3 class="solution-banner-padding">CS Metal’s inspection process integrates advanced technologies to ensure the highest quality standards. The Gom Scan enables early defect detection, while the Inspector CMM provides precise dimensional measurements. The Spectralight QC machine ensures color consistency, and the QMS software offers real-time tracking and traceability. Together, these tools guarantee rigorous quality control from the first inspection through to final production, reflecting CS Metal’s commitment to excellence.</h3>
             </div>
             <div class="col-md-4">
                 <img src="img/Solution/inspection/inspection_main.jpg" alt="Inspection Banner" class="image solution-banner scroll2moveup">
@@ -70,7 +70,7 @@
         <div class="text-center">
             <div class="title section-padding">PRECISE DIMENSIONAL MEASUREMENT</div>
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?mute=1"></iframe>
+                <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4?mute=1"></iframe>
             </div>
         </div>
     </div>
@@ -137,7 +137,7 @@
         <div class="text-center">
             <div class="title section-padding">HIGH STANDARDS OF QUALITY & ACCOUNTABILITY</div>
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?mute=1"></iframe>
+                <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4?mute=1"></iframe>
             </div>
         </div>
     </div>

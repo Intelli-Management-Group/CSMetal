@@ -21,7 +21,7 @@
         </div>
         <div class="row mx-0 intro-container">
             <div class="col-md-8">
-                <h3 class="solution-banner-padding">Fabrik is crucial in the USA’s emergence as a favored global auto manufacturing destination. We focus on lightweight, cost-effective, and fuel-efficient vehicle solutions, collaborating closely with the automotive sector from concept to commercialization. Our experience, expertise, and innovation consistently exceed our clients' high QCD (Quality, Cost, and Delivery) expectations.</h3>
+                <h3 class="solution-banner-padding">CS Metal’s machine lineup offers advanced solutions for efficient, precise manufacturing. The Automated Tube Forming Machine enhances productivity and quality with real-time AI sorting. The 600 Ton Stamping Press provides powerful, low-defect stamping for large and complex parts. The LG 1370 Hartford CNC Lathe ensures precise tooling and machining versatility, while the Semi-Automatic Tube Forming Machine combines automation with flexibility, delivering scratch-free, high-quality tubes. Together, these machines elevate manufacturing efficiency and quality.</h3>
             </div>
             <div class="col-md-4">
                 <img src="img/Solution/machine/machine_main.jpg" alt="Inspection Banner" class="image solution-banner scroll2moveup">
@@ -41,7 +41,7 @@
         <div class="text-center">
             <div class="title section-padding padding-top">AUTOMATED TUBE FORMING MACHINE</div>
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?mute=1"></iframe>
+                <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4?mute=1"></iframe>
             </div>
         </div>
     </div>
@@ -144,7 +144,7 @@
         <div class="text-center">
             <div class="title section-padding">Semi-Automatic Tube Forming Machine</div>
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?mute=1"></iframe>
+                <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4?mute=1"></iframe>
             </div>
         </div>
     </div>
