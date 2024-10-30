@@ -14,7 +14,7 @@
             <div class="row section-padding">
                 <div class="col-sm-8">
                     <p><span class="text-color">/ </span>Solutions</p>
-                    <div class="title">Tailored Steel Solutions</div>
+                    <div class="title">Precision-Driven Metal Assurance</div>
                 </div>
             </div>
             <!-- <div class="row">
@@ -33,7 +33,7 @@
         </div>
 
 
-        <div class="container" style="bottom-border: 1px solid #eee;">
+        <div class="container bottom-border">
             <div class="line line-left"></div>
             <div class="line line-1-3"></div>
             <div class="line line-2-3"></div>
@@ -41,13 +41,13 @@
 
             <div class="row section-padding" id="intro">
                 <div class="col-sm-12 col-md-4">
-                    <p class="slogan">We supply a full range of products</p>
+                    <p class="slogan">We deliver comprehensive solutions for unmatched quality and reliability</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>Companies that own or lease distribution facilities and warehouses are dedicated to optimizing operational efficiency and maximizing storage capacity. A maze of equipment, vehicles, and platforms within these complex structures supports customers’ operations and maintenance.</p>
+                    <p>Manufacturers in metal production require robust, precise solutions to uphold quality and ensure product durability across every stage of production. From initial hardness testing to transportation simulations, our advanced tools and technologies safeguard product integrity, allowing companies to meet the highest standards in material performance and reliability.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>At Fabrik, our engineering and sales teams collaborate closely with integration teams to deliver meticulously planned, coordinated solutions prioritizing operational efficiency and cost-effectiveness for our customers.</p>
+                    <p>At CS Metal, our engineering and testing teams work closely with manufacturers to provide a comprehensive suite of testing solutions. We are committed to delivering precision-driven, quality-assured products through tailored, innovative processes designed to optimize production and reduce waste, helping our customers achieve excellence in every detail.</p>
                 </div>
             </div>
 
@@ -88,7 +88,7 @@
             </div>
         </div>
 
-        <div class="container top-border">
+        <div class="container">
             <div class="line line-left"></div>
             <div class="line line-right"></div>
             <div class="row section-padding">

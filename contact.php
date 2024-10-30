@@ -45,40 +45,53 @@
                         <h3 class="mb-4">Headquarter info</h3>
                         <div class="customDiv">
                             <p>
-                                <a class="address" href="#" target="_blank" rel="noopener">41088 Chagrin Boulevard #120 Cleveland, OH 44124</a>
+                                <a class="address" href="#" target="_blank" rel="noopener"> Chi Sing Metal MFY. CO. LTD. <br/>
+                                                                                            2A/F, Phase 1 <br/>
+                                                                                            Kingsford Industrial Bldg., <br/>
+                                                                                            26-32 Kwai Hei St., Kwai Chung <br/>
+                                                                                            Hong Kong</a>
                             </p>
                         </div>
                         <div class="customDiv">
                             <p class="mb-1">
-                                <a class="address" href="#" target="_blank" rel="noopener">+1 440 848 8222</a>
+                                <a class="address" href="#" target="_blank" rel="noopener">+852-2614-3700</a>
                             </p>   
                             <p>
                                 <a class="address" href="#" target="_blank" rel="noopener">office@fabrik.com</a>                         
                             </p> 
                         </div>
-                        <div class="customDiv">
+                        <!-- <div class="customDiv">
                             <p>
                                 <a class="underline-link" href="#" target="_blank" rel="noopener">Get Directions &nbsp;&nbsp; →</a>
                             </p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="pl-3 pr-3">
                         <h3 class="mb-4">Factory info</h3>
                         <div class="customDiv">
+                            <p>
+                                <a class="address" href="#" target="_blank" rel="noopener"> Williamson Metal MFY. CO. LTD. <br/>
+                                                                                            Shu Xin Village <br/>
+                                                                                            Changping Town, Dongguan City <br/>
+                                                                                            Guangdong Province, PR China <br/>
+                                                                                            523560</a>
+                            </p>
+                        </div>
+                        <div class="customDiv">
                             <p class="mb-1">
-                                <a class="address" href="#" target="_blank" rel="noopener">+1 220 848 8666</a>
+                                <a class="address" href="#" target="_blank" rel="noopener">+86-769-83391265</a>
                             </p>   
                             <p>
                                 <a class="address" href="#" target="_blank" rel="noopener">product@fabrik.com</a>                         
                             </p> 
                         </div>
-                        <div class="customDiv">                       
+                        <!-- <div class="customDiv">                       
                             <p>
                             8 a.m. – 5 p.m. Eastern<br/> Monday – Friday
                             </p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

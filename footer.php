@@ -105,7 +105,7 @@
                     <div class="row section-padding pt-0">
                         <div class="col-sm-12 col-md-4 p-0">
                             <div class="info-wrap location">
-                                <h3>41088 Chagrin Boulevard #120 Cleveland, OH 44124</h3>
+                                <h3>2A/F, Phase 1 Kingsford Industrial Bldg., 26-32 Kwai Hei St., Kwai Chung Hong Kong</h3>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-4 p-0">
@@ -115,7 +115,7 @@
                         </div>
                         <div class="col-sm-12 col-md-4 p-0">
                             <div class="info-wrap phone">
-                                <h3>+1 440 848 8222</h3>
+                                <h3>+852-2614-3700</h3>
                             </div>
                         </div>
                     </div>
