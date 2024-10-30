@@ -21,7 +21,7 @@
         </div>
         <div class="row mx-0 intro-container">
             <div class="col-md-8">
-                <h3 class="solution-banner-padding">CS Metal’s inspection process integrates advanced technologies to ensure the highest quality standards. The Gom Scan enables early defect detection, while the Inspector CMM provides precise dimensional measurements. The Spectralight QC machine ensures color consistency, and the QMS software offers real-time tracking and traceability. Together, these tools guarantee rigorous quality control from the first inspection through to final production, reflecting CS Metal’s commitment to excellence.</h3>
+                <h3 class="solution-banner-padding">CS Metal’s comprehensive inspection process integrates advanced technologies to ensure the highest quality standards throughout production. The Gom Scan facilitates early defect detection, while the Inspector CMM provides precise dimensional measurements. The Spectralight QC machine guarantees color consistency, and the QMS software offers real-time tracking and traceability. Together, these innovative tools ensure rigorous quality control from initial inspection to final production, reflecting CS Metal’s unwavering commitment to excellence in manufacturing.</h3>
             </div>
             <div class="col-md-4">
                 <img src="img/Solution/inspection/inspection_main.jpg" alt="Inspection Banner" class="image solution-banner scroll2moveup">
@@ -124,7 +124,7 @@
                     <p>We have a single light compartment dedicated to inspecting small components to facilitate detailed analyses. For larger components and high-volume batches of colored products, a duo light booth design is provided to accommodate comprehensive evaluations without sacrificing accuracy. </p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>The primary objective of the Spectralight QC Light Booth is to evaluate a reproduction of appearance parts by comparing samples against a master target. This process enables precise detection of any color variance, empowering manufacturers to maintain high-quality standards and reduce the risk of defects. By incorporating this advanced inspection technology into your manufacturing process, you can significantly enhance product consistency, quality assurance, and ultimately, customer satisfaction. Experience the exceptional precision and reliability of the Spectralight QC Light Booth—an essential tool for any organization committed to excellence in color quality control! </p>
+                    <p>The Spectralight QC Light Booth evaluates appearance parts by comparing samples to a master target, enabling precise detection of color variances. This technology helps manufacturers maintain quality standards and reduce defects, enhancing product consistency and customer satisfaction. Experience the reliability of the Spectralight QC Light Booth—an essential tool for color quality control!</p>
                 </div>
             </div>
         </div>

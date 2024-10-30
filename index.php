@@ -111,7 +111,7 @@
                             <a class="image-arrow" href="solutions/inspection.php"><div>→</div></a>
                         </div>
                         <h3 class="mt-3">Inspection</h3>
-                        <p>CS Metal ensures top-quality standards with advanced inspection tools: Gom Scan for early defect detection, Inspector CMM for precise measurements, Spectralight QC for color accuracy, and QMS for real-time tracking, guaranteeing excellence from inspection to production.</p>
+                        <p>CS Metal upholds top-quality standards with advanced inspection tools: Gom Scan for early defect detection, Inspector CMM for precise measurements, Spectralight QC for color accuracy, and QMS software for real-time tracking. These technologies ensure reliability from inspection to production, highlighting our commitment to quality in every aspect of manufacturing.</p>
                     </div>
                 </div>
 
@@ -122,7 +122,7 @@
                             <a class="image-arrow" href="solutions/machine.php"><div>→</div></a>
                         </div>
                         <h3 class="mt-3">Machines</h3>
-                        <p>CS Metal’s advanced machines enhance manufacturing precision: the Automated Tube Forming Machine uses AI for real-time control, the 600 Ton Stamping Press delivers low-defect stamping, the LG 1370 CNC Lathe enables precise tooling, and the Semi-Automatic Tube Forming Machine ensures high-quality, scratch-free tubes.</p>
+                        <p>CS Metal’s advanced machines enhance manufacturing precision: the Automated Tube Forming Machine uses AI for real-time control, the 600 Ton Stamping Press delivers low-defect stamping, the LG 1370 CNC Lathe enables precise tooling, and the Semi-Automatic Tube Forming Machine ensures high-quality, scratch-free tubes with efficient part transfer.</p>
                     </div>
                 </div>
 

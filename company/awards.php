@@ -56,12 +56,12 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="pl-3 pr-3">
-                        <p>Over the years, we have received numerous prestigious awards, highlighting our dedication to delivering exceptional metal manufacturing solutions. Our proactive stance on sustainability and community engagement is evident in our initiatives and partnerships,</p>
+                        <p>We have received numerous prestigious awards over the years, highlighting our dedication to exceptional metal manufacturing solutions. Our proactive stance on sustainability and community engagement is evident in our initiatives and partnerships, reflecting a strong commitment to social responsibility.</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="pl-3 pr-3">
-                       <p>reflecting a deep-seated commitment to social responsibility. As we continue to grow, our commitment to setting new industry standards will remain at the core of everything we do. </p>
+                       <p>As we continue to grow, our dedication to setting new industry standards will remain at the core of everything we do. We strive to innovate and improve, ensuring our manufacturing practices contribute positively to our community and the environment while also maintaining the highest quality standards.</p>
                     </div>
                 </div>
             </div>

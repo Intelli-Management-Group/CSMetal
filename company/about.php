@@ -48,7 +48,7 @@
                     <p class="slogan">USE THE MOST ECONOMIC PROCESS TO ACHIEVE EXCELLENT PRODUCT AND SERVICE SATISFACTION</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>At CS Metal, our success in metal manufacturing is driven by a bold vision and unwavering ambition. Since our founding in 1981, we have been fueled by a desire to excel in a field where only the bold thrive. Guided by our founder’s principle that “success comes from a strong will,” we have shaped our approach to business and innovation with a relentless focus on turning ambitious metalwork concepts into reality. The name Chi Sing (CS), which translates “aspiration achieved”, reflects our commitment to this vision.</p>
+                    <p>At CS Metal, our success in metal manufacturing stems from a bold vision and unwavering ambition. Since our founding in 1981, we have excelled in a field where only the bold thrive. Guided by our founder’s principle that “success comes from a strong will,” we focus on turning ambitious metalwork concepts into reality. The name Chi Sing (CS), meaning “aspiration achieved,” reflects our commitment to this vision.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p>Over the past four decades, CS Metal has become a beacon of innovation and quality in metal manufacturing, serving a diverse range of industries with customized metal solutions that meet the highest standards of excellence and functionality. Our growth from a small workshop in Hong Kong to a global leader in metal fabrication is a testament to our dedication to precision, craftsmanship, and client satisfaction. </p>
@@ -65,17 +65,17 @@
             <!-- Company Strength -->
             <div class="row section-padding company-strength-padding">
                 <div class="col-sm-12 col-md-4 scroll2movedown company-strength-margin-1">
-                    <p class="text-color">HANDLE</p>
+                    <p class="text-color mb-1">HANDLE</p>
                     <div class="display-3" style="font-weight: bold;">400,000</div>
                     <p>pcs/month</p>
                 </div>
                 <div class="col-sm-12 col-md-4 scroll2movedown">
-                    <p class="text-color">STAMPING</p>
+                    <p class="text-color mb-1">STAMPING</p>
                     <div class="display-3" style="font-weight: bold;">1,000,000</div>
                     <p>pcs/month</p>
                 </div>
                 <div class="col-sm-12 col-md-4 scroll2movedown company-strength-margin-3">
-                    <p class="text-color">1 SHIFT</p>
+                    <p class="text-color mb-1">1 SHIFT</p>
                     <div class="display-3" style="font-weight: bold;">50%</div>
                     <p>utilization</p>
                 </div>

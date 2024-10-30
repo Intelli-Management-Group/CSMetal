@@ -21,7 +21,7 @@
         </div>
         <div class="row mx-0 intro-container">
             <div class="col-md-8">
-                <h3 class="solution-banner-padding">CS Metal’s testing solutions ensure product quality and reliability. The Metal Hardness Measurement Machine offers precise hardness testing across multiple scales, essential for material validation. The Push-Pull Force Test Machine evaluates the strength of connections in metal components, exceeding 1500 lbs of push force to identify weaknesses. The Transportation Compression Test simulates transit conditions to assess product durability, while the Transportation Vibration Test evaluates resilience against vibrations during shipping. Together, these testing methods enhance product integrity and customer satisfaction.</h3>
+                <h3 class="solution-banner-padding">CS Metal’s testing solutions ensure product quality and reliability. The Metal Hardness Measurement Machine provides precise hardness testing across multiple scales for validation. The Push-Pull Force Test evaluates the strength of connections in metal components, exceeding 1500 lbs of push force. The Transportation Compression Test simulates transit conditions to assess durability, while the Vibration Test evaluates resilience against shipping vibrations. Together, these methods enhance product integrity and customer satisfaction.</h3>
             </div>
             <div class="col-md-4">
                 <img src="img/Solution/testing/testing_main.jpg" alt="Inspection Banner" class="image solution-banner scroll2moveup">
