@@ -13,23 +13,23 @@
                 <div class="col-sm-5">
                     <p><span class="text-color">/ </span>Become a Customer</p>
                     <div class="title">Let’s talk</div>
-                    <p>Thank you for your interest in Fabrik. We’re excited to understand your needs and offer a solution that exceeds expectations.</p>
-                    <h3 class="pt-5">OUR FOCUS IS THE CUSTOMER SUCCESS</h3>
+                    <p>Thank you for considering CS Metal. We look forward to learning more about your requirements and providing a solution that goes above and beyond your expectations.</p>
+                    <h3 class="pt-5">OUR TOP PRIORITY IS THE SUCCESS OF OUR CUSTOMERS</h3>
                 </div>
             </div>
 
             <div class="row section-padding pt-0">
                 <div class="col-sm-12 col-md-6 col-lg-3 checkmark">
-                    <p>Industry-specific expertise and capabilities</p>
+                    <p>Expertise and capabilities tailored to your industry</p>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3 checkmark">
-                    <p>Steelmaking quality and innovation</p>
+                    <p>Quality and innovation in manufacturing</p>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3 checkmark">
-                    <p>Delivered with collaboration and commitment</p>
+                    <p>Provided through teamwork and dedication</p>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3 checkmark">
-                    <p>Whatever your opportunity, we have a solution</p>
+                    <p>No matter your challenge, we have the solution</p>
                 </div>
             </div>
         </div>

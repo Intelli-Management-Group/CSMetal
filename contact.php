@@ -14,7 +14,7 @@
             <div class="row section-padding">
                 <div class="col-sm-8">
                     <p><span class="text-color">/ </span>Contact Us</p>
-                    <div class="title">Ready to Meet Your Steel Partner?</div>
+                    <div class="title">Prepared to Connect with Your Metal Partner?</div>
                 </div>
             </div>
             <!-- <div class="row">
@@ -45,19 +45,19 @@
                         <h3 class="mb-4">Headquarter info</h3>
                         <div class="customDiv">
                             <p>
-                                <a class="address" href="#" target="_blank" rel="noopener"> Chi Sing Metal MFY. CO. LTD. <br/>
-                                                                                            2A/F, Phase 1 <br/>
-                                                                                            Kingsford Industrial Bldg., <br/>
-                                                                                            26-32 Kwai Hei St., Kwai Chung <br/>
-                                                                                            Hong Kong</a>
+                                <div class="" target="_blank" rel="noopener">Chi Sing Metal MFY. CO. LTD. <br/>
+                                                                            2A/F, Phase 1 <br/>
+                                                                            Kingsford Industrial Bldg., <br/>
+                                                                            26-32 Kwai Hei St., Kwai Chung <br/>
+                                                                            Hong Kong</div>
                             </p>
                         </div>
                         <div class="customDiv">
                             <p class="mb-1">
-                                <a class="address" href="#" target="_blank" rel="noopener">+852-2614-3700</a>
+                                <a class="address" href="tel:+85226143700" target="_blank" rel="noopener">+852-2614-3700</a>
                             </p>   
                             <p>
-                                <a class="address" href="#" target="_blank" rel="noopener">office@fabrik.com</a>                         
+                                <a class="address" href="mailto:office@fabrik.com" target="_blank" rel="noopener">office@fabrik.com</a>                         
                             </p> 
                         </div>
                         <!-- <div class="customDiv">
@@ -72,19 +72,22 @@
                         <h3 class="mb-4">Factory info</h3>
                         <div class="customDiv">
                             <p>
-                                <a class="address" href="#" target="_blank" rel="noopener"> Williamson Metal MFY. CO. LTD. <br/>
-                                                                                            Shu Xin Village <br/>
-                                                                                            Changping Town, Dongguan City <br/>
-                                                                                            Guangdong Province, PR China <br/>
-                                                                                            523560</a>
+                                <div class="" href="#" target="_blank" rel="noopener"> Williamson Metal MFY. CO. LTD. <br/>
+                                                                                        Shu Xin Village <br/>
+                                                                                        Changping Town, Dongguan City <br/>
+                                                                                        Guangdong Province, PR China <br/>
+                                                                                        523560</div>
                             </p>
                         </div>
                         <div class="customDiv">
                             <p class="mb-1">
-                                <a class="address" href="#" target="_blank" rel="noopener">+86-769-83391265</a>
+                                <a class="address" href="tel:+8676983391265" target="_blank" rel="noopener">
+                                    <!-- <i class="fa-solid fa-phone"></i>  -->
+                                    +86-769-83391265
+                                </a>
                             </p>   
                             <p>
-                                <a class="address" href="#" target="_blank" rel="noopener">product@fabrik.com</a>                         
+                                <a class="address" href="mailto:product@fabrik.com" target="_blank" rel="noopener">product@fabrik.com</a>                         
                             </p> 
                         </div>
                         <!-- <div class="customDiv">                       

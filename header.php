@@ -264,7 +264,7 @@
                 <div class="line line-1-3"></div>
                 <div class="row w-100">
                     <div class="col-md-4 d-flex align-items-center">
-                        <h4>ADVANCING THE ART OF STEEL MANUFACTURING</h4>
+                        <h4>CELEBRATING OUR LEGACY, CRAFTING THE FUTURE</h4>
                     </div>
                     <div class="col-md-4 d-flex align-items-center">
                         <ul class="nav-links flex-column align-items-start">
@@ -287,7 +287,7 @@
                 <div class="line line-1-3"></div>
                 <div class="row w-100">
                     <div class="col-md-4 d-flex align-items-center">
-                        <h4>STEELMAKING QUALITY AND INNOVATION</h4>
+                        <h4>EXCEPTIONAL QUALITY AND INNOVATION IN EVERY SOLUTION</h4>
                     </div>
                     <div class="col-md-4 d-flex align-items-center">
                         <ul class="nav-links flex-column align-items-start">
@@ -317,7 +317,7 @@
                 <div class="line line-1-3"></div>
                 <div class="row w-100">
                     <div class="col-md-4 d-flex align-items-center">
-                        <h4>SUSTAINABLE STEEL FOR A STRONGER TOMORROW</h4>
+                        <h4>COMPREHENSIVE PRODUCTS FOR EVERY INDUSTRY NEED</h4>
                     </div>
                     <div class="col-md-4 d-flex align-items-center">
                         <ul class="nav-links flex-column align-items-start">
@@ -336,7 +336,7 @@
         </div>
 
         <!-- Facilities -->
-        <div class="menu-wrap bottom-border" id="facilities-nav">
+        <!-- <div class="menu-wrap bottom-border" id="facilities-nav">
             <div class="container menu-container">
                 <div class="line line-1-3"></div>
                 <div class="row w-100">
@@ -361,7 +361,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <script>
             //highlight the current page's navigation link

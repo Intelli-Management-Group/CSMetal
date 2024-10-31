@@ -87,10 +87,10 @@
                 <div class="footer">
                     <div class="row section-padding padding-top justify-content-between">
                         <div class="col-sm-12 col-md-6 pl-0 pr-0">
-                            <div class="title">THE BEST EXPERIENCE POSSIBLE</div>
+                            <div class="title">EXCEPTIONAL PARTNER IN METAL SOLUTIONS</div>
                         </div>
                         <div class="col-sm-12 col-md-4 pl-0 pr-0">
-                            <p>At our core, we prioritize our customers’ satisfaction, ensuring they feel valued and deeply committed to their projects. Building meaningful connections, we treat every customer like a friend, going the extra mile to ensure successful results and delivering top-quality sheet metal and fabrication solutions.</p>
+                            <p>At CS Metal, our customers' success is our priority. We build meaningful partnerships, treating each client as a valued collaborator and investing in their goals. Committed to excellence, we go above and beyond to provide precision metal solutions that achieve exceptional results every time.</p>
                         </div>
                     </div>
                     

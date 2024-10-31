@@ -34,7 +34,7 @@
         <div class="row section-padding">
             <div class="col-sm-8">
                 <p><span class="text-color">/ </span>Advertising Fixtures & OEM Products</p>
-                <div class="title">Diverse talent enables smarter steels</div>
+                <div class="title">Custom Fixtures & OEM Products that Elevate Brands!</div>
             </div>
         </div>
         <!-- <div class="row">
@@ -133,7 +133,7 @@
         <div class="line line-right"></div>
         <div class="row section-padding-lg d-flex justify-content-center" id="intro">
             <div class="col-sm-12 col-md-8">
-                <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p>
+                <!-- <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p> -->
                 <h3>Our custom advertising fixtures and OEM products combine functionality and aesthetic appeal. Each product is precisely manufactured to the client’s request enhancing brand presence. We’ve worked with Christian Dior, Georg Jensen, Victoria’s Secret, Hermes, and many more, showcasing our ability to deliver high quality and meet aesthetic standards.</h3>
             </div>
         </div>

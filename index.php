@@ -81,11 +81,11 @@
             <!-- Solutions Section -->
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4">
-                    <div class="title">A GREENER </br> STEEL PROVIDER</div>
+                    <div class="title">A LEADER IN PRECISION METAL SOLUTIONS</div>
                 </div>
                 <div class="col-sm-12 col-md-4"></div>
                 <div class="col-sm-12 col-md-4">
-                    <p>As we move forward, we are committed to transparently sharing our sustainability efforts, milestones, and achievements. Through this, we aim to inspire and educate others in the industry, contributing to a more sustainable and responsible steel sector as a whole.</p>
+                    <p>At CS Metal, we’re dedicated to sharing our achievements and advancements in precision metal solutions. Through this commitment, we aim to inspire and elevate industry standards, contributing to a more innovative and quality-driven metal manufacturing sector.</p>
                 </div>
             </div>
 

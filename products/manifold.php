@@ -84,7 +84,7 @@
         <div class="row section-padding">
             <div class="col-sm-8">
                 <p><span class="text-color">/ </span>Manifold</p>
-                <div class="title">Diverse talent enables smarter steels</div>
+                <div class="title">Custom Manifolds for Superior Performance!</div>
             </div>
         </div>
         <!-- <div class="row">
@@ -108,7 +108,7 @@
         <!-- Intro Section -->
         <div class="row section-padding padding-top d-flex justify-content-center" id="intro">
             <div class="col-sm-12 col-md-8">
-                <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p>
+                <!-- <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p> -->
                 <h3>At CS Metal, our custom manifold solutions are designed to handle high-pressure systems and complex tasks; offering superior performance and durability. Our manifolds are tailored to the client’s exact specifications, delivering efficiency and reliability in industrial applications. </h3>
             </div>
         </div>

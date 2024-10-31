@@ -124,7 +124,7 @@
                     <p>We have a single light compartment dedicated to inspecting small components to facilitate detailed analyses. For larger components and high-volume batches of colored products, a duo light booth design is provided to accommodate comprehensive evaluations without sacrificing accuracy. </p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>The Spectralight QC Light Booth evaluates appearance parts by comparing samples to a master target, enabling precise detection of color variances. This technology helps manufacturers maintain quality standards and reduce defects, enhancing product consistency and customer satisfaction. Experience the reliability of the Spectralight QC Light Booth—an essential tool for color quality control!</p>
+                    <p>The Spectralight QC Light Booth compares samples to a master target, precisely detecting color variances. This technology helps manufacturers uphold quality standards, reducing defects and ensuring product consistency. Experience the reliability of the Spectralight QC Light Booth—essential for color quality control!</p>
                 </div>
             </div>
         </div>

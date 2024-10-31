@@ -25,7 +25,7 @@
         <div class="row section-padding">
             <div class="col-sm-8">
                 <p><span class="text-color">/ </span>Stamping Parts</p>
-                <div class="title">Diverse talent enables smarter steels</div>
+                <div class="title">Precision Stamping Solutions for Every Industry, Built to Last!</div>
             </div>
         </div>
         <!-- <div class="row">
@@ -127,7 +127,7 @@
         <div class="line line-right"></div>
         <div class="row section-padding-lg d-flex justify-content-center" id="intro">
             <div class="col-sm-12 col-md-8">
-                <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p>
+                <!-- <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p> -->
                 <h3>CS Metal delivers a wide range of high-quality stamping solutions tailored to meet the needs of diverse industries. From brackets and wire mesh to panels, rings, or specialized parts like cooking drip bowls and vent trims, our precision-engineered components are built for durability and performance. We ensure consistent and reliable results for every application. </h3>
             </div>
         </div>

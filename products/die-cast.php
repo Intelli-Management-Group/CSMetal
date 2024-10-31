@@ -16,7 +16,7 @@
         <div class="row section-padding">
             <div class="col-sm-8">
                 <p><span class="text-color">/ </span>Die Cast</p>
-                <div class="title">Diverse talent enables smarter steels</div>
+                <div class="title">Precision Die Cast Solutions for Durable, Lightweight Parts!</div>
             </div>
         </div>
         <!-- <div class="row">
@@ -40,7 +40,7 @@
         <!-- Intro Section -->
         <div class="row section-padding-lg d-flex justify-content-center" id="intro">
             <div class="col-sm-12 col-md-8">
-                <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p>
+                <!-- <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p> -->
                 <h3>Die-casting is a process that involves shaping molten metal under high pressure into a mold cavity making them ideal for industries that require durable and lightweight components. Die Cast products offered by CS Metal are precisely designed for industries that looking for durable and lightweight components. Various die-cast parts include tweezers, foot pegs, and other custom products.</h3>
             </div>
         </div>
