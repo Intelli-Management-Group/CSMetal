@@ -159,6 +159,9 @@ h3 {
     position: relative;
     display: inline-block;
     transition: transform 0.2s ease;
+    height: auto;
+    min-height: 400px;
+    object-fit: cover;
 }
 
 .image-container{
@@ -166,6 +169,7 @@ h3 {
     /* display: inline-block; */
     transition: background-size 0.2s ease;
     overflow: hidden;
+    min-height: 400px;
 }
 
 .image {
