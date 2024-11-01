@@ -82,7 +82,7 @@
                 <div class="col-sm-12 col-md-4">
                     <div>
                         <p>Introducing our powerful 600 Ton Metal Stamping Press Machine, designed for exceptional forming capability and efficiency in the metal stamping industry. This heavy-duty press excels at producing symmetric products and can form thick materials, making it ideal for various applications. Whether working with soft or hard materials, this machine delivers outstanding performance with precision.</p>
-                        <p>With its ability to produce high-volume products while maintaining a low defect rate, our stamping press achieves a Parts Per Million (PPM) rate of less than 100, ensuring reliability in every batch. Featuring a substantial tooling table size of 3200 x 1300 mm, this machine accommodates large components like cooktops and long rails. It is also well-suited for progressive dies, enabling the production of complex products requiring multiple stamping steps.</p>
+                        <p>With its ability to produce high-volume products while maintaining a low defect rate, our stamping press achieves a Parts Per Million (PPM) rate of less than 100, ensuring reliability in every batch. Featuring a substantial tooling table size of 3200 x 1300 mm, this machine accommodates large components like cook tops and long rails. It is also well-suited for progressive dies, enabling the production of complex products requiring multiple stamping steps.</p>
                         <p>Experience unparalleled efficiency and precision with our 600 Ton Metal Stamping Press Machine, where advanced technology meets high-performance manufacturing!</p>
                     </div>
                 </div>
@@ -112,7 +112,7 @@
             </div>
 
             <div class="image-container">
-                <img src="img/Solution/machine/img_machine_3.jpg" alt="Spectralight" class="banner-container">
+                <img src="img/Solution/machine/img_machine_3.jpg" alt="LG 1370" class="banner-container">
             </div>
         </div>
 

@@ -124,24 +124,24 @@
             <div class="row section-padding padding-top pb-0">
                 <div class="col-sm-12 col-md-4">
                     <div class="title pb-3">CORE VALUES</div>
-                    <p>Our core values not only define us as a company but also reflect the essence of each individual within our organization.</p>
+                    <p>We are dedicated to delivering precision and innovation, proudly delivering customized, high-quality metal solutions that consistently exceed expectations.</p>
                 </div>
             </div>
             <div class="row section-padding padding-bottom">
                 <div class="col-sm-12 col-md-4">
                     <i class="fa-regular fa-lightbulb fa-icon"></i>
-                    <h4>Think big</h4>
-                    <p>Empowering each individual with confidence.</p>
+                    <h4>Innovation</h4>
+                    <p>Embracing cutting-edge technology, we deliver innovative solutions that set industry standards.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <i class="fa-solid fa-rotate fa-icon"></i>
-                    <h4>Never settle</h4>
-                    <p>Constantly innovating, improving and asking the right questions.</p>
+                    <i class="fa-solid fa-check-circle fa-icon"></i>
+                    <h4>Quality Excellence</h4>
+                    <p>Through numerous tests, our products meet the highest standards in metal manufacturing. </p>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <i class="fa-regular fa-handshake fa-icon"></i>
-                    <h4>Be collaborative</h4>
-                    <p>We do our best when we do it together, with respect and humility.</p>
+                    <h4>Customer Centred Approach</h4>
+                    <p>We build lasting partnerships, tailoring our solutions to your unique needs. </p>
                 </div>
             </div>
         </div>

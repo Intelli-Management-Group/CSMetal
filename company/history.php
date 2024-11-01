@@ -63,7 +63,7 @@
                     <p>With a rich history dating back to its establishment in 1981 in Hong Kong, Chi Sing has been a beacon of innovation and quality in metal manufacturing.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>The company’s expansion continued with the opening of its China factory in 1992, marking a signifi cant milestone in its journey towards international growth.</p>
+                    <p>The company’s expansion continued with the opening of its China factory in 1992, marking a significant milestone in its journey towards international growth.</p>
                 </div>
             </div>
         </div>

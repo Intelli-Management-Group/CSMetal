@@ -47,7 +47,7 @@
                 <div class="col-sm-12 col-md-4">
                     <div>
                         <p>Introducing our advanced Metal Hardness Measurement Machine, designed for precise and reliable hardness testing of various metals. This essential tool is crucial for material validation and heat treatment validation, ensuring the integrity and durability of metal products.</p>
-                        <p>Utilizing cutting-edge technology, our hardness meter features a clear digital display and offers multiple testing scales, including Rockwell, Brinell, and Vickers, providing immediate results for both soft and hard metals. Its userfriendly interface streamlines the quality control process, making it easy for operators to obtain accurate measurements.</p>
+                        <p>Utilizing cutting-edge technology, our hardness meter features a clear digital display and offers multiple testing scales, including Rockwell, Brinell, and Vickers, providing immediate results for both soft and hard metals. Its user-friendly interface streamlines the quality control process, making it easy for operators to obtain accurate measurements.</p>
                         <p>By enabling effective material and heat treatment validation, our hardness meter helps minimize defects and enhance overall product quality. Experience the efficiency and reliability of our Metal Hardness Measurement Machine, a vital asset for maintaining high standards in metal production!</p>
                     </div>
                 </div>
@@ -62,36 +62,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Inspector Section-->
-    <!-- <div class="container">
-        <div class="line line-left"></div>
-        <div class="line line-right"></div>
-        <div class="text-center">
-            <div class="title section-padding">PRECISE DIMENSIONAL MEASUREMENT</div>
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4?mute=1"></iframe>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="line line-left"></div>
-        <div class="line line-1-3"></div>
-        <div class="line line-2-3"></div>
-        <div class="line line-right"></div>
-        <div class="row section-padding-lg">
-            <div class="col-sm-12 col-md-4">
-                <p>Introducing our advanced Coordinate Measuring Machine (CMM), Inspector, a state-of-the-art measuring device designed for precise dimensional inspection in manufacturing. This innovative tool features computerized movement along the X, Y, and Z axis, allowing for highly accurate measurements of both large and small inner and outer dimensions.</p>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <p>The CMM Inspector is perfect for a variety of applications, delivering reliple results across different sizes and snapes of comporients. Its ability to generate detailed digital reports streamlines the quality assurance process, providing manufacturers with clear documentation of measurement results for easy analysis and compliance tracking.</p>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <p>With its advanced technology and user-friendly interface, our CMM Inspector enhances productivity and ensures the highest standards of accuracy in dimensional measurement. Experience the benefits of precision measurement with our CMM Inspector, a crucial asset for maintaining product quality and integrity in any manufacturing environment!</p>
-            </div>
-        </div>
-    </div> -->
 
     <!-- Push-Pull Force Test -->
     <div class="container">
@@ -140,7 +110,7 @@
                     <p>The Transportation Compression Test evaluates the durability of materials and products during shipping and handling. By simulating transit conditions, this test ensures items can withstand the pressure and forces they encounter.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>Samples are subjected to controlled compression forces that mimic weightbearing scenarios. This assessment is essential for manufacturers of fragile items, electronics, and heavy machinery, helping identify weaknesses in packaging and design.</p>
+                    <p>Samples are subjected to controlled compression forces that mimic weight-bearing scenarios. This assessment is essential for manufacturers of fragile items, electronics, and heavy machinery, helping identify weaknesses in packaging and design.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p>Results from the Transportation Compression Test provide insights into product resilience, enabling manufacturers to optimize packaging and enhance customer satisfaction. Invest in this testing process to ensure your products arrive safely and reliably at their destination.</p>
