@@ -46,7 +46,7 @@
                 <p class="slogan">Delivering Quality, Precision, and Durability / Precision Engineered. Built to Last</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>At CS Metal we specialize in a diverse range of products, and pride ourselves on our expertise in creating durable appliance handles, precision stamping, and robust wire mesh. Our state-of-the-art facilities also produce stylish and functional camera and cellphone cases, catering to the ever-evolving tech industry.</p>
+                <p>At CS Metal, we specialize in a diverse range of products and pride ourselves on our expertise in durable appliance handles, precision stamping, and robust wire mesh. Our state-of-the-art facilities also produce stylish and functional camera and cellphone cases, catering to the evolving tech industry.</p>
             </div>
             <div class="col-sm-12 col-md-4">
                 <p>As an OEM, we’re committed to bringing your ideas to life with custom display fixtures, logo machining, and vibrant metal color printing. CS Metal blends craftsmanship with technology to deliver exceptional products that meet and exceed our clients’ expectations. </p>
@@ -86,7 +86,7 @@
                             <a class="image-arrow" href="products/die-cast.php"><div>→</div></a>
                         </div>
                         <h3 class="mt-3">Die Cast</h3>
-                        <p>Die-casting is a process that involves shaping molten metal under high pressure into a mold cavity, making them ideal for industries that require durable components. At CS Metal, we use advanced casting techniques to create complex, high-strength parts that allow us to deliver reliable, consistent results. Various die-cast parts include tweezers, foot pegs, and other custom products. </p>
+                        <p>Die-casting is a process that involves shaping molten metal under high pressure into a mold cavity, making it ideal for industries that require durable components. At CS Metal, we use advanced casting techniques to create complex, high-strength parts that deliver reliable, consistent results. Various die-cast parts include tweezers, foot pegs, and custom products.</p>
                     </div>
                 </div>
             </div>

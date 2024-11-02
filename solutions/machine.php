@@ -59,7 +59,7 @@
                 <p>Our advanced technology enhances quality consistency, ensuring each metal tube meets high standards and specifications. The automated system increases production capacity, enabling manufacturers to meet high demand efficiently while maintaining exceptional quality.</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>Equipped with state-of-the-art AI technology, our Automated Metal Tube Forming Machine intelligently identifies and segregates good and bad parts in real-time, enhancing quality control and reducing waste. Experience the future of metal tube forming, where custom solutions and superior quality come together to elevate your production capabilities!</p>
+                <p>Equipped with advanced AI technology, our Automated Metal Tube Forming Machine identifies and sorts good and bad parts in real-time, enhancing quality control. Experience the future of metal tube forming, where custom solutions and superior quality come together to elevate your production capabilities.</p>
             </div>
         </div>
     </div>
@@ -129,7 +129,7 @@
                     <p>With a generous swing diameter and a robust bed design, the LG 1370 accommodates both large and small workpieces, making it versatile for diverse tooling projects. The machine provides excellent tool accessibility and quick changeover options, minimizing downtime and optimizing productivity.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>The user-friendly interface of the LG 1370 Hartford CNC Lathe Machine allows operators to input specifications and monitor operations, enhancing efficiency. Engineered for durability and performance, this machine is essential for workshops focused on tooling and high-quality production. Experience the precision of the LG 1370 to elevate your processes!</p>
+                    <p>LG 1370’s user-friendly interface allows operators to input specifications and monitor operations. Engineered for durability and performance, this machine is essential for workshops focused on tooling and high-quality production. Experience the precision of the LG 1370 and elevate your processes! </p>
                 </div>
             </div>
         </div>
@@ -154,13 +154,13 @@
         <div class="line line-right"></div>
         <div class="row section-padding-lg">
             <div class="col-sm-12 col-md-4">
-                <p>Introducing our Semi-Automatic Tube Forming Machine, designed to enhance efficiency and precision in tube manufacturing. This innovative machine streamlines the tube forming process by combining automated features, making it an ideal solution for manufacturers looking to optimize production while maintaining flexibility.</p>
+                <p>Introducing our Semi-Automatic Tube Forming Machine, designed to enhance efficiency and precision in tube manufacturing. This innovative machine streamlines the tube forming process making it an ideal solution for manufacturers looking to optimize production while maintaining flexibility.</p>
             </div>
             <div class="col-sm-12 col-md-4">
                 <p>The semi-automatic functionality allows operators to easily set parameters and make adjustments as needed, accommodating various tube sizes and shapes. This versatility ensures consistent results, whether you are working with larger industrial tubes or smaller specialized components.</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>The Semi-Automatic Tube Forming Machine features automatic part transfer between stations, minimizing human contact and reducing scratches for a better cosmetic finish. Experience the advantages of this machine, where increased efficiency meets high-quality output, making it essential for any tube manufacturing operation!</p>
+                <p>The Semi-Automatic Tube Forming Machine features automatic part transfer between stations, minimizing human contact and reducing scratches for a better cosmetic finish. Experience the advantages of this machine, where increased efficiency meets high-quality output.</p>
             </div>
         </div>
     </div>

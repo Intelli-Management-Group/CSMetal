@@ -85,7 +85,7 @@
                 </div>
                 <div class="col-sm-12 col-md-4"></div>
                 <div class="col-sm-12 col-md-4">
-                    <p>At CS Metal, we’re dedicated to sharing our achievements and advancements in precision metal solutions. Through this commitment, we aim to inspire and elevate industry standards, contributing to a more innovative and quality-driven metal manufacturing sector.</p>
+                    <p>At CS Metal, we’re dedicated to sharing our achievements and advancements in precision metal solutions with our clients and partners. Through this commitment, we aim to inspire and elevate industry standards, contributing to a more innovative and quality-driven metal manufacturing sector.</p>
                 </div>
             </div>
 
@@ -178,7 +178,7 @@
                                 <a class="image-arrow" href="products/die-cast.php"><div>→</div></a>
                             </div>
                             <h3 class="mt-3">Die Cast</h3>
-                            <p>Die-casting is a process that involves shaping molten metal under high pressure into a mold cavity, making them ideal for industries that require durable components. At CS Metal, we use advanced casting techniques to create complex, high-strength parts that allow us to deliver reliable, consistent results. Various die-cast parts include tweezers, foot pegs, and other custom products. </p>
+                            <p>Die-casting is a process that involves shaping molten metal under high pressure into a mold cavity, making it ideal for industries that require durable components. At CS Metal, we use advanced casting techniques to create complex, high-strength parts that deliver reliable, consistent results. Various die-cast parts include tweezers, foot pegs, and custom products.</p>
                         </div>
                     </div>
                 </div>

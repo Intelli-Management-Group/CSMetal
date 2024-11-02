@@ -118,13 +118,13 @@
             <div class="line line-2-3"></div>
             <div class="row section-padding-lg">
                 <div class="col-sm-12 col-md-4">
-                    <p>The Spectralight QC Light Booth incorporates controlled light temperature management for optimal viewing conditions, ensuring consistency and reliability in color assessment. This controlled environment minimizes the impact of external light variables that can skew color perception, allowing for precise evaluation.</p>
+                    <p>The Spectralight QC Light Booth incorporates controlled light temperature management for optimal viewing, ensuring consistency and reliability in color assessment. This environment minimizes the impact of external light variables that can skew color perception, allowing for precise evaluation.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p>We have a single light compartment dedicated to inspecting small components to facilitate detailed analyses. For larger components and high-volume batches of colored products, a duo light booth design is provided to accommodate comprehensive evaluations without sacrificing accuracy. </p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>The Spectralight QC Light Booth compares samples to a master target, precisely detecting color variances. This technology helps manufacturers uphold quality standards, reducing defects and ensuring product consistency. Experience the reliability of the Spectralight QC Light Booth—essential for color quality control!</p>
+                    <p>The Spectralight QC Light Booth compares samples to a master target, detecting color variances. This technology helps manufacturers uphold standards, reduce defects, and ensure consistency. Experience the reliability of the Spectralight QC Light Booth—essential for color quality control!</p>
                 </div>
             </div>
         </div>
@@ -152,7 +152,7 @@
                 <p>The CS Metal Quality Management System (QMS) is a customized software solution designed to ensure consistent quality throughout the manufacturing process. At the core of this QMS is a paperless quality record database that streamlines data management and enhances operational efficiency.</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>Quality data is input dally from various stages, including incoming materials inspections, in-process evaluations, critical-to-quality control charts, and finished goods inspections, This sophisticated software allows for efficient data entry and real-time quality monitoring, enabling timely identification of any issues that may arise during production.</p>
+                <p>Quality data is input daily from various stages, including incoming materials inspections, in-process evaluations, critical-to-quality control charts, and finished goods inspections. This software enables efficient data entry and real-time monitoring, allowing timely identification of issues during production.</p>
             </div>
             <div class="col-sm-12 col-md-4">
                 <p>The system facilitates comprehensive quality performance management reviews, providing insights into trends and areas for improvement. Additionally, the QMS ensures quality traceability, allowing for easy tracking of materials and components throughout the manufacturing process.</p>
