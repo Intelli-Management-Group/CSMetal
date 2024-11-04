@@ -57,7 +57,7 @@
 
             <div class="image-container">
                 <img src="img/Company/About/img_1.png" alt="about" class="banner-container">
-                <div class="col-sm-4 solutions py-5">
+                <div class="col-md-4 solutions py-5">
                     <p class="mb-0"><span class="text-color">/ </span>Experience. Transparency. Results.</p>
                 </div>
             </div>
@@ -142,7 +142,7 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <!-- <i class="fa-regular fa-handshake fa-icon"></i> -->
-                    <img src="img/Company/About/icon_customer.svg" alt="customer" class="icon" style="width: 100px; margin-bottom: 0px;">
+                    <img src="img/Company/About/icon_customer.svg" alt="customer" class="icon">
                     <h4>Customer Centred Approach</h4>
                     <p>We build lasting partnerships, tailoring our solutions to your unique needs. </p>
                 </div>
