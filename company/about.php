@@ -142,7 +142,7 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <!-- <i class="fa-regular fa-handshake fa-icon"></i> -->
-                    <img src="img/Company/About/icon_customer.svg" alt="customer" class="icon">
+                    <img src="img/Company/About/icon_customer.svg" alt="customer" class="icon" style="width: 100px; margin-bottom: 0px;">
                     <h4>Customer Centred Approach</h4>
                     <p>We build lasting partnerships, tailoring our solutions to your unique needs. </p>
                 </div>
