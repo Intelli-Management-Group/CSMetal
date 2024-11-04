@@ -26,7 +26,7 @@
                 border-left: none;
             }
 
-            @media only screen and (max-width: 767px) {
+            @media only screen and (max-width: 991px) {
                 .email {
                     border-left: 1px solid #4b4b4b;
                     border-top: none;
@@ -103,17 +103,17 @@
                     </div>
                     
                     <div class="row section-padding pt-0">
-                        <div class="col-sm-12 col-md-4 p-0">
+                        <div class="col-sm-12 col-md-12 col-lg-4 p-0">
                             <div class="info-wrap location">
                                 <h3>2A/F, Phase 1 Kingsford Industrial Bldg., 26-32 Kwai Hei St., Kwai Chung Hong Kong</h3>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 p-0">
+                        <div class="col-sm-12 col-md-12 col-lg-4 p-0">
                             <div class="info-wrap email">
                                 <h3>factory@chising.com.hk</h3>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 p-0">
+                        <div class="col-sm-12 col-md-12 col-lg-4 p-0">
                             <div class="info-wrap phone">
                                 <h3>+852-2614-3700</h3>
                             </div>

@@ -95,17 +95,17 @@
                     </div>
                     
                     <div class="row section-padding padding-bottom pt-0">
-                        <div class="col-sm-12 col-md-4 p-0">
+                        <div class="col-sm-12 col-md-12 col-lg-4 p-0">
                             <a href="solutions/machine.php#machine" class="info-wrap solution-wrap location card-arrow">
                                 <h4 class="m-0">Automated Tube Forming Machine</h4>
                             </a>
                         </div>
-                        <div class="col-sm-12 col-md-4 p-0">
+                        <div class="col-sm-12 col-md-12 col-lg-4 p-0">
                             <a href="solutions/inspection.php#gom" class="info-wrap solution-wrap email card-arrow">
                                 <h4 class="m-0">GOM Scan</h4>
                             </a>
                         </div>
-                        <div class="col-sm-12 col-md-4 p-0">
+                        <div class="col-sm-12 col-md-12 col-lg-4 p-0">
                             <a href="solutions/testing.php#hardness" class="info-wrap solution-wrap phone card-arrow">
                                 <h4 class="m-0">Metal Hardness Measurement Machine</h4>
                             </a>
