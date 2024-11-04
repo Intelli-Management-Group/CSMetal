@@ -93,7 +93,7 @@
             <div class="line line-right"></div>
             <div class="row section-padding">
                 <div class="col-12 text-center p-3">
-                    <div class="title">QUALITY PRODUCTS START WITH QUALITY STEEL</div>
+                    <div class="title">Built to Perform, Designed to Last</div>
                 </div>
             </div>
             <div class="image-container">

@@ -98,7 +98,7 @@
                 <div class="footer">
                     <div class="row section-padding padding-top">
                         <div class="col-sm-12 col-md-12 pl-0 pr-0">
-                            <div class="title">Pioneering a New Era of Steelworking Excellence</div>
+                            <div class="title">Redefining The Standards in Metal Manufacturing</div>
                         </div>
                     </div>
                     
@@ -110,7 +110,7 @@
                         </div>
                         <div class="col-sm-12 col-md-4 p-0">
                             <div class="info-wrap email">
-                                <h3>office@fabrik.com</h3>
+                                <h3>factory@chising.com.hk</h3>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-4 p-0">

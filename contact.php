@@ -57,7 +57,7 @@
                                 <a class="address" href="tel:+85226143700" target="_blank" rel="noopener">+852-2614-3700</a>
                             </p>   
                             <p>
-                                <a class="address" href="mailto:office@fabrik.com" target="_blank" rel="noopener">office@fabrik.com</a>                         
+                                <a class="address" href="mailto:factory@chising.com.hk" target="_blank" rel="noopener">factory@chising.com.hk</a>                         
                             </p> 
                         </div>
                         <!-- <div class="customDiv">
@@ -87,7 +87,7 @@
                                 </a>
                             </p>   
                             <p>
-                                <a class="address" href="mailto:product@fabrik.com" target="_blank" rel="noopener">product@fabrik.com</a>                         
+                                <a class="address" href="mailto:factory@chising.com.hk" target="_blank" rel="noopener">factory@chising.com.hk</a>                         
                             </p> 
                         </div>
                         <!-- <div class="customDiv">                       

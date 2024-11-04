@@ -1081,9 +1081,8 @@ hr {
     }
 } */
 
-.fa-icon{
-    color: #0c73b2;
-    font-size: 70px;
+.icon{
+    width: 100px;
     margin-bottom: 20px;
 }
 

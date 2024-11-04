@@ -143,7 +143,7 @@
                 <p><span class="text-color">/ </span>Products</p>
                 <div class="row pt-3">
                     <div class="col-sm-12 col-md-4">
-                        <div class="title">SUSTAINABLE STEEL FOR A STRONGER TOMORROW</div>
+                        <div class="title">Quality Metal Engineered for a stronger tomorrow</div>
                     </div>
                 </div>
 
