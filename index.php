@@ -39,8 +39,11 @@
 
             <!-- Intro Section -->
             <div class="row section-padding padding-top">
-                <div class="col-sm-12 col-md-4">
+                <!-- <div class="col-sm-12 col-md-4">
                     <p class="slogan">INNOVATIVE, PRECISION-DRIVEN METAL SOLUTIONS DESIGNED TO ELEVATE INDUSTRIES, ENRICH COMMUNITIES, AND PROTECT THE ENVIRONMENT.</p>
+                </div> -->
+                <div class="col-sm-12 col-md-4">
+                    <div class="title">A LEADER IN PRECISION METAL SOLUTIONS</div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <h3>100% Commitment</h3>
@@ -79,7 +82,7 @@
             </div>
             
             <!-- Solutions Section -->
-            <div class="row section-padding">
+            <!-- <div class="row section-padding">
                 <div class="col-sm-12 col-md-4">
                     <div class="title">A LEADER IN PRECISION METAL SOLUTIONS</div>
                 </div>
@@ -89,7 +92,6 @@
                 </div>
             </div>
 
-            <!-- banner -->
             <div class="image-container">
                 <img src="./img/Home/banner_1.jpg" alt="Home Banner" class="banner-container">
                 <a class="col-md-4 image-button" href="contact.php">
@@ -136,7 +138,7 @@
                         <p>CS Metal’s testing solutions ensure reliability. The Metal Hardness Measurement Machine offers precise hardness testing for validation. The Push-Pull Force Test evaluates connection strength over 1500 lbs. The Transportation Compression Test simulates transit conditions, while the Transportation Vibration Test assesses resilience against vibrations.</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- Products Section -->
             <div class="section-padding">

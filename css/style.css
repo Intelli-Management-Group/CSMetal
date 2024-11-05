@@ -4,7 +4,7 @@
     }
 } */
 
-@font-face {
+/* @font-face {
     font-family: "d-din";
     src: url('../css/fonts/D-DIN/D-DIN.ttf') format('truetype');
     font-weight: normal;
@@ -16,7 +16,7 @@
     src: url('../css/fonts/neue/NeueHaasDisplayLight.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 html {
     font-size: 16px;
@@ -53,14 +53,14 @@ html {
 } */
 
 body {
-    font-family: "neue" !important;
+    font-family: "Roboto" !important;
     color: black !important;
-    letter-spacing: 0.3px !important;
+    /* letter-spacing: 0.3px !important; */
 }
 
 body p {
     font-size: 16px !important;
-    font-weight: 200 ;
+    font-weight: 300;
 }
 
 a {

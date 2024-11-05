@@ -43,7 +43,7 @@
             <div class="line line-2-3"></div>
             <div class="line line-right"></div>
             <div class="row section-padding">
-                <div class="col-sm-8">
+                <div class="col-md-8">
                     <p><span class="text-color">/ </span>About</p>
                     <div class="title">Crafting Excellence Through Innovation and Precision</div>
                 </div>

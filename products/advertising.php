@@ -32,7 +32,7 @@
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
         <div class="row section-padding">
-            <div class="col-sm-8">
+            <div class="col-md-8">
                 <p><span class="text-color">/ </span>Advertising Fixtures & OEM Products</p>
                 <div class="title">Custom Fixtures & OEM Products that Elevate Brands!</div>
             </div>
