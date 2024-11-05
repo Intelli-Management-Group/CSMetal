@@ -4,12 +4,26 @@
     }
 } */
 
+@font-face {
+    font-family: "d-din";
+    src: url('../css/fonts/D-DIN/D-DIN.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "neue";
+    src: url('../css/fonts/neue/NeueHaasDisplayLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     font-size: 16px;
 }
 
 .title {
-    font-size: 45px;
+    font-size: 40px;
     text-transform: uppercase;
     line-height: 1.2;
     font-weight: 500;
@@ -39,7 +53,9 @@ html {
 } */
 
 body {
+    font-family: "neue" !important;
     color: black !important;
+    letter-spacing: 0.3px !important;
 }
 
 body p {

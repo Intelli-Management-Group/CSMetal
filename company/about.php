@@ -6,6 +6,32 @@
             .solution-wrap {
                 padding: 25px 50px !important;
                 height: 150px !important;
+                display: flex;
+                border: 1px solid #4b4b4b;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                box-sizing: border-box;
+            }
+
+            .gom-wrap {
+                border-left: none;
+            }
+
+            .hardness-wrap {
+                border-left: none;
+            }
+
+            @media only screen and (max-width: 767px) {
+                .gom-wrap {
+                    border-left: 1px solid #4b4b4b;
+                    border-top: none;
+                }
+
+                .hardness-wrap {
+                    border-left: 1px solid #4b4b4b;
+                    border-top: none;
+                }
             }
         </style>
     </head>
@@ -95,18 +121,18 @@
                     </div>
                     
                     <div class="row section-padding padding-bottom pt-0">
-                        <div class="col-sm-12 col-md-12 col-lg-4 p-0">
-                            <a href="solutions/machine.php#machine" class="info-wrap solution-wrap location card-arrow">
+                        <div class="col-sm-12 col-md-4 col-lg-4 p-0">
+                            <a href="solutions/machine.php#machine" class="solution-wrap location card-arrow">
                                 <h4 class="m-0">Automated Tube Forming Machine</h4>
                             </a>
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-4 p-0">
-                            <a href="solutions/inspection.php#gom" class="info-wrap solution-wrap email card-arrow">
+                        <div class="col-sm-12 col-md-4 col-lg-4 p-0">
+                            <a href="solutions/inspection.php#gom" class="solution-wrap gom-wrap card-arrow">
                                 <h4 class="m-0">GOM Scan</h4>
                             </a>
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-4 p-0">
-                            <a href="solutions/testing.php#hardness" class="info-wrap solution-wrap phone card-arrow">
+                        <div class="col-sm-12 col-md-4 col-lg-4 p-0">
+                            <a href="solutions/testing.php#hardness" class="solution-wrap hardness-wrap card-arrow">
                                 <h4 class="m-0">Metal Hardness Measurement Machine</h4>
                             </a>
                         </div>

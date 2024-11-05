@@ -5,20 +5,21 @@
         <style>
             .footer {
                 color: white;
+                line-height: 1.8;
             }
 
             .info-wrap {
                 display: flex;
-                border: 1px solid #4b4b4b;
-                padding: 50px;
+                /* border: 1px solid #4b4b4b; */
+                /* padding: 50px; */
                 align-items: center;
                 justify-content: center;
-                text-align: center;
+                text-align: left;
                 box-sizing: border-box;
-                height: 200px;
+                /* height: 200px; */
             }
 
-            .email {
+            /* .email {
                 border-left: none;
             }
 
@@ -36,7 +37,7 @@
                     border-left: 1px solid #4b4b4b;
                     border-top: none;
                 }
-            }
+            } */
 
             nav {
                 display: flex;
@@ -96,26 +97,21 @@
         <div style="background-color:black;">
             <div class="container">
                 <div class="footer">
-                    <div class="row section-padding padding-top">
-                        <div class="col-sm-12 col-md-12 pl-0 pr-0">
-                            <div class="title">Redefining The Standards in Metal Manufacturing</div>
-                        </div>
-                    </div>
-                    
-                    <div class="row section-padding pt-0">
-                        <div class="col-sm-12 col-md-12 col-lg-4 p-0">
+                    <div class="row section-padding-lg">
+                        <div class="col-sm-12 col-md-4 col-lg-4 p-0">
                             <div class="info-wrap location">
-                                <h3>2A/F, Phase 1 Kingsford Industrial Bldg., 26-32 Kwai Hei St., Kwai Chung Hong Kong</h3>
+                                <h3 class="mb-0">Redefining The Standards in Metal Manufacturing</h3>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-4 p-0">
+                        <div class="col-sm-12 col-md-4 col-lg-4 p-0">
                             <div class="info-wrap email">
-                                <h3>factory@chising.com.hk</h3>
+                                <p class="mb-0">2A/F, Phase 1 Kingsford Industrial Bldg., 26-32 Kwai Hei St., Kwai Chung Hong Kong</p>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-4 p-0">
+                        <div class="col-sm-12 col-md-4 col-lg-4 p-0">
                             <div class="info-wrap phone">
-                                <h3>+852-2614-3700</h3>
+                                <p class="mb-0">factory@chising.com.hk <br>
+                                   +852-2614-3700</p>
                             </div>
                         </div>
                     </div>
