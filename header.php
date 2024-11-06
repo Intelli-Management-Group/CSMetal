@@ -162,11 +162,11 @@
     <body>
         <!-- desktop nav bar -->
         <div class="bottom-border desktop-nav">
-            <div class="header" id="nav">
+            <div class="header container d-flex justify-content-between" id="nav">
                 <a href="./index.php" class="logo">
                     <img src="img/Generic/logo.png" alt="Logo">
                 </a>
-                <nav style="position: absolute; left: 50%; transform: translateX(-50%);">
+                <nav>
                 <!-- center align the nav -->
                     <ul class="nav-links" style="height: 100px;">
                         <li><a href="./index.php" class="first-nav active">HOME</a></li>

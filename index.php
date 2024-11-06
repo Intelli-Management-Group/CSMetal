@@ -43,14 +43,14 @@
                     <p class="slogan">INNOVATIVE, PRECISION-DRIVEN METAL SOLUTIONS DESIGNED TO ELEVATE INDUSTRIES, ENRICH COMMUNITIES, AND PROTECT THE ENVIRONMENT.</p>
                 </div> -->
                 <div class="col-sm-12 col-md-4">
-                    <div class="title">A LEADER IN PRECISION METAL SOLUTIONS</div>
+                    <h3>A LEADER IN PRECISION METAL SOLUTIONS</h3>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <h3>100% Commitment</h3>
+                    <p style="font-weight: bold;">100% Commitment</p>
                     <p>Our products are engineered for exceptional durability, ensuring a long lifespan and minimal environmental impact. </p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <h3>98% Efficiency</h3>
+                    <p style="font-weight: bold;">98% Efficiency</p>
                     <p>Our metal manufacturing processes achieve up to 98% material utilization, minimizing waste and promoting sustainability. </p>
                 </div>
             </div>
