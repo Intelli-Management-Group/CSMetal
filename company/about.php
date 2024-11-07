@@ -76,7 +76,7 @@
             <!-- Company Profile -->
             <div class="row section-padding pb-0" id="intro">
                 <div class="col-sm-12 col-md-4">
-                    <p class="slogan">USE THE MOST ECONOMIC PROCESS TO ACHIEVE EXCELLENT PRODUCT AND SERVICE SATISFACTION</p>
+                    <p class="slogan">Use the most economic process to achieve excellent product and service satisfaction</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p>At CS Metal, our success in metal manufacturing stems from a bold vision and unwavering ambition. Since our founding in 1981, we have excelled in a field where only the bold thrive. Guided by our founder’s principle that “success comes from a strong will,” we focus on turning ambitious metalwork concepts into reality. The name Chi Sing (CS), meaning “aspiration achieved,” reflects our commitment to this vision.</p>

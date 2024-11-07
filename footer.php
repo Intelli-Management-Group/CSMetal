@@ -13,10 +13,11 @@
                 /* border: 1px solid #4b4b4b; */
                 /* padding: 50px; */
                 align-items: center;
-                justify-content: center;
+                /* justify-content: center; */
                 text-align: left;
                 box-sizing: border-box;
                 /* height: 200px; */
+                padding: 15px;
             }
 
             /* .email {
@@ -105,7 +106,7 @@
                         </div>
                         <div class="col-sm-12 col-md-4 col-lg-4 p-0">
                             <div class="info-wrap email">
-                                <p class="mb-0">2A/F, Phase 1 Kingsford Industrial Bldg., 26-32 Kwai Hei St., Kwai Chung Hong Kong</p>
+                                <p class="mb-0">2A/F, Phase 1 Kingsford Industrial Bldg., <br>26-32 Kwai Hei St., Kwai Chung Hong Kong</p>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-4 col-lg-4 p-0">

@@ -43,7 +43,7 @@
                     <p class="slogan">INNOVATIVE, PRECISION-DRIVEN METAL SOLUTIONS DESIGNED TO ELEVATE INDUSTRIES, ENRICH COMMUNITIES, AND PROTECT THE ENVIRONMENT.</p>
                 </div> -->
                 <div class="col-sm-12 col-md-4">
-                    <h3>A LEADER IN PRECISION METAL SOLUTIONS</h3>
+                    <h3>A Leader in Precision Metal Solutions</h3>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p style="font-weight: bold;">100% Commitment</p>
@@ -145,7 +145,7 @@
                 <p><span class="text-color">/ </span>Products</p>
                 <div class="row pt-3">
                     <div class="col-sm-12 col-md-4">
-                        <div class="title">Quality Metal Engineered for a stronger tomorrow</div>
+                        <div class="title">Quality metal engineered for a stronger tomorrow</div>
                     </div>
                 </div>
 

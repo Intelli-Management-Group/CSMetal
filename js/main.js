@@ -65,3 +65,26 @@ document.addEventListener("DOMContentLoaded", function() {
         } 
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    function toTitleCase(str) {
+        // Define small words you want to keep lowercase
+        const smallWords = ["the", "to", "in", "on", "a", "an", "and", "but", "or", "for", "nor", "of"];
+        
+        return str
+            .split(" ")
+            .map((word, index) => {
+                // Always capitalize the first word or words not in the small words list
+                if (index === 0 || !smallWords.includes(word.toLowerCase())) {
+                    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+                } else {
+                    return word.toLowerCase();
+                }
+            })
+            .join(" ");
+    }
+
+    // Example usage:
+    const textElement = document.querySelector(".slogan");
+    textElement.textContent = toTitleCase(textElement.textContent);
+});

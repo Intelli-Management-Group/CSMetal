@@ -43,7 +43,8 @@
         <!-- Intro Section -->
         <div class="row section-padding" id="intro">
             <div class="col-sm-12 col-md-4">
-                <p class="slogan">Delivering Quality, Precision, and Durability / Precision Engineered. Built to Last</p>
+                <!-- <p class="slogan">Delivering Quality, Precision, and Durability / Precision Engineered. Built to Last</p> -->
+                <p class="slogan">Delivering Quality, Precision, and Durability</p>
             </div>
             <div class="col-sm-12 col-md-4">
                 <p>At CS Metal, we specialize in a diverse range of products and pride ourselves on our expertise in durable appliance handles, precision stamping, and robust wire mesh. Our state-of-the-art facilities also produce stylish and functional camera and cellphone cases, catering to the evolving tech industry.</p>
