@@ -3,15 +3,15 @@
     .col-customer{
         max-height: 632px;
     }
+
+    .machine-widget {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1199px) {
     .display-3 {
         font-size: 3rem !important;
-    }
-
-    .machine-widget {
-        display: none;
     }
 
     .col-customer{

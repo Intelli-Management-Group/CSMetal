@@ -70,10 +70,14 @@ document.addEventListener("DOMContentLoaded", function() {
     function toTitleCase(str) {
         // Define small words you want to keep lowercase
         const smallWords = ["the", "to", "in", "on", "a", "an", "and", "but", "or", "for", "nor", "of"];
-        
+        const exceptionWords = ["3D"];
+
         return str
             .split(" ")
             .map((word, index) => {
+                if (exceptionWords.includes(word)) {
+                    return word;
+                }
                 // Always capitalize the first word or words not in the small words list
                 if (index === 0 || !smallWords.includes(word.toLowerCase())) {
                     return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
@@ -85,6 +89,11 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Example usage:
-    const textElement = document.querySelector(".slogan");
-    textElement.textContent = toTitleCase(textElement.textContent);
+    // const textElement = document.querySelector(".slogan");
+    // textElement.textContent = toTitleCase(textElement.textContent);
+    const elements = document.querySelectorAll(".slogan, .title");
+    elements.forEach(element => {
+        element.textContent = toTitleCase(element.textContent);
+    });
+
 });

@@ -15,7 +15,7 @@
         <div class="line line-right"></div>
         <div class="row section-padding">
             <div class="col-md-8">
-                <p><span class="text-color">/ </span>Products</p>
+                <p class="slash-title"><span class="text-color">/ </span>Products</p>
                 <div class="title">Precision Engineered Components for Every Industry</div>
             </div>
         </div>

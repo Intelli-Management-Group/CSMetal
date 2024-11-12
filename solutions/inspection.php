@@ -15,7 +15,7 @@
         <div class="line line-right"></div>
         <div class="row section-padding">
             <div class="col-md-8">
-                <p><span class="text-color">/ </span>Solutions</p>
+                <p class="slash-title"><span class="text-color">/ </span>Solutions</p>
                 <div class="title">Inspection</div>
             </div>
         </div>
@@ -37,7 +37,7 @@
         <div class="line line-right"></div>
 
         <div class="section-padding">
-            <p><span class="text-color">/ </span>GOM SCAN</p>
+            <p class="slash-title"><span class="text-color">/ </span>GOM SCAN</p>
             <div class="row">
                 <div class="col-sm-12 col-md-12">
                     <div class="title">3D SCANNING TECHNOLOGY</div>
@@ -98,7 +98,7 @@
         <div class="container">
             <div class="row section-padding-lg text-white">
                 <div class="col-md-6">
-                    <p><span class="text-color">/ </span>Spectralight QC Light Booth</p>
+                    <p class="slash-title"><span class="text-color">/ </span>Spectralight QC Light Booth</p>
                     <div class="title">COLOR QUALITY CONTROL</div>
                 </div>
                 <div class="col-md-6 ">

@@ -13,7 +13,7 @@
             <div class="line line-right"></div>
             <div class="row section-padding">
                 <div class="col-md-8">
-                    <p><span class="text-color">/ </span>Contact Us</p>
+                    <p class="slash-title"><span class="text-color">/ </span>Contact Us</p>
                     <div class="title">Prepared to Connect with Your Metal Partner?</div>
                 </div>
             </div>
@@ -42,7 +42,7 @@
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4 ">
                     <div class="pl-3 pr-3">
-                        <h3 class="mb-4">Headquarter info</h3>
+                        <h3 class="mb-4">Headquarter Info</h3>
                         <div class="customDiv">
                             <p>
                                 <div class="" target="_blank" rel="noopener">Chi Sing Metal MFY. CO. LTD. <br/>
@@ -69,7 +69,7 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="pl-3 pr-3">
-                        <h3 class="mb-4">Factory info</h3>
+                        <h3 class="mb-4">Factory Info</h3>
                         <div class="customDiv">
                             <p>
                                 <div class="" href="#" target="_blank" rel="noopener"> Williamson Metal MFY. CO. LTD. <br/>

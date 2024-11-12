@@ -12,7 +12,7 @@
             <div class="line line-right"></div>
             <div class="row section-padding">
                 <div class="col-12">
-                    <p><span class="text-color">/ </span>Established in 1981</p>
+                    <p class= "slash-title"><span class="text-color">/ </span>Established in 1981</p>
                     <div class="home-title">Crafting the Future with Precision</div>
                 </div>
             </div>
@@ -59,14 +59,14 @@
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4 pl-0">
                     <div class="grey-widget-wrap">
-                        <p><span class="text-color">/ </span>Become a customer</p>
+                        <p class="slash-title"><span class="text-color">/ </span>Become a customer</p>
                         <h3 class="mt-5 mb-5">Choose CS for Fast, </br> High-quality Custom Parts</h3>
                         <a class="arrow" href="company/become-a-customer.php">→</a>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4 pl-0">
                     <div class="grey-widget-wrap">
-                        <p><span class="text-color">/ </span>Machine</p>
+                        <p class="slash-title"><span class="text-color">/ </span>Machine</p>
                         <h3 class="mt-5 mb-5">Automated Tube </br> Forming Machine</h3>
                         <a class="arrow" href="solutions/machine.php#machine">→</a>
                         <img src="./img/Home/img_1.png" alt="machine" class="machine-widget">
@@ -74,14 +74,14 @@
                 </div>
                 <div class="col-sm-12 col-md-4 pl-0">
                     <div class="grey-widget-wrap">
-                        <p><span class="text-color">/ </span>Technology</p>
+                        <p class="slash-title"><span class="text-color">/ </span>Technology</p>
                         <h3 class="mt-5 mb-5">GOM Scan</h3>
                         <a class="arrow" href="solutions/inspection.php#gom">→</a>
                     </div>
                 </div>
             </div>
             
-            <!-- Solutions Section -->
+            <!-- Solutions Section HIDE-->
             <!-- <div class="row section-padding">
                 <div class="col-sm-12 col-md-4">
                     <div class="title">A LEADER IN PRECISION METAL SOLUTIONS</div>
@@ -142,7 +142,7 @@
 
             <!-- Products Section -->
             <div class="section-padding">
-                <p><span class="text-color">/ </span>Products</p>
+                <p class="slash-title"><span class="text-color">/ </span>Products</p>
                 <div class="row pt-3">
                     <div class="col-sm-12 col-md-4">
                         <div class="title">Quality metal engineered for a stronger tomorrow</div>
@@ -244,7 +244,7 @@
 
                 <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center px-5">
                     <div class="pt-md-4 py-lg-0">
-                        <p><span class="text-color">/ </span>Become a customer</p>
+                        <p class= "slash-title"><span class="text-color">/ </span>Become a customer</p>
                         <div class="title mt-4 mb-4">Shaping the Future of Metal Manufacturing</div>
                         <p>At CS Metal, we’ve become synonymous with reliability and quality. Shaping the future of metal manufacturing, partner with us to experience exceptional quality and precision in every project.</p>
                         <a href="company/become-a-customer.php" class="underline-link">LET'S TALK &nbsp;&nbsp; →</a>

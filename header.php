@@ -73,7 +73,7 @@
                 width: 100%;
                 display: flex;
                 align-items: center;
-                font-weight: 500 !important;
+                font-weight: 300 !important;
                 letter-spacing: 1px;
             }
 

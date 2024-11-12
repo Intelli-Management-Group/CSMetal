@@ -15,7 +15,7 @@
         <div class="line line-right"></div>
         <div class="row section-padding">
             <div class="col-md-8">
-                <p><span class="text-color">/ </span>Solutions</p>
+                <p class="slash-title"><span class="text-color">/ </span>Solutions</p>
                 <div class="title">Machines</div>
             </div>
         </div>
@@ -72,7 +72,7 @@
         <div class="line line-right"></div>
 
         <div class="section-padding pt-0">
-            <p><span class="text-color">/ </span>600t</p>
+            <p class="slash-title"><span class="text-color">/ </span>600t</p>
             <div class="row">
                 <div class="col-sm-12 col-md-12">
                     <div class="title">Metal Stamping Press Machine</div>
@@ -103,7 +103,7 @@
         <div class="container">
             <div class="row section-padding-lg text-white">
                 <div class="col-md-6">
-                    <p><span class="text-color">/ </span>LG 1370 Hartford CNC Lathe Machine</p>
+                    <p class="slash-title"><span class="text-color">/ </span>LG 1370 Hartford CNC Lathe Machine</p>
                     <div class="title">precision machining</div>
                 </div>
                 <div class="col-md-6 ">

@@ -49,7 +49,7 @@
             <div class="line line-right"></div>
             <div class="row section-padding">
                 <div class="col-md-8">
-                    <p><span class="text-color">/ </span>About</p>
+                    <p class="slash-title"><span class="text-color">/ </span>About</p>
                     <div class="title">Crafting Excellence Through Innovation and Precision</div>
                 </div>
             </div>
@@ -186,7 +186,7 @@
             <div class="line line-right"></div>
             <div class="row section-padding padding-top d-flex justify-content-center">
                 <div class="col-sm-12 col-md-8">
-                    <p><span class="text-color">/ </span>Our Clients</p>
+                    <p class="slash-title"><span class="text-color">/ </span>Our Clients</p>
                     <h3>Distinguished by enduring partnerships with leading brands, Chi Sing has become synonymous with reliability and quality. Our work with top appliance manufacturers has not only earned us a preferred supplier status but also brought forth innovative collaborations.</h3>
                 </div>
             </div>

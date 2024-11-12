@@ -97,7 +97,7 @@
             <div class="line line-right"></div>
             <div class="row section-padding">
                 <div class="col-md-8">
-                    <p style="margin-bottom: 1rem !important;"><span class="text-color">/ </span>History</p>
+                    <p class= "slash-title" style="margin-bottom: 1rem !important;"><span class="text-color">/ </span>History</p>
                     <div class="title">From Humble Beginnings to Global Leadership</div>
                 </div>
             </div>

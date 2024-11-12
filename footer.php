@@ -8,6 +8,10 @@
                 line-height: 1.8;
             }
 
+            .footer p {
+                color: white;
+            }
+
             .info-wrap {
                 display: flex;
                 /* border: 1px solid #4b4b4b; */

@@ -11,7 +11,7 @@
             <div class="line line-right"></div>
             <div class="row section-padding pb-3">
                 <div class="col-sm-5">
-                    <p><span class="text-color">/ </span>Become a Customer</p>
+                    <p class="slash-title"><span class="text-color">/ </span>Become a Customer</p>
                     <div class="title">Let’s talk</div>
                     <p>Thank you for considering CS Metal. We look forward to learning more about your requirements and providing a solution that goes above and beyond your expectations.</p>
                     <h3 class="pt-5">OUR TOP PRIORITY IS THE SUCCESS OF OUR CUSTOMERS</h3>

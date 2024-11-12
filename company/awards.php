@@ -22,7 +22,7 @@
             <div class="line line-right"></div>
             <div class="row section-padding">
                 <div class="col-md-8">
-                    <p><span class="text-color">/ </span>Awards</p>
+                    <p class="slash-title"><span class="text-color">/ </span>Awards</p>
                     <div class="title">Celebrating Excellence with Industry Leading Awards </div>
                 </div>
             </div>
