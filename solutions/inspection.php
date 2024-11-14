@@ -137,7 +137,10 @@
         <div class="text-center">
             <div class="title section-padding">HIGH STANDARDS OF QUALITY & ACCOUNTABILITY</div>
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4?mute=1"></iframe>
+                <!-- <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4?mute=1"></iframe> -->
+                    <video width="100%" controls>
+                        <source src="video/QMS.mp4" type="video/mp4">
+                    </video>
             </div>
         </div>
     </div>
