@@ -103,17 +103,17 @@
             <div class="container">
                 <div class="footer">
                     <div class="row section-padding-lg">
-                        <div class="col-sm-12 col-md-4 col-lg-4 p-0">
+                        <div class="col-sm-12 col-md-6 col-lg-6 p-0">
                             <div class="info-wrap location">
                                 <h3 class="mb-0">Redefining The Standards in Metal Manufacturing</h3>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 col-lg-4 p-0">
+                        <div class="col-sm-12 col-md-3 col-lg-3 p-0">
                             <div class="info-wrap email">
                                 <p class="mb-0">2A/F, Phase 1 Kingsford Industrial Bldg., <br>26-32 Kwai Hei St., Kwai Chung Hong Kong</p>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 col-lg-4 p-0">
+                        <div class="col-sm-12 col-md-3 col-lg-3 p-0">
                             <div class="info-wrap phone">
                                 <p class="mb-0">factory@chising.com.hk <br>
                                    +852-2614-3700</p>

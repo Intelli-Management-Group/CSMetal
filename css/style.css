@@ -380,6 +380,11 @@ h3 {
     /* border-bottom: 1px solid #eee; */
 }
 
+.grey-widget-text {
+    margin-top: 1rem !important;
+    margin-bottom: 2rem !important;
+}
+
 .machine-widget {
     position: absolute;
     bottom: 0;

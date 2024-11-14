@@ -59,23 +59,23 @@
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4 pl-0">
                     <div class="grey-widget-wrap">
-                        <p class="slash-title"><span class="text-color">/ </span>Become a customer</p>
-                        <h3 class="mt-5 mb-5">Choose CS for Fast, </br> High-quality Custom Parts</h3>
+                        <p class="slash-title mb-0"><span class="text-color">/ </span>Become a customer</p>
+                        <h3 class="grey-widget-text">Choose CS for Fast, </br> High-quality Custom Parts</h3>
                         <a class="arrow" href="company/become-a-customer.php">→</a>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4 pl-0">
                     <div class="grey-widget-wrap">
-                        <p class="slash-title"><span class="text-color">/ </span>Machine</p>
-                        <h3 class="mt-5 mb-5">Automated Tube </br> Forming Machine</h3>
+                        <p class="slash-title mb-0"><span class="text-color">/ </span>Machine</p>
+                        <h3 class="grey-widget-text">Automated Tube </br> Forming Machine</h3>
                         <a class="arrow" href="solutions/machine.php#machine">→</a>
                         <img src="./img/Home/img_1.png" alt="machine" class="machine-widget">
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4 pl-0">
                     <div class="grey-widget-wrap">
-                        <p class="slash-title"><span class="text-color">/ </span>Technology</p>
-                        <h3 class="mt-5 mb-5">GOM Scan</h3>
+                        <p class="slash-title mb-0"><span class="text-color">/ </span>Technology</p>
+                        <h3 class="grey-widget-text">GOM Scan</h3>
                         <a class="arrow" href="solutions/inspection.php#gom">→</a>
                         <img src="./img/Home/img_2.png" alt="machine" class="machine-widget">
                     </div>
