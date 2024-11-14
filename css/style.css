@@ -442,7 +442,7 @@ h3 {
 } */
 
 .product-wrap {
-    padding: 0 10px;
+    padding: 0 50px;
 }
 
 .product-image-wrap {
@@ -561,8 +561,8 @@ h3 {
 } */
 
 .col-customer{
-    padding:0 35px !important;
-    max-height: 690px;
+    padding:0 75px !important;
+    max-height: 630px;
 }
 
 .customer-wrap {
@@ -605,12 +605,12 @@ h3 {
 .become-a-customer {
     position:absolute;
     bottom:50px;
-    left:50px;
+    left:90px;
     padding-right: 60px;
 }
 
 .customer-arrow {
-    left: 35px 
+    left: 75px 
 }
 
 /* @media only screen and (max-width: 1399px) {

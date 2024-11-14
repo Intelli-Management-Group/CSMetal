@@ -77,6 +77,7 @@
                         <p class="slash-title"><span class="text-color">/ </span>Technology</p>
                         <h3 class="mt-5 mb-5">GOM Scan</h3>
                         <a class="arrow" href="solutions/inspection.php#gom">→</a>
+                        <img src="./img/Home/img_2.png" alt="machine" class="machine-widget">
                     </div>
                 </div>
             </div>
