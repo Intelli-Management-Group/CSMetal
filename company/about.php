@@ -162,19 +162,19 @@
                 <div class="col-sm-12 col-md-4">
                     <!-- <i class="fa-regular fa-lightbulb fa-icon"></i> -->
                     <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
-                    <h4>Innovation</h4>
+                    <h5>Innovation</h5>
                     <p>Embracing cutting-edge technology, we deliver innovative solutions that set industry standards.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <!-- <i class="fa-solid fa-check-circle fa-icon"></i> -->
                     <img src="img/Company/About/icon_quality.svg" alt="quality" class="icon">
-                    <h4>Quality Excellence</h4>
+                    <h5>Quality Excellence</h5>
                     <p>Through numerous tests, our products meet the highest standards in metal manufacturing. </p>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <!-- <i class="fa-regular fa-handshake fa-icon"></i> -->
                     <img src="img/Company/About/icon_customer.svg" alt="customer" class="icon">
-                    <h4>Customer Centred Approach</h4>
+                    <h5>Customer Centred Approach</h5>
                     <p>We build lasting partnerships, tailoring our solutions to your unique needs. </p>
                 </div>
             </div>
@@ -187,7 +187,7 @@
             <div class="row section-padding padding-top d-flex justify-content-center">
                 <div class="col-sm-12 col-md-8">
                     <p class="slash-title"><span class="text-color">/ </span>Our Clients</p>
-                    <h3>Distinguished by enduring partnerships with leading brands, Chi Sing has become synonymous with reliability and quality. Our work with top appliance manufacturers has not only earned us a preferred supplier status but also brought forth innovative collaborations.</h3>
+                    <div class="products-intro">Distinguished by enduring partnerships with leading brands, Chi Sing has become synonymous with reliability and quality. Our work with top appliance manufacturers has not only earned us a preferred supplier status but also brought forth innovative collaborations.</div>
                 </div>
             </div>
             <div class="row section-padding pt-0 d-flex justify-content-around pb-0">

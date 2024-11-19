@@ -14,35 +14,12 @@
 
             .info-wrap {
                 display: flex;
-                /* border: 1px solid #4b4b4b; */
-                /* padding: 50px; */
                 align-items: center;
                 /* justify-content: center; */
                 text-align: left;
                 box-sizing: border-box;
-                /* height: 200px; */
                 padding: 15px;
             }
-
-            /* .email {
-                border-left: none;
-            }
-
-            .phone {
-                border-left: none;
-            }
-
-            @media only screen and (max-width: 991px) {
-                .email {
-                    border-left: 1px solid #4b4b4b;
-                    border-top: none;
-                }
-
-                .phone {
-                    border-left: 1px solid #4b4b4b;
-                    border-top: none;
-                }
-            } */
 
             nav {
                 display: flex;
@@ -63,7 +40,8 @@
             .terms a {
                 color: white;
                 text-decoration: none;
-                font-size: 16px;
+                font-size: 0.8em !important;
+                font-weight: 300 !important;
                 padding: 5px 10px;
             }
 
@@ -71,10 +49,10 @@
                 color: #0c73b2;
             }
 
-            .terms a:hover {
+            /* .terms a:hover {
                 color: #0c73b2;
                 text-decoration: none;
-            }
+            } */
 
             #scrollToTopBtn {
                 position: fixed;
@@ -102,7 +80,7 @@
         <div style="background-color:black;">
             <div class="container">
                 <div class="footer">
-                    <div class="row section-padding-lg">
+                    <div class="row section-padding">
                         <div class="col-sm-12 col-md-6 col-lg-6 p-0">
                             <div class="info-wrap location">
                                 <h3 class="mb-0">Redefining The Standards in Metal Manufacturing</h3>

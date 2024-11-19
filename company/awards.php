@@ -3,6 +3,14 @@
     <head>
         <?php include '../HTMLhead.php'; ?>
         <style>
+            .award-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: 0 50px;
+            }
+
             .company {
                 font-size: 16px;
             }
@@ -70,14 +78,14 @@
 
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4">
-                    <div class="d-flex flex-column align-items-center text-center">
+                    <div class="award-container">
                         <img src="img/Company/Awards/img_1.jpg" alt="about" class="image pb-3">    
                         <div class="company">HKPC</div>
                         <div class="text-color award">Appreciation Award</div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <div class="d-flex flex-column align-items-center text-center">
+                    <div class="award-container">
                         <img src="img/Company/Awards/img_2.jpg" alt="about" class="image pb-3">    
                         <div class="company">The Hong Kong Exporters Association</div>
                         <div class="text-color award">Appreciation Award</div>
@@ -85,7 +93,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <div class="d-flex flex-column align-items-center text-center">
+                    <div class="award-container">
                         <img src="img/Company/Awards/img_3.jpg" alt="about" class="image pb-3">    
                         <div class="company">GE</div>
                         <div class="text-color award">Distinguished Supplier Award</div>
@@ -96,7 +104,7 @@
 
             <div class="row section-padding pt-0">
                 <div class="col-sm-12 col-md-4">
-                    <div class="d-flex flex-column align-items-center text-center">
+                    <div class="award-container">
                         <img src="img/Company/Awards/img_4.jpg" alt="about" class="image pb-3">    
                         <div class="company">Mabe</div>
                         <div class="text-color award">Best Suppliers Award</div>
@@ -104,7 +112,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <div class="d-flex flex-column align-items-center text-center">
+                    <div class="award-container">
                         <img src="img/Company/Awards/img_5.jpg" alt="about" class="image pb-3">    
                         <div class="company">Imagine POS</div>
                         <div class="text-color award">Outstanding Award</div>
@@ -112,7 +120,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <div class="d-flex flex-column align-items-center text-center">
+                    <div class="award-container">
                         <img src="img/Company/Awards/img_6.jpg" alt="about" class="image pb-3">    
                         <div class="company">GE</div>
                         <div class="text-color award">10th Anniversary Award</div>
@@ -123,7 +131,7 @@
             
             <div class="row section-padding pt-0">
                 <div class="col-sm-12 col-md-4">
-                    <div class="d-flex flex-column align-items-center text-center">
+                    <div class="award-container">
                         <img src="img/Company/Awards/img_7.jpg" alt="about" class="image pb-3">    
                         <div class="company">LG</div>
                         <div class="text-color award">Superior Award</div>
@@ -131,7 +139,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <div class="d-flex flex-column align-items-center text-center">
+                    <div class="award-container">
                         <img src="img/Company/Awards/img_8.jpg" alt="about" class="image pb-3">    
                         <div class="company">GE</div>
                         <div class="text-color award">Superior Quality Performance Award</div>
@@ -139,7 +147,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <div class="d-flex flex-column align-items-center text-center">
+                    <div class="award-container">
                         <img src="img/Company/Awards/img_9.jpg" alt="about" class="image pb-3">    
                         <div class="company">HKGCC</div>
                         <div class="text-color award">Member Certificate</div>
