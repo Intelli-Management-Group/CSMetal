@@ -2,7 +2,7 @@
 <html lang="en">
 
     <head>
-        <?php include '../HTMLhead.php'; ?>
+        <?php include '../inc/HTMLhead.php'; ?>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <style>
@@ -88,7 +88,7 @@
     </head>
 
     <body>
-        <?php include '../header.php'; ?>
+        <?php include '../inc/header.php'; ?>
 
         <div class="container">
             <div class="line line-left"></div>
@@ -308,7 +308,7 @@
         </div>
         
 
-        <?php include '../footer.php'; ?>
+        <?php include '../inc/footer.php'; ?>
         <!-- <script>
             // Select the horizontal scroll container
             const scrollContainer = document.querySelector('.horizontal-scroll-container');

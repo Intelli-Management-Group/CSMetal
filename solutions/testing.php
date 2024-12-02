@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <?php include '../HTMLhead.php'; ?>
+    <?php include '../inc/HTMLhead.php'; ?>
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+    <?php include '../inc/header.php'; ?>
     <!-- intro -->
     <div class="container">
         <div class="line line-left"></div>
@@ -152,7 +152,7 @@
         </div>
     </div>
 
-    <?php include '../footer.php'; ?>
+    <?php include '../inc/footer.php'; ?>
 
 </body>
 

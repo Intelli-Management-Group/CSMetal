@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <?php include '../HTMLhead.php'; ?>
+    <?php include '../inc/HTMLhead.php'; ?>
     <!-- <style>
         .grid-container {
             display: grid;
@@ -24,7 +24,7 @@
 </head>
 
 <body>
-    <?php include '../header.php'; ?>
+    <?php include '../inc/header.php'; ?>
 
     <div class="container">
         <div class="line line-left"></div>
@@ -170,7 +170,7 @@
         </div>
     </div>
 
-    <?php include '../footer.php'; ?>
+    <?php include '../inc/footer.php'; ?>
 
 </body>
 
