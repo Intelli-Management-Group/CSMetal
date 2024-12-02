@@ -41,7 +41,10 @@
         <div class="text-center">
             <div class="title section-padding padding-top">AUTOMATED TUBE FORMING MACHINE</div>
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4?mute=1"></iframe>
+                <!-- <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4?mute=1"></iframe> -->
+                <video class="video" width="100%" controls muted>
+                    <source src="video/CSMetal_AutomatedTubeFormingMachine_web_1080p.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
     </div>
@@ -142,7 +145,10 @@
         <div class="text-center">
             <div class="title section-padding">Semi-Automatic Tube Forming Machine</div>
             <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4?mute=1"></iframe>
+                <!-- <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4?mute=1"></iframe> -->
+                <video class="video" width="100%" controls muted>
+                    <source src="video/CSMetal_SemiAutomatedTubeFormingMachine_web_1080p.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
     </div>
