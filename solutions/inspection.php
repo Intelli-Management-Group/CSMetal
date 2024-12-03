@@ -142,7 +142,7 @@
             <div class="video-container">
                 <!-- <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4?mute=1"></iframe> -->
                 <video class="video" width="100%" controls muted>
-                    <source src="video/QMS.mp4" type="video/mp4">
+                    <source src="video/CSMetal_QMS_web_1080p.mp4" type="video/mp4">
                 </video>
             </div>
         </div>
