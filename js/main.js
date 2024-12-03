@@ -98,29 +98,30 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-    const videos = document.querySelectorAll(".video"); // Select all videos
+//Autoplay videos
+// document.addEventListener("DOMContentLoaded", () => {
+//     const videos = document.querySelectorAll(".video"); // Select all videos
   
-    // Check if Intersection Observer is supported
-    if ("IntersectionObserver" in window) {
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          const video = entry.target;
-          if (entry.isIntersecting) {
-            video.play(); // Play video when it comes into view
-          } else {
-            video.pause(); // Pause video when it leaves the view
-          }
-        });
-      }, {
-        threshold: 0.5 // Trigger when 50% of the video is in view
-      });
+//     // Check if Intersection Observer is supported
+//     if ("IntersectionObserver" in window) {
+//       const observer = new IntersectionObserver((entries) => {
+//         entries.forEach(entry => {
+//           const video = entry.target;
+//           if (entry.isIntersecting) {
+//             video.play(); // Play video when it comes into view
+//           } else {
+//             video.pause(); // Pause video when it leaves the view
+//           }
+//         });
+//       }, {
+//         threshold: 0.5 // Trigger when 50% of the video is in view
+//       });
   
-      videos.forEach(video => {
-        observer.observe(video); // Observe each video
-      });
-    } else {
-      console.warn("Intersection Observer is not supported in your browser.");
-    }
-  });
+//       videos.forEach(video => {
+//         observer.observe(video); // Observe each video
+//       });
+//     } else {
+//       console.warn("Intersection Observer is not supported in your browser.");
+//     }
+//   });
   
