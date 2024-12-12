@@ -149,6 +149,11 @@
                 display: none;
             }
 
+            .navbar {
+                padding-top: 0 !important;
+                padding-bottom: 0 !important;
+            }
+
             @media screen and (min-width: 1070px) {
                 .desktop-nav {
                     display: block;
@@ -181,8 +186,8 @@
         </div>
 
         <!-- mobile nav -->
-        <div class="mobile-nav">
-            <nav class="navbar navbar-expand-xl navbar-light bg-light">
+        <div class="mobile-nav bottom-border">
+            <nav class="navbar navbar-expand-xl navbar-light bg-white">
                 <a href="./index.php" class="logo">
                     <img src="img/Generic/logo.png" alt="Logo">
                 </a>
@@ -198,7 +203,7 @@
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                            Company
+                                Company
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="company/about.php">About Us</a>
@@ -210,7 +215,7 @@
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                            Solutions
+                                Solutions
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="solutions.php">All Solutions</a>
@@ -222,7 +227,7 @@
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                            Products
+                                Products
                             </a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="products.php">All Products</a>

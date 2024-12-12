@@ -3,8 +3,6 @@
 
     <head>
         <?php include '../inc/HTMLhead.php'; ?>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <style>
             div hr {
                 border: none !important;
@@ -309,19 +307,6 @@
         
 
         <?php include '../inc/footer.php'; ?>
-        <!-- <script>
-            // Select the horizontal scroll container
-            const scrollContainer = document.querySelector('.horizontal-scroll-container');
-
-            // Add wheel event listener for mouse scroll
-            scrollContainer.addEventListener('wheel', (event) => {
-                // Prevent default vertical scroll behavior
-                event.preventDefault();
-                
-                // Scroll horizontally based on mouse wheel direction (deltaY)
-                scrollContainer.scrollLeft += event.deltaY * 2;
-            });
-        </script> -->
 
         <script>
             const scrollContainer = document.querySelector('.horizontal-scroll-container');

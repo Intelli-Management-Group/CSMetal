@@ -132,13 +132,13 @@
                                     <label for="tel" class="elementor-field-label">Phone Number </label>
                                     <input size="1" type="tel" name="form_fields[tel]" id="tel" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true" pattern="[0-9()#&amp;+*-=.]+" title="Only numbers and phone characters (#, -, *, etc) are accepted.">
                                 </div>
-                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-compamy_name elementor-col-50 elementor-field-required">
-                                    <label for="compamy_name" class="elementor-field-label">Company Name </label>
-                                    <input size="1" type="text" name="form_fields[compamy_name]" id="compamy_name" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true">
+                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-company_name elementor-col-50 elementor-field-required">
+                                    <label for="company_name" class="elementor-field-label">Company Name </label>
+                                    <input size="1" type="text" name="form_fields[company_name]" id="company_name" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true">
                                 </div>
-                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-compamy_address elementor-col-50 elementor-field-required">
-                                    <label for="compamy_address" class="elementor-field-label">Company Address </label>
-                                    <input size="1" type="text" name="form_fields[compamy_address]" id="compamy_address" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true">
+                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-company_address elementor-col-50 elementor-field-required">
+                                    <label for="company_address" class="elementor-field-label">Company Address </label>
+                                    <input size="1" type="text" name="form_fields[company_address]" id="company_address" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true">
                                 </div>
                                 <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-messages elementor-col-100">
                                     <label for="messages" class="elementor-field-label">Messages </label>

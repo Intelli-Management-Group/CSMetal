@@ -3,20 +3,18 @@
     <head>
         <?php include '../inc/HTMLhead.php'; ?>
         <style>
-            .award-container {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-                padding: 0 50px;
-            }
-
             .company {
                 font-size: 16px;
             }
 
             .award {
                 font-size: 24px;
+            }
+
+            @media only screen and (max-width: 767px) {
+                .section-padding {
+                    padding-bottom: 0;
+                }
             }
         </style>
     </head>

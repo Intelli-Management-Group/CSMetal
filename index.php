@@ -254,6 +254,13 @@
             </div>
         </div>
 
+        <!-- News -->
+        <!-- <div>
+            <div class="container">
+                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7237173380360085504" height="647" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+            </div>
+        </div> -->
+
         <?php include 'inc/footer.php'; ?>
 
         <script>
