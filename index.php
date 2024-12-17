@@ -43,15 +43,15 @@
                     <p class="slogan">INNOVATIVE, PRECISION-DRIVEN METAL SOLUTIONS DESIGNED TO ELEVATE INDUSTRIES, ENRICH COMMUNITIES, AND PROTECT THE ENVIRONMENT.</p>
                 </div> -->
                 <div class="col-sm-12 col-md-4">
-                    <h3>A Leader in Precision Metal Solutions</h3>
+                    <h3 class="mb-0">A Leader in Precision Metal Solutions</h3>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p style="font-weight: bold;">100% Commitment</p>
-                    <p>Our products are engineered for exceptional durability, ensuring a long lifespan and minimal environmental impact. </p>
+                    <p class="mb-0">Our products are engineered for exceptional durability, ensuring a long lifespan and minimal environmental impact. </p>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p style="font-weight: bold;">98% Efficiency</p>
-                    <p>Our metal manufacturing processes achieve up to 98% material utilization, minimizing waste and promoting sustainability. </p>
+                    <p class="mb-0">Our metal manufacturing processes achieve up to 98% material utilization, minimizing waste and promoting sustainability. </p>
                 </div>
             </div>
 
@@ -143,9 +143,9 @@
 
             <!-- Products Section -->
             <div class="section-padding">
-                <p class="slash-title"><span class="text-color">/ </span>Products</p>
-                <div class="row pt-3">
+                <div class="row">
                     <div class="col-sm-12 col-md-4">
+                        <p class="slash-title"><span class="text-color">/ </span>Products</p>
                         <div class="title">Quality metal engineered for a stronger tomorrow</div>
                     </div>
                 </div>
@@ -243,7 +243,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center px-5">
+                <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center px-md-5">
                     <div class="pt-md-4 py-lg-0">
                         <p class= "slash-title"><span class="text-color">/ </span>Become a customer</p>
                         <div class="title mt-4 mb-4">Shaping the Future of Metal Manufacturing</div>

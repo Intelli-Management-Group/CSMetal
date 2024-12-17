@@ -877,12 +877,6 @@ hr {
     display: none;
 }
 
-/* @media screen and (min-width: 768px) {
-    .horizontal-line {
-        display: block;
-    }
-} */
-
 .product-name {
     display: flex;
     justify-content: center;
