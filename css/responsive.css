@@ -163,7 +163,7 @@
     }
 
     .solution-image-1 {
-        margin-top: 14px;
+        margin-top: 40px;
     }
     
     .solution-image-2 {
@@ -223,17 +223,23 @@
     }
 
     .solution-banner-text{
-        padding: 20px 0;
+        padding: 25px 0;
+        font-size: 18px !important;
+    }
+    .solution-banner {
+        padding: 25px 0;
     }
     .award-container {
         padding: 0 16px;
     }
     .section-padding {
         padding: 25px 0px;
+        /* margin: -10px 0; */
     }
     
     .section-padding-lg {
         padding: 50px 0px;
+        /* margin: -10px 0; */
     }
     
     .padding-top{ 
@@ -250,13 +256,13 @@
     .grey-widget-wrap {
         margin-left: 25px !important;
     }
-    .top-border {
+    /* .top-border {
         border-top: none;
     }
     
     .bottom-border {
         border-bottom: none;
-    }
+    } */
     .info-wrap {
         padding: 10px 25px;
     }
