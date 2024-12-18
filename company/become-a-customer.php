@@ -20,7 +20,7 @@
             <div class="line line-left"></div>
             <div class="line line-right"></div>
             <div class="row section-padding pb-3">
-                <div class="col-lg-5">
+                <div class="col-lg-5 py-0">
                     <p class="slash-title"><span class="text-color">/ </span>Become a Customer</p>
                     <div class="title pb-3">Let’s talk</div>
                     <p>Thank you for considering CS Metal. We look forward to learning more about your requirements and providing a solution that goes above and beyond your expectations.</p>
@@ -30,16 +30,16 @@
 
             <div class="row section-padding pt-0">
                 <div class="col-sm-12 col-md-6 col-lg-3 checkmark">
-                    <p>Expertise and capabilities tailored to your industry</p>
+                    <p class="mb-0">Expertise and capabilities tailored to your industry</p>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3 checkmark">
-                    <p>Quality and innovation in manufacturing</p>
+                    <p class="mb-0">Quality and innovation in manufacturing</p>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3 checkmark">
-                    <p>Provided through teamwork and dedication</p>
+                    <p class="mb-0">Provided through teamwork and dedication</p>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3 checkmark">
-                    <p>No matter your challenge, we have the solution</p>
+                <div class="col-sm-12 col-md-6 col-lg-3 checkmark pb-0">
+                    <p class="mb-0">No matter your challenge, we have the solution</p>
                 </div>
             </div>
         </div>
@@ -63,11 +63,11 @@
                             <input type="hidden" name="referer_title" value="Contact Us">
                             <input type="hidden" name="queried_id" value="133"> -->
                             <div class="elementor-form-fields-wrapper elementor-labels-above">
-                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-first_name elementor-col-50 elementor-field-required">
+                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-first_name elementor-col-50 elementor-field-required pt-0">
                                     <label for="first_name" class="elementor-field-label">First Name </label>
                                     <input size="1" type="text" name="form_fields[first_name]" id="first_name" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true">
                                 </div>
-                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-last_name elementor-col-50 elementor-field-required">
+                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-last_name elementor-col-50 elementor-field-required pt-0">
                                     <label for="last_name" class="elementor-field-label">Last Name </label>
                                     <input size="1" type="text" name="form_fields[last_name]" id="last_name" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true">
                                 </div>
@@ -97,7 +97,7 @@
                                     <label for="messages" class="elementor-field-label">Messages </label>
                                     <textarea class="elementor-field-textual elementor-field elementor-size-md" name="form_fields[messages]" id="messages" rows="3"></textarea>
                                 </div>
-                                <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+                                <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons py-0">
                                     <button class="elementor-button elementor-size-sm" type="submit">
                                         <span class="elementor-button-content-wrapper">
                                             <!-- <span class="elementor-button-icon">
@@ -111,7 +111,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-sm-12 col-lg-6 d-flex align-items-center"> 
+                <div class="col-sm-12 col-lg-6 d-flex align-items-center py-0"> 
                     <img src="img/Company/customer/GettyImages-1408581526.webp" alt="Contact" class="image">
                 </div>
             </div>
