@@ -771,7 +771,7 @@ hr {
 /* Form */
 .elementor-widget-container {
     background-color: #f9f9f9; /* Light background color */
-    margin-left: 1px;
+    padding: 0 5px;
 }
 
 .elementor-form-fields-wrapper {
@@ -883,6 +883,7 @@ hr {
     margin-bottom: 25px;
     /* text-transform: capitalize; */
     font-weight: bold;
+    text-align: center;
 }
 
 .push-pull-container {

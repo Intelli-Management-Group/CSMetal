@@ -54,6 +54,12 @@
                 top: 330px;
             }
 
+            @media only screen and (max-width: 767px) {
+                .history-line {
+                    top: 280px;
+                }
+            }
+
             .dot {
                 color: #0c73b2;
                 position: absolute;

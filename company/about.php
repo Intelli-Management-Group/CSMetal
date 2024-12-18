@@ -117,10 +117,10 @@
             <div class="container">
                 <div class="footer">
                     <div class="row section-padding padding-top justify-content-between">
-                        <div class="col-sm-12 col-md-6 pl-0 pr-0">
+                        <div class="col-sm-12 col-md-4 pl-md-0 pr-md-0">
                             <div class="title">EXCEPTIONAL PARTNER IN METAL SOLUTIONS</div>
                         </div>
-                        <div class="col-sm-12 col-md-4 pl-0 pr-0">
+                        <div class="col-sm-12 col-md-4 pl-md-0 pr-md-0">
                             <p>At CS Metal, our customers' success is our priority. We build meaningful partnerships, treating each client as a valued collaborator and investing in their goals. Committed to excellence, we go above and beyond to provide precision metal solutions that achieve exceptional results every time.</p>
                         </div>
                     </div>

@@ -41,13 +41,13 @@
 
             <div class="row section-padding" id="intro">
                 <div class="col-sm-12 col-md-4">
-                    <p class="slogan">DELIVERING COMPREHENSIVE SOLUTIONS WITH UNMATCHED QUALITY AND RELIABILITY </p>
+                    <p class="slogan mb-0">DELIVERING COMPREHENSIVE SOLUTIONS WITH UNMATCHED QUALITY AND RELIABILITY </p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>Manufacturers in metal production require robust, precise solutions to uphold quality and ensure product durability across every stage of production. From initial hardness testing to transportation simulations, our advanced tools and technologies safeguard product integrity, allowing companies to meet the highest standards in material performance and reliability.</p>
+                    <p class="mb-0">Manufacturers in metal production require robust, precise solutions to uphold quality and ensure product durability across every stage of production. From initial hardness testing to transportation simulations, our advanced tools and technologies safeguard product integrity, allowing companies to meet the highest standards in material performance and reliability.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>At CS Metal, our engineering and testing teams collaborate closely with manufacturers to offer a comprehensive suite of testing solutions. We are committed to precision-driven, quality-assured products through innovative processes that optimize production and reduce waste, helping our customers achieve excellence in every detail.</p>
+                    <p class="mb-0">At CS Metal, our engineering and testing teams collaborate closely with manufacturers to offer a comprehensive suite of testing solutions. We are committed to precision-driven, quality-assured products through innovative processes that optimize production and reduce waste, helping our customers achieve excellence in every detail.</p>
                 </div>
             </div>
 

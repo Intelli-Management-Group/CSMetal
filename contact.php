@@ -41,7 +41,7 @@
 
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4 ">
-                    <div class="pl-3 pr-3">
+                    <!-- <div class="pl-3 pr-3"> -->
                         <h3 class="mb-4">Headquarter Info</h3>
                         <div class="customDiv">
                             <p>
@@ -65,10 +65,10 @@
                                 <a class="underline-link" href="#" target="_blank" rel="noopener">Get Directions &nbsp;&nbsp; →</a>
                             </p>
                         </div> -->
-                    </div>
+                    <!-- </div> -->
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <div class="pl-3 pr-3">
+                    <!-- <div class="pl-3 pr-3"> -->
                         <h3 class="mb-4">Factory Info</h3>
                         <div class="customDiv">
                             <p>
@@ -95,7 +95,7 @@
                             8 a.m. – 5 p.m. Eastern<br/> Monday – Friday
                             </p>
                         </div> -->
-                    </div>
+                    <!-- </div> -->
                 </div>
             </div>
 
@@ -108,8 +108,8 @@
             </div>
 
             <div class="row section-padding padding-bottom align-items-stretch">
-                <div class="col-sm-12 col-md-8 d-flex pl-0"> 
-                    <div class="elementor-widget-container flex-fill p-3">
+                <div class="col-sm-12 col-md-8 d-flex p-0"> 
+                    <div class="elementor-widget-container flex-fill mr-md-3">
                         <form class="elementor-form" action="submit-form.php" method="POST" name="Contact From">
                             <input type="hidden" name="post_id" value="133">
                             <input type="hidden" name="form_id" value="cf6c9c3">

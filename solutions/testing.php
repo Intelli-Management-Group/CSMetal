@@ -37,9 +37,9 @@
         <div class="line line-right"></div>
 
         <div class="section-padding">
-            <p class="slash-title"><span class="text-color">/ </span>Hardness Meter</p>
             <div class="row">
                 <div class="col-sm-12 col-md-12">
+                    <p class="slash-title"><span class="text-color">/ </span>Hardness Meter</p>
                     <div class="title">precise and reliable hardness testing</div>
                 </div>
             </div>

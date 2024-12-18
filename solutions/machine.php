@@ -75,9 +75,9 @@
         <div class="line line-right"></div>
 
         <div class="section-padding pt-0">
-            <p class="slash-title"><span class="text-color">/ </span>600t</p>
             <div class="row">
                 <div class="col-sm-12 col-md-12">
+                    <p class="slash-title"><span class="text-color">/ </span>600t</p>
                     <div class="title">Metal Stamping Press Machine</div>
                 </div>
             </div>

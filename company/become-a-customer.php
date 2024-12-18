@@ -22,7 +22,7 @@
             <div class="row section-padding pb-3">
                 <div class="col-lg-5">
                     <p class="slash-title"><span class="text-color">/ </span>Become a Customer</p>
-                    <div class="title">Let’s talk</div>
+                    <div class="title pb-3">Let’s talk</div>
                     <p>Thank you for considering CS Metal. We look forward to learning more about your requirements and providing a solution that goes above and beyond your expectations.</p>
                     <h3 class="pt-5">OUR TOP PRIORITY IS THE SUCCESS OF OUR CUSTOMERS</h3>
                 </div>
@@ -55,7 +55,7 @@
             </div> -->
 
             <div class="row section-padding padding-bottom align-items-stretch">
-                <div class="col-sm-12 col-lg-6 d-flex pl-0"> 
+                <div class="col-sm-12 col-lg-6 d-flex pl-md-0"> 
                     <div class="elementor-widget-container flex-fill" style="background-color: transparent;">
                     <form class="elementor-form" action="submit-form.php" method="POST" name="Contact From" enctype="multipart/form-data">
                             <!-- <input type="hidden" name="post_id" value="133">
