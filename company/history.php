@@ -100,7 +100,7 @@
             <div class="line line-2-3"></div>
             <div class="line line-right"></div>
             <div class="row section-padding">
-                <div class="col-md-8">
+                <div class="col-md-8 py-0">
                     <p class= "slash-title" style="margin-bottom: 1rem !important;"><span class="text-color">/ </span>History</p>
                     <div class="title">From Humble Beginnings to Global Leadership</div>
                 </div>
@@ -120,13 +120,13 @@
 
             <!-- Intro Section -->
             <div class="row section-padding" id="intro">
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-4 pt-0">
                     <p class="slogan">Shaping the future of metal manufacturing with precision and innovation</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p>With a rich history dating back to its establishment in 1981 in Hong Kong, Chi Sing has been a beacon of innovation and quality in metal manufacturing.</p>
                 </div>
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-4 pb-0">
                     <p>The company’s expansion continued with the opening of its China factory in 1992, marking a significant milestone in its journey towards international growth.</p>
                 </div>
             </div>

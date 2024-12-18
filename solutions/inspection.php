@@ -37,13 +37,13 @@
         <div class="line line-right"></div>
 
         <div class="section-padding">
-            <p class="slash-title"><span class="text-color">/ </span>GOM SCAN</p>
             <div class="row">
                 <div class="col-sm-12 col-md-12">
+                    <p class="slash-title"><span class="text-color">/ </span>GOM SCAN</p>
                     <div class="title">3D SCANNING TECHNOLOGY</div>
                 </div>
             </div>
-            <div class="row pt-5">
+            <div class="row padding-top-50">
                 <div class="col-sm-12 col-md-4">
                     <div>
                         <p>Welcome to our introduction to Gom Scan, a leading solution in 3D scanning technology, specifically designed for precision in metal stamping parts. With Gom Scan, we ensure the highest quality through rigorous first piece inspections, enabling us to detect any deviations from specifications right from the start.</p>
@@ -85,13 +85,13 @@
         <div class="line line-right"></div>
         <div class="row section-padding-lg">
             <div class="col-sm-12 col-md-4">
-                <p>Introducing our advanced Coordinate Measuring Machine (CMM), Inspector, a state-of-the-art measuring device designed for precise dimensional inspection in manufacturing. This innovative tool features computerized movement along the X, Y, and Z axis, allowing for highly accurate measurements of both large and small inner and outer dimensions.</p>
+                <p class="mb-0">Introducing our advanced Coordinate Measuring Machine (CMM), Inspector, a state-of-the-art measuring device designed for precise dimensional inspection in manufacturing. This innovative tool features computerized movement along the X, Y, and Z axis, allowing for highly accurate measurements of both large and small inner and outer dimensions.</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>The CMM Inspector is perfect for a variety of applications, delivering reliable results across different sizes and shapes of components. Its ability to generate detailed digital reports streamlines the quality assurance process, providing manufacturers with clear documentation of measurement results for easy analysis and compliance tracking.</p>
+                <p class="mb-0">The CMM Inspector is perfect for a variety of applications, delivering reliable results across different sizes and shapes of components. Its ability to generate detailed digital reports streamlines the quality assurance process, providing manufacturers with clear documentation of measurement results for easy analysis and compliance tracking.</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>With its advanced technology and user-friendly interface, our CMM Inspector enhances productivity and ensures the highest standards of accuracy in dimensional measurement. Experience the benefits of precision measurement with our CMM Inspector, a crucial asset for maintaining product quality and integrity in any manufacturing environment!</p>
+                <p class="mb-0">With its advanced technology and user-friendly interface, our CMM Inspector enhances productivity and ensures the highest standards of accuracy in dimensional measurement. Experience the benefits of precision measurement with our CMM Inspector, a crucial asset for maintaining product quality and integrity in any manufacturing environment!</p>
             </div>
         </div>
     </div>
@@ -105,7 +105,7 @@
                     <div class="title">COLOR QUALITY CONTROL</div>
                 </div>
                 <div class="col-md-6 ">
-                    <p>Introducing the Spectralight QC Light Booth, a state-of-the-art quality control solution designed to ensure accurate color judgment in aesthetic components. A key feature of this booth is its use of controlled light temperature along with standardized light sources, including D65, CWF, and A light temperatures, which are essential for simulating natural daylight and various artificial lighting conditions.</p>
+                    <p class="mb-0">Introducing the Spectralight QC Light Booth, a state-of-the-art quality control solution designed to ensure accurate color judgment in aesthetic components. A key feature of this booth is its use of controlled light temperature along with standardized light sources, including D65, CWF, and A light temperatures, which are essential for simulating natural daylight and various artificial lighting conditions.</p>
                 </div>
             </div>
 
@@ -121,13 +121,13 @@
             <div class="line line-2-3"></div>
             <div class="row section-padding-lg">
                 <div class="col-sm-12 col-md-4">
-                    <p>The Spectralight QC Light Booth incorporates controlled light temperature management for optimal viewing, ensuring consistency and reliability in color assessment. This environment minimizes the impact of external light variables that can skew color perception, allowing for precise evaluation.</p>
+                    <p class="mb-0">The Spectralight QC Light Booth incorporates controlled light temperature management for optimal viewing, ensuring consistency and reliability in color assessment. This environment minimizes the impact of external light variables that can skew color perception, allowing for precise evaluation.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>We have a single light compartment dedicated to inspecting small components to facilitate detailed analyses. For larger components and high-volume batches of colored products, a duo light booth design is provided to accommodate comprehensive evaluations without sacrificing accuracy. </p>
+                    <p class="mb-0">We have a single light compartment dedicated to inspecting small components to facilitate detailed analyses. For larger components and high-volume batches of colored products, a duo light booth design is provided to accommodate comprehensive evaluations without sacrificing accuracy. </p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>The Spectralight QC Light Booth compares samples to a master target, detecting color variances. This technology helps manufacturers uphold standards, reduce defects, and ensure consistency. Experience the reliability of the Spectralight QC Light Booth—essential for color quality control!</p>
+                    <p class="mb-0">The Spectralight QC Light Booth compares samples to a master target, detecting color variances. This technology helps manufacturers uphold standards, reduce defects, and ensure consistency. Experience the reliability of the Spectralight QC Light Booth—essential for color quality control!</p>
                 </div>
             </div>
         </div>
@@ -155,13 +155,13 @@
         <div class="line line-right"></div>
         <div class="row section-padding-lg">
             <div class="col-sm-12 col-md-4">
-                <p>The CS Metal Quality Management System (QMS) is a customized software solution designed to ensure consistent quality throughout the manufacturing process. At the core of this QMS is a paperless quality record database that streamlines data management and enhances operational efficiency.</p>
+                <p class="mb-0">The CS Metal Quality Management System (QMS) is a customized software solution designed to ensure consistent quality throughout the manufacturing process. At the core of this QMS is a paperless quality record database that streamlines data management and enhances operational efficiency.</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>Quality data is input daily from various stages, including incoming materials inspections, in-process evaluations, critical-to-quality control charts, and finished goods inspections. This software enables efficient data entry and real-time monitoring, allowing timely identification of issues during production.</p>
+                <p class="mb-0">Quality data is input daily from various stages, including incoming materials inspections, in-process evaluations, critical-to-quality control charts, and finished goods inspections. This software enables efficient data entry and real-time monitoring, allowing timely identification of issues during production.</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>The system facilitates comprehensive quality performance management reviews, providing insights into trends and areas for improvement. Additionally, the QMS ensures quality traceability, allowing for easy tracking of materials and components throughout the manufacturing process.</p>
+                <p class="mb-0">The system facilitates comprehensive quality performance management reviews, providing insights into trends and areas for improvement. Additionally, the QMS ensures quality traceability, allowing for easy tracking of materials and components throughout the manufacturing process.</p>
             </div>
         </div>
     </div>

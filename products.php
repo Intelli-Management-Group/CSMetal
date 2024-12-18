@@ -44,13 +44,13 @@
         <div class="row section-padding" id="intro">
             <div class="col-sm-12 col-md-4">
                 <!-- <p class="slogan">Delivering Quality, Precision, and Durability / Precision Engineered. Built to Last</p> -->
-                <p class="slogan">Delivering Quality, Precision, and Durability</p>
+                <p class="slogan mb-0">Delivering Quality, Precision, and Durability</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>At CS Metal, we specialize in a diverse range of products and pride ourselves on our expertise in durable appliance handles, precision stamping, and robust wire mesh. Our state-of-the-art facilities also produce stylish and functional camera and cellphone cases, catering to the evolving tech industry.</p>
+                <p class="mb-0">At CS Metal, we specialize in a diverse range of products and pride ourselves on our expertise in durable appliance handles, precision stamping, and robust wire mesh. Our state-of-the-art facilities also produce stylish and functional camera and cellphone cases, catering to the evolving tech industry.</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>As an OEM, we’re committed to bringing your ideas to life with custom display fixtures, logo machining, and vibrant metal color printing. CS Metal blends craftsmanship with technology to deliver exceptional products that meet and exceed our clients’ expectations. </p>
+                <p class="mb-0">As an OEM, we’re committed to bringing your ideas to life with custom display fixtures, logo machining, and vibrant metal color printing. CS Metal blends craftsmanship with technology to deliver exceptional products that meet and exceed our clients’ expectations. </p>
             </div>
         </div>
 
@@ -93,7 +93,7 @@
             </div>
 
             <!-- 2nd row -->
-            <div class="row pt-5">
+            <div class="row pt-md-5">
                 <div class="col-sm-12 col-md-4">
                     <div class="product-wrap">
                         <div class="product-image-wrap">

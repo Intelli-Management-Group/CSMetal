@@ -151,6 +151,10 @@
         padding: 13px;
     }
 
+    .client4 {
+        width: 75%;
+    }
+
     .history-container {
         padding: 50px 60px !important;
     }
@@ -159,11 +163,11 @@
     }
 
     .solution-image-1 {
-        margin-top: 50px;
+        margin-top: 14px;
     }
     
     .solution-image-2 {
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .solutions-img1-margin {
@@ -202,7 +206,7 @@
 
     .customer-arrow {
         left: 25px;
-        bottom: 10px;
+        bottom: 0px;
     }
 
     .image-button {
@@ -238,6 +242,10 @@
     
     .padding-bottom {
         padding-bottom: 50px !important;
+    }
+
+    .padding-top-50 {
+        padding-top: 20px !important;
     }
     .grey-widget-wrap {
         margin-left: 25px !important;

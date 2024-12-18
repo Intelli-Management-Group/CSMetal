@@ -11,7 +11,7 @@
             <div class="line line-2-3"></div>
             <div class="line line-right"></div>
             <div class="row section-padding">
-                <div class="col-12">
+                <div class="col-12 py-0">
                     <p class= "slash-title"><span class="text-color">/ </span>Established in 1981</p>
                     <div class="home-title">Crafting the Future with Precision</div>
                 </div>
@@ -42,14 +42,14 @@
                 <!-- <div class="col-sm-12 col-md-4">
                     <p class="slogan">INNOVATIVE, PRECISION-DRIVEN METAL SOLUTIONS DESIGNED TO ELEVATE INDUSTRIES, ENRICH COMMUNITIES, AND PROTECT THE ENVIRONMENT.</p>
                 </div> -->
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-4 pt-0">
                     <h3 class="mb-0">A Leader in Precision Metal Solutions</h3>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p style="font-weight: bold;">100% Commitment</p>
                     <p class="mb-0">Our products are engineered for exceptional durability, ensuring a long lifespan and minimal environmental impact. </p>
                 </div>
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-4 pb-0">
                     <p style="font-weight: bold;">98% Efficiency</p>
                     <p class="mb-0">Our metal manufacturing processes achieve up to 98% material utilization, minimizing waste and promoting sustainability. </p>
                 </div>
@@ -57,7 +57,7 @@
 
             <!-- Featured Section -->
             <div class="row section-padding">
-                <div class="col-sm-12 col-md-4 pl-0">
+                <div class="col-sm-12 col-md-4 pl-0 pt-0">
                     <div class="grey-widget-wrap">
                         <p class="slash-title mb-0"><span class="text-color">/ </span>Become a customer</p>
                         <h3 class="grey-widget-text">Choose CS for Fast, </br> High-quality Custom Parts</h3>
@@ -72,7 +72,7 @@
                         <img src="./img/Home/img_1.png" alt="machine" class="machine-widget">
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4 pl-0">
+                <div class="col-sm-12 col-md-4 pl-0 pb-0">
                     <div class="grey-widget-wrap">
                         <p class="slash-title mb-0"><span class="text-color">/ </span>Technology</p>
                         <h3 class="grey-widget-text">GOM Scan</h3>
@@ -144,7 +144,7 @@
             <!-- Products Section -->
             <div class="section-padding">
                 <div class="row">
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 col-md-4 py-0">
                         <p class="slash-title"><span class="text-color">/ </span>Products</p>
                         <div class="title">Quality metal engineered for a stronger tomorrow</div>
                     </div>
@@ -210,7 +210,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-4 col-customer">
+                    <div class="col-sm-12 col-md-4 col-customer pb-0">
                         <div class="customer-wrap">
                             <div class="nut-container">
                                 <div class="nut-wrapper">
@@ -237,13 +237,13 @@
             <div class="line line-left"></div>
             <div class="line line-right"></div>
             <div class="row section-padding padding-top padding-bottom pl-0 pr-0">
-                <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center">
+                <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center pt-0">
                     <div class="image-container">
                         <img src="img/Product/Stamping/img_customer.jpg" alt="customer" class="banner-container">
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center px-md-5">
+                <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center px-md-5 pb-0">
                     <div class="pt-md-4 py-lg-0">
                         <p class= "slash-title"><span class="text-color">/ </span>Become a customer</p>
                         <div class="title mt-4 mb-4">Shaping the Future of Metal Manufacturing</div>

@@ -15,6 +15,9 @@
                 .section-padding {
                     padding-bottom: 0;
                 }
+                .awards-section-padding {
+                    padding-bottom: 25px;
+                }
             }
         </style>
     </head>
@@ -26,8 +29,8 @@
             <div class="line line-1-3"></div>
             <div class="line line-2-3"></div>
             <div class="line line-right"></div>
-            <div class="row section-padding">
-                <div class="col-md-8">
+            <div class="row section-padding awards-section-padding">
+                <div class="col-md-8 py-0">
                     <p class="slash-title"><span class="text-color">/ </span>Awards</p>
                     <div class="title">Celebrating Excellence with Industry Leading Awards </div>
                 </div>
@@ -56,13 +59,13 @@
 
             <div class="row section-padding" id="intro">
                 <div class="col-sm-12 col-md-4 ">
-                    <p class="slogan">Recognition and Community Involvement</p>
+                    <p class="slogan mb-0">Recognition and Community Involvement</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>We have received numerous prestigious awards over the years, highlighting our dedication to exceptional metal manufacturing solutions. Our proactive stance on sustainability and community engagement is evident in our initiatives and partnerships, reflecting a strong commitment to social responsibility.</p>
+                    <p class="mb-0">We have received numerous prestigious awards over the years, highlighting our dedication to exceptional metal manufacturing solutions. Our proactive stance on sustainability and community engagement is evident in our initiatives and partnerships, reflecting a strong commitment to social responsibility.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>As we continue to grow, our dedication to setting new industry standards will remain at the core of everything we do. We strive to innovate and improve, ensuring our manufacturing practices contribute positively to our community and the environment while also maintaining the highest quality standards.</p>
+                    <p class="mb-0">As we continue to grow, our dedication to setting new industry standards will remain at the core of everything we do. We strive to innovate and improve, ensuring our manufacturing practices contribute positively to our community and the environment while also maintaining the highest quality standards.</p>
                 </div>
             </div>
 

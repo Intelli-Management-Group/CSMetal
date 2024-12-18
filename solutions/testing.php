@@ -43,7 +43,7 @@
                     <div class="title">precise and reliable hardness testing</div>
                 </div>
             </div>
-            <div class="row pt-5">
+            <div class="row padding-top-50">
                 <div class="col-sm-12 col-md-4">
                     <div>
                         <p>Introducing our advanced Metal Hardness Measurement Machine, designed for precise and reliable hardness testing of various metals. This essential tool is crucial for material validation and heat treatment validation, ensuring the integrity and durability of metal products.</p>
@@ -107,13 +107,13 @@
             <div class="line line-2-3"></div>
             <div class="row section-padding-lg">
                 <div class="col-sm-12 col-md-4">
-                    <p>The Transportation Compression Test evaluates the durability of materials and products during shipping and handling. By simulating transit conditions, this test ensures items can withstand the pressure and forces they encounter.</p>
+                    <p class="mb-0">The Transportation Compression Test evaluates the durability of materials and products during shipping and handling. By simulating transit conditions, this test ensures items can withstand the pressure and forces they encounter.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>Samples are subjected to controlled compression forces that mimic weight-bearing scenarios. This assessment is essential for manufacturers of fragile items, electronics, and heavy machinery, helping identify weaknesses in packaging and design.</p>
+                    <p class="mb-0">Samples are subjected to controlled compression forces that mimic weight-bearing scenarios. This assessment is essential for manufacturers of fragile items, electronics, and heavy machinery, helping identify weaknesses in packaging and design.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>Results from the Transportation Compression Test provide insights into product resilience, enabling manufacturers to optimize packaging and enhance customer satisfaction. Invest in this testing to ensure your products arrive safely at their destination.</p>
+                    <p class="mb-0">Results from the Transportation Compression Test provide insights into product resilience, enabling manufacturers to optimize packaging and enhance customer satisfaction. Invest in this testing to ensure your products arrive safely at their destination.</p>
                 </div>
             </div>
         </div>
@@ -141,13 +141,13 @@
         <div class="line line-right"></div>
         <div class="row section-padding-lg">
             <div class="col-sm-12 col-md-4">
-                <p>The Transportation Vibration Test is an essential evaluation method that assesses the ability of products and packaging to withstand vibrations and shocks during transport. This test simulates real-world shipping conditions, ensuring items remain intact and functional despite rough handling.</p>
+                <p class="mb-0">The Transportation Vibration Test is an essential evaluation method that assesses the ability of products and packaging to withstand vibrations and shocks during transport. This test simulates real-world shipping conditions, ensuring items remain intact and functional despite rough handling.</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>During the test, products are subjected to controlled vibrations at various frequencies and amplitudes, mimicking the effects of transportation modes like trucking and air freight. The goal is to identify potential mechanical failures or damage caused by vibration, especially in fragile items and sensitive equipment.</p>
+                <p class="mb-0">During the test, products are subjected to controlled vibrations at various frequencies and amplitudes, mimicking the effects of transportation modes like trucking and air freight. The goal is to identify potential mechanical failures or damage caused by vibration, especially in fragile items and sensitive equipment.</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>Results from the Transportation Vibration Test allow manufacturers to refine packaging solutions, ensuring compliance with industry standards and enhancing product reliability. Investing in this testing process provides assurance that products will arrive at their destination in optimal condition.</p>
+                <p class="mb-0">Results from the Transportation Vibration Test allow manufacturers to refine packaging solutions, ensuring compliance with industry standards and enhancing product reliability. Investing in this testing process provides assurance that products will arrive at their destination in optimal condition.</p>
             </div>
         </div>
     </div>

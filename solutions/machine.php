@@ -56,13 +56,13 @@
         <div class="line line-right"></div>
         <div class="row section-padding-lg">
             <div class="col-sm-12 col-md-4">
-                <p>Introducing our innovative Automated Metal Tube Forming Machine, designed to revolutionize the manufacturing process. With a focus on custom engineering, this machine is tailor-made for special projects, allowing for flexibility and precision in production.</p>
+                <p class="mb-0">Introducing our innovative Automated Metal Tube Forming Machine, designed to revolutionize the manufacturing process. With a focus on custom engineering, this machine is tailor-made for special projects, allowing for flexibility and precision in production.</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>Our advanced technology enhances quality consistency, ensuring each metal tube meets high standards and specifications. The automated system increases production capacity, enabling manufacturers to meet high demand efficiently while maintaining exceptional quality.</p>
+                <p class="mb-0">Our advanced technology enhances quality consistency, ensuring each metal tube meets high standards and specifications. The automated system increases production capacity, enabling manufacturers to meet high demand efficiently while maintaining exceptional quality.</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>Equipped with advanced AI technology, our Automated Metal Tube Forming Machine identifies and sorts good and bad parts in real-time, enhancing quality control. Experience the future of metal tube forming, where custom solutions and superior quality come together to elevate your production capabilities.</p>
+                <p class="mb-0">Equipped with advanced AI technology, our Automated Metal Tube Forming Machine identifies and sorts good and bad parts in real-time, enhancing quality control. Experience the future of metal tube forming, where custom solutions and superior quality come together to elevate your production capabilities.</p>
             </div>
         </div>
     </div>
@@ -81,7 +81,7 @@
                     <div class="title">Metal Stamping Press Machine</div>
                 </div>
             </div>
-            <div class="row pt-5">
+            <div class="row padding-top-50">
                 <div class="col-sm-12 col-md-4">
                     <div>
                         <p>Introducing our powerful 600 Ton Metal Stamping Press Machine, designed for exceptional forming capability and efficiency in the metal stamping industry. This heavy-duty press excels at producing symmetric products and can form thick materials, making it ideal for various applications. Whether working with soft or hard materials, this machine delivers outstanding performance with precision.</p>
@@ -110,7 +110,7 @@
                     <div class="title">precision machining</div>
                 </div>
                 <div class="col-md-6 ">
-                    <p>Introducing the LG 1370 Hartford CNC Lathe Machine, a cutting-edge solution designed for precision machining in a variety of industrial applications. This advanced CNC lathe offers exceptional performance and reliability, making it an essential tool for manufacturers looking to achieve superior quality and efficiency in their tooling making processes.</p>
+                    <p class="mb-0">Introducing the LG 1370 Hartford CNC Lathe Machine, a cutting-edge solution designed for precision machining in a variety of industrial applications. This advanced CNC lathe offers exceptional performance and reliability, making it an essential tool for manufacturers looking to achieve superior quality and efficiency in their tooling making processes.</p>
                 </div>
             </div>
 
@@ -126,13 +126,13 @@
             <div class="line line-2-3"></div>
             <div class="row section-padding-lg">
                 <div class="col-sm-12 col-md-4">
-                    <p>The LG 1370 is equipped with a powerful spindle that delivers high-speed machining capabilities, allowing for the effective turning of various materials, including metals and plastics. Its advanced CNC control system enables precise programming and automation, ensuring consistency and repeatability in every cycle.</p>
+                    <p class="mb-0">The LG 1370 is equipped with a powerful spindle that delivers high-speed machining capabilities, allowing for the effective turning of various materials, including metals and plastics. Its advanced CNC control system enables precise programming and automation, ensuring consistency and repeatability in every cycle.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>With a generous swing diameter and a robust bed design, the LG 1370 accommodates both large and small workpieces, making it versatile for diverse tooling projects. The machine provides excellent tool accessibility and quick changeover options, minimizing downtime and optimizing productivity.</p>
+                    <p class="mb-0">With a generous swing diameter and a robust bed design, the LG 1370 accommodates both large and small workpieces, making it versatile for diverse tooling projects. The machine provides excellent tool accessibility and quick changeover options, minimizing downtime and optimizing productivity.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <p>LG 1370’s user-friendly interface allows operators to input specifications and monitor operations. Engineered for durability and performance, this machine is essential for workshops focused on tooling and high-quality production. Experience the precision of the LG 1370 and elevate your processes! </p>
+                    <p class="mb-0">LG 1370’s user-friendly interface allows operators to input specifications and monitor operations. Engineered for durability and performance, this machine is essential for workshops focused on tooling and high-quality production. Experience the precision of the LG 1370 and elevate your processes! </p>
                 </div>
             </div>
         </div>
@@ -160,13 +160,13 @@
         <div class="line line-right"></div>
         <div class="row section-padding-lg">
             <div class="col-sm-12 col-md-4">
-                <p>Introducing our Semi-Automatic Tube Forming Machine, designed to enhance efficiency and precision in tube manufacturing. This innovative machine streamlines the tube forming process making it an ideal solution for manufacturers looking to optimize production while maintaining flexibility.</p>
+                <p class="mb-0">Introducing our Semi-Automatic Tube Forming Machine, designed to enhance efficiency and precision in tube manufacturing. This innovative machine streamlines the tube forming process making it an ideal solution for manufacturers looking to optimize production while maintaining flexibility.</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>The semi-automatic functionality allows operators to easily set parameters and make adjustments as needed, accommodating various tube sizes and shapes. This versatility ensures consistent results, whether you are working with larger industrial tubes or smaller specialized components.</p>
+                <p class="mb-0">The semi-automatic functionality allows operators to easily set parameters and make adjustments as needed, accommodating various tube sizes and shapes. This versatility ensures consistent results, whether you are working with larger industrial tubes or smaller specialized components.</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p>The Semi-Automatic Tube Forming Machine features automatic part transfer between stations, minimizing human contact and reducing scratches for a better cosmetic finish. Experience the advantages of this machine, where increased efficiency meets high-quality output.</p>
+                <p class="mb-0">The Semi-Automatic Tube Forming Machine features automatic part transfer between stations, minimizing human contact and reducing scratches for a better cosmetic finish. Experience the advantages of this machine, where increased efficiency meets high-quality output.</p>
             </div>
         </div>
     </div>

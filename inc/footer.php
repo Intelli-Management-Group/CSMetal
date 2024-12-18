@@ -40,16 +40,6 @@
                 flex-wrap: wrap;
             }
 
-            /* .terms li {
-                margin-left: 20px;
-            }
-
-            @media  only screen and (max-width: 470px) {
-                .terms li {
-                    margin-left: 20px;
-                }
-            } */
-
             .terms a {
                 color: white;
                 text-decoration: none;
@@ -58,21 +48,23 @@
                 /* padding: 5px 10px; */
             }
 
-            .terms a.active {
-                color: #0c73b2;
+
+            .terms li:nth-child(2) {
+                padding-left: 25px;
             }
 
-            .terms li:first-child {
-                width: 100%;
-            }
             .terms li:nth-child(3) {
-                padding-left: 10px;
+                padding-left: 25px;
             }
 
-            /* .terms a:hover {
-                color: #0c73b2;
-                text-decoration: none;
-            } */
+            @media  only screen and (max-width: 575px) {
+                .terms li:first-child {
+                    width: 100%;
+                }
+                .terms li:nth-child(2) {
+                    padding-left: 0;
+                }
+            }
 
             #scrollToTopBtn {
                 position: fixed;
@@ -102,7 +94,7 @@
                 <div class="footer">
                     <div class="row section-padding">
                         <div class="col-sm-12 col-md-6 col-lg-6 p-0">
-                            <div class="info-wrap location">
+                            <div class="info-wrap location pt-0">
                                 <h3 class="mb-0">Redefining The Standards in Metal Manufacturing</h3>
                             </div>
                         </div>
@@ -112,7 +104,7 @@
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-3 col-lg-2 pl-lg-0 pl-md-3 p-0">
-                            <div class="info-wrap phone">
+                            <div class="info-wrap phone pb-0">
                                 <a href="tel:+85226143700">+852-2614-3700</a><br>
                                 <a href="mailto:factory@chising.com.hk">factory@chising.com.hk</a>
                             </div>
@@ -126,7 +118,7 @@
             <div class="container">
                 <div class="footer section-padding">
                     <div class="row">
-                        <div class="col-12 p-md-0">
+                        <div class="col-12 p-md-0 py-0">
                             <nav>
                                 <ul class="terms">
                                     <li class="ml-0">© <?php echo Date('Y'); ?> CS Metal</li>
@@ -170,11 +162,11 @@
                 }
 
                 // Hide button near the bottom
-                if (window.innerWidth < 576) {
-                    if (scrollPosition + windowHeight >= documentHeight - 10) {
-                        scrollToTopBtn.style.display = "none";
-                    }
-                }
+                // if (window.innerWidth < 576) {
+                //     if (scrollPosition + windowHeight >= documentHeight - 10) {
+                //         scrollToTopBtn.style.display = "none";
+                //     }
+                // }
             };
 
             // Scroll to the top of the document when the button is clicked

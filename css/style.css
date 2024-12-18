@@ -119,6 +119,10 @@ h3 {
     padding-bottom: 100px !important;
 }
 
+.padding-top-50 {
+    padding-top: 50px !important;
+}
+
 .text-color {
     color: #0c73b2;
 }
@@ -583,6 +587,10 @@ h3 {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.client4 {
+    width: 90%;
 }
 
 .line-1-2{
