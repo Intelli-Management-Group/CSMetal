@@ -12,7 +12,7 @@
             <div class="line line-2-3"></div>
             <div class="line line-right"></div>
             <div class="row section-padding">
-                <div class="col-md-8">
+                <div class="col-md-8 py-0">
                     <p class="slash-title"><span class="text-color">/ </span>Contact Us</p>
                     <div class="title">Prepared to Connect with Your Metal Partner?</div>
                 </div>
@@ -40,7 +40,7 @@
             <div class="line line-right"></div>
 
             <div class="row section-padding">
-                <div class="col-sm-12 col-md-4 ">
+                <div class="col-sm-12 col-md-4 pt-0">
                     <!-- <div class="pl-3 pr-3"> -->
                         <h3 class="mb-4">Headquarter Info</h3>
                         <div class="customDiv">
@@ -52,11 +52,11 @@
                                                                             Hong Kong</div>
                             </p>
                         </div>
-                        <div class="customDiv">
+                        <div class="customDiv mb-0">
                             <p class="mb-1">
                                 <a class="address" href="tel:+85226143700" target="_blank" rel="noopener">+852-2614-3700</a>
                             </p>   
-                            <p>
+                            <p class="mb-0">
                                 <a class="address" href="mailto:factory@chising.com.hk" target="_blank" rel="noopener">factory@chising.com.hk</a>                         
                             </p> 
                         </div>
@@ -67,9 +67,9 @@
                         </div> -->
                     <!-- </div> -->
                 </div>
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-4 pb-0">
                     <!-- <div class="pl-3 pr-3"> -->
-                        <h3 class="mb-4">Factory Info</h3>
+                        <h3 class="mb-4 pt-md-0 pt-5">Factory Info</h3>
                         <div class="customDiv">
                             <p>
                                 <div class="" href="#" target="_blank" rel="noopener"> Williamson Metal MFY. CO. LTD. <br/>
@@ -79,14 +79,14 @@
                                                                                         523560</div>
                             </p>
                         </div>
-                        <div class="customDiv">
+                        <div class="customDiv mb-0">
                             <p class="mb-1">
                                 <a class="address" href="tel:+8676983391265" target="_blank" rel="noopener">
                                     <!-- <i class="fa-solid fa-phone"></i>  -->
                                     +86-769-83391265
                                 </a>
                             </p>   
-                            <p>
+                            <p class="mb-0">
                                 <a class="address" href="mailto:factory@chising.com.hk" target="_blank" rel="noopener">factory@chising.com.hk</a>                         
                             </p> 
                         </div>
@@ -99,10 +99,14 @@
                 </div>
             </div>
 
+            <div class="col-12 p-0 horizontal-line-md">
+                <hr>
+            </div>
+
             <!-- Form -->
             
             <div class="row section-padding pb-0">
-                <div class="col-sm-12 col-md-8">
+                <div class="col-sm-12 col-md-8 py-0">
                     <div class="title">We want to hear from you</div>                
                 </div>
             </div>
@@ -158,7 +162,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4 d-flex align-items-center"> 
+                <div class="col-sm-12 col-md-4 d-md-flex align-items-center d-none d-md-block">
                     <div class="image-container" style="z-index: -1;">
                         <img src="img/Contact/img_1.jpg" alt="Contact" class="banner-container">
                     </div>
