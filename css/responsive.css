@@ -250,11 +250,15 @@
         padding-bottom: 50px !important;
     }
 
-    .padding-top-50 {
+    .padding-top-5 {
         padding-top: 20px !important;
     }
 
-    .padding-bottom-25 {
+    .padding-top-md-25 {
+        padding-top: 25px !important;
+    }
+
+    .padding-bottom-md-25 {
         padding-bottom: 25px !important;
     }
     .grey-widget-wrap {
@@ -269,6 +273,16 @@
     } */
     .info-wrap {
         padding: 10px 25px;
+    }
+    .push-pull-section {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .padding-top-md-50 {
+        padding-top: 50px !important;
+    }
+    .hide-bottom-border {
+        border-bottom: none;
     }
 }
 

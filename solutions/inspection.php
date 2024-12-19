@@ -43,7 +43,7 @@
                     <div class="title">3D SCANNING TECHNOLOGY</div>
                 </div>
             </div>
-            <div class="row padding-top-50">
+            <div class="row padding-top-5">
                 <div class="col-sm-12 col-md-4 py-0">
                     <div>
                         <p>Welcome to our introduction to Gom Scan, a leading solution in 3D scanning technology, specifically designed for precision in metal stamping parts. With Gom Scan, we ensure the highest quality through rigorous first piece inspections, enabling us to detect any deviations from specifications right from the start.</p>

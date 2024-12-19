@@ -24,7 +24,7 @@
                     <p class="slash-title"><span class="text-color">/ </span>Become a Customer</p>
                     <div class="title pb-3">Let’s talk</div>
                     <p>Thank you for considering CS Metal. We look forward to learning more about your requirements and providing a solution that goes above and beyond your expectations.</p>
-                    <h3 class="padding-top-50">OUR TOP PRIORITY IS THE SUCCESS OF OUR CUSTOMERS</h3>
+                    <h3 class="padding-top-5">OUR TOP PRIORITY IS THE SUCCESS OF OUR CUSTOMERS</h3>
                 </div>
             </div>
 

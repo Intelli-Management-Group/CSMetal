@@ -81,7 +81,7 @@
                     <div class="title">Metal Stamping Press Machine</div>
                 </div>
             </div>
-            <div class="row padding-top-50">
+            <div class="row padding-top-5">
                 <div class="col-sm-12 col-md-4 py-0">
                     <div>
                         <p>Introducing our powerful 600 Ton Metal Stamping Press Machine, designed for exceptional forming capability and efficiency in the metal stamping industry. This heavy-duty press excels at producing symmetric products and can form thick materials, making it ideal for various applications. Whether working with soft or hard materials, this machine delivers outstanding performance with precision.</p>
@@ -94,7 +94,7 @@
                     <img src="img/Solution/machine/img_machine_1.jpg" alt="product 1" class="image scroll2movedown machine-img1-margin">
                 </div>
 
-                <div class="col-sm-12 col-md-4 solution-image-2 padding-bottom-25">
+                <div class="col-sm-12 col-md-4 solution-image-2 padding-bottom-md-25">
                     <img src="img/Solution/machine/img_machine_2.jpg" alt="product 2" class="image scroll2moveup machine-img2-margin">
                 </div>
             </div>
