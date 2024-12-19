@@ -118,7 +118,7 @@
             <div class="container">
                 <div class="footer section-padding">
                     <div class="row">
-                        <div class="col-12 p-md-0 py-0">
+                        <div class="col-12 p-sm-0 py-0">
                             <nav>
                                 <ul class="terms">
                                     <li class="ml-0">© <?php echo Date('Y'); ?> CS Metal</li>

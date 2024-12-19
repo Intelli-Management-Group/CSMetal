@@ -14,7 +14,7 @@
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
         <div class="row section-padding">
-            <div class="col-md-8">
+            <div class="col-md-8 py-0">
                 <p class="slash-title"><span class="text-color">/ </span>Products</p>
                 <div class="title">Precision Engineered Components for Every Industry</div>
             </div>
@@ -42,23 +42,23 @@
 
         <!-- Intro Section -->
         <div class="row section-padding" id="intro">
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-md-4 pt-0">
                 <!-- <p class="slogan">Delivering Quality, Precision, and Durability / Precision Engineered. Built to Last</p> -->
                 <p class="slogan mb-0">Delivering Quality, Precision, and Durability</p>
             </div>
             <div class="col-sm-12 col-md-4">
                 <p class="mb-0">At CS Metal, we specialize in a diverse range of products and pride ourselves on our expertise in durable appliance handles, precision stamping, and robust wire mesh. Our state-of-the-art facilities also produce stylish and functional camera and cellphone cases, catering to the evolving tech industry.</p>
             </div>
-            <div class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-md-4 pb-0">
                 <p class="mb-0">As an OEM, we’re committed to bringing your ideas to life with custom display fixtures, logo machining, and vibrant metal color printing. CS Metal blends craftsmanship with technology to deliver exceptional products that meet and exceed our clients’ expectations. </p>
             </div>
         </div>
 
         <!-- Products Section -->
-        <div class="section-padding-lg">
+        <div class="section-padding">
             <!-- 1st row -->
-            <div class="row pt-3">
-                <div class="col-sm-12 col-md-4">
+            <div class="row pt-md-3">
+                <div class="col-sm-12 col-md-4 pt-0">
                     <div class="product-wrap">
                         <div class="product-image-wrap">
                             <img src="img/Home/product_1.jpg" alt="product 1" style="width: 100%;">
@@ -116,7 +116,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-4 col-customer">
+                <div class="col-sm-12 col-md-4 col-customer pb-0">
                     <div class="customer-wrap">
                         <div class="nut-container">
                             <div class="nut-wrapper">

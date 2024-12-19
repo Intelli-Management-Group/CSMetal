@@ -881,7 +881,11 @@ hr {
     color:#0c73b2;
 }
 
-.horizontal-line {
+/* .horizontal-line {
+    display: none;
+} */
+
+.horizontal-line-md {
     display: none;
 }
 

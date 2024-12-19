@@ -243,7 +243,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center px-md-5 pb-0">
+                <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center px-sm-5 pb-0">
                     <div class="pt-md-4 py-lg-0">
                         <p class= "slash-title"><span class="text-color">/ </span>Become a customer</p>
                         <div class="title mt-4 mb-4">Shaping the Future of Metal Manufacturing</div>
