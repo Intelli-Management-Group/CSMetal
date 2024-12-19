@@ -82,7 +82,7 @@
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
         <div class="row section-padding">
-            <div class="col-md-8">
+            <div class="col-md-8 py-0">
                 <p class="slash-title"><span class="text-color">/ </span>Manifold</p>
                 <div class="title">Custom Manifolds for Superior Performance!</div>
             </div>
@@ -106,8 +106,8 @@
         <div class="line line-left"></div>
         <div class="line line-right"></div>
         <!-- Intro Section -->
-        <div class="row section-padding padding-top d-flex justify-content-center" id="intro">
-            <div class="col-sm-12 col-md-8">
+        <div class="row section-padding-lg d-flex justify-content-center" id="intro">
+            <div class="col-sm-12 col-md-8 py-0">
                 <!-- <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p> -->
                 <div class="products-intro">At CS Metal, our custom manifold solutions are designed to handle high-pressure systems and complex tasks; offering superior performance and durability. Our manifolds are tailored to the client’s exact specifications, delivering efficiency and reliability in industrial applications. </div>
             </div>
@@ -132,13 +132,13 @@
 
         <!-- Become a customer -->
         <div class="row section-padding padding-top padding-bottom pl-0 pr-0">
-            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center pt-0">
                 <div class="image-container">
                     <img src="img/Product/Stamping/img_customer.jpg" alt="customer" class="banner-container">
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center px-5">
+            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center px-sm-5 pb-0">
                 <div class="pt-md-4 py-lg-0">
                     <p class="slash-title"><span class="text-color">/ </span>Become a customer</p>
                     <div class="title mt-4 mb-4">Shaping the Future of Metal Manufacturing</div>
