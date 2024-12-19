@@ -14,7 +14,7 @@
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
         <div class="row section-padding">
-            <div class="col-md-8">
+            <div class="col-md-8 py-0">
                 <p class="slash-title"><span class="text-color">/ </span>Handles</p>
                 <div class="title">Engineered Handles for Stability and Style, Tailored to Your Needs!</div>
             </div>
@@ -39,7 +39,7 @@
         <div class="line line-left"></div>
         <div class="line line-right"></div>
         <div class="row section-padding-lg d-flex justify-content-center" id="intro">
-            <div class="col-sm-12 col-md-8">
+            <div class="col-sm-12 col-md-8 py-0">
                 <!-- <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p> -->
                 <div class="products-intro">CS Metal offers a wide range of durable, high-quality metal handles, including tubular, hydroforming, and standoff options, with customizable options including brushed, mirror, and coloured finishes. Each handle is precisely engineered to meet industry standards, ensuring stability and style across different settings. </div>
             </div>
@@ -52,6 +52,7 @@
         <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
+        <div class="line-1-2-md"></div>
 
         <div class="row section-padding py-0">
             <div class="col-6 col-md-4 p-0">
@@ -61,6 +62,9 @@
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/Handle/img_handle_standoff.jpg" alt="standoff" class="products-image">
                 <p class="product-name">Handles with Standoff</p>
+            </div>
+            <div class="col-12 p-0 horizontal-line-md">
+                <hr>
             </div>
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/Handle/img_handle_color.jpg" alt="handle_color" class="products-image">
@@ -74,6 +78,9 @@
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/Handle/img_handle_hydroforming.jpg" alt="hydroforming" class="products-image">
                 <p class="product-name">Hydro-Forming Handles</p>
+            </div>
+            <div class="col-12 p-0 horizontal-line-md">
+                <hr>
             </div>
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/Handle/img_handle_crs.jpg" alt="crs" class="products-image">
@@ -98,8 +105,12 @@
         <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
+        <div class="line-1-2-md"></div>
 
         <div class="row section-padding py-0 hidden-content" style="display: none;">
+            <div class="col-12 p-0 horizontal-line-md">
+                <hr>
+            </div>
             <div class="col-12 p-0 horizontal-line">
                 <hr>
             </div>
@@ -110,6 +121,9 @@
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/Handle/img_handle_brush_mirror.jpg" alt="brush_mirror" class="products-image">
                 <p class="product-name">Handles with Brush & Mirror Finish</p>
+            </div>
+            <div class="col-12 p-0 horizontal-line-md">
+                <hr>
             </div>
 
             <div class="col-12 p-0 horizontal-line">
@@ -123,13 +137,13 @@
         <div class="line line-left"></div>
         <div class="line line-right"></div>
         <div class="row section-padding padding-top padding-bottom pl-0 pr-0">
-            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center pt-0">
                 <div class="image-container">
                     <img src="img/Product/Stamping/img_customer.jpg" alt="customer" class="banner-container">
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center px-5">
+            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center px-sm-5 pb-0">
                 <div class="pt-md-4 py-lg-0">
                     <p class="slash-title"><span class="text-color">/ </span>Become a customer</p>
                     <div class="title mt-4 mb-4">Shaping the Future of Metal Manufacturing</div>
