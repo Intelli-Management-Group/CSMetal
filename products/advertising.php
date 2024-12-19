@@ -32,7 +32,7 @@
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
         <div class="row section-padding">
-            <div class="col-md-8">
+            <div class="col-md-8 py-0">
                 <p class="slash-title"><span class="text-color">/ </span>Advertising Fixtures & OEM Products</p>
                 <div class="title">Custom Fixtures & OEM Products that Elevate Brands!</div>
             </div>
@@ -57,7 +57,7 @@
         <div class="line line-left"></div>
         <div class="line line-right"></div>
         <div class="row section-padding-lg d-flex justify-content-center" id="intro">
-            <div class="col-sm-12 col-md-8">
+            <div class="col-sm-12 col-md-8 py-0">
                 <!-- <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p> -->
                 <div class="products-intro">Our custom advertising fixtures and OEM products combine functionality and aesthetic appeal. Each product is precisely manufactured to the client’s request enhancing brand presence. We’ve worked with Christian Dior, Georg Jensen, Victoria’s Secret, Hermes, and many more, showcasing our ability to deliver high quality and meet aesthetic standards.</div>
             </div>
@@ -70,6 +70,7 @@
         <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
+        <div class="line-1-2-md"></div>
 
         <div class="row section-padding py-0">
             <div class="col-6 col-md-4 p-0">
@@ -79,6 +80,9 @@
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/OEM/img_2.jpg" alt="oem 2" class="products-image">
                 <p class="product-name">Georg Jensen Candle Holder</p>
+            </div>
+            <div class="col-12 p-0 horizontal-line-md">
+                <hr>
             </div>
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/OEM/img_3.jpg" alt="oem 3" class="products-image">
@@ -92,6 +96,9 @@
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/OEM/img_4.jpg" alt="oem 4" class="products-image">
                 <p class="product-name">Christian Dior Light Box Shelf</p>
+            </div>
+            <div class="col-12 p-0 horizontal-line-md">
+                <hr>
             </div>
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/OEM/img_5.jpg" alt="oem 5" class="products-image">
@@ -116,9 +123,13 @@
         <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
+        <div class="line-1-2-md"></div>
 
         <div class="row section-padding py-0 hidden-content" style="display: none;">
             <div class="col-12 p-0 horizontal-line">
+                <hr>
+            </div>
+            <div class="col-12 p-0 horizontal-line-md">
                 <hr>
             </div>
             <div class="col-6 col-md-4 p-0">
@@ -128,6 +139,9 @@
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/OEM/img_8.jpg" alt="oem 8" class="products-image">
                 <p class="product-name">Elastic Band Piercing</p>
+            </div>
+            <div class="col-12 p-0 horizontal-line-md">
+                <hr>
             </div>
             <div class="col-6 col-md-4 p-0">
                 <img src="img/Product/OEM/img_9.jpg" alt="oem 9" class="products-image">
@@ -141,6 +155,9 @@
                 <img src="img/Product/OEM/img_10.jpg" alt="oem 10" class="products-image">
                 <p class="product-name">Others</p>
             </div>
+            <div class="col-12 p-0 horizontal-line-md">
+                <hr>
+            </div>
 
             <div class="col-12 p-0 horizontal-line">
                 <hr>
@@ -153,13 +170,13 @@
         <div class="line line-left"></div>
         <div class="line line-right"></div>
         <div class="row section-padding padding-top padding-bottom pl-0 pr-0">
-            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center pt-0">
                 <div class="image-container">
                     <img src="img/Product/Stamping/img_customer.jpg" alt="customer" class="banner-container">
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center px-5">
+            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center px-sm-5 pb-0">
                 <div class="pt-md-4 py-lg-0">
                     <p class="slash-title"><span class="text-color">/ </span>Become a customer</p>
                     <div class="title mt-4 mb-4">Shaping the Future of Metal Manufacturing</div>
