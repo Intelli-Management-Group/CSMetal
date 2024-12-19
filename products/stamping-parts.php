@@ -163,13 +163,13 @@
         <div class="line line-left"></div>
         <div class="line line-right"></div>
         <div class="row section-padding padding-top padding-bottom pl-0 pr-0">
-            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center pt-0">
                 <div class="image-container">
                     <img src="img/Product/Stamping/img_customer.jpg" alt="customer" class="banner-container">
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center px-5">
+            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center px-sm-5 pb-0">
                 <div class="pt-md-4 py-lg-0">
                     <p class="slash-title"><span class="text-color">/ </span>Become a customer</p>
                     <div class="title mt-4 mb-4">Shaping the Future of Metal Manufacturing</div>

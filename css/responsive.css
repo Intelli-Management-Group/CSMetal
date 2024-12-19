@@ -316,10 +316,13 @@
         left: 50%;
     }
     .products-image {
-        padding-bottom: 10px;
+        padding-bottom: 15px;
     }
     .product-name {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
+    }
+    .show-more-button {
+        height: 75px;
     }
 }
 
