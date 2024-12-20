@@ -68,7 +68,7 @@
 
         <!-- banner -->
         <div class="image-container" style="z-index: -1;">
-            <img src="img/Company/About/banner_company_awards.jpg" alt="about-banner" class="banner">
+            <img src="img/Company/About/banner_company_awards.jpg" alt="about-banner" class="banner" style="object-position: 25% center;">
         </div>
 
         <div class="container">

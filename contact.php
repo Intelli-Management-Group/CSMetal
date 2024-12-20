@@ -29,7 +29,7 @@
 
         <!-- banner -->
         <div class="image-container" style="z-index: -1;">
-            <img src="img/Contact/banner_contact.jpg" alt="Contact Banner" class="banner">
+            <img src="img/Contact/banner_contact.jpg" alt="Contact Banner" class="banner" style="object-position: left center;">
         </div>
 
 

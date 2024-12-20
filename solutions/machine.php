@@ -118,7 +118,7 @@
             </div>
 
             <div class="image-container">
-                <img src="img/Solution/machine/img_machine_3.jpg" alt="LG 1370" class="banner">
+                <img src="img/Solution/machine/img_machine_3.jpg" alt="LG 1370" class="banner"  style="object-position: right center;">
             </div>
         </div>
 
