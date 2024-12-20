@@ -31,7 +31,7 @@
 
     <!-- banner -->
     <div class="image-container" style="z-index: -1;">
-        <img src="./img/Product/Main/banner_product.jpg" alt="Product Banner" class="banner-container">
+        <img src="./img/Product/Main/banner_product.jpg" alt="Product Banner" class="banner">
     </div>
 
     <div class="container">

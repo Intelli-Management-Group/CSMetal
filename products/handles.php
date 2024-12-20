@@ -31,7 +31,7 @@
 
     <!-- banner -->
     <div class="image-container" style="z-index: -1;">
-        <img src="img/Product/Handle/banner_product_handles.jpg" alt="Home Banner" class="banner-container">
+        <img src="img/Product/Handle/banner_product_handles.jpg" alt="Home Banner" class="banner">
     </div>
 
     <!-- Intro Section -->
@@ -139,7 +139,7 @@
         <div class="row section-padding padding-top padding-bottom pl-0 pr-0">
             <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center pt-0">
                 <div class="image-container">
-                    <img src="img/Product/Stamping/img_customer.jpg" alt="customer" class="banner-container">
+                    <img src="img/Product/Stamping/img_customer.jpg" alt="customer" class="banner">
                 </div>
             </div>
 

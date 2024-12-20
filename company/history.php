@@ -109,7 +109,7 @@
 
         <!-- banner -->
         <div class="image-container" style="z-index: -1;">
-            <img src="./img/Company/History/banner_company_history.jpg" alt="history-banner" class="banner-container">
+            <img src="./img/Company/History/banner_company_history.jpg" alt="history-banner" class="banner">
         </div>
 
         <div class="container bottom-border">

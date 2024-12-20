@@ -1,6 +1,6 @@
 // zoom in image when scrolling
 window.addEventListener('scroll', function() {
-    const images = document.querySelectorAll('.banner-container'); 
+    const images = document.querySelectorAll('.banner'); 
     const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
     const scrollPercentage = window.scrollY / maxScroll;
 

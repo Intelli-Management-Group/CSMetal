@@ -96,7 +96,7 @@
             </div>
 
             <div class="image-container">
-                <img src="img/Solution/testing/img_testing_4.jpg" alt="Spectralight" class="banner-container">
+                <img src="img/Solution/testing/img_testing_4.jpg" alt="Spectralight" class="banner">
             </div>
         </div>
 
