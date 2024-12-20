@@ -32,6 +32,9 @@
                     border-left: 1px solid #4b4b4b;
                     border-top: none;
                 }
+                .solution-wrap {
+                    height: 100px !important;
+                }
             }
 
             .card-arrow h5{
@@ -128,17 +131,17 @@
                     </div>
                     
                     <div class="row section-padding padding-bottom pt-0">
-                        <div class="col-sm-12 col-md-4 col-lg-4 p-0">
+                        <div class="col-sm-12 col-md-4 col-lg-4 py-0 px-md-0 px-md-25">
                             <a href="solutions/machine.php#machine" class="solution-wrap location card-arrow">
                                 <h5 class="m-0">Automated Tube Forming Machine</h5>
                             </a>
                         </div>
-                        <div class="col-sm-12 col-md-4 col-lg-4 p-0">
+                        <div class="col-sm-12 col-md-4 col-lg-4 py-0 px-md-0 px-md-25">
                             <a href="solutions/inspection.php#gom" class="solution-wrap gom-wrap card-arrow">
                                 <h5 class="m-0">GOM Scan</h5>
                             </a>
                         </div>
-                        <div class="col-sm-12 col-md-4 col-lg-4 p-0">
+                        <div class="col-sm-12 col-md-4 col-lg-4 py-0 px-md-0 px-md-25">
                             <a href="solutions/testing.php#hardness" class="solution-wrap hardness-wrap card-arrow">
                                 <h5 class="m-0">Metal Hardness Measurement Machine</h5>
                             </a>
@@ -156,7 +159,7 @@
             <div class="line line-right"></div>
             <div class="row section-padding padding-top pb-0">
                 <div class="col-sm-12 col-md-4 py-0">
-                    <div class="title pb-3">CORE VALUES</div>
+                    <div class="title pb-3 mt-n3">CORE VALUES</div>
                     <p class="mb-0">We are dedicated to delivering precision and innovation, proudly delivering customized, high-quality metal solutions that consistently exceed expectations.</p>
                 </div>
             </div>
@@ -253,7 +256,7 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <h3>Legacy of the Founder</h3>
-                    <p>A tale of relentless pursuit marks the four-decade journey of our founder, Mr. William Ho. From the early days in a compact workshop to becoming a global manufacturing powerhouse, Chi Sing’s story is rich with milestones.</p>
+                    <p class="mb-0">A tale of relentless pursuit marks the four-decade journey of our founder, Mr. William Ho. From the early days in a compact workshop to becoming a global manufacturing powerhouse, Chi Sing’s story is rich with milestones.</p>
                 </div>
                 <div class="col-sm-12 col-md-4 pb-0">
                     <div class="image-container">

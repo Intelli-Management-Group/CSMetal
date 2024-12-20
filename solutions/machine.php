@@ -29,7 +29,7 @@
         </div>
     </div>
 
-    <!-- <div class="container bottom-border" style="height: 100px;">
+    <!-- <div class="container padding-bottom">
         <div class="line line-left"></div>
         <div class="line line-right"></div>
     </div> -->
@@ -39,7 +39,7 @@
         <div class="line line-left"></div>
         <div class="line line-right"></div>
         <div class="text-center">
-            <div class="title section-padding padding-top">AUTOMATED TUBE FORMING MACHINE</div>
+            <div class="title section-padding">AUTOMATED TUBE FORMING MACHINE</div>
             <div class="video-container">
                 <!-- <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4?mute=1"></iframe> -->
                 <video class="video" width="100%" controls muted>
@@ -73,8 +73,11 @@
         <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
+        <div class="col-12 p-0 horizontal-line-md">
+            <hr>
+        </div>
 
-        <div class="section-padding pt-0">
+        <div class="section-padding pt-md-0">
             <div class="row">
                 <div class="col-sm-12 col-md-12 py-0">
                     <p class="slash-title"><span class="text-color">/ </span>600t</p>

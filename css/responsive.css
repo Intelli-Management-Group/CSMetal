@@ -238,7 +238,7 @@
         font-size: 18px !important;
     }
     .solution-banner {
-        padding: 25px 0;
+        padding: 25px 0 50px;
     }
     .award-container {
         padding: 0 16px;
@@ -270,6 +270,9 @@
     .padding-bottom-md-25 {
         padding-bottom: 25px !important;
     }
+    .padding-bottom-md-50 {
+        padding-bottom: 50px !important;
+    }
     .grey-widget-wrap {
         margin-left: 25px !important;
     }
@@ -284,8 +287,8 @@
         padding: 10px 0;
     }
     .push-pull-section {
-        padding-bottom: 0;
-        padding-top: 0;
+        padding-bottom: 0 !important;
+        padding-top: 0 !important;
     }
     .padding-top-md-50 {
         padding-top: 50px !important;
@@ -323,6 +326,10 @@
     }
     .show-more-button {
         height: 75px;
+    }
+    .px-md-25 {
+        padding-left: 25px !important;
+        padding-right: 25px !important;
     }
 }
 

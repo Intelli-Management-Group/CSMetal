@@ -36,7 +36,7 @@
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
 
-        <div class="section-padding">
+        <div class="section-padding padding-bottom-md-50">
             <div class="row">
                 <div class="col-sm-12 col-md-12 py-0">
                     <p class="slash-title"><span class="text-color">/ </span>GOM SCAN</p>

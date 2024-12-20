@@ -895,6 +895,7 @@ hr {
     /* text-transform: capitalize; */
     font-weight: bold;
     text-align: center;
+    padding: 0 10px;
 }
 
 .push-pull-container {
