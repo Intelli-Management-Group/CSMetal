@@ -22,11 +22,33 @@ if (window.innerWidth >= 768) {
     });
 }
 
+if (window.innerWidth >= 992) {
+    window.addEventListener('scroll', function() {
+        const productSections = document.querySelectorAll('.scroll2moveup-lg');
+        const scrollY = window.scrollY;
+        productSections.forEach(product => {
+            const movement = scrollY * 0.05;
+            product.style.transform = `translateY(-${movement}px)`;
+        });
+    });
+}
+
 
 //move down items when srolling
 if (window.innerWidth >= 768) {
     window.addEventListener('scroll', function() {
         const productSections = document.querySelectorAll('.scroll2movedown');
+        const scrollY = window.scrollY;
+        productSections.forEach(product => {
+            const movement = scrollY * 0.05;
+            product.style.transform = `translateY(${movement}px)`;
+        });
+    });
+}
+
+if (window.innerWidth >= 992) {
+    window.addEventListener('scroll', function() {
+        const productSections = document.querySelectorAll('.scroll2movedown-lg');
         const scrollY = window.scrollY;
         productSections.forEach(product => {
             const movement = scrollY * 0.05;

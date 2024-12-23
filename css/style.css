@@ -89,6 +89,14 @@ h3 {
     left: 66.67%;
 }
 
+.line-1-3-lg {
+    left: 33.33%;
+}
+
+.line-2-3-lg {
+    left: 66.67%;
+}
+
 .line-right {
     right: 0;
 }
@@ -622,6 +630,14 @@ h3 {
     transition: transform 0.3s ease-out;
 }
 
+.scroll2moveup-lg {
+    transition: transform 0.3s ease-out;
+}
+
+.scroll2movedown-lg {
+    transition: transform 0.3s ease-out;
+}
+
 .top-border {
     border-top: 1px solid #eee;
 }
@@ -884,6 +900,10 @@ hr {
 } */
 
 .horizontal-line-md {
+    display: none;
+}
+
+.horizontal-line-lg {
     display: none;
 }
 

@@ -32,8 +32,8 @@
     <!-- GOM Scan Section -->
     <div class="container bottom-border" id="gom">
         <div class="line line-left"></div>
-        <div class="line line-1-3"></div>
-        <div class="line line-2-3"></div>
+        <div class="line line-1-3-lg"></div>
+        <div class="line line-2-3-lg"></div>
         <div class="line line-right"></div>
 
         <div class="section-padding padding-bottom-md-50">
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="row padding-top-5">
-                <div class="col-sm-12 col-md-4 py-0">
+                <div class="col-12 col-lg-4 py-0">
                     <div>
                         <p>Welcome to our introduction to Gom Scan, a leading solution in 3D scanning technology, specifically designed for precision in metal stamping parts. With Gom Scan, we ensure the highest quality through rigorous first piece inspections, enabling us to detect any deviations from specifications right from the start.</p>
                         <p>As we transition into mass production, Gom Scan plays a crucial role in maintaining consistent quality control (QC), allowing for real-time monitoring and adjustment throughout the manufacturing process. This not only enhances the reliability of our products but also drives process improvement initiatives by identifying areas for optimization.</p>
@@ -52,12 +52,12 @@
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-4 solution-image-1">
-                    <img src="img/Solution/inspection/img_inspection_1.jpg" alt="product 1" class="image scroll2movedown solutions-img1-margin">
+                <div class="col-6 col-lg-4 py-0 solution-image-1">
+                    <img src="img/Solution/inspection/img_inspection_1.jpg" alt="product 1" class="image scroll2movedown-lg solutions-img1-margin">
                 </div>
 
-                <div class="col-sm-12 col-md-4 solution-image-2 pb-0">
-                    <img src="img/Solution/inspection/img_inspection_2.jpg" alt="product 2" class="image scroll2moveup solutions-img2-margin">
+                <div class="col-6 col-lg-4 py-0 solution-image-2 pb-0">
+                    <img src="img/Solution/inspection/img_inspection_2.jpg" alt="product 2" class="image scroll2moveup-lg solutions-img2-margin">
                 </div>
             </div>
         </div>
