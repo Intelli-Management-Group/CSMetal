@@ -60,7 +60,7 @@ if (window.innerWidth >= 992) {
 // hover and show the corresponding image
 document.addEventListener("DOMContentLoaded", function() {
     const links = document.querySelectorAll('.hover-link');
-    const images = document.querySelectorAll('.product-image-container img');
+    const images = document.querySelectorAll('.product-banner-container img');
 
     links.forEach(link => {
         link.addEventListener('mouseover', function() {

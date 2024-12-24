@@ -35,7 +35,7 @@
     </div>
 
     <!-- banner -->
-    <div class="image-container" style="z-index: -1;">
+    <div class="banner-container" style="z-index: -1;">
         <img src="img/Product/Diecast/banner_product_diecast.jpg" alt="Home Banner" class="banner" style="object-position: 70% center;">
     </div>
 
@@ -175,7 +175,7 @@
         <div class="line line-right"></div>
         <div class="row section-padding padding-top padding-bottom pl-0 pr-0">
             <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center pt-0">
-                <div class="image-container">
+                <div class="banner-container">
                     <img src="img/Product/Stamping/img_customer.jpg" alt="customer" class="banner" style="object-position: right center;">
                 </div>
             </div>

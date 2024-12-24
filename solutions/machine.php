@@ -70,14 +70,14 @@
     <!-- 600t -->
     <div class="container">
         <div class="line line-left"></div>
-        <div class="line line-1-3"></div>
-        <div class="line line-2-3"></div>
+        <div class="line line-1-3-lg"></div>
+        <div class="line line-2-3-lg"></div>
         <div class="line line-right"></div>
-        <div class="col-12 p-0 horizontal-line-md">
+        <div class="col-12 p-0 horizontal-line-lg">
             <hr>
         </div>
 
-        <div class="section-padding pt-md-0">
+        <div class="section-padding-lg pt-lg-0">
             <div class="row">
                 <div class="col-sm-12 col-md-12 py-0">
                     <p class="slash-title"><span class="text-color">/ </span>600t</p>
@@ -85,7 +85,7 @@
                 </div>
             </div>
             <div class="row padding-top-5">
-                <div class="col-sm-12 col-md-4 py-0">
+                <div class="col-12 col-lg-4 py-0">
                     <div>
                         <p>Introducing our powerful 600 Ton Metal Stamping Press Machine, designed for exceptional forming capability and efficiency in the metal stamping industry. This heavy-duty press excels at producing symmetric products and can form thick materials, making it ideal for various applications. Whether working with soft or hard materials, this machine delivers outstanding performance with precision.</p>
                         <p>With its ability to produce high-volume products while maintaining a low defect rate, our stamping press achieves a Parts Per Million (PPM) rate of less than 100, ensuring reliability in every batch. Featuring a substantial tooling table size of 3200 x 1300 mm, this machine accommodates large components like cook tops and long rails. It is also well-suited for progressive dies, enabling the production of complex products requiring multiple stamping steps.</p>
@@ -93,12 +93,12 @@
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-4 solution-image-1">
-                    <img src="img/Solution/machine/img_machine_1.jpg" alt="product 1" class="image scroll2movedown machine-img1-margin">
+                <div class="col-6 col-lg-4 py-0 solution-image-1">
+                    <img src="img/Solution/machine/img_machine_1.jpg" alt="product 1" class="image scroll2movedown-lg machine-img1-margin">
                 </div>
 
-                <div class="col-sm-12 col-md-4 solution-image-2 padding-bottom-md-25">
-                    <img src="img/Solution/machine/img_machine_2.jpg" alt="product 2" class="image scroll2moveup machine-img2-margin">
+                <div class="col-6 col-lg-4 py-0 solution-image-2 padding-bottom-md-25">
+                    <img src="img/Solution/machine/img_machine_2.jpg" alt="product 2" class="image scroll2moveup-lg machine-img2-margin">
                 </div>
             </div>
         </div>
@@ -117,7 +117,7 @@
                 </div>
             </div>
 
-            <div class="image-container">
+            <div class="banner-container">
                 <img src="img/Solution/machine/img_machine_3.jpg" alt="LG 1370" class="banner"  style="object-position: right center;">
             </div>
         </div>

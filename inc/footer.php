@@ -92,7 +92,7 @@
         <div style="background-color:black;">
             <div class="container">
                 <div class="footer">
-                    <div class="row section-padding">
+                    <div class="row section-padding" style="padding-top: 50px; padding-bottom: 50px;">
                         <div class="col-sm-12 col-md-6 col-lg-6 p-0">
                             <div class="info-wrap location pt-0">
                                 <h3 class="mb-0">Redefining The Standards in Metal Manufacturing</h3>

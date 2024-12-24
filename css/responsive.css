@@ -47,6 +47,39 @@
 }
 
 @media only screen and (max-width: 991px) {
+    .section-padding {
+        padding: 25px 25px;
+    }
+    
+    .section-padding-lg {
+        padding: 50px 25px;
+    }
+    .padding-top{ 
+        padding-top: 50px !important;
+    }
+    
+    .padding-bottom {
+        padding-bottom: 50px !important;
+    }
+
+    .padding-top-5 {
+        padding-top: 20px !important;
+    }
+
+    .padding-top-md-25 {
+        padding-top: 25px !important;
+    }
+
+    .padding-bottom-md-25 {
+        padding-bottom: 25px !important;
+    }
+    .padding-bottom-md-50 {
+        padding-bottom: 50px !important;
+    }
+    .company-strength-padding {
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
     .display-3 {
         font-size: 2.5rem !important;
     }
@@ -237,7 +270,7 @@
         margin: auto;
         text-align: center;
     }
-    .image-container {
+    .banner-container {
         position: relative;
         /* padding-top: 58px; */
     }

@@ -67,7 +67,7 @@
         </div>
 
         <!-- banner -->
-        <div class="image-container" style="z-index: -1;">
+        <div class="banner-container" style="z-index: -1;">
             <img src="img/Company/About/banner_company_awards.jpg" alt="about-banner" class="banner" style="object-position: 25% center;">
         </div>
 
@@ -89,7 +89,7 @@
                 </div>
             </div>
 
-            <div class="image-container">
+            <div class="banner-container">
                 <img src="img/Company/About/img_1.png" alt="about" class="banner">
                 <div class="col-md-4 solutions py-0">
                     <div style="padding: 35px 0 25px;">

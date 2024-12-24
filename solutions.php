@@ -28,7 +28,7 @@
         </div>
 
         <!-- banner -->
-        <div class="image-container" style="z-index: -1;">
+        <div class="banner-container" style="z-index: -1;">
             <img src="./img/Solution/banner_solution.jpg" alt="awards-banner" class="banner" style="object-position: 15% center;">
         </div>
 
@@ -96,7 +96,7 @@
                     <div class="title">Built to Perform, Designed to Last</div>
                 </div>
             </div>
-            <div class="image-container">
+            <div class="banner-container">
                 <img src="./img/Solution/banner_solution.jpg" alt="img" class="banner" style="object-position: 15% center;">
                 <a class="col-md-4 image-button" href="products.php">
                     <div class="d-flex justify-content-between w-100">

@@ -32,11 +32,11 @@
     <!-- Hardness Meter Section -->
     <div class="container bottom-border hide-bottom-border" id="hardness">
         <div class="line line-left"></div>
-        <div class="line line-1-3"></div>
-        <div class="line line-2-3"></div>
+        <div class="line line-1-3-lg"></div>
+        <div class="line line-2-3-lg"></div>
         <div class="line line-right"></div>
 
-        <div class="section-padding">
+        <div class="section-padding-lg">
             <div class="row">
                 <div class="col-sm-12 col-md-12 py-0">
                     <p class="slash-title"><span class="text-color">/ </span>Hardness Meter</p>
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="row padding-top-5">
-                <div class="col-sm-12 col-md-4 py-0">
+                <div class="col-12 col-lg-4 py-0">
                     <div>
                         <p>Introducing our advanced Metal Hardness Measurement Machine, designed for precise and reliable hardness testing of various metals. This essential tool is crucial for material validation and heat treatment validation, ensuring the integrity and durability of metal products.</p>
                         <p>Utilizing cutting-edge technology, our hardness meter features a clear digital display and offers multiple testing scales, including Rockwell, Brinell, and Vickers, providing immediate results for both soft and hard metals. Its user-friendly interface streamlines the quality control process, making it easy for operators to obtain accurate measurements.</p>
@@ -52,12 +52,12 @@
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-4 solution-image-1">
-                    <img src="img/Solution/testing/img_testing_1.jpg" alt="product 1" class="image scroll2movedown solutions-img1-margin">
+                <div class="col-6 col-lg-4 py-0 solution-image-1">
+                    <img src="img/Solution/testing/img_testing_1.jpg" alt="product 1" class="image scroll2movedown-lg solutions-img1-margin">
                 </div>
 
-                <div class="col-sm-12 col-md-4 solution-image-2 padding-bottom-md-25">
-                    <img src="img/Solution/testing/img_testing_2.jpg" alt="product 2" class="image scroll2moveup solutions-img2-margin">
+                <div class="col-6 col-lg-4 py-0 solution-image-2 padding-bottom-md-25">
+                    <img src="img/Solution/testing/img_testing_2.jpg" alt="product 2" class="image scroll2moveup-lg solutions-img2-margin">
                 </div>
             </div>
         </div>
@@ -95,7 +95,7 @@
                 </div>
             </div>
 
-            <div class="image-container">
+            <div class="banner-container">
                 <img src="img/Solution/testing/img_testing_4.jpg" alt="Spectralight" class="banner">
             </div>
         </div>

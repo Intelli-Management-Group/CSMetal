@@ -44,7 +44,7 @@
         </div>
 
         <!-- banner -->
-        <div class="image-container" style="z-index: -1;">
+        <div class="banner-container" style="z-index: -1;">
             <img src="./img/Company/History/banner_company_history.jpg" alt="history-banner" class="banner">
         </div>
 

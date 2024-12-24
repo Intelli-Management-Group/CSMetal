@@ -145,11 +145,17 @@ h3 {
     object-fit: cover;
 }
 
-.image-container{
+.banner-container{
     position: relative;
     transition: background-size 0.2s ease;
     overflow: hidden;
     min-height: 400px;
+}
+
+.image-container{
+    position: relative;
+    transition: background-size 0.2s ease;
+    overflow: hidden;
 }
 
 .image {
@@ -712,22 +718,22 @@ hr {
     margin-top: 400px;
 }
 
-.product-image-container {
+.product-banner-container {
     position: relative;
     width: 100%;
     aspect-ratio: 1308 / 1546;
     overflow: hidden;
 }
 
-.die-cast-image-container {
+.die-cast-banner-container {
     aspect-ratio: 738 / 670;
 }
 
-.manifold-image-container {
+.manifold-banner-container {
     aspect-ratio: 2560 / 1030;
 }
 
-.product-image-container img {
+.product-banner-container img {
     position: absolute;
     top: 0;
     left: 0;
@@ -738,7 +744,7 @@ hr {
     transition: opacity 0.3s ease;
 }
 
-.product-image-container img.active {
+.product-banner-container img.active {
     opacity: 1;
 }
 

@@ -109,7 +109,7 @@
                 </div>
             </div>
 
-            <div class="image-container">
+            <div class="banner-container">
                 <img src="img/Solution/inspection/img_inspection_3.jpg" alt="Spectralight" class="banner" style="object-position: 10% center;">
             </div>
         </div>

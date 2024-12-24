@@ -28,7 +28,7 @@
         </div>
 
         <!-- banner -->
-        <div class="image-container" style="z-index: -1;">
+        <div class="banner-container" style="z-index: -1;">
             <img src="img/Contact/banner_contact.jpg" alt="Contact Banner" class="banner" style="object-position: left center;">
         </div>
 
@@ -163,7 +163,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4 d-md-flex align-items-center d-none d-md-block">
-                    <div class="image-container" style="z-index: -1;">
+                    <div class="banner-container" style="z-index: -1;">
                         <img src="img/Contact/img_1.jpg" alt="Contact" class="banner">
                     </div>
                 </div>
