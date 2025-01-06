@@ -47,8 +47,8 @@
         <?php include '../inc/header.php'; ?>
         <div class="container">
             <div class="line line-left"></div>
-            <div class="line line-1-3"></div>
-            <div class="line line-2-3"></div>
+            <!-- <div class="line line-1-3"></div>
+            <div class="line line-2-3"></div> -->
             <div class="line line-right"></div>
             <div class="row section-padding">
                 <div class="col-md-8 py-0">
