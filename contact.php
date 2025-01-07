@@ -33,16 +33,15 @@
         </div>
 
 
-        <div class="container">
+        <div class="container bottom-border">
             <div class="line line-left"></div>
             <div class="line line-1-3"></div>
-            <div class="line line-2-3"></div>
+            <!-- <div class="line line-2-3"></div> -->
             <div class="line line-right"></div>
 
             <div class="row section-padding">
                 <div class="col-sm-12 col-md-4 pt-0">
-                    <!-- <div class="pl-3 pr-3"> -->
-                        <h3 class="mb-4">Headquarter Info</h3>
+                        <h3 class="mb-3">Headquarter Info</h3>
                         <div class="customDiv">
                             <p>
                                 <div class="" target="_blank" rel="noopener">Chi Sing Metal MFY. CO. LTD. <br/>
@@ -60,16 +59,9 @@
                                 <a class="address" href="mailto:factory@chising.com.hk" target="_blank" rel="noopener">factory@chising.com.hk</a>                         
                             </p> 
                         </div>
-                        <!-- <div class="customDiv">
-                            <p>
-                                <a class="underline-link" href="#" target="_blank" rel="noopener">Get Directions &nbsp;&nbsp; →</a>
-                            </p>
-                        </div> -->
-                    <!-- </div> -->
                 </div>
                 <div class="col-sm-12 col-md-4 pb-0">
-                    <!-- <div class="pl-3 pr-3"> -->
-                        <h3 class="mb-4 pt-md-0 pt-5">Factory Info</h3>
+                        <h3 class="mb-3 pt-md-0 pt-3">Factory Info</h3>
                         <div class="customDiv">
                             <p>
                                 <div class="" href="#" target="_blank" rel="noopener"> Williamson Metal MFY. CO. LTD. <br/>
@@ -90,21 +82,21 @@
                                 <a class="address" href="mailto:factory@chising.com.hk" target="_blank" rel="noopener">factory@chising.com.hk</a>                         
                             </p> 
                         </div>
-                        <!-- <div class="customDiv">                       
-                            <p>
-                            8 a.m. – 5 p.m. Eastern<br/> Monday – Friday
-                            </p>
-                        </div> -->
-                    <!-- </div> -->
                 </div>
             </div>
 
             <div class="col-12 p-0 horizontal-line-md">
                 <hr>
             </div>
+        </div>
 
-            <!-- Form -->
-            
+        <!-- Form -->
+        <div class="container">
+            <div class="line line-left"></div>
+            <!-- <div class="line line-1-3"></div> 
+            <div class="line line-2-3"></div> -->
+            <div class="line line-right"></div>
+
             <div class="row section-padding pb-0">
                 <div class="col-sm-12 col-md-8 py-0">
                     <div class="title">We want to hear from you</div>                
@@ -113,7 +105,7 @@
 
             <div class="row section-padding padding-bottom align-items-stretch">
                 <div class="col-sm-12 col-md-8 d-flex p-0"> 
-                    <div class="elementor-widget-container flex-fill mr-md-3">
+                    <div class="elementor-widget-container flex-fill mr-md-4">
                         <form class="elementor-form" action="submit-form.php" method="POST" name="Contact From">
                             <input type="hidden" name="post_id" value="133">
                             <input type="hidden" name="form_id" value="cf6c9c3">
