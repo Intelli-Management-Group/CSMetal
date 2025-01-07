@@ -6,7 +6,7 @@
         <style>
             .header {
                 display: flex;
-                /* justify-content: space-between; */
+                justify-content: space-between;
                 align-items: center;
             }
 
@@ -149,12 +149,27 @@
                 display: none;
             }
 
+            .mobile-nav {
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+                background-color: black;
+            }
+
             .navbar {
                 padding-top: 0 !important;
                 padding-bottom: 0 !important;
             }
 
-            @media screen and (min-width: 1070px) {
+            .drop-shadow {
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            }
+
+            @media screen and (max-width: 991px) {
+                .nav-links li {
+                    padding: 6px 12px;
+                }
+            }
+
+            @media screen and (min-width: 768px) {
                 .desktop-nav {
                     display: block;
                 }
@@ -166,10 +181,10 @@
     </head>
     <body>
         <!-- desktop nav bar -->
-        <div class="bottom-border desktop-nav">
-            <div class="header container d-flex justify-content-between" id="nav">
+        <div class="bottom-border desktop-nav drop-shadow">
+            <div class="header container" id="nav">
                 <a href="./index.php" class="logo">
-                    <img src="img/Generic/logo.png" alt="Logo">
+                    <img src="img/Generic/logo_emblem.png" alt="Logo">
                 </a>
                 <nav>
                 <!-- center align the nav -->
@@ -189,7 +204,7 @@
         <div class="mobile-nav bottom-border">
             <nav class="navbar navbar-expand-xl navbar-light bg-white">
                 <a href="./index.php" class="logo">
-                    <img src="img/Generic/logo.png" alt="Logo">
+                    <img src="img/Generic/logo_emblem.png" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -264,7 +279,7 @@
         </div>
 
         <!-- Company -->
-        <div class="menu-wrap bottom-border" id="company-nav">
+        <div class="menu-wrap bottom-border drop-shadow" id="company-nav">
             <div class="container menu-container">
                 <div class="line line-1-3"></div>
                 <div class="row w-100">
@@ -287,7 +302,7 @@
         </div>
 
         <!-- Solutions -->
-        <div class="menu-wrap bottom-border" id="solutions-nav">
+        <div class="menu-wrap bottom-border drop-shadow" id="solutions-nav">
             <div class="container menu-container">
                 <div class="line line-1-3"></div>
                 <div class="row w-100">
@@ -317,7 +332,7 @@
         </div>
 
         <!-- Products -->
-        <div class="menu-wrap bottom-border" id="products-nav">
+        <div class="menu-wrap bottom-border drop-shadow" id="products-nav">
             <div class="container menu-container">
                 <div class="line line-1-3"></div>
                 <div class="row w-100">
