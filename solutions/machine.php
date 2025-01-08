@@ -80,16 +80,16 @@
         <div class="section-padding-lg pt-lg-0">
             <div class="row">
                 <div class="col-sm-12 col-md-12 py-0">
-                    <p class="slash-title"><span class="text-color">/ </span>600t</p>
+                    <p class="slash-title"><span class="text-color">/ </span>16 - 600T</p>
                     <div class="title">Metal Stamping Press Machine</div>
                 </div>
             </div>
             <div class="row padding-top-5">
                 <div class="col-12 col-lg-4 py-0">
                     <div>
-                        <p>Introducing our powerful 600 Ton Metal Stamping Press Machine, designed for exceptional forming capability and efficiency in the metal stamping industry. This heavy-duty press excels at producing symmetric products and can form thick materials, making it ideal for various applications. Whether working with soft or hard materials, this machine delivers outstanding performance with precision.</p>
-                        <p>With its ability to produce high-volume products while maintaining a low defect rate, our stamping press achieves a Parts Per Million (PPM) rate of less than 100, ensuring reliability in every batch. Featuring a substantial tooling table size of 3200 x 1300 mm, this machine accommodates large components like cook tops and long rails. It is also well-suited for progressive dies, enabling the production of complex products requiring multiple stamping steps.</p>
-                        <p class="mb-0">Experience unparalleled efficiency and precision with our 600 Ton Metal Stamping Press Machine, where advanced technology meets high-performance manufacturing!</p>
+                        <p>Our metal stamping operations are powered by a fleet of 43 versatile machines, ranging from 16 to 600 tons, designed to meet a wide variety of manufacturing needs. From small, intricate components to heavy-duty, large-scale products, our presses deliver exceptional forming capability and efficiency across a broad range of applications.</p>
+                        <p>Our flagship 600 Ton Metal Stamping Press Machine exemplifies the strength of our operations. With a substantial tooling table size of 3200 x 1300 mm, it easily handles large components like cooktops and long rails. It is also ideal for progressive dies, allowing the production of complex parts that require multiple stamping steps.</p>
+                        <p class="mb-0">Every press in our fleet is engineered for precision and performance, whether working with soft or hard materials. Together, these machines deliver high-volume output with a low defect rate, achieving a Parts Per Million (PPM) rate of less than 100, ensuring reliable quality in every batch. With advanced technology and a full range of press capacities, we provide efficient, precise, and scalable metal stamping solutions for projects of any complexity.</p>
                     </div>
                 </div>
 
