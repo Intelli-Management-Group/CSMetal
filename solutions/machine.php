@@ -49,7 +49,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container bottom-border">
         <div class="line line-left"></div>
         <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>
@@ -68,22 +68,32 @@
     </div>
 
     <!-- 600t -->
-    <div class="container">
+    <div class="container bottom-border-lg">
         <div class="line line-left"></div>
-        <div class="line line-1-3-lg"></div>
-        <div class="line line-2-3-lg"></div>
+        <!-- <div class="line line-1-3-lg"></div>
+        <div class="line line-2-3-lg"></div> -->
         <div class="line line-right"></div>
-        <div class="col-12 p-0 horizontal-line-lg">
+        <!-- <div class="col-12 p-0 horizontal-line-lg">
             <hr>
-        </div>
+        </div> -->
 
-        <div class="section-padding-lg pt-lg-0">
+        <div class="section-padding pb-0-lg">
             <div class="row">
                 <div class="col-sm-12 col-md-12 py-0">
                     <p class="slash-title"><span class="text-color">/ </span>16 - 600T</p>
                     <div class="title">Metal Stamping Press Machine</div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="line line-left"></div>
+        <div class="line line-1-3-lg"></div>
+        <div class="line line-2-3-lg"></div>
+        <div class="line line-right"></div>
+
+        <div class="section-padding pt-0 padding-bottom-md-50">
             <div class="row padding-top-5">
                 <div class="col-12 col-lg-4 py-0">
                     <div>

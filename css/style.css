@@ -651,6 +651,9 @@ h3 {
 .bottom-border {
     border-bottom: 1px solid #eee;
 }
+.bottom-border-lg {
+    border-bottom: 1px solid #eee;
+}
 
 .color-block {
     width: 100%;

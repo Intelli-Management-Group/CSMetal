@@ -149,6 +149,12 @@
     .machine-img2-margin {
         margin-top: 0px;
     }
+    .bottom-border-lg {
+        border-bottom: none;
+    }
+    .pb-0-lg {
+        padding-bottom: 0 !important;
+    }
 }
 
 @media only screen and (max-width: 767px) {

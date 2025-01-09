@@ -30,7 +30,23 @@
     </div>
 
     <!-- GOM Scan Section -->
-    <div class="container bottom-border" id="gom">
+    <div class="container bottom-border-lg" id="gom">
+        <div class="line line-left"></div>
+        <!-- <div class="line line-1-3-lg"></div>
+        <div class="line line-2-3-lg"></div> -->
+        <div class="line line-right"></div>
+
+        <div class="section-padding pb-0-lg">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 py-0">
+                    <p class="slash-title"><span class="text-color">/ </span>GOM SCAN</p>
+                    <div class="title">3D SCANNING TECHNOLOGY</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bottom-border">
         <div class="line line-left"></div>
         <div class="line line-1-3-lg"></div>
         <div class="line line-2-3-lg"></div>
@@ -38,12 +54,6 @@
 
         <div class="section-padding padding-bottom-md-50">
             <div class="row">
-                <div class="col-sm-12 col-md-12 py-0">
-                    <p class="slash-title"><span class="text-color">/ </span>GOM SCAN</p>
-                    <div class="title">3D SCANNING TECHNOLOGY</div>
-                </div>
-            </div>
-            <div class="row padding-top-5">
                 <div class="col-12 col-lg-4 py-0">
                     <div>
                         <p>Welcome to our introduction to Gom Scan, a leading solution in 3D scanning technology, specifically designed for precision in metal stamping parts. With Gom Scan, we ensure the highest quality through rigorous first piece inspections, enabling us to detect any deviations from specifications right from the start.</p>

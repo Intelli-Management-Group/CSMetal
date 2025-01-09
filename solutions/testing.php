@@ -30,20 +30,28 @@
     </div>
 
     <!-- Hardness Meter Section -->
-    <div class="container bottom-border hide-bottom-border" id="hardness">
+    <div class="container bottom-border-lg" id="hardness">
         <div class="line line-left"></div>
-        <div class="line line-1-3-lg"></div>
-        <div class="line line-2-3-lg"></div>
         <div class="line line-right"></div>
 
-        <div class="section-padding-lg">
+        <div class="section-padding pb-0-lg">
             <div class="row">
                 <div class="col-sm-12 col-md-12 py-0">
                     <p class="slash-title"><span class="text-color">/ </span>Hardness Meter</p>
                     <div class="title">precise and reliable hardness testing</div>
                 </div>
             </div>
-            <div class="row padding-top-5">
+        </div>
+    </div>
+
+    <div class="container bottom-border hide-bottom-border" id="hardness">
+        <div class="line line-left"></div>
+        <div class="line line-1-3-lg"></div>
+        <div class="line line-2-3-lg"></div>
+        <div class="line line-right"></div>
+
+        <div class="section-padding padding-bottom-md-50">
+            <div class="row">
                 <div class="col-12 col-lg-4 py-0">
                     <div>
                         <p>Introducing our advanced Metal Hardness Measurement Machine, designed for precise and reliable hardness testing of various metals. This essential tool is crucial for material validation and heat treatment validation, ensuring the integrity and durability of metal products.</p>
