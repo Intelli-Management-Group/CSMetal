@@ -133,9 +133,7 @@
         <!-- Become a customer -->
         <div class="row section-padding padding-top padding-bottom pl-0 pr-0">
             <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center pt-0">
-                <div class="banner-container">
-                    <img src="img/Product/Stamping/img_customer.png" alt="customer" class="img-fluid" style="object-position: right center;">
-                </div>
+                <img src="img/Product/Stamping/img_customer.png" alt="customer" class="img-fluid">
             </div>
 
             <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center px-sm-5 pb-0">
