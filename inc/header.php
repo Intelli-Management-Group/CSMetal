@@ -11,7 +11,7 @@
             }
 
             .logo {
-                padding: 10px 30px;
+                padding: 10px 25px;
             }
 
             .logo img {
@@ -203,77 +203,73 @@
         <!-- mobile nav -->
         <div class="mobile-nav bottom-border">
             <nav class="navbar navbar-expand-xl navbar-light bg-white">
-                <a href="./index.php" class="logo">
-                    <img src="img/Generic/logo_emblem.png" alt="Logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                                Company
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="company/about.php">About Us</a>
-                                <a class="dropdown-item" href="company/history.php">History</a>
-                                <a class="dropdown-item" href="company/awards.php">Awards</a>
-                                <a class="dropdown-item" href="company/become-a-customer.php">Become a Customer</a>
-                            </div>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                                Solutions
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="solutions.php">All Solutions</a>
-                                <a class="dropdown-item" href="solutions/inspection.php">Inspection</a>
-                                <a class="dropdown-item" href="solutions/machine.php">Machines</a>
-                                <a class="dropdown-item" href="solutions/testing.php">Testing</a>
-                            </div>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                                Products
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="products.php">All Products</a>
-                                <a class="dropdown-item" href="products/stamping-parts.php">Stamping Parts</a>
-                                <a class="dropdown-item" href="products/handles.php">Handles</a>
-                                <a class="dropdown-item" href="products/die-cast.php">Die Cast</a>
-                                <a class="dropdown-item" href="products/manifold.php">Manifold</a>
-                                <a class="dropdown-item" href="products/advertising.php">Advertising Fixtures & OEM Products</a>
-                            </div>
-                        </li>
-
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                            Facilities
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Assembly Department</a>
-                                <a class="dropdown-item" href="#">Cargo Loading</a>
-                                <a class="dropdown-item" href="#">Dust-free Stamping Area</a>
-                                <a class="dropdown-item" href="#">Engineering Course Tooling Room</a>
-                                <a class="dropdown-item" href="#">Laboratory</a>
-                                <a class="dropdown-item" href="#">Measuring Chamber</a>
-                                <a class="dropdown-item" href="#">Polishing Area</a>
-                                <a class="dropdown-item" href="#">Stamping Area</a>
-                            </div>
-                        </li> -->
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.php">Contact Us</a>
-                        </li>
-                    </ul>
+                <div class="container">
+                    <a href="./index.php" class="logo">
+                        <img src="img/Generic/logo_emblem.png" alt="Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    Company
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="company/about.php">About Us</a>
+                                    <a class="dropdown-item" href="company/history.php">History</a>
+                                    <a class="dropdown-item" href="company/awards.php">Awards</a>
+                                    <a class="dropdown-item" href="company/become-a-customer.php">Become a Customer</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    Solutions
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="solutions.php">All Solutions</a>
+                                    <a class="dropdown-item" href="solutions/inspection.php">Inspection</a>
+                                    <a class="dropdown-item" href="solutions/machine.php">Machines</a>
+                                    <a class="dropdown-item" href="solutions/testing.php">Testing</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    Products
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="products.php">All Products</a>
+                                    <a class="dropdown-item" href="products/stamping-parts.php">Stamping Parts</a>
+                                    <a class="dropdown-item" href="products/handles.php">Handles</a>
+                                    <a class="dropdown-item" href="products/die-cast.php">Die Cast</a>
+                                    <a class="dropdown-item" href="products/manifold.php">Manifold</a>
+                                    <a class="dropdown-item" href="products/advertising.php">Advertising Fixtures & OEM Products</a>
+                                </div>
+                            </li>
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Facilities
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Assembly Department</a>
+                                    <a class="dropdown-item" href="#">Cargo Loading</a>
+                                    <a class="dropdown-item" href="#">Dust-free Stamping Area</a>
+                                    <a class="dropdown-item" href="#">Engineering Course Tooling Room</a>
+                                    <a class="dropdown-item" href="#">Laboratory</a>
+                                    <a class="dropdown-item" href="#">Measuring Chamber</a>
+                                    <a class="dropdown-item" href="#">Polishing Area</a>
+                                    <a class="dropdown-item" href="#">Stamping Area</a>
+                                </div>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.php">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </div>

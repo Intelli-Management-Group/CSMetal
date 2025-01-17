@@ -100,7 +100,7 @@
             <div class="line line-2-3"></div> -->
             <div class="line line-right"></div>
             <div class="row section-padding">
-                <div class="col-md-8 py-0">
+                <div class="col-12 py-0">
                     <p class= "slash-title" style="margin-bottom: 1rem !important;"><span class="text-color">/ </span>History</p>
                     <div class="title">From Humble Beginnings to Global Leadership</div>
                 </div>
