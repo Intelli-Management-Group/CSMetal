@@ -122,8 +122,8 @@
                             <nav>
                                 <ul class="terms">
                                     <li class="ml-0">© <?php echo Date('Y'); ?> CS Metal</li>
-                                    <li><a href="#">Terms & Conditions</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="terms.php">Terms & Conditions</a></li>
+                                    <li><a href="privacy.php">Privacy Policy</a></li>
                                 </ul>
                             </nav>
                         </div>

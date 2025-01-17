@@ -16,7 +16,7 @@
 
             .logo img {
                 width: auto;
-                max-height: 80px;
+                max-height: 50px;
             }
 
             nav {
@@ -188,7 +188,7 @@
                 </a>
                 <nav>
                 <!-- center align the nav -->
-                    <ul class="nav-links" style="height: 100px;">
+                    <ul class="nav-links" style="height: 80px;">
                         <li><a href="./index.php" class="first-nav active">HOME</a></li>
                         <li id="company-link"><a href="company/about.php" class="first-nav">COMPANY</a></li>
                         <li id="solutions-link"><a href="solutions.php" class="first-nav">SOLUTIONS</a></li>
