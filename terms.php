@@ -7,6 +7,11 @@
         .title{
             margin-bottom: 8px;
         }
+        
+        .col-lg-10 ul li{
+            color: #444 !important;
+            font-weight: 300 !important;
+        }
     </style>
 </head>
 
@@ -18,7 +23,7 @@
         <div class="line line-right"></div>
         
         <div class="row section-padding">
-            <div class="col-12">
+            <div class="col-12 col-lg-10 mx-auto">
                 <div class="title mb-0">Terms of Use</div>
             </div>
         </div>
@@ -29,7 +34,7 @@
         <div class="line line-right"></div>
         
         <div class="row section-padding">
-            <div class="col-12">
+            <div class="col-12 col-lg-10 mx-auto">
                 <div class="title">Introduction</div>
                 <p>CS Metal operates this website to provide online access to information about CS Metal and the products, services, and opportunities we provide (the “Website”).</p>
                 <p>Please read the terms and conditions set forth herein (the “Terms of Use”) carefully before using the Website.</p>
@@ -67,12 +72,9 @@
                 
                 <div class="title">Compliance with Law</div>
                 <p>You agree to use the Website in strict compliance with all applicable laws, rulings, and regulations and in a fashion that does not, in the sole judgment of CS Metal, negatively reflect on the goodwill or reputation of CS Metal and shall take no actions which would cause CS Metal to be in violation of any laws, rulings, or regulations applicable to CS Metal.</p>
-                <!-- <div class="title">Indemnity</div>
-                <p>You agree at all times to indemnify, defend and hold harmless CS Metal, its agents, affiliates, and their respective directors and employees against all actions, proceedings, costs, claims, damages, demands, liabilities, and expenses whatsoever sustained, incurred, or paid by CS Metal directly or indirectly in respect of:</p>
-                <ol>
-                    <li>Any information or other content you provide on or through this Website.</li>
-                    <li>Your use or misuse of the content of this Website, including without limitation infringement claims.</li>
-                </ol> -->
+
+                <div class="title">Indemnity</div>
+                <p>You agree at all times to indemnify, defend and hold harmless CS Metal, its agents, affiliates, and their respective directors and employees against all actions, proceedings, costs, claims, damages, demands, liabilities, and expenses whatsoever sustained, incurred, or paid by CS Metal directly or indirectly in respect of (i) any information or other content you provide on or through this Website and (ii) your use or misuse of the content of this Website, including without limitation infringement claims.</p>
                 
                 <div class="title">Links</div>
                 <p>Links to this Website are allowed, provided that CS Metal is informed prior to the publication of the link and that CS Metal has given its prior written consent: <a href="mailto:contact@csmetal.com">contact@csmetal.com</a>. CS Metal reserves the right to withdraw this permission in the future. By receiving information about such links, CS Metal makes no judgment or warranty with respect to the Websites providing such links and CS Metal takes no responsibility for these Websites.</p>

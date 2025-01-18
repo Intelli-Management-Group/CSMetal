@@ -48,6 +48,10 @@
                 /* padding: 5px 10px; */
             }
 
+            .terms li:nth-child(1) a {
+                font-size: 1rem !important;
+                font-weight: 400 !important;
+            }
 
             .terms li:nth-child(2) {
                 padding-left: 25px;
@@ -121,8 +125,8 @@
                         <div class="col-12 p-sm-0 py-0">
                             <nav>
                                 <ul class="terms">
-                                    <li class="ml-0">© <?php echo Date('Y'); ?> CS Metal</li>
-                                    <li><a href="terms.php">Terms & Conditions</a></li>
+                                    <li class="ml-0">© <?php echo Date('Y'); ?> <a href="index.php">CS Metal</a></li>
+                                    <li><a href="terms.php">Terms of Use</a></li>
                                     <li><a href="privacy.php">Privacy Policy</a></li>
                                 </ul>
                             </nav>
