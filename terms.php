@@ -12,6 +12,10 @@
             color: #444 !important;
             font-weight: 300 !important;
         }
+
+        .highlight {
+            background-color: yellow;
+        }
     </style>
 </head>
 
@@ -42,15 +46,15 @@
                 
                 <div class="title">Scope</div>
                 <p>These Terms of Use are an agreement between you and/or the entity you are authorized to represent with CS Metal and shall govern your use of the Website and all applications, software, and services available via the Website. All the materials contained in the Website are provided for informational purposes only and shall not be construed as a commercial offer, a license, an advisory, fiduciary, or professional relationship between you and CS Metal or its affiliates. No information provided on this Website shall be considered a substitute for your independent investigation.</p>
-                <p>To the extent that any of our web pages or applications accessible through the URL <a href="http://corporate.csmetal.com">http://corporate.csmetal.com</a> are ruled by additional or different practices or policies, these practices or policies will be accessible on that page.</p>
+                <p>To the extent that any of our web pages or applications accessible through the URL <a href="https://www.csmetal-int.com"><span class="highlight">https://www.csmetal-int.com</span></a> are ruled by additional or different practices or policies, these practices or policies will be accessible on that page.</p>
                 
                 <div class="title">Modifications</div>
                 <p>CS Metal reserves the right to modify or update the Terms of Use at its sole discretion, at any time and without prior announcement. You are responsible for informing yourself of the Terms of Use in force at the time of use of this Website. Your continued usage of the Website following the posting of changes to these Terms of Use will mean you accept those changes.</p>
                 
                 <div class="title">Intellectual Property Rights</div>
                 <p>Any and all intellectual property rights associated with the Website and its contents (including, but not limited to: text, graphic images, audio, video, HTML code, buttons, trademarks, software, logos) are the sole property of CS Metal or its affiliates, unless otherwise clearly indicated or in any other way perceivable as third-party rights.</p>
-                <p>The above-mentioned content may not be sold, distributed, transmitted, copied, modified, or decompiled, in any way, without the prior written consent of CS Metal. Any unauthorized use of the content is expressly prohibited and may constitute a violation of copyright law, trademark law, patent law, or other industrial property rights.</p>
-                <p>You may only download, display, and print one copy of the Website on your personal computer for private and non-commercial purposes and/or purposes allowed by the applicable law. Any other use or modification of the content of CS Metal’s Website without CS Metal’s prior written authorization is prohibited.</p>
+                <p>The above-mentioned content may not be sold, distributed, transmitted, copied, modified, or decompiled, in any way, <span class="highlight">without the prior written consent of CS Metal</span>. Any unauthorized use of the content is expressly prohibited and may constitute a violation of copyright law, trademark law, patent law, or other industrial property rights.</p>
+                <p><span class="highlight">You may only download, display, and print one copy of the Website on your personal computer for private and non-commercial purposes and/or purposes allowed by the applicable law. Any other use or modification of the content of CS Metal’s Website without CS Metal’s prior written authorization is prohibited.</span></p>
                 
                 <div class="title">Restrictions of Use of the Website</div>
                 <ul>
@@ -77,11 +81,11 @@
                 <p>You agree at all times to indemnify, defend and hold harmless CS Metal, its agents, affiliates, and their respective directors and employees against all actions, proceedings, costs, claims, damages, demands, liabilities, and expenses whatsoever sustained, incurred, or paid by CS Metal directly or indirectly in respect of (i) any information or other content you provide on or through this Website and (ii) your use or misuse of the content of this Website, including without limitation infringement claims.</p>
                 
                 <div class="title">Links</div>
-                <p>Links to this Website are allowed, provided that CS Metal is informed prior to the publication of the link and that CS Metal has given its prior written consent: <a href="mailto:contact@csmetal.com">contact@csmetal.com</a>. CS Metal reserves the right to withdraw this permission in the future. By receiving information about such links, CS Metal makes no judgment or warranty with respect to the Websites providing such links and CS Metal takes no responsibility for these Websites.</p>
+                <p>Links to this Website are allowed, provided that CS Metal is informed prior to the publication of the link and that CS Metal has given its prior written consent: <a href="mailto:contact@csmetal-int.com"><span class="highlight">contact@csmetal-int.com</span></a>. CS Metal reserves the right to withdraw this permission in the future. By receiving information about such links, CS Metal makes no judgment or warranty with respect to the Websites providing such links and CS Metal takes no responsibility for these Websites.</p>
                 <p>This Website may contain links to Websites not operated, controlled, or supervised by CS Metal. These links are provided solely as a convenience for you. If you follow these links, you’ll leave the Website, and will be subject to the terms of use and privacy policy applicable to those websites. By providing such links, CS Metal makes no judgment or warranty with respect to the websites accessible through the links and CS Metal takes no responsibility for these websites. Neither does CS Metal accept any responsibility for the availability or the contents of such websites or any liability for damage resulting from the use of such contents, of whatever form.</p>
                 
                 <div class="title">Applicable Law - Severability</div>
-                <p>Any legal claims or lawsuits concerning this Website or its use shall be governed by the laws of Hong Kong. The courts in Hong Kong shall have exclusive jurisdiction.</p>
+                <p>Any legal claims or lawsuits concerning this Website or its use shall be governed by the laws of <span class="highlight">Hong Kong</span>. The courts in <span class="highlight">Hong Kong</span> shall have exclusive jurisdiction.</p>
                 <p>If any provision of these Terms of Use is held by a court to be illegal, invalid, or unenforceable, the remaining provisions shall remain in full force and effect.</p>
             </div>
         </div>
