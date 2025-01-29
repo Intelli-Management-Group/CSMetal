@@ -10,52 +10,115 @@ window.addEventListener('scroll', function() {
     });
 });
 
-//move up items when srolling
-if (window.innerWidth >= 768) {
-    window.addEventListener('scroll', function() {
-        const productSections = document.querySelectorAll('.scroll2moveup');
-        const scrollY = window.scrollY;
-        productSections.forEach(product => {
-            const movement = scrollY * 0.05;
-            product.style.transform = `translateY(-${movement}px)`;
+//move up items when scrolling
+// if (window.innerWidth >= 768) {
+//     window.addEventListener('scroll', function() {
+//         const productSections = document.querySelectorAll('.scroll2moveup');
+//         const scrollY = window.scrollY;
+//         productSections.forEach(product => {
+//             const movement = scrollY * 0.05;
+//             product.style.transform = `translateY(-${movement}px)`;
+//         });
+//     });
+// }
+
+// if (window.innerWidth >= 992) {
+//     window.addEventListener('scroll', function() {
+//         const productSections = document.querySelectorAll('.scroll2moveup-lg');
+//         const scrollY = window.scrollY;
+//         productSections.forEach(product => {
+//             const movement = scrollY * 0.05;
+//             product.style.transform = `translateY(-${movement}px)`;
+//         });
+//     });
+// }
+
+
+// //move down items when scrolling
+// if (window.innerWidth >= 768) {
+//     window.addEventListener('scroll', function() {
+//         const productSections = document.querySelectorAll('.scroll2movedown');
+//         const scrollY = window.scrollY;
+//         productSections.forEach(product => {
+//             const movement = scrollY * 0.05;
+//             product.style.transform = `translateY(${movement}px)`;
+//         });
+//     });
+// }
+
+// if (window.innerWidth >= 992) {
+//     window.addEventListener('scroll', function() {
+//         const productSections = document.querySelectorAll('.scroll2movedown-lg');
+//         const scrollY = window.scrollY;
+//         productSections.forEach(product => {
+//             const movement = scrollY * 0.05;
+//             product.style.transform = `translateY(${movement}px)`;
+//         });
+//     });
+// }
+
+// Reusable function to handle scroll movement
+
+function handleScrollMovement(selector, direction = 'up') {
+    const elements = document.querySelectorAll(selector);
+    const scrollY = window.scrollY;
+    elements.forEach(element => {
+        const movement = scrollY * 0.05;
+        if (direction === 'up') {
+            element.style.transform = `translateY(-${movement}px)`;
+        } else if (direction === 'down') {
+            element.style.transform = `translateY(${movement}px)`;
+        }
+    });
+}
+
+// Function to handle scroll events
+function handleScroll() {
+    if (window.innerWidth >= 768) {
+        handleScrollMovement('.scroll2moveup', 'up');
+        handleScrollMovement('.scroll2movedown', 'down');
+    }
+    if (window.innerWidth >= 992) {
+        handleScrollMovement('.scroll2moveup-lg', 'up');
+        handleScrollMovement('.scroll2movedown-lg', 'down');
+    }
+}
+
+// Function to add/remove scroll event listener based on window size
+function manageScrollListener() {
+    if (window.innerWidth >= 768) {
+        handleScroll();
+        window.addEventListener('scroll', handleScroll);
+    } else {
+        window.removeEventListener('scroll', handleScroll);
+        resetTransformations(['.scroll2moveup', '.scroll2movedown']);
+    }
+}
+
+function manageScrollListenerLg() {
+    if (window.innerWidth >= 992) {
+        handleScroll();
+        window.addEventListener('scroll', handleScroll);
+    } else {
+        window.removeEventListener('scroll', handleScroll);
+        resetTransformations(['.scroll2moveup-lg', '.scroll2movedown-lg']);
+    }
+}
+
+function resetTransformations(selectors) {
+    selectors.forEach(selector => {
+        const elements = document.querySelectorAll(selector);
+        elements.forEach(element => {
+            element.style.transform = 'translateY(0)';
         });
     });
 }
 
-if (window.innerWidth >= 992) {
-    window.addEventListener('scroll', function() {
-        const productSections = document.querySelectorAll('.scroll2moveup-lg');
-        const scrollY = window.scrollY;
-        productSections.forEach(product => {
-            const movement = scrollY * 0.05;
-            product.style.transform = `translateY(-${movement}px)`;
-        });
-    });
-}
-
-
-//move down items when srolling
-if (window.innerWidth >= 768) {
-    window.addEventListener('scroll', function() {
-        const productSections = document.querySelectorAll('.scroll2movedown');
-        const scrollY = window.scrollY;
-        productSections.forEach(product => {
-            const movement = scrollY * 0.05;
-            product.style.transform = `translateY(${movement}px)`;
-        });
-    });
-}
-
-if (window.innerWidth >= 992) {
-    window.addEventListener('scroll', function() {
-        const productSections = document.querySelectorAll('.scroll2movedown-lg');
-        const scrollY = window.scrollY;
-        productSections.forEach(product => {
-            const movement = scrollY * 0.05;
-            product.style.transform = `translateY(${movement}px)`;
-        });
-    });
-}
+// Initial setup
+manageScrollListener();
+manageScrollListenerLg();
+window.addEventListener('resize', manageScrollListener);
+window.addEventListener('resize', manageScrollListenerLg);
 
 // hover and show the corresponding image
 document.addEventListener("DOMContentLoaded", function() {
