@@ -33,24 +33,12 @@
         <?php include '../inc/header.php'; ?>
         
         <div class="container">
-            <div class="line line-left"></div>
-            <!-- <div class="line line-1-3"></div>
-            <div class="line line-2-3"></div> -->
-            <div class="line line-right"></div>
             <div class="row section-padding awards-section-padding">
                 <div class="col-12 py-0">
                     <p class="slash-title"><span class="text-color">/ </span>Awards</p>
                     <div class="title">Celebrating Excellence with Industry Leading Awards </div>
                 </div>
             </div>
-            <!-- <div class="row">
-                <a class="col-md-4 image-button scroll2intro" href="#intro" style="top:100%">
-                    <div class="d-flex justify-content-between w-100">
-                        <div class="mb-0 button">FIND OUT MORE</div>
-                        <div class="mb-0 button">↘</div>
-                    </div>
-                </a>
-            </div> -->
         </div>
 
         <!-- banner -->

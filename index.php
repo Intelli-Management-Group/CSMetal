@@ -6,24 +6,12 @@
     <body>
         <?php include 'inc/header.php'; ?>
         <div class="container">
-            <div class="line line-left"></div>
-            <!-- <div class="line line-1-3"></div>
-            <div class="line line-2-3"></div> -->
-            <div class="line line-right"></div>
             <div class="row section-padding">
                 <div class="col-12 py-0">
                     <p class= "slash-title"><span class="text-color">/ </span>Established in 1981</p>
                     <div class="home-title">Crafting the Future with Precision</div>
                 </div>
             </div>
-            <!-- <div class="row">
-                <a class="col-md-4 image-button" href="company/about.php" style="top:100%">
-                    <div class="d-flex justify-content-between w-100">
-                        <div class="mb-0 button">LEARN MORE</div>
-                        <div class="mb-0 button">→</div>
-                    </div>
-                </a>
-            </div> -->
         </div>
 
         <!-- banner -->
@@ -39,9 +27,6 @@
 
             <!-- Intro Section -->
             <div class="row section-padding padding-top">
-                <!-- <div class="col-sm-12 col-md-4">
-                    <p class="slogan">INNOVATIVE, PRECISION-DRIVEN METAL SOLUTIONS DESIGNED TO ELEVATE INDUSTRIES, ENRICH COMMUNITIES, AND PROTECT THE ENVIRONMENT.</p>
-                </div> -->
                 <div class="col-sm-12 col-md-4 pt-0">
                     <h3 class="mb-0">A Leader in Precision Metal Solutions</h3>
                 </div>
