@@ -1,7 +1,15 @@
+<?php
+$config = [
+    'base_url' => ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_ADDR'] == '192.168.0.47')
+        ? 'https://192.168.0.47/csmetal/' 
+        : 'https://csmetal.intelligrp.com/'
+];
+?>
+
 <meta charset="utf-8">
 <title>CS Metal</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<base href="http://192.168.0.47/csmetal/">
+<base href="<?php echo $config['base_url']; ?>">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/responsive.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
