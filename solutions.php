@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <?php include 'inc/HTMLhead.php'; ?>
+        <title>Solutions - CS Metal</title>
     </head>
     <body>
         <?php include 'inc/header.php'; ?>

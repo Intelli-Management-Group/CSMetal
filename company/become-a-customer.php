@@ -15,6 +15,7 @@
             }
         ?>
         <?php include '../inc/header.php'; ?>
+        <title>Become a Customer - CS Metal</title>
 
         <div class="container bottom-border">
             <div class="line line-left"></div>

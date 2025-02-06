@@ -3,6 +3,7 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
+    <title>Stamping Parts - CS Metal</title>
 </head>
 
 <body>

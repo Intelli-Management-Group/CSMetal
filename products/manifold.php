@@ -3,6 +3,7 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
+    <title>Manifold - CS Metal</title>
     <!-- <style>
         .carousel-control-next,
         .carousel-control-prev ,

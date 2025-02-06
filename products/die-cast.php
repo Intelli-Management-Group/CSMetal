@@ -3,6 +3,7 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
+    <title>Die Cast - CS Metal</title>
     <style>
         .products-image {
             padding-bottom: 25px !important;

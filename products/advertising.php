@@ -3,24 +3,7 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <!-- <style>
-        .grid-container {
-            display: grid;
-            grid-template-columns: 1fr 1fr; /* 2 equal columns */
-            gap: 10px; /* Adjust spacing between rows and columns */
-        }
-
-        .grid-item {
-            background-color: transparent;
-            padding: 10px;
-            color: white;
-            display: flex;
-            align-items: top;
-            justify-content: flex-start;
-            min-height: 50px; /* Ensure all grid items have at least the same height */
-            text-align: left;
-        }
-    </style> -->
+    <title>Advertising Fixtures & OEM Products - CS Metal</title>
 </head>
 
 <body>

@@ -3,6 +3,7 @@
 
 <head>
     <?php include 'inc/HTMLhead.php'; ?>
+    <title>Terms of Use - CS Metal</title>
     <style>
         .title{
             margin-bottom: 8px;

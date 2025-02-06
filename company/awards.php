@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <?php include '../inc/HTMLhead.php'; ?>
+        <title>Awards - CS Metal</title>
         <style>
             .company {
                 font-size: 16px;

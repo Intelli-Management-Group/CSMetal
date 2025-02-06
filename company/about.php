@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <?php include '../inc/HTMLhead.php'; ?>
+        <title>About - CS Metal</title>
         <style>
             .solution-wrap {
                 padding: 25px 50px !important;

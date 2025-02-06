@@ -3,6 +3,7 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
+    <title>Testing - CS Metal</title>
 </head>
 
 <body>

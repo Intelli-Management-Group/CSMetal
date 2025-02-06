@@ -7,7 +7,6 @@ $config = [
 ?>
 
 <meta charset="utf-8">
-<title>CS Metal</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <base href="<?php echo $config['base_url']; ?>">
 <link rel="stylesheet" href="css/style.css">

@@ -3,6 +3,7 @@
 
     <head>
         <?php include '../inc/HTMLhead.php'; ?>
+        <title>History - CS Metal</title>
         <style>
             div hr {
                 border: none !important;
