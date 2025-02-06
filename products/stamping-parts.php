@@ -3,7 +3,8 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>Stamping Parts - CS Metal</title>
+    <title>CS Metal Stamping Parts – Durable Hinges, Wire Mesh & More</title>
+    <meta name="description" content="CS Metal engineers precision stamping parts: hinges, brackets, cooktops, vent trims & wire mesh. Built for durability across industries. Partner with experts.">
 </head>
 
 <body>
@@ -12,7 +13,7 @@
     <div class="container">
         <div class="row section-padding">
             <div class="col-12 py-0">
-                <p class="slash-title"><span class="text-color">/ </span>Stamping Parts</p>
+                <h1 class="slash-title"><span class="text-color">/ </span>Stamping Parts</h1>
                 <div class="title">Precision Stamping Solutions for Every Industry, Built to Last!</div>
             </div>
         </div>

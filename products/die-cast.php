@@ -3,7 +3,8 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>Die Cast - CS Metal</title>
+    <title>CS Metal Die Casting – Complex, Durable, Custom Solutions</title>
+    <meta name="description" content="CS Metal engineers high-strength die-cast parts using advanced techniques. From tweezers to custom components, ensure durability & precision. Partner with experts.">
     <style>
         .products-image {
             padding-bottom: 25px !important;
@@ -17,7 +18,7 @@
     <div class="container">
         <div class="row section-padding">
             <div class="col-12 py-0">
-                <p class="slash-title"><span class="text-color">/ </span>Die Cast</p>
+                <h1 class="slash-title"><span class="text-color">/ </span>Die Cast</h1>
                 <div class="title">Precision Die Cast Solutions for Durable Parts!</div>
             </div>
         </div>
@@ -67,7 +68,7 @@
             </div>
 
             <div class="col-6 col-md-4 p-0">
-                <img src="img/Product/Diecast/img_diecast_4.jpg" alt="diecast_4"class="products-image">
+                <img src="img/Product/Diecast/img_diecast_4.jpg" alt="diecast_4" class="products-image">
             </div>
             <div class="col-12 p-0 horizontal-line-md">
                 <hr>

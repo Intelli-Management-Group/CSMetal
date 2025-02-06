@@ -3,7 +3,8 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>Advertising Fixtures & OEM Products - CS Metal</title>
+    <title>CS Metal | Custom OEM Products & Brand Fixtures | Since 1981</title>
+    <meta name="description" content="CS Metal designs custom OEM products and advertising fixtures for brands like Dior & Hermès. Enhance your brand with custom solutions. Partner with experts.">
 </head>
 
 <body>
@@ -12,7 +13,7 @@
     <div class="container">
         <div class="row section-padding">
             <div class="col-12 py-0">
-                <p class="slash-title"><span class="text-color">/ </span>Advertising Fixtures & OEM Products</p>
+                <h1 class="slash-title"><span class="text-color">/ </span>Advertising Fixtures & OEM Products</h1>
                 <div class="title">Custom Fixtures & OEM Products that Elevate Brands!</div>
             </div>
         </div>

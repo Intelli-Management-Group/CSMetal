@@ -3,7 +3,8 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>Manifold - CS Metal</title>
+    <title>CS Metal | Custom High-Pressure Manifolds for superior performance</title>
+    <meta name="description" content="CS Metal engineers custom manifolds for high-pressure systems, delivering durability & efficiency. Tailored to your specifications – partner with experts.">
     <!-- <style>
         .carousel-control-next,
         .carousel-control-prev ,
@@ -11,8 +12,8 @@
             filter: invert(100%);
         }
     </style> -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <style>
         /* Container styling */
         .slick-container {
@@ -30,7 +31,8 @@
         }
 
         /* Position navigation arrows inside the images */
-        .slick-prev, .slick-next {
+        .slick-prev,
+        .slick-next {
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
@@ -47,9 +49,12 @@
             right: 10px;
         }
 
-        .slick-prev:before, .slick-next:before {
-            color: #0c73b2; /* Set your desired color */
-            font-size: 24px; /* Adjust the size if needed */
+        .slick-prev:before,
+        .slick-next:before {
+            color: #0c73b2;
+            /* Set your desired color */
+            font-size: 24px;
+            /* Adjust the size if needed */
         }
 
         /* Position the dots (pagination) inside the images */
@@ -80,7 +85,7 @@
     <div class="container">
         <div class="row section-padding">
             <div class="col-12 py-0">
-                <p class="slash-title"><span class="text-color">/ </span>Manifold</p>
+                <h1 class="slash-title"><span class="text-color">/ </span>Manifold</h1>
                 <div class="title">Custom Manifolds for Superior Performance!</div>
             </div>
         </div>
@@ -143,14 +148,14 @@
 
     <!-- Initialize Slick Carousel -->
     <script>
-        $(document).ready(function(){
+        $(document).ready(function() {
             $('.slick-container').slick({
-                dots: true,                // Enable dot indicators
-                infinite: true,            // Loop through slides infinitely
-                speed: 500,                // Speed of slide transition
-                slidesToShow: 1,           // Show one slide at a time
-                slidesToScroll: 1,         // Scroll one slide at a time
-                arrows: false,             // Enable left and right arrows
+                dots: true, // Enable dot indicators
+                infinite: true, // Loop through slides infinitely
+                speed: 500, // Speed of slide transition
+                slidesToShow: 1, // Show one slide at a time
+                slidesToScroll: 1, // Scroll one slide at a time
+                arrows: false, // Enable left and right arrows
             });
         });
     </script>

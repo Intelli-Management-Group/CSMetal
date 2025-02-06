@@ -3,7 +3,8 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>Handles - CS Metal</title>
+    <title>CS Metal | Custom Metal Handles – Hydro-form, Tubular & Finishes</title>
+    <meta name="description" content="Engineered for durability, CS Metal’s handles offer hydroforming, standoff, and premium finishes. Trusted by global brands – request a custom solution today.">
 </head>
 
 <body>
@@ -12,7 +13,7 @@
     <div class="container">
         <div class="row section-padding">
             <div class="col-12 py-0">
-                <p class="slash-title"><span class="text-color">/ </span>Handles</p>
+                <h1 class="slash-title"><span class="text-color">/ </span>Handles</h1>
                 <div class="title">Engineered Handles for Stability and Style, Tailored to Your Needs!</div>
             </div>
         </div>
@@ -45,7 +46,7 @@
 
         <div class="row section-padding py-0">
             <div class="col-6 col-md-4 p-0">
-            <img src="img/Product/Handle/img_handle_tubular.jpg" alt="tubular" class="products-image">
+                <img src="img/Product/Handle/img_handle_tubular.jpg" alt="tubular" class="products-image">
                 <p class="product-name">Tubular Handles</p>
             </div>
             <div class="col-6 col-md-4 p-0">

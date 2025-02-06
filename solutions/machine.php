@@ -3,7 +3,8 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>Machine - CS Metal</title>
+    <title>CS Metal | Advanced Metal Fabrication Machines & Solutions</title>
+    <meta name="description" content="CS Metal's fabrication machines: AI-driven tube forming, 600T stamping presses, CNC lathes. Achieve <100 PPM defects & high efficiency. Get a quote!">
 </head>
 
 <body>
@@ -12,7 +13,7 @@
     <div class="container">
         <div class="row section-padding">
             <div class="col-md-8 py-0">
-                <p class="slash-title"><span class="text-color">/ </span>Solutions</p>
+                <h1 class="slash-title"><span class="text-color">/ </span>Solutions</h1>
                 <div class="title">Machines</div>
             </div>
         </div>
@@ -125,7 +126,7 @@
             </div>
 
             <div class="banner-container">
-                <img src="img/Solution/machine/img_machine_3.jpg" alt="LG 1370" class="banner"  style="object-position: right center;">
+                <img src="img/Solution/machine/img_machine_3.jpg" alt="LG 1370" class="banner" style="object-position: right center;">
             </div>
         </div>
 

@@ -3,7 +3,8 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>Testing - CS Metal</title>
+    <title>CS Metal | Metal Fabrication Testing & Quality Assurance</title>
+    <meta name="description" content="Trust CS Metal’s rigorous testing for metal fabrication: hardness validation, force tests, and transit simulations. Ensure compliance and customer satisfaction. Learn more.">
 </head>
 
 <body>
@@ -12,7 +13,7 @@
     <div class="container">
         <div class="row section-padding">
             <div class="col-md-8 py-0">
-                <p class="slash-title"><span class="text-color">/ </span>Solutions</p>
+                <h1 class="slash-title"><span class="text-color">/ </span>Solutions</h1>
                 <div class="title">Testing</div>
             </div>
         </div>
@@ -82,7 +83,7 @@
                     <div class="push-pull-container">
                         <div class="title pb-3">Push-Pull Force Test</div>
                         <p>Introducing our advanced Push-Pull Force Test Machine, specifically designed to evaluate the attachment strength of mating components across various metal manufacturing processes. This machine is essential for assessing the reliability of connections made through riveting, press fitting, or welding, ensuring that every joint meets stringent quality standards.</p>
-                        <p>Our engineering design and process could make attachments exceed 1500 lbs of push force, providing solutions for parts that need strong attachment and heavy loading requirements. By applying controlled force, it effectively  measures how these connections perform under stress, helping manufacturers identify potential weaknesses and improve their processes.</p>
+                        <p>Our engineering design and process could make attachments exceed 1500 lbs of push force, providing solutions for parts that need strong attachment and heavy loading requirements. By applying controlled force, it effectively measures how these connections perform under stress, helping manufacturers identify potential weaknesses and improve their processes.</p>
                         <p class="mb-0">With its user-friendly interface and precise measurement capabilities, the Push-Pull Force Test Machine provides digital reports, enabling engineers to make informed decisions regarding design and manufacturing practices.</p>
                         <!-- <p>Investing in this testing solution ensures that your components maintain high reliability and performance, ultimately enhancing product quality and customer satisfaction. Experience the benefits of our Push-Pull Force Test Machine and secure the integrity of your manufacturing processes today!</p> -->
                     </div>

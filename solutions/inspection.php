@@ -3,7 +3,8 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>Inspection - CS Metal</title>
+    <title>CS Metal Quality Assurance | 3D Scanning & QC Testing</title>
+    <meta name="description" content="CS Metal ensures precision in metal fabrication with advanced inspection tech like GOM Scan & Spectralight QC. Production with color accuracy, and compliance.">
 </head>
 
 <body>
@@ -12,7 +13,7 @@
     <div class="container">
         <div class="row section-padding">
             <div class="col-md-8 py-0">
-                <p class="slash-title"><span class="text-color">/ </span>Solutions</p>
+                <h1 class="slash-title"><span class="text-color">/ </span>Solutions</h1>
                 <div class="title">Inspection</div>
             </div>
         </div>
