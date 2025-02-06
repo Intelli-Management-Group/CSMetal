@@ -58,7 +58,6 @@ window.addEventListener('scroll', function() {
 // }
 
 // Reusable function to handle scroll movement
-
 function handleScrollMovement(selector, direction = 'up') {
     const elements = document.querySelectorAll(selector);
     const scrollY = window.scrollY;
@@ -100,7 +99,7 @@ function manageScrollListenerLg() {
         handleScroll();
         window.addEventListener('scroll', handleScroll);
     } else {
-        window.removeEventListener('scroll', handleScroll);
+        //window.removeEventListener('scroll', handleScroll);
         resetTransformations(['.scroll2moveup-lg', '.scroll2movedown-lg']);
     }
 }
