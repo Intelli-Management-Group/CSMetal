@@ -144,7 +144,7 @@
     </div>
 
     <!-- Core Values -->
-    <div class="container bottom-border">
+    <div class="container bottom-border" id="core-values">
         <div class="line line-left"></div>
         <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>
@@ -156,23 +156,20 @@
             </div>
         </div>
         <div class="row section-padding padding-bottom">
-            <div class="col-sm-12 col-md-4 pt-0">
-                <!-- <i class="fa-regular fa-lightbulb fa-icon"></i> -->
+            <div class="col-sm-12 col-md-4 d-flex flex-column">
                 <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
                 <h5>Innovation</h5>
-                <p class="mb-0">Embracing cutting-edge technology, we deliver innovative solutions that set industry standards.</p>
+                <p class="mb-0 mt-auto">Embracing cutting-edge technology, we deliver innovative solutions that set industry standards.</p>
             </div>
-            <div class="col-sm-12 col-md-4">
-                <!-- <i class="fa-solid fa-check-circle fa-icon"></i> -->
+            <div class="col-sm-12 col-md-4 d-flex flex-column">
                 <img src="img/Company/About/icon_quality.svg" alt="quality" class="icon">
                 <h5>Quality Excellence</h5>
-                <p class="mb-0">Through numerous tests, our products meet the highest standards in metal manufacturing. </p>
+                <p class="mb-0 mt-auto">Through numerous tests, our products meet the highest standards in metal manufacturing.</p>
             </div>
-            <div class="col-sm-12 col-md-4 pb-0">
-                <!-- <i class="fa-regular fa-handshake fa-icon"></i> -->
+            <div class="col-sm-12 col-md-4 d-flex flex-column">
                 <img src="img/Company/About/icon_customer.svg" alt="customer" class="icon">
                 <h5>Customer Centred Approach</h5>
-                <p class="mb-0">We build lasting partnerships, tailoring our solutions to your unique needs. </p>
+                <p class="mb-0 mt-auto">We build lasting partnerships, tailoring our solutions to your unique needs.</p>
             </div>
         </div>
     </div>
@@ -236,8 +233,8 @@
         </div>
     </div> -->
 
-    <!-- Founder -->
-    <div class="container top-border">
+    <!-- Mission Vision -->
+    <div class="container" id="locations">
         <div class="line line-left"></div>
         <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>

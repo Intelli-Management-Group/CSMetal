@@ -142,7 +142,7 @@
     </div>
 
     <!-- Quality Management System -->
-    <div class="container top-border">
+    <div class="container top-border" id="qms">
         <div class="line line-left"></div>
         <div class="line line-right"></div>
         <div class="text-center">

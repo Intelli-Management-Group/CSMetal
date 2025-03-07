@@ -459,23 +459,11 @@ h3 {
 
 .product-wrap {
     padding: 0 50px;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
 }
 
 .product-image-wrap {
     position: relative;
     display: inline-block;
-    flex-shrink: 0;
-}
-
-.product-wrap .underline-link {
-    width: fit-content;
-}
-
-.product-wrap .underline-link {
-    margin-top: auto;
 }
 
 .image-arrow {
@@ -1098,4 +1086,24 @@ hr {
     padding: 0 50px;
     /* justify-content: space-between;
     height: 100%; */
+}
+
+.our-edge-wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.our-edge-image-wrap {
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.our-edge-wrap .underline-link {
+    width: fit-content;
+}
+
+.our-edge-wrap .underline-link {
+    margin-top: auto;
 }

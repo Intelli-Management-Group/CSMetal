@@ -70,14 +70,14 @@
         <div class="line line-right"></div>
         <div class="row section-padding padding-top pb-0">
             <div class="col-sm-12 col-md-4 py-0">
-                <div class="product-wrap">
+                <div class="our-edge-wrap">
                     <div class="title pb-3 mt-n3">Unique selling points</div>
                 </div>
             </div>
         </div>
         <div class="row section-padding pt-3">
             <div class="col-sm-12 col-md-4">
-                <div class="product-wrap">
+                <div class="our-edge-wrap">
                     <div class="product-image-wrap">
                         <img src="img/Home/product_1.jpg" alt="production technology" class="img-fluid">
                     </div>
@@ -88,7 +88,7 @@
             </div>
 
             <div class="col-sm-12 col-md-4">
-                <div class="product-wrap">
+                <div class="our-edge-wrap">
                     <div class="product-image-wrap">
                         <img src="img/Home/product_1.jpg" alt="fully equipped lab" class="img-fluid">
                     </div>
@@ -99,7 +99,7 @@
             </div>
 
             <div class="col-sm-12 col-md-4">
-                <div class="product-wrap">
+                <div class="our-edge-wrap">
                     <div class="product-image-wrap">
                         <img src="img/Home/product_1.jpg" alt="molds production" class="img-fluid">
                     </div>
@@ -122,25 +122,61 @@
                 <div class="title pb-3 mt-n3">What Sets Us Apart</div>
             </div>
         </div>
-        <div class="row section-padding padding-bottom">
-            <div class="col-sm-12 col-md-4 pt-0">
-                <!-- <i class="fa-regular fa-lightbulb fa-icon"></i> -->
-                <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
-                <h5>Project Management</h5>
-                <p>At CS Metal, project management is the cornerstone of our success. Guided by our core values—Innovation, Quality Excellence, and a Customer-Centered Approach—our project team is both supportive and flexible, ensuring your needs are met with precision and care.</p>
-                <a href="" class="underline-link">Explore Our Core Values &nbsp;&nbsp; →</a>
-            </div>
+        <div class="row section-padding pb-0">
             <div class="col-sm-12 col-md-4">
-                <!-- <i class="fa-solid fa-check-circle fa-icon"></i> -->
-                <img src="img/Company/About/icon_quality.svg" alt="quality" class="icon">
-                <h5>Quality Excellence</h5>
-                <p class="mb-0">Through numerous tests, our products meet the highest standards in metal manufacturing. </p>
+                <div class="our-edge-wrap">
+                    <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
+                    <h5>Project Management</h5>
+                    <p>At CS Metal, project management is the cornerstone of our success. Guided by our core values—Innovation, Quality Excellence, and a Customer-Centered Approach—our project team is both supportive and flexible, ensuring your needs are met with precision and care.</p>
+                    <a href="company/about.php#core-values" class="underline-link">Our Core Values &nbsp;&nbsp; →</a>
+                </div>
             </div>
-            <div class="col-sm-12 col-md-4 pb-0">
-                <!-- <i class="fa-regular fa-handshake fa-icon"></i> -->
-                <img src="img/Company/About/icon_customer.svg" alt="customer" class="icon">
-                <h5>Customer Centred Approach</h5>
-                <p class="mb-0">We build lasting partnerships, tailoring our solutions to your unique needs. </p>
+
+            <div class="col-sm-12 col-md-4">
+                <div class="our-edge-wrap">
+                    <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
+                    <h5>Advanced Management Systems</h5>
+                    <p>Leveraging our cutting-edge Quality Management System (QMS), we deliver products of unmatched quality, achieving a defect rate of just 77 PPM (parts per million) since 2019. This commitment to excellence has earned the trust of global leaders like GE.</p>
+                    <a href="solutions/inspection.php#qms" class="underline-link">Our QMS &nbsp;&nbsp; →</a>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+                <div class="our-edge-wrap">
+                    <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
+                    <h5>Global Service & Vision</h5>
+                    <p>Our reach extends across North America with dedicated sales representatives and warehouse ensuring seamless service and support wherever you are. Together, we’re shaping the future of metal solutions worldwide.</p>
+                    <a href="company/about.php#locations" class="underline-link">Our Global Locations &nbsp;&nbsp; →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row section-padding">
+            <div class="col-sm-12 col-md-4">
+                <div class="our-edge-wrap">
+                    <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
+                    <h5>Expertise in Metal Fabrication</h5>
+                    <p>From innovative in-house design to exceptional OEM solutions, our team brings your unique ideas to life. Whether you’re envisioning something groundbreaking or need a custom solution, we’re here to make it happen. "Turning Your Vision into Reality."</p>
+                    <a href="" class="underline-link">Our R&D &nbsp;&nbsp; →</a>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+                <div class="our-edge-wrap">
+                    <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
+                    <h5>Seamless Integration</h5>
+                    <p>CS Metal collaborates with trusted partners in diverse fields, including plastic, die-cast, plating, painting, and coating, enabling us to handle a wide range of tasks and design requirements. This network ensures we deliver integrated solutions with precision and efficiency, no matter the complexity. </p>
+                    <a href="products.php" class="underline-link">Our Product Capabilities &nbsp;&nbsp; →</a>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+                <div class="our-edge-wrap">
+                    <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
+                    <h5>Continuous Improvement</h5>
+                    <p>We are dedicated to progress, continuously investing in quality control software and process improvements. Looking ahead, we’re planning to implement new technologies and processes to stay at the forefront of the industry. </p>
+                    <a href="" class="underline-link">Our Future Plans &nbsp;&nbsp; →</a>
+                </div>
             </div>
         </div>
     </div>
