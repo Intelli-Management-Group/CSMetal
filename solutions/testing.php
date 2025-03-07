@@ -92,6 +92,28 @@
         </div>
     </div>
 
+    <!-- Finish Testing -->
+    <div class="container">
+        <div class="line line-left"></div>
+        <div class="line line-right"></div>
+        <div class="section-padding-lg push-pull-section pt-0">
+            <div class="row intro-container">
+                <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center py-0">
+                    <div class="push-pull-container">
+                        <div class="title pb-3">Finish Testing</div>
+                        <p>At CS Metal, we prioritize flawless aesthetics and consistency in every product. Using our state-of-the-art Konica Minolta Color Meter, we ensure that color standards are met with unmatched accuracy. This advanced tool measures the color difference between samples and reference chips, guaranteeing precise analysis of crucial factors like L (lightness), a (red-green axis), and b (blue-yellow axis).</p>
+                        <p>Our color measurement process goes beyond surface-level checks, diving deep into color consistency. We meticulously analyze ΔE, the total color difference, to detect even the slightest variations. This approach ensures that every product finish—whether powder-coated, anodized, or plated—complies with strict specifications.</p>
+                        <p class="mb-0">This rigorous process removes any uncertainty, giving you the confidence that your products will consistently uphold brand integrity. Whether in automotive or consumer electronics, our attention to color precision guarantees that your products always maintain their visual appeal, meeting the demands of the highest industries.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 pl-lg-0 d-flex align-items-center justify-content-center pb-0 padding-top-md-50">
+                    <img src="img/Solution/testing/finish-testing.jpg" alt="finish testing" class="image">
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Transportation Compression Test -->
     <div class="black-white-background">
         <div class="container">

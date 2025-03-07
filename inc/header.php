@@ -220,6 +220,7 @@
                                 </a>
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item" href="company/about.php">About Us</a>
+                                    <a class="dropdown-item" href="company/our-edge.php">Our Edge</a>
                                     <a class="dropdown-item" href="company/history.php">History</a>
                                     <a class="dropdown-item" href="company/awards.php">Awards</a>
                                     <a class="dropdown-item" href="company/become-a-customer.php">Become a Customer</a>
@@ -283,7 +284,8 @@
                     </div>
                     <div class="col-md-4 d-flex align-items-center">
                         <ul class="nav-links flex-column align-items-start">
-                            <li><a href="company/about.php">About</a></li>
+                            <li><a href="company/about.php">About Us</a></li>
+                            <li><a href="company/our-edge.php">Our Edge</a></li>
                             <li><a href="company/history.php">History</a></li>
                             <li><a href="company/awards.php">Awards</a></li>
                             <li><a href="company/become-a-customer.php">Become a Customer</a></li>
