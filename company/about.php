@@ -234,153 +234,72 @@
     </div> -->
 
     <!-- Mission Vision -->
-    <div class="container" id="locations">
-        <div class="line line-left"></div>
-        <div class="line line-1-3"></div>
-        <div class="line line-2-3"></div>
-        <div class="line line-right"></div>
-        <div class="row section-padding-lg">
-            <div class="col-sm-12 col-md-4 pt-0">
-                <h3>MISSION</h3>
-                <h3>VISION</h3>
-                <h3 class="mb-0">LOCATIONS</h3>
-            </div>
-            <div class="col-sm-12 col-md-4">
-
-            </div>
-            <div class="col-sm-12 col-md-4 pb-0">
-                <p>Mission: Use the most economic process to achieve excellent product and service satisfaction</p>
-                <p class="mb-0">Vision: CS Metal International Ltd. strives for excellence in metal manufacturing, driven by ambition and innovation. </p>
+    <div class="black-white-background">
+        <div class="container" id="locations">
+            <div class="line line-left grey-border"></div>
+            <div class="line line-1-3 grey-border"></div>
+            <div class="line line-2-3 grey-border"></div>
+            <div class="line line-right grey-border"></div>
+            <div class="row section-padding-lg text-white">
+                <div class="col-sm-12 col-md-4 pt-0">
+                    <div class="title">MISSION & VISION</div>
+                    <!-- <div class="title">Locations</div> -->
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <h5>Mission</h5>
+                    <p class="mb-0">Use the most economic process to achieve excellent product and service satisfaction.</p>
+                </div>
+                <div class="col-sm-12 col-md-4 pb-0">
+                    <h5>Vision</h5>
+                    <p class="mb-0">CS Metal International Ltd. strives for excellence in metal manufacturing, driven by ambition and innovation.</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="banner-container">
-            <img src="img/Company/About/location.jpg" alt="location" class="w-100">
-        </div>
-    </div>
-
-    <div class="container bottom-border">
-        <div class="line line-left"></div>
-        <div class="line line-1-3"></div>
-        <div class="line line-2-3"></div>
-        <div class="line line-right"></div>
-
-        <div class="row section-padding pb-0">
-            <div class="col-sm-12 col-md-4 pt-0">
-                <h3 class="mb-3">Hong Kong (Headquarter)</h3>
-                <div class="customDiv">
-                    <p>
-                    <div class="" target="_blank" rel="noopener">Chi Sing Metal MFY. CO. LTD. <br />
-                        2A/F, Phase 1 <br />
-                        Kingsford Industrial Bldg., <br />
-                        26-32 Kwai Hei St., Kwai Chung <br />
-                        Hong Kong</div>
-                    </p>
-                </div>
-                <div class="customDiv mb-0">
-                    <p class="mb-1">
-                        <a class="address" href="tel:+85226143700" target="_blank" rel="noopener">+852-2614-3700</a>
-                    </p>
-                    <p class="mb-0">
-                        <a class="address" href="mailto:factory@chising.com.hk" target="_blank" rel="noopener">factory@chising.com.hk</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-4 pb-0">
-                <h3 class="mb-3 pt-md-0 pt-3">Dongguan, China (Factory)</h3>
-                <div class="customDiv">
-                    <p>
-                    <div class="" href="#" target="_blank" rel="noopener"> Williamson Metal MFY. CO. LTD. <br />
-                        Shu Xin Village <br />
-                        Changping Town, Dongguan City <br />
-                        Guangdong Province, PR China <br />
-                        523560</div>
-                    </p>
-                </div>
-                <div class="customDiv mb-0">
-                    <p class="mb-1">
-                        <a class="address" href="tel:+8676983391265" target="_blank" rel="noopener">
-                            <!-- <i class="fa-solid fa-phone"></i>  -->
-                            +86-769-83391265
-                        </a>
-                    </p>
-                    <p class="mb-0">
-                        <a class="address" href="mailto:factory@chising.com.hk" target="_blank" rel="noopener">factory@chising.com.hk</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-4 pb-0">
-                <h3 class="mb-3 pt-md-0 pt-3">San Luis Potosi, Mexico (Sales Rep & Warehouse)</h3>
-                <!-- <div class="customDiv">
-                    <p>
-                    <div class="" href="#" target="_blank" rel="noopener"> Williamson Metal MFY. CO. LTD. <br />
-                        Shu Xin Village <br />
-                        Changping Town, Dongguan City <br />
-                        Guangdong Province, PR China <br />
-                        523560</div>
-                    </p>
-                </div>
-                <div class="customDiv mb-0">
-                    <p class="mb-1">
-                        <a class="address" href="tel:+8676983391265" target="_blank" rel="noopener">
-                            +86-769-83391265
-                        </a>
-                    </p>
-                    <p class="mb-0">
-                        <a class="address" href="mailto:factory@chising.com.hk" target="_blank" rel="noopener">factory@chising.com.hk</a>
-                    </p>
-                </div> -->
+        <div class="container">
+            <div class="banner-container">
+                <img src="img/Company/About/location.jpg" alt="location" class="w-100">
             </div>
         </div>
-        <div class="row section-padding">
-            <div class="col-sm-12 col-md-4 pb-0">
-                <h3 class="mb-3 pt-md-0 pt-3">Louisville, KY, USA (Sales Rep & Warehouse)</h3>
-                <!-- <div class="customDiv">
-                        <p>
-                        <div class="" href="#" target="_blank" rel="noopener"> Williamson Metal MFY. CO. LTD. <br />
-                            Shu Xin Village <br />
-                            Changping Town, Dongguan City <br />
-                            Guangdong Province, PR China <br />
-                            523560</div>
-                        </p>
-                    </div>
-                    <div class="customDiv mb-0">
-                        <p class="mb-1">
-                            <a class="address" href="tel:+8676983391265" target="_blank" rel="noopener">
-                                +86-769-83391265
-                            </a>
-                        </p>
-                        <p class="mb-0">
-                            <a class="address" href="mailto:factory@chising.com.hk" target="_blank" rel="noopener">factory@chising.com.hk</a>
-                        </p>
-                    </div> -->
+
+        <div class="container bottom-border">
+            <div class="line line-left"></div>
+            <div class="line line-1-3"></div>
+            <div class="line line-2-3"></div>
+            <div class="line line-right"></div>
+
+            <div class="row section-padding pb-0">
+                <div class="col-md-4 pt-0">
+                    <div class="title">Locations</div>
+                </div>
             </div>
-            <div class="col-sm-12 col-md-4 pb-0">
-                <h3 class="mb-3 pt-md-0 pt-3">Vancouver, BC, Canada (Sales Rep & Warehouse)</h3>
-                <!-- <div class="customDiv">
-                        <p>
-                        <div class="" href="#" target="_blank" rel="noopener"> Williamson Metal MFY. CO. LTD. <br />
-                            Shu Xin Village <br />
-                            Changping Town, Dongguan City <br />
-                            Guangdong Province, PR China <br />
-                            523560</div>
-                        </p>
-                    </div>
-                    <div class="customDiv mb-0">
-                        <p class="mb-1">
-                            <a class="address" href="tel:+8676983391265" target="_blank" rel="noopener">
-                                +86-769-83391265
-                            </a>
-                        </p>
-                        <p class="mb-0">
-                            <a class="address" href="mailto:factory@chising.com.hk" target="_blank" rel="noopener">factory@chising.com.hk</a>
-                        </p>
-                    </div> -->
+
+            <div class="row section-padding">
+                <div class="col-md-4 pt-0">
+                    <h5>Headquarter</h5>
+                    <p class="mb-0">Chi Sing Metal MFY. CO. LTD.<br>Hong Kong</p>
+                </div>
+
+                <div class="col-md-4 pb-0">
+                    <h5>Factory</h5>
+                    <p class="mb-0">Williamson Metal MFY. CO. LTD.<br>Dongguan, China</p>
+                </div>
+
+                <div class="col-md-4 pb-0">
+                    <h5>Sales Rep & Warehouse</h5>
+                    <p class="mb-0">San Luis Potosi, Mexico</p>
+                    <p class="mb-0">Louisville, USA</p>
+                    <p class="mb-0">Vancouver, Canada</p>
+                </div>
             </div>
+            <!-- <div class="row section-padding">
+                <div class="col-md-4 pb-0">
+                    <h3 class="mb-3 pt-md-0 pt-3">Louisville, KY, USA (Sales Rep)</h3>
+                </div>
+                <div class="col-md-4 pb-0">
+                    <h3 class="mb-3 pt-md-0 pt-3">Vancouver, BC, Canada (Sales Rep)</h3>
+                </div>
+            </div> -->
         </div>
     </div>
 

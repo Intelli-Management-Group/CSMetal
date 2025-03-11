@@ -1107,3 +1107,7 @@ hr {
 .our-edge-wrap .underline-link {
     margin-top: auto;
 }
+
+.grey-border {
+    background-color: #4b4b4b;
+}
