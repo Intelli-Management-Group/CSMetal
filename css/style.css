@@ -796,7 +796,7 @@ hr {
 }
 
 .solution-banner-text {
-    padding: 12% 17% 10% 5%;
+    padding: 12% 17% 12% 5%;
     line-height: 1.5;
     font-weight: 300;
     font-size: 20px !important;
@@ -1014,7 +1014,8 @@ hr {
 
 .intro-container {
     background-color: #f7f7f7;
-    position: relative
+    position: relative;
+    min-height: 470px;
 }
 
 .solutions-img1-margin {

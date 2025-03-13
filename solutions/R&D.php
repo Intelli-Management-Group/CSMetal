@@ -133,7 +133,7 @@
                 <div class="title pb-3">What Sets Us Apart</div>
             </div>
         </div>
-        <div class="row section-padding pb-0">
+        <div class="row section-padding padding-bottom">
             <div class="col-sm-12 col-md-4">
                 <div class="our-edge-wrap">
                     <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
@@ -159,8 +159,6 @@
             </div>
         </div>
     </div>
-
-    <div style="height: 1000px;"></div>
 
     <?php include '../inc/footer.php'; ?>
     <script>

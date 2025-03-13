@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="row mx-0 intro-container">
-            <div class="col-md-8 py-0">
+            <div class="col-md-8 py-0 d-flex align-items-center">
                 <h3 class="solution-banner-text mb-0">CS Metal’s comprehensive inspection process integrates advanced technologies to ensure the highest quality standards throughout production. The Gom Scan facilitates early defect detection, while the Inspector CMM provides precise dimensional measurements. The Spectralight QC machine guarantees color consistency, and the QMS software offers real-time tracking and traceability. Together, these innovative tools ensure rigorous quality control from initial inspection to final production, reflecting CS Metal’s unwavering commitment to excellence in manufacturing.</h3>
             </div>
             <div class="col-md-4 py-0">
