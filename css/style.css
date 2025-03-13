@@ -23,6 +23,12 @@ h1 {
     font-weight: 300;
 }
 
+.title-no-transform {
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
 .home-title {
     font-size: 65px;
     text-transform: capitalize;
@@ -1153,4 +1159,9 @@ hr {
 .toggle-content.open {
     max-height: 200px;
     opacity: 1;
+}
+
+.rd-img {
+    max-width: 100%;
+    transition: transform 0.1s linear;
 }

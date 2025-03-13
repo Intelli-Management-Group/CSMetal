@@ -50,7 +50,7 @@
                 <div class="grey-widget-wrap">
                     <p class="slash-title mb-0"><span class="text-color">/ </span>Become a customer</p>
                     <h3 class="grey-widget-text">Choose CS for Fast, </br> High-quality Custom Parts</h3>
-                    <a class="arrow" href="company/become-a-customer.php">→</a>
+                    <a class="arrow" href="company/become-a-customer.php"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
             <div class="col-sm-12 col-md-4 pl-0">

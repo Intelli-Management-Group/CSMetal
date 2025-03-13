@@ -71,7 +71,7 @@
         <div class="row section-padding padding-top pb-0">
             <div class="col-sm-12 col-md-4 py-0">
                 <div class="our-edge-wrap">
-                    <div class="title pb-3 mt-n3">Unique selling points</div>
+                    <div class="title pb-3">Unique selling points</div>
                 </div>
             </div>
         </div>
@@ -119,7 +119,7 @@
         <div class="line line-right"></div>
         <div class="row section-padding padding-top pb-0">
             <div class="col-sm-12 col-md-4 py-0">
-                <div class="title pb-3 mt-n3">What Sets Us Apart</div>
+                <div class="title pb-3">What Sets Us Apart</div>
             </div>
         </div>
         <div class="row section-padding pb-0">

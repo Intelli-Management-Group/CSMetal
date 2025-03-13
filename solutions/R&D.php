@@ -32,7 +32,7 @@
     <div class="bg-black text-white">
         <div class="container">
             <div class="row section-padding-lg">
-                <div class="col-xl-5">
+                <div class="col-xl-5 col-lg-7">
                     <p class="slash-title"><span class="text-color">/ </span>Our R&D Capabilities</p>
                     <div class="title mb-5">We transform ideas into market-ready solutions through structured processes and cutting-edge technology.</div>
                     <div class="w-100">
@@ -72,8 +72,89 @@
                         <hr>
                     </div>
                 </div>
-                <div class="col-xl-7 d-flex align-items-center justify-content-center">
-                    <img src="img/Solution/R&D/R&D.svg" alt="" class="img-fluid rd-img">
+                <div class="col-xl-7 col-lg-5 d-flex align-items-center justify-content-center">
+                    <img src="img/Solution/R&D/R&D.svg" alt="" class="rd-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bottom-border">
+        <div class="line line-left"></div>
+        <div class="line line-right"></div>
+        <div class="text-center">
+            <div class="title section-padding">Structured Development Frameworks</div>
+        </div>
+    </div>
+
+    <div class="container bottom-border">
+        <div class="line line-left"></div>
+        <div class="line line-1-3"></div>
+        <div class="line line-right"></div>
+        <div class="row section-padding">
+            <div class="col-md-4 d-flex align-items-center">
+                <div>
+                    <div class="title-no-transform pb-3">APQP (Quality Planning)</div>
+                    <p class="mb-0">APQP provides a proven roadmap to mitigate risks and ensure compliance throughout product and project development.</p>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <img src="img/Solution/R&D/apqp.jpg" alt="apqp" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <div class="container bottom-border">
+        <div class="line line-left"></div>
+        <div class="line line-2-3"></div>
+        <div class="line line-right"></div>
+        <div class="row section-padding">
+            <div class="col-md-8">
+                <img src="img/Solution/R&D/npi.jpg" alt="new product introduction" class="img-fluid">
+            </div>
+
+            <div class="col-md-4 d-flex align-items-center">
+                <div>
+                    <div class="title-no-transform pb-3">New Product Introduction (NPI)</div>
+                    <p class="mb-0">Our NPI process accelerates innovation without compromising precision.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bottom-border">
+        <div class="line line-left"></div>
+        <div class="line line-1-3"></div>
+        <div class="line line-2-3"></div>
+        <div class="line line-right"></div>
+        <div class="row section-padding padding-top pb-0">
+            <div class="col-sm-12 col-md-4 py-0">
+                <div class="title pb-3">What Sets Us Apart</div>
+            </div>
+        </div>
+        <div class="row section-padding pb-0">
+            <div class="col-sm-12 col-md-4">
+                <div class="our-edge-wrap">
+                    <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
+                    <h5>End-to-End Innovation</h5>
+                    <p>From prototyping to mass production, we handle it all.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+                <div class="our-edge-wrap">
+                    <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
+                    <h5>APQP & NPI Frameworks</h5>
+                    <p>Mitigate risks and ensure compliance.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+                <div class="our-edge-wrap">
+                    <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
+                    <h5>Scalable Solutions</h5>
+                    <p>Custom machining for complex designs.</p>
                 </div>
             </div>
         </div>
@@ -81,24 +162,23 @@
 
     <div style="height: 1000px;"></div>
 
-    <!-- <div class="container bottom-border">
-        <div class="line line-left"></div>
-        <div class="line line-1-3-lg"></div>
-        <div class="line line-2-3-lg"></div>
-        <div class="line line-right"></div>
-
-
-    </div> -->
     <?php include '../inc/footer.php'; ?>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const image = document.querySelector(".rd-img");
 
-            window.addEventListener("scroll", function() {
-                let scrollPosition = window.scrollY;
-                let rotationAngle = scrollPosition * 0.1;
-                image.style.transform = `rotate(${rotationAngle}deg)`;
-            });
+            function applyRotation() {
+                if (window.innerWidth >= 992) {
+                    let scrollPosition = window.scrollY;
+                    let rotationAngle = scrollPosition * 0.06;
+                    image.style.transform = `rotate(${rotationAngle}deg)`;
+                } else {
+                    image.style.transform = "rotate(30deg)";
+                }
+            }
+
+            window.addEventListener("scroll", applyRotation);
+            window.addEventListener("resize", applyRotation);
         });
     </script>
     <script>
