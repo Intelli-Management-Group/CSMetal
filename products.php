@@ -53,7 +53,7 @@
                         <div class="product-image-wrap">
                             <img src="img/Home/product_1.jpg" alt="product 1" style="width: 100%;">
                             <a class="image-arrow" href="products/stamping-parts.php">
-                                <div>→</div>
+                                <div><i class="fa-solid fa-arrow-right"></i></div>
                             </a>
                         </div>
                         <h3 class="mt-3">Stamping Parts</h3>
@@ -66,7 +66,7 @@
                         <div class="product-image-wrap">
                             <img src="img/Home/product_2.jpg" alt="product 2" style="width: 100%;">
                             <a class="image-arrow" href="products/handles.php">
-                                <div>→</div>
+                                <div><i class="fa-solid fa-arrow-right"></i></div>
                             </a>
                         </div>
                         <h3 class="mt-3">Handles</h3>
@@ -79,7 +79,7 @@
                         <div class="product-image-wrap">
                             <img src="img/Home/product_3.jpg" alt="product 3" style="width: 100%;">
                             <a class="image-arrow" href="products/die-cast.php">
-                                <div>→</div>
+                                <div><i class="fa-solid fa-arrow-right"></i></div>
                             </a>
                         </div>
                         <h3 class="mt-3">Die Cast</h3>
@@ -95,7 +95,7 @@
                         <div class="product-image-wrap">
                             <img src="img/Home/product_4.jpg" alt="product 4" style="width: 100%;">
                             <a class="image-arrow" href="products/manifold.php">
-                                <div>→</div>
+                                <div><i class="fa-solid fa-arrow-right"></i></div>
                             </a>
                         </div>
                         <h3 class="mt-3">Manifold</h3>
@@ -108,7 +108,7 @@
                         <div class="product-image-wrap">
                             <img src="img/Home/product_5.jpg" alt="product 5" style="width: 100%;">
                             <a class="image-arrow" href="products/advertising.php">
-                                <div>→</div>
+                                <div><i class="fa-solid fa-arrow-right"></i></div>
                             </a>
                         </div>
                         <h3 class="mt-3">Advertising Fixture & OEM Products</h3>
@@ -131,7 +131,7 @@
                         </div>
                         <h3 class="become-a-customer mt-3">Become a Customer</h3>
                         <a class="image-arrow customer-arrow" href="company/become-a-customer.php">
-                            <div>→</div>
+                            <div><i class="fa-solid fa-arrow-right"></i></div>
                         </a>
                     </div>
                 </div>

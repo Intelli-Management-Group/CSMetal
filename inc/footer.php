@@ -136,7 +136,7 @@
         </div>
 
         <button id="scrollToTopBtn" title="Go to top">
-            <i class="fas fa-arrow-up"></i>
+            <i class="fa-solid fa-arrow-up"></i>
         </button>
 
         <script>

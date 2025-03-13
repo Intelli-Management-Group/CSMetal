@@ -57,7 +57,7 @@
                 <div class="grey-widget-wrap">
                     <p class="slash-title mb-0"><span class="text-color">/ </span>Machine</p>
                     <h3 class="grey-widget-text">Automated Tube </br> Forming Machine</h3>
-                    <a class="arrow" href="solutions/machine.php#machine">→</a>
+                    <a class="arrow" href="solutions/machine.php#machine"><i class="fa-solid fa-arrow-right"></i></a>
                     <img src="./img/Home/img_1.png" alt="machine" class="machine-widget">
                 </div>
             </div>
@@ -65,7 +65,7 @@
                 <div class="grey-widget-wrap">
                     <p class="slash-title mb-0"><span class="text-color">/ </span>Technology</p>
                     <h3 class="grey-widget-text">GOM Scan</h3>
-                    <a class="arrow" href="solutions/inspection.php#gom">→</a>
+                    <a class="arrow" href="solutions/inspection.php#gom"><i class="fa-solid fa-arrow-right"></i></a>
                     <img src="./img/Home/img_2.png" alt="machine" class="machine-widget">
                 </div>
             </div>
@@ -87,7 +87,7 @@
                 <a class="col-md-4 image-button" href="contact.php">
                     <div class="d-flex justify-content-between w-100">
                         <div class="mb-0 button">CONTACT US</div>
-                        <div class="mb-0 button">→</div>
+                        <div class="mb-0 button"><i class="fa-solid fa-arrow-right"></i></div>
                     </div>
                 </a>
                 <div class="col-md-4 solutions">
@@ -100,7 +100,7 @@
                     <div class="product-wrap">
                         <div class="product-image-wrap">
                             <img src="./img/Solution/img_inspection.jpg" alt="product 1" style="width: 100%;">
-                            <a class="image-arrow" href="solutions/inspection.php"><div>→</div></a>
+                            <a class="image-arrow" href="solutions/inspection.php"><div><i class="fa-solid fa-arrow-right"></i></div></a>
                         </div>
                         <h3 class="mt-3">Inspection</h3>
                         <p>CS Metal upholds top-quality standards with advanced inspection tools: Gom Scan for early defect detection, Inspector CMM for precise measurements, Spectralight QC for color accuracy, and QMS software for real-time tracking. These technologies ensure reliability from inspection to production, highlighting our commitment to quality in every aspect of manufacturing.</p>
@@ -111,7 +111,7 @@
                     <div class="product-wrap">
                         <div class="product-image-wrap">
                             <img src="./img/Solution/img_machines.jpg" alt="product 2" style="width: 100%;">
-                            <a class="image-arrow" href="solutions/machine.php"><div>→</div></a>
+                            <a class="image-arrow" href="solutions/machine.php"><div><i class="fa-solid fa-arrow-right"></i></div></a>
                         </div>
                         <h3 class="mt-3">Machines</h3>
                         <p>CS Metal’s advanced machines enhance manufacturing precision: the Automated Tube Forming Machine uses AI for real-time control, the 600 Ton Stamping Press delivers low-defect stamping, the LG 1370 CNC Lathe enables precise tooling, and the Semi-Automatic Tube Forming Machine ensures high-quality, scratch-free tubes with efficient part transfer.</p>
@@ -122,7 +122,7 @@
                     <div class="product-wrap">
                         <div class="product-image-wrap">
                             <img src="./img/Solution/img_testing.jpg" alt="product 3" style="width: 100%;">
-                            <a class="image-arrow" href="solutions/testing.php"><div>→</div></a>
+                            <a class="image-arrow" href="solutions/testing.php"><div><i class="fa-solid fa-arrow-right"></i></div></a>
                         </div>
                         <h3 class="mt-3">Testing</h3>
                         <p>CS Metal’s testing solutions ensure reliability. The Metal Hardness Measurement Machine offers precise hardness testing for validation. The Push-Pull Force Test evaluates connection strength over 1500 lbs. The Transportation Compression Test simulates transit conditions, while the Transportation Vibration Test assesses resilience against vibrations.</p>
@@ -146,7 +146,7 @@
                         <div class="product-image-wrap">
                             <img src="img/Home/product_1.jpg" alt="product 1" style="width: 100%;">
                             <a class="image-arrow" href="products/stamping-parts.php">
-                                <div>→</div>
+                                <div><i class="fa-solid fa-arrow-right"></i></div>
                             </a>
                         </div>
                         <h3 class="mt-3">Stamping Parts</h3>
@@ -159,7 +159,7 @@
                         <div class="product-image-wrap">
                             <img src="img/Home/product_2.jpg" alt="product 2" style="width: 100%;">
                             <a class="image-arrow" href="products/handles.php">
-                                <div>→</div>
+                                <div><i class="fa-solid fa-arrow-right"></i></div>
                             </a>
                         </div>
                         <h3 class="mt-3">Handles</h3>
@@ -172,7 +172,7 @@
                         <div class="product-image-wrap">
                             <img src="img/Home/product_3.jpg" alt="product 3" style="width: 100%;">
                             <a class="image-arrow" href="products/die-cast.php">
-                                <div>→</div>
+                                <div><i class="fa-solid fa-arrow-right"></i></div>
                             </a>
                         </div>
                         <h3 class="mt-3">Die Cast</h3>
@@ -188,7 +188,7 @@
                         <div class="product-image-wrap">
                             <img src="img/Home/product_4.jpg" alt="product 4" style="width: 100%;">
                             <a class="image-arrow" href="products/manifold.php">
-                                <div>→</div>
+                                <div><i class="fa-solid fa-arrow-right"></i></div>
                             </a>
                         </div>
                         <h3 class="mt-3">Manifold</h3>
@@ -201,7 +201,7 @@
                         <div class="product-image-wrap">
                             <img src="img/Home/product_5.jpg" alt="product 5" style="width: 100%;">
                             <a class="image-arrow" href="products/advertising.php">
-                                <div>→</div>
+                                <div><i class="fa-solid fa-arrow-right"></i></div>
                             </a>
                         </div>
                         <h3 class="mt-3">Advertising Fixture & OEM Products</h3>
@@ -224,7 +224,7 @@
                         </div>
                         <h3 class="become-a-customer mt-3">Become a Customer</h3>
                         <a class="image-arrow customer-arrow" href="company/become-a-customer.php">
-                            <div>→</div>
+                            <div><i class="fa-solid fa-arrow-right"></i></div>
                         </a>
                     </div>
                 </div>
@@ -246,7 +246,7 @@
                     <p class="slash-title"><span class="text-color">/ </span>Become a customer</p>
                     <div class="title mt-4 mb-4">Shaping the Future of Metal Manufacturing</div>
                     <p>At CS Metal, we’ve become synonymous with reliability and quality. Shaping the future of metal manufacturing, partner with us to experience exceptional quality and precision in every project.</p>
-                    <a href="company/become-a-customer.php" class="underline-link">LET'S TALK &nbsp;&nbsp; →</a>
+                    <a href="company/become-a-customer.php" class="underline-link">LET'S TALK &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>

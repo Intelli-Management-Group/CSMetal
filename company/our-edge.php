@@ -83,7 +83,7 @@
                     </div>
                     <h3 class="mt-3">Production Technology</h3>
                     <p>Master every stage of fabrication—from stamping and welding to diecasting and powder coating—with our end-to-end advanced processes.</p>
-                    <a href="solutions/machine.php" class="underline-link">Learn More &nbsp;&nbsp; →</a>
+                    <a href="solutions/machine.php" class="underline-link">Learn More &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -94,7 +94,7 @@
                     </div>
                     <h3 class="mt-3">Fully Equipped Lab</h3>
                     <p>Ensure perfection with lab-tested quality: raw material analysis, functional testing, and finish validation in our ISO-certified facility.</p>
-                    <a href="solutions/testing.php" class="underline-link">See how We Test &nbsp;&nbsp; →</a>
+                    <a href="solutions/testing.php" class="underline-link">See how We Test &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -105,7 +105,7 @@
                     </div>
                     <h3 class="mt-3">Molds Production</h3>
                     <p>Precision you can trust—CMM and 3D scanning guarantee micron-level accuracy in every tool and die we create.</p>
-                    <a href="" class="underline-link">Explore Our Tools &nbsp;&nbsp; →</a>
+                    <a href="" class="underline-link">Explore Our Tools &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -128,7 +128,7 @@
                     <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
                     <h5>Project Management</h5>
                     <p>At CS Metal, project management is the cornerstone of our success. Guided by our core values—Innovation, Quality Excellence, and a Customer-Centered Approach—our project team is both supportive and flexible, ensuring your needs are met with precision and care.</p>
-                    <a href="company/about.php#core-values" class="underline-link">Our Core Values &nbsp;&nbsp; →</a>
+                    <a href="company/about.php#core-values" class="underline-link">Our Core Values &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -137,7 +137,7 @@
                     <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
                     <h5>Advanced Management Systems</h5>
                     <p>Leveraging our cutting-edge Quality Management System (QMS), we deliver products of unmatched quality, achieving a defect rate of just 77 PPM (parts per million) since 2019. This commitment to excellence has earned the trust of global leaders like GE.</p>
-                    <a href="solutions/inspection.php#qms" class="underline-link">Our QMS &nbsp;&nbsp; →</a>
+                    <a href="solutions/inspection.php#qms" class="underline-link">Our QMS &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -146,7 +146,7 @@
                     <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
                     <h5>Global Service & Vision</h5>
                     <p>Our reach extends across North America with dedicated sales representatives and warehouse ensuring seamless service and support wherever you are. Together, we’re shaping the future of metal solutions worldwide.</p>
-                    <a href="company/about.php#locations" class="underline-link">Our Global Locations &nbsp;&nbsp; →</a>
+                    <a href="company/about.php#locations" class="underline-link">Our Global Locations &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -157,7 +157,7 @@
                     <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
                     <h5>Expertise in Metal Fabrication</h5>
                     <p>From innovative in-house design to exceptional OEM solutions, our team brings your unique ideas to life. Whether you’re envisioning something groundbreaking or need a custom solution, we’re here to make it happen. "Turning Your Vision into Reality."</p>
-                    <a href="" class="underline-link">Our R&D &nbsp;&nbsp; →</a>
+                    <a href="" class="underline-link">Our R&D &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -166,7 +166,7 @@
                     <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
                     <h5>Seamless Integration</h5>
                     <p>CS Metal collaborates with trusted partners in diverse fields, including plastic, die-cast, plating, painting, and coating, enabling us to handle a wide range of tasks and design requirements. This network ensures we deliver integrated solutions with precision and efficiency, no matter the complexity. </p>
-                    <a href="products.php" class="underline-link">Our Product Capabilities &nbsp;&nbsp; →</a>
+                    <a href="products.php" class="underline-link">Our Product Capabilities &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -175,7 +175,7 @@
                     <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
                     <h5>Continuous Improvement</h5>
                     <p>We are dedicated to progress, continuously investing in quality control software and process improvements. Looking ahead, we’re planning to implement new technologies and processes to stay at the forefront of the industry. </p>
-                    <a href="" class="underline-link">Our Future Plans &nbsp;&nbsp; →</a>
+                    <a href="" class="underline-link">Our Future Plans &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>

@@ -50,7 +50,7 @@
                     <div class="product-image-wrap">
                         <img src="./img/Solution/img_inspection.jpg" alt="product 1" style="width: 100%;">
                         <a class="image-arrow" href="solutions/inspection.php">
-                            <div>→</div>
+                            <div><i class="fa-solid fa-arrow-right"></i></div>
                         </a>
                     </div>
                     <h3 class="mt-3">Inspection</h3>
@@ -63,7 +63,7 @@
                     <div class="product-image-wrap">
                         <img src="./img/Solution/img_machines.jpg" alt="product 2" style="width: 100%;">
                         <a class="image-arrow" href="solutions/machine.php">
-                            <div>→</div>
+                            <div><i class="fa-solid fa-arrow-right"></i></div>
                         </a>
                     </div>
                     <h3 class="mt-3">Machines</h3>
@@ -76,7 +76,7 @@
                     <div class="product-image-wrap">
                         <img src="./img/Solution/img_testing.jpg" alt="product 3" style="width: 100%;">
                         <a class="image-arrow" href="solutions/testing.php">
-                            <div>→</div>
+                            <div><i class="fa-solid fa-arrow-right"></i></div>
                         </a>
                     </div>
                     <h3 class="mt-3">Testing</h3>
@@ -99,7 +99,7 @@
             <a class="col-md-4 image-button" href="products.php">
                 <div class="d-flex justify-content-between w-100">
                     <div class="mb-0 button">EXPLORE OUR PRODUCTS</div>
-                    <div class="mb-0 button">→</div>
+                    <div class="mb-0 button"><i class="fa-solid fa-arrow-right"></i></div>
                 </div>
             </a>
         </div>
