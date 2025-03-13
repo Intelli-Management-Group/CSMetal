@@ -32,7 +32,7 @@
     <div class="bg-black text-white">
         <div class="container">
             <div class="row section-padding-lg">
-                <div class="col-md-6">
+                <div class="col-xl-5">
                     <p class="slash-title"><span class="text-color">/ </span>Our R&D Capabilities</p>
                     <div class="title mb-5">We transform ideas into market-ready solutions through structured processes and cutting-edge technology.</div>
                     <div class="w-100">
@@ -72,8 +72,8 @@
                         <hr>
                     </div>
                 </div>
-                <div class="col-md-6 d-flex align-items-center justify-content-center">
-                    <img src="img/Solution/R&D/R&D.svg" alt="" class="img-fluid">
+                <div class="col-xl-7 d-flex align-items-center justify-content-center">
+                    <img src="img/Solution/R&D/R&D.svg" alt="" class="img-fluid rd-img">
                 </div>
             </div>
         </div>
@@ -90,6 +90,17 @@
 
     </div> -->
     <?php include '../inc/footer.php'; ?>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const image = document.querySelector(".rd-img");
+
+            window.addEventListener("scroll", function() {
+                let scrollPosition = window.scrollY;
+                let rotationAngle = scrollPosition * 0.1;
+                image.style.transform = `rotate(${rotationAngle}deg)`;
+            });
+        });
+    </script>
     <script>
         document.querySelectorAll(".toggle-container").forEach((container, index) => {
             const content = container.nextElementSibling;
