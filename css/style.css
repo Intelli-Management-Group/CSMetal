@@ -1006,7 +1006,8 @@ hr {
 }
 
 .checkmark p::before {
-    content: '✓';
+    font-family: "FontAwesome";
+    content: "\f00c";
     font-size: 20px;
     color: #0c73b2;
     margin-right: 10px;

@@ -157,7 +157,7 @@
                     <img src="img/Company/Our-Edge/icon_expertise.svg" alt="expertise in metal fabrication" class="icon">
                     <h5>Expertise in Metal Fabrication</h5>
                     <p>From innovative in-house design to exceptional OEM solutions, our team brings your unique ideas to life. Whether you’re envisioning something groundbreaking or need a custom solution, we’re here to make it happen. "Turning Your Vision into Reality."</p>
-                    <a href="" class="underline-link">Our R&D &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="solutions/R&D.php" class="underline-link">Our R&D &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
 
