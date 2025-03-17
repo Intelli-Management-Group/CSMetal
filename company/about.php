@@ -151,7 +151,9 @@
         <div class="line line-right"></div>
         <div class="row section-padding padding-top pb-0">
             <div class="col-sm-12 col-md-4 py-0">
-                <div class="title pb-3 mt-n3">CORE VALUES</div>
+                <div class="title pb-3">CORE VALUES</div>
+            </div>
+            <div class="col-sm-12 col-md-4 offset-md-4 py-0">
                 <p class="mb-0">We are dedicated to delivering precision and innovation, proudly delivering customized, high-quality metal solutions that consistently exceed expectations.</p>
             </div>
         </div>
@@ -237,8 +239,8 @@
     <div class="black-white-background">
         <div class="container" id="locations">
             <div class="line line-left grey-border"></div>
-            <div class="line line-1-3 grey-border"></div>
-            <div class="line line-2-3 grey-border"></div>
+            <!-- <div class="line line-1-3 grey-border"></div>
+            <div class="line line-2-3 grey-border"></div> -->
             <div class="line line-right grey-border"></div>
             <div class="row section-padding-lg text-white">
                 <div class="col-sm-12 col-md-4 pt-0">
@@ -247,11 +249,11 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <h5>Mission</h5>
-                    <p class="mb-0">Use the most economic process to achieve excellent product and service satisfaction.</p>
+                    <p class="mb-0">To deliver precision-engineered metal solutions through innovative processes, ensuring unmatched quality and customer satisfaction.</p>
                 </div>
                 <div class="col-sm-12 col-md-4 pb-0">
                     <h5>Vision</h5>
-                    <p class="mb-0">CS Metal International Ltd. strives for excellence in metal manufacturing, driven by ambition and innovation.</p>
+                    <p class="mb-0">To redefine the future of metal manufacturing by pioneering advanced technologies and sustainable, customer-centric practices.</p>
                 </div>
             </div>
         </div>

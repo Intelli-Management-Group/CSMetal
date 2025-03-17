@@ -67,7 +67,7 @@
                         </a>
                     </div>
                     <h3 class="mt-3">Machines</h3>
-                    <p class="mb-0">CS Metal’s advanced machines enhance manufacturing precision: the Automated Tube Forming Machine uses AI for real-time control, the 600 Ton Stamping Press delivers low-defect stamping, the LG 1370 CNC Lathe enables precise tooling, and the Semi-Automatic Tube Forming Machine ensures high-quality, scratch-free tubes with efficient part transfer.</p>
+                    <p class="mb-0">CS Metal’s advanced machines elevate manufacturing precision and efficiency: the Automated Tube Forming Machine uses AI for real-time control, the 600 Ton Stamping Press delivers low-defect stamping, the LG 1370 CNC Lathe enables precise tooling, and the Semi-Automatic Tube Forming Machine ensures high-quality, scratch-free tubes with efficient part transfer.</p>
                 </div>
             </div>
 

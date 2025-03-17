@@ -19,7 +19,7 @@
         </div>
         <div class="row mx-0 intro-container">
             <div class="col-md-8 py-0 d-flex align-items-center">
-                <h3 class="solution-banner-text mb-0">CS Metal’s machine lineup offers advanced solutions for efficient, precise manufacturing. The Automated Tube Forming Machine enhances productivity and quality with real-time AI sorting. The 600 Ton Stamping Press provides powerful, low-defect stamping for large and complex parts. The LG 1370 Hartford CNC Lathe ensures precise tooling and machining versatility, while the Semi-Automatic Tube Forming Machine combines automation with flexibility, delivering scratch-free, high-quality tubes. Together, these machines elevate manufacturing efficiency and quality.</h3>
+                <h3 class="solution-banner-text mb-0">CS Metal’s machine lineup offers advanced solutions for efficient, precise manufacturing. The Automated Tube Forming Machine enhances productivity and quality with real-time AI sorting. The 600 Ton Stamping Press provides powerful, low-defect stamping for large and complex parts. The LG 1370 Hartford CNC Lathe ensures precise tooling and machining versatility, while the Semi-Automatic Tube Forming Machine combines automation with flexibility, delivering scratch-free, high-quality tubes. These machines elevate manufacturing efficiency and quality.</h3>
             </div>
             <div class="col-md-4 py-0">
                 <img src="img/Solution/machine/machine_main.jpg" alt="Inspection Banner" class="image solution-banner scroll2moveup">
@@ -54,13 +54,13 @@
         <div class="line line-right"></div>
         <div class="row section-padding-lg">
             <div class="col-sm-12 col-md-4 pt-0">
-                <p class="mb-0">Introducing our innovative Automated Metal Tube Forming Machine, designed to revolutionize the manufacturing process. With a focus on custom engineering, this machine is tailor-made for special projects, allowing for flexibility and precision in production.</p>
+                <p class="mb-0">Introducing our innovative Automated Metal Tube Forming Machine, designed to revolutionize the manufacturing. With a focus on custom engineering, this machine is tailor-made for special projects, allowing for flexibility and precision in production.</p>
             </div>
             <div class="col-sm-12 col-md-4">
-                <p class="mb-0">Our advanced technology enhances quality consistency, ensuring each metal tube meets high standards and specifications. The automated system increases production capacity, enabling manufacturers to meet high demand efficiently while maintaining exceptional quality.</p>
+                <p class="mb-0">Our advanced technology enhances quality consistency, ensuring each metal tube meets high standards and specifications. The automated system increases production capacity, enabling manufacturers to meet demand while maintaining exceptional quality.</p>
             </div>
             <div class="col-sm-12 col-md-4 pb-0">
-                <p class="mb-0">Equipped with advanced AI technology, our Automated Metal Tube Forming Machine identifies and sorts good and bad parts in real-time, enhancing quality control. Experience the future of metal tube forming, where custom solutions and superior quality come together to elevate your production capabilities.</p>
+                <p class="mb-0">Equipped with advanced AI technology, our machine identifies and sorts defective parts in real-time, enhancing quality control. Experience the future of tube forming, where custom solutions and superior quality come together to elevate your production capabilities.</p>
             </div>
         </div>
     </div>
@@ -121,7 +121,7 @@
                     <div class="title">precision machining</div>
                 </div>
                 <div class="col-md-6 pb-0">
-                    <p class="mb-0">Introducing the LG 1370 Hartford CNC Lathe Machine, a cutting-edge solution designed for precision machining in a variety of industrial applications. This advanced CNC lathe offers exceptional performance and reliability, making it an essential tool for manufacturers looking to achieve superior quality and efficiency in their tooling making processes.</p>
+                    <p class="mb-0">Introducing the LG 1370 Hartford CNC Lathe Machine, a cutting-edge solution designed for precision machining in a variety of industrial applications. This advanced CNC lathe offers exceptional performance and reliability, making it an essential tool for those who are looking to achieve superior quality and efficiency in their tool making processes.</p>
                 </div>
             </div>
 
@@ -177,7 +177,7 @@
                 <p class="mb-0">The semi-automatic functionality allows operators to easily set parameters and make adjustments as needed, accommodating various tube sizes and shapes. This versatility ensures consistent results, whether you are working with larger industrial tubes or smaller specialized components.</p>
             </div>
             <div class="col-sm-12 col-md-4 pb-0">
-                <p class="mb-0">The Semi-Automatic Tube Forming Machine features automatic part transfer between stations, minimizing human contact and reducing scratches for a better cosmetic finish. Experience the advantages of this machine, where increased efficiency meets high-quality output.</p>
+                <p class="mb-0">The Semi-Automatic Tube Forming Machine features seamless automatic part transfer between stations, minimizing human contact and virtually reducing scratches for a better cosmetic finish. Experience the advantages of this machine, where increased efficiency meets high-quality output.</p>
             </div>
         </div>
     </div>

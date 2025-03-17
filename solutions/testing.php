@@ -135,7 +135,7 @@
             <div class="line line-2-3"></div>
             <div class="row section-padding-lg">
                 <div class="col-sm-12 col-md-4 pt-0">
-                    <p class="mb-0">The Transportation Compression Test evaluates the durability of materials and products during shipping and handling. By simulating transit conditions, this test ensures items can withstand the pressure and forces they encounter.</p>
+                    <p class="mb-0">The Transportation Compression Test evaluates the durability of materials and products during shipping and handling. By simulating real-world transit conditions, this test ensures items can withstand the pressure and forces they encounter.</p>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <p class="mb-0">Samples are subjected to controlled compression forces that mimic weight-bearing scenarios. This assessment is essential for manufacturers of fragile items, electronics, and heavy machinery, helping identify weaknesses in packaging and design.</p>

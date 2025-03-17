@@ -150,7 +150,7 @@
                             </a>
                         </div>
                         <h3 class="mt-3">Stamping Parts</h3>
-                        <p class="mb-0">CS Metal delivers a wide range of high-quality stamping solutions tailored to meet the needs of diverse industries. From brackets and wire mesh to panels, rings, or specialized parts like cooking drip bowls and vent trims, our precision-engineered components are built for durability and performance. We ensure consistent and reliable results for every application. </p>
+                        <p class="mb-0">CS Metal delivers a wide range of high-quality stamping solutions tailored to meet the needs of diverse industries. From brackets and wire mesh to panels, rings, or specialized parts like cooking drip bowls and vent trims, our precision components are built for durability and performance. We ensure consistent and reliable results for every application.</p>
                     </div>
                 </div>
 

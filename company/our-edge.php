@@ -71,7 +71,7 @@
         <div class="row section-padding padding-top pb-0">
             <div class="col-sm-12 col-md-4 py-0">
                 <div class="our-edge-wrap">
-                    <div class="title pb-3">Unique selling points</div>
+                    <div class="title pb-3">Core Strengths</div>
                 </div>
             </div>
         </div>
@@ -165,7 +165,7 @@
                 <div class="our-edge-wrap">
                     <img src="img/Company/Our-Edge/icon_integration.svg" alt="seamless integration" class="icon">
                     <h5>Seamless Integration</h5>
-                    <p>CS Metal collaborates with trusted partners in diverse fields, including plastic, die-cast, plating, painting, and coating, enabling us to handle a wide range of tasks and design requirements. This network ensures we deliver integrated solutions with precision and efficiency, no matter the complexity. </p>
+                    <p>CS Metal collaborates with trusted partners in diverse fields, including plastic, die-cast, plating, painting, and coating. This network enables us to handle diverse tasks and design requirements, delivering integrated solutions with precision and efficiency, regardless of complexity.</p>
                     <a href="products.php" class="underline-link">Our Product Capabilities &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>

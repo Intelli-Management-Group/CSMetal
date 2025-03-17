@@ -24,7 +24,7 @@
         <div class="row section-padding">
             <div class="col-md-8 py-0">
                 <h1 class="slash-title"><span class="text-color">/ </span>R&D</h1>
-                <div class="title">Turning Your Vision into Reality</div>
+                <div class="title">Structured Innovation, Advanced Technology</div>
             </div>
         </div>
     </div>
@@ -130,7 +130,7 @@
         <div class="line line-right"></div>
         <div class="row section-padding padding-top pb-0">
             <div class="col-sm-12 col-md-4 py-0">
-                <div class="title pb-3">Why Partner with CS Metal for R&D?</div>
+                <div class="title pb-3">Partner With Confidence</div>
             </div>
         </div>
         <div class="row section-padding padding-bottom">
