@@ -64,9 +64,9 @@
                         </div>
                         <div class="toggle-content">
                             <ul>
-                                <li>CNC machines</li>
-                                <li>Lathe, milling, and drilling machines</li>
-                                <li>Custom machining tools</li>
+                                <li><p class="mb-0">CNC machines</p></li>
+                                <li><p class="mb-0">Lathe, milling, and drilling machines</p></li>
+                                <li><p class="mb-0">Custom machining tools</p></li>
                             </ul>
                         </div>
                         <hr>
@@ -183,18 +183,18 @@
         document.querySelectorAll(".toggle-container").forEach((container, index) => {
             const content = container.nextElementSibling;
 
-            // if (index === 0) {
-            //     container.classList.add("active");
-            //     content.classList.add("open");
-            // }
+            if (index === 0) {
+                container.classList.add("active");
+                content.classList.add("open");
+            }
 
             container.addEventListener("click", function() {
-                // document.querySelectorAll(".toggle-container").forEach(item => {
-                //     if (item !== this) {
-                //         item.classList.remove("active");
-                //         item.nextElementSibling.classList.remove("open");
-                //     }
-                // });
+                document.querySelectorAll(".toggle-container").forEach(item => {
+                    if (item !== this) {
+                        item.classList.remove("active");
+                        item.nextElementSibling.classList.remove("open");
+                    }
+                });
 
                 const isActive = this.classList.contains("active");
 
