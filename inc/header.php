@@ -236,6 +236,7 @@
                                     <a class="dropdown-item" href="solutions/machine.php">Machines</a>
                                     <a class="dropdown-item" href="solutions/testing.php">Testing</a>
                                     <a class="dropdown-item" href="solutions/R&D.php">R&D</a>
+                                    <a class="dropdown-item" href="solutions/mold&tool.php">Mold & Tool</a>
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
@@ -313,6 +314,7 @@
                             <li><a href="solutions/machine.php">Machines</a></li>
                             <li><a href="solutions/testing.php">Testing</a></li>
                             <li><a href="solutions/R&D.php">R&D</a></li>
+                            <li><a href="solutions/mold&tool.php">Mold & Tool</a></li>
                         </ul>
                     </div>
                     <!-- <div class="col-md-4">
