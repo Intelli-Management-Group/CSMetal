@@ -75,37 +75,43 @@
                 </div>
             </div>
         </div>
-        <div class="row section-padding pt-3">
-            <div class="col-sm-12 col-md-4">
-                <div class="our-edge-wrap">
+        <div class="row section-padding pt-3 pb-0">
+            <div class="col-md-4 pt-0">
+                <div class="product-wrap">
                     <div class="product-image-wrap">
                         <img src="img/Company/Our-Edge/product_1.jpg" alt="production technology" class="img-fluid">
+                        <a class="image-arrow" href="solutions/machine.php">
+                            <div><i class="fa-solid fa-arrow-right"></i></div>
+                        </a>
                     </div>
                     <h3 class="mt-3">Production Technology</h3>
-                    <p>Master every stage of fabrication—from stamping and welding to diecasting and powder coating—with our end-to-end advanced processes.</p>
-                    <a href="solutions/machine.php" class="underline-link">Learn More &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+                    <p class="mb-0">Master every stage of fabrication—from stamping and welding to diecasting and powder coating—with our end-to-end advanced processes.</p>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-4">
-                <div class="our-edge-wrap">
+            <div class="col-md-4 pt-0">
+                <div class="product-wrap">
                     <div class="product-image-wrap">
-                        <img src="img/Company/Our-Edge/product_2.jpg" alt="fully equipped lab" class="img-fluid">
+                        <img src="img/Company/Our-Edge/product_2.jpg" alt="Fully equipped Lab" class="img-fluid">
+                        <a class="image-arrow" href="solutions/testing.php">
+                            <div><i class="fa-solid fa-arrow-right"></i></div>
+                        </a>
                     </div>
-                    <h3 class="mt-3">Fully Equipped Lab</h3>
-                    <p>Ensure perfection with lab-tested quality: raw material analysis, functional testing, and finish validation in our ISO-certified facility.</p>
-                    <a href="solutions/testing.php" class="underline-link">See how We Test &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+                    <h3 class="mt-3">Fully equipped Lab</h3>
+                    <p class="mb-0">Ensure perfection with lab-tested quality: raw material analysis, functional testing, and finish validation in our ISO-certified facility</p>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-4">
-                <div class="our-edge-wrap">
+            <div class="col-md-4 pt-0">
+                <div class="product-wrap">
                     <div class="product-image-wrap">
-                        <img src="img/Company/Our-Edge/product_3.jpg" alt="molds production" class="img-fluid">
+                        <img src="img/Company/Our-Edge/product_3.jpg" alt="Molds Production" class="img-fluid">
+                        <a class="image-arrow" href="solutions/mold&tool.php">
+                            <div><i class="fa-solid fa-arrow-right"></i></div>
+                        </a>
                     </div>
                     <h3 class="mt-3">Molds Production</h3>
-                    <p>Precision you can trust—CMM and 3D scanning guarantee micron-level accuracy in every tool and die we create.</p>
-                    <a href="" class="underline-link">Explore Our Tools &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+                    <p class="mb-0">Precision you can trust—CMM and 3D scanning guarantee micron-level accuracy in every tool and die we create.</p>
                 </div>
             </div>
         </div>

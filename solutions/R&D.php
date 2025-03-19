@@ -32,7 +32,7 @@
     <div class="bg-black text-white">
         <div class="container">
             <div class="row section-padding-lg">
-                <div class="col-xl-5 col-lg-7">
+                <div class="col-xl-5 col-lg-6">
                     <p class="slash-title"><span class="text-color">/ </span>Our R&D Capabilities</p>
                     <div class="title mb-5">We transform ideas into market-ready solutions through structured processes and cutting-edge technology.</div>
                     <div class="w-100">
@@ -72,8 +72,8 @@
                         <hr>
                     </div>
                 </div>
-                <div class="col-xl-7 col-lg-5 d-flex align-items-center justify-content-center">
-                    <img src="img/Solution/R&D/R&D.svg" alt="" class="rd-img">
+                <div class="col-xl-7 col-lg-6 d-flex align-items-center justify-content-center">
+                    <img src="img/Solution/R&D/img_1.png" alt="R&D" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -100,7 +100,7 @@
             </div>
 
             <div class="col-md-8">
-                <img src="img/Solution/R&D/apqp.jpg" alt="apqp" class="img-fluid">
+                <img src="img/Solution/R&D/CS_Flowchart_apqp.png" alt="apqp" class="img-fluid">
             </div>
         </div>
     </div>
@@ -111,7 +111,7 @@
         <div class="line line-right"></div>
         <div class="row section-padding">
             <div class="col-md-8">
-                <img src="img/Solution/R&D/npi.jpg" alt="new product introduction" class="img-fluid">
+                <img src="img/Solution/R&D/cs_flowchart_npi.png" alt="new product introduction" class="img-fluid">
             </div>
 
             <div class="col-md-4 d-flex align-items-center">
@@ -136,7 +136,7 @@
         <div class="row section-padding padding-bottom">
             <div class="col-sm-12 col-md-4">
                 <div class="our-edge-wrap">
-                    <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
+                    <img src="img/Solution/R&D/icon_end-to-end.svg" alt="End-to-End Innovation" class="icon">
                     <h5>End-to-End Innovation</h5>
                     <p>From prototyping to mass production, we handle it all.</p>
                 </div>
@@ -144,7 +144,7 @@
 
             <div class="col-sm-12 col-md-4">
                 <div class="our-edge-wrap">
-                    <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
+                    <img src="img/Solution/R&D/icon_frameworks.svg" alt="APQP & NPI Frameworks" class="icon">
                     <h5>APQP & NPI Frameworks</h5>
                     <p>Mitigate risks and ensure compliance.</p>
                 </div>
@@ -152,7 +152,7 @@
 
             <div class="col-sm-12 col-md-4">
                 <div class="our-edge-wrap">
-                    <img src="img/Company/About/icon_innovation.svg" alt="innovation" class="icon">
+                    <img src="img/Solution/R&D/icon_scalable.svg" alt="Scalable Solutions" class="icon">
                     <h5>Scalable Solutions</h5>
                     <p>Custom machining for complex designs.</p>
                 </div>
