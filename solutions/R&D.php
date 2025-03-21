@@ -161,7 +161,7 @@
     </div>
 
     <?php include '../inc/footer.php'; ?>
-    <script>
+    <!-- <script>
         document.addEventListener("DOMContentLoaded", function() {
             const image = document.querySelector(".rd-img");
 
@@ -178,7 +178,7 @@
             window.addEventListener("scroll", applyRotation);
             window.addEventListener("resize", applyRotation);
         });
-    </script>
+    </script> -->
     <script>
         document.querySelectorAll(".toggle-container").forEach((container, index) => {
             const content = container.nextElementSibling;
