@@ -242,6 +242,14 @@
                     }
                 });
             });
+
+            ScrollTrigger.create({
+                trigger: ".mold-process",
+                start: "top top",
+                end: () => `+=${horizontalScrollLength}`,
+                pin: true,
+                pinSpacing: false
+            });
         }
 
         function setSectionWidth() {
