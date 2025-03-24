@@ -33,7 +33,18 @@
             align-items: center;
             justify-content: left;
             opacity: 0;
-            transform: scale(0.9);
+            transform: scale(0.8);
+        }
+
+        .mold-process-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .mold-process {
+            width: calc(100% + 50px);
+            /* max-width: 1140px; */
         }
     </style>
 </head>
@@ -134,18 +145,21 @@
         <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
-        <div class="row section-padding padding-top pb-0 mold-process">
-            <div class="col-sm-12 col-md-4 py-0">
-                <div class="title pb-3">Mold Development Process</div>
-            </div>
-            <div class="col-sm-12 col-md-4 offset-md-4 py-0">
-                <p class="mb-0">Our structured mold development process ensures clarity and alignment at every stage, from initial design to post-production support.</p>
+        <div class="mold-process-wrapper d-flex justify-content-center">
+            <div class="row section-padding padding-top pb-0 mold-process">
+                <div class="col-sm-12 col-md-4 py-0">
+                    <div class="title pb-3">Mold Development Process</div>
+                </div>
+                <div class="col-sm-12 col-md-4 offset-md-4 py-0">
+                    <p class="mb-0">Our structured mold development process ensures clarity and alignment at every stage, from initial design to post-production support.</p>
+                </div>
             </div>
         </div>
 
+
         <div class="horizontal-scroll-wrapper">
             <div class="horizontal-scroll">
-                <div class="section"></div>
+                <div class="section d-none d-md-flex"></div>
                 <div class="section"></div>
                 <div class="section">
                     <div>
@@ -189,7 +203,6 @@
                         <p>Maintenance Plan</p>
                     </div>
                 </div>
-                <div class="section"></div>
             </div>
         </div>
     </div>
@@ -205,7 +218,12 @@
             const container = document.querySelector('.horizontal-scroll-wrapper');
             const sections = document.querySelectorAll(".section");
             const containerWidth = container.clientWidth;
-            const sectionWidth = containerWidth / 3;
+            let sectionWidth;
+            if (window.innerWidth < 768) {
+                sectionWidth = containerWidth / 2;
+            } else {
+                sectionWidth = containerWidth / 3;
+            }
             const horizontalScrollLength = (sections.length * sectionWidth) - containerWidth;
 
             const horizontalScrollTween = gsap.to(".horizontal-scroll", {
@@ -224,7 +242,7 @@
             sections.forEach(section => {
                 gsap.set(section, {
                     opacity: 0,
-                    scale: 0.9
+                    scale: 0.8
                 });
             });
 
@@ -244,7 +262,7 @@
             });
 
             ScrollTrigger.create({
-                trigger: ".mold-process",
+                trigger: ".mold-process-wrapper",
                 start: "top top",
                 end: () => `+=${horizontalScrollLength}`,
                 pin: true,
@@ -256,7 +274,12 @@
             const container = document.querySelector('.horizontal-scroll-wrapper');
             const sections = document.querySelectorAll(".section");
             const containerWidth = container.clientWidth;
-            const sectionWidth = containerWidth / 3;
+            let sectionWidth;
+            if (window.innerWidth < 768) {
+                sectionWidth = containerWidth / 2;
+            } else {
+                sectionWidth = containerWidth / 3;
+            }
 
             sections.forEach(section => {
                 section.style.width = `${sectionWidth}px`;
