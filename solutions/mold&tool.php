@@ -30,8 +30,9 @@
             height: 200px;
             padding: 0 25px;
             display: flex;
-            align-items: center;
-            justify-content: left;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
             opacity: 0;
             transform: scale(0.8);
         }
@@ -44,7 +45,25 @@
 
         .mold-process {
             width: calc(100% + 50px);
-            /* max-width: 1140px; */
+        }
+
+        .progress-bar-container {
+            position: sticky;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: none;
+            z-index: 1000;
+            direction: rtl;
+        }
+
+        .progress-bar {
+            height: 100%;
+            width: 0;
+            background-color: #0c73b2;
+            /* transition: width 0.1s ease-out; */
+            direction: rtl;
         }
     </style>
 </head>
@@ -156,55 +175,50 @@
             </div>
         </div>
 
-
         <div class="horizontal-scroll-wrapper">
             <div class="horizontal-scroll">
                 <div class="section d-none d-md-flex"></div>
                 <div class="section"></div>
                 <div class="section">
-                    <div>
-                        <h5>1.</h5>
-                        <p>Received Samples/Drawing</p>
-                    </div>
+                    <div class="title">1.</div>
+                    <p>Received Samples/Drawing</p>
                 </div>
+
                 <div class="section">
-                    <div>
-                        <h5>2.</h5>
-                        <p>Communicate Design Targets</p>
-                    </div>
+                    <div class="title">2.</div>
+                    <p>Communicate Design Targets</p>
                 </div>
+
                 <div class="section">
-                    <div>
-                        <h5>3.</h5>
-                        <p>Tooling DFM (Design for Manufacturing)</p>
-                    </div>
+                    <div class="title">3.</div>
+                    <p>Tooling DFM (Design for Manufacturing)</p>
                 </div>
+
                 <div class="section">
-                    <div>
-                        <h5>4.</h5>
-                        <p>Development</p>
-                    </div>
+                    <div class="title">4.</div>
+                    <p>Development</p>
                 </div>
+
                 <div class="section">
-                    <div>
-                        <h5>5.</h5>
-                        <p>Mold Production</p>
-                    </div>
+                    <div class="title">5.</div>
+                    <p>Mold Production</p>
                 </div>
+
                 <div class="section">
-                    <div>
-                        <h5>6.</h5>
-                        <p>Mold & Product Certification</p>
-                    </div>
+                    <div class="title">6.</div>
+                    <p>Mold & Product Certification</p>
                 </div>
+
                 <div class="section">
-                    <div>
-                        <h5>7.</h5>
-                        <p>Maintenance Plan</p>
-                    </div>
+                    <div class="title">7.</div>
+                    <p>Maintenance Plan</p>
                 </div>
             </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar"></div>
+            </div>
         </div>
+        <div style="height: 100px;"></div>
     </div>
 
     <?php include '../inc/footer.php'; ?>
@@ -236,6 +250,11 @@
                     scrub: true,
                     pin: true,
                     anticipatePin: 1,
+                    onUpdate: self => {
+                        // Update the progress bar width
+                        const progress = self.progress * 100; // Get progress as a percentage
+                        document.querySelector('.progress-bar').style.width = `${progress}%`;
+                    }
                 }
             });
 
