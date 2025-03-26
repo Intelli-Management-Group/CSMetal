@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function toTitleCase(str) {
         // Define small words you want to keep lowercase
         const smallWords = ["the", "to", "in", "on", "a", "an", "and", "but", "or", "for", "nor", "of"];
-        const exceptionWords = ["3D", "OEM"];
+        const exceptionWords = ["3D", "OEM", "R&D"];
 
         return str
             .split(" ")

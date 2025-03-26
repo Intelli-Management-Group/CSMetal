@@ -74,8 +74,8 @@
     <div class="container">
         <div class="row section-padding">
             <div class="col-md-8 py-0">
-                <h1 class="slash-title"><span class="text-color">/ </span>Mold & Tool</h1>
-                <div class="title">Shaping the Future of Mold & Tool Design</div>
+                <h1 class="slash-title"><span class="text-color">/ </span>Solutions</h1>
+                <div class="title">Mold & Tool</div>
             </div>
         </div>
     </div>

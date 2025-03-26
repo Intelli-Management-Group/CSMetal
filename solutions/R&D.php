@@ -23,8 +23,8 @@
     <div class="container">
         <div class="row section-padding">
             <div class="col-md-8 py-0">
-                <h1 class="slash-title"><span class="text-color">/ </span>R&D</h1>
-                <div class="title">Structured Innovation, Advanced Technology</div>
+                <h1 class="slash-title"><span class="text-color">/ </span>Solutions</h1>
+                <div class="title">R&D</div>
             </div>
         </div>
     </div>
@@ -34,7 +34,7 @@
             <div class="row section-padding-lg">
                 <div class="col-xl-5 col-lg-6">
                     <p class="slash-title"><span class="text-color">/ </span>Our R&D Capabilities</p>
-                    <div class="title mb-5">We transform ideas into market-ready solutions through structured processes and cutting-edge technology.</div>
+                    <div class="title mb-5">Turning Your Vision into Reality</div>
                     <div class="w-100">
                         <hr>
                         <div class="toggle-container">
