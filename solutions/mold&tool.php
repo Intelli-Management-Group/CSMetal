@@ -98,12 +98,12 @@
                 <div class="col-sm-12 col-md-4 d-flex flex-column">
                     <img src="img/Solution/mold&tool/icon_custom_solution.svg" alt="Custom Solutions" class="icon">
                     <h5>Custom Solutions</h5>
-                    <p class="mb-0">Collaborate with our engineers to create tools and dies tailored to your exact project requirements.</p>
+                    <p class="mb-0">Partner with our engineers to create tools and dies tailored to your needs. From appliance parts to consumer goods, we deliver solutions optimized for efficiency, durability, and industry standards.</p>
                 </div>
                 <div class="col-sm-12 col-md-4 d-flex flex-column">
                     <img src="img/Solution/mold&tool/icon_design&Manufacturing.svg" alt="Integrated Design & Manufacturing" class="icon">
                     <h5>Integrated Design & Manufacturing</h5>
-                    <p class="mb-0">From concept to production, we streamline workflows under one roof, reducing lead times and ensuring quality control.</p>
+                    <p class="mb-0">From concept to production, we integrate workflows in-house, reducing lead times and ensuring quality. Our advanced tech enable seamless transitions, eliminating delays to accelerate time-to-market.</p>
                 </div>
                 <div class="col-sm-12 col-md-4 d-flex flex-column">
                     <img src="img/Solution/mold&tool/icon_Innovation&Precision.svg" alt="Innovation & Precision" class="icon">
@@ -124,10 +124,10 @@
                 <h5>Quality Assurance</h5>
                 <ul>
                     <li>
-                        <p><strong>Precision Measurement:</strong> CMM (Coordinate Measuring Machine) and 3D scanners verify tool accuracy.</p>
+                        <p><strong>Precision Measurement</strong><br>CMM (Coordinate Measuring Machine) and 3D scanners verify tool accuracy.</p>
                     </li>
                     <li>
-                        <p class="mb-0"><strong>Certification:</strong> Rigorous testing ensures compliance with industry standards.</p>
+                        <p class="mb-0"><strong>Certification</strong><br>Rigorous testing ensures compliance with industry standards.</p>
                     </li>
                 </ul>
             </div>
@@ -135,10 +135,11 @@
                 <h5>Post-Delivery Support</h5>
                 <ul>
                     <li>
-                        <p><strong>Maintenance Plans:</strong> Proactive upkeep to extend tool life.</p>
+                        <p><strong>Maintenance Plans</strong><br>Proactive upkeep with scheduled inspections and adjustments to extend tool life.
+                        </p>
                     </li>
                     <li>
-                        <p class="mb-0"><strong>Warranty:</strong> Confidence in durability and performance.</p>
+                        <p class="mb-0"><strong>Warranty</strong><br>Comprehensive warranty ensures confidence in durability and performance.</p>
                     </li>
                 </ul>
             </div>

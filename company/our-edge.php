@@ -98,7 +98,7 @@
                         </a>
                     </div>
                     <h3 class="mt-3">Fully equipped Lab</h3>
-                    <p class="mb-0">Ensure perfection with lab-tested quality: raw material analysis, functional testing, and finish validation in our ISO-certified facility</p>
+                    <p class="mb-0">Ensure perfection with lab-tested quality: rigorous raw material analysis, functional testing protocols, and finish validation in our ISO-certified facility.</p>
                 </div>
             </div>
 
@@ -111,7 +111,7 @@
                         </a>
                     </div>
                     <h3 class="mt-3">Molds Production</h3>
-                    <p class="mb-0">Precision you can trust—CMM and 3D scanning guarantee micron-level accuracy in every tool and die we create.</p>
+                    <p class="mb-0">Precision you can trust—industry-leading CMM and 3D scanning technologies guarantee micron-level accuracy in every tool, die, and mold we craft.</p>
                 </div>
             </div>
         </div>
@@ -171,7 +171,7 @@
                 <div class="our-edge-wrap">
                     <img src="img/Company/Our-Edge/icon_integration.svg" alt="seamless integration" class="icon">
                     <h5>Seamless Integration</h5>
-                    <p>CS Metal collaborates with trusted partners in diverse fields, including plastic, die-cast, plating, painting, and coating. This network enables us to handle diverse tasks and design requirements, delivering integrated solutions with precision and efficiency, regardless of complexity.</p>
+                    <p>CS Metal collaborates with trusted partners in fields like plastic, die-cast, plating, painting, and coating. This network enables us to handle diverse tasks and design requirements, delivering integrated solutions with precision and efficiency, regardless of complexity.</p>
                     <a href="products.php" class="underline-link">Our Product Capabilities &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
@@ -180,7 +180,7 @@
                 <div class="our-edge-wrap">
                     <img src="img/Company/Our-Edge/icon_improvement.svg" alt="continuous improvement" class="icon">
                     <h5>Continuous Improvement</h5>
-                    <p>We are dedicated to progress, continuously investing in quality control software and process improvements. Looking ahead, we’re planning to implement new technologies and processes to stay at the forefront of the industry. </p>
+                    <p>We are dedicated to progress, continuously investing in quality control software and proactive process improvements. Looking ahead, we’re planning to implement innovative new technologies and processes to remain leaders at the forefront of the industry.</p>
                     <a href="" class="underline-link">Our Future Plans &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
