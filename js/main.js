@@ -73,11 +73,14 @@ function handleScrollMovement(selector, direction = 'up') {
 
 // Function to handle scroll events
 function handleScroll() {
-    if (window.innerWidth >= 768) {
+    const mediumQuery = window.matchMedia('(min-width: 768px)');
+    const largeQuery = window.matchMedia('(min-width: 992px)');
+    if (mediumQuery.matches) {
         handleScrollMovement('.scroll2moveup', 'up');
         handleScrollMovement('.scroll2movedown', 'down');
     }
-    if (window.innerWidth >= 992) {
+    
+    if (largeQuery.matches) {
         handleScrollMovement('.scroll2moveup-lg', 'up');
         handleScrollMovement('.scroll2movedown-lg', 'down');
     }
@@ -85,23 +88,46 @@ function handleScroll() {
 
 // Function to add/remove scroll event listener based on window size
 function manageScrollListener() {
-    if (window.innerWidth >= 768) {
+    const mediumQuery = window.matchMedia('(min-width: 768px)');
+
+    if (mediumQuery.matches) {
         handleScroll();
         window.addEventListener('scroll', handleScroll);
     } else {
         window.removeEventListener('scroll', handleScroll);
         resetTransformations(['.scroll2moveup', '.scroll2movedown']);
     }
+
+    // Listen for changes in the screen width and apply changes accordingly
+    mediumQuery.addEventListener('change', () => {
+        if (mediumQuery.matches) {
+            handleScroll();
+            window.addEventListener('scroll', handleScroll);
+        } else {
+            window.removeEventListener('scroll', handleScroll);
+            resetTransformations(['.scroll2moveup', '.scroll2movedown']);
+        }
+    });
 }
 
 function manageScrollListenerLg() {
-    if (window.innerWidth >= 992) {
+    const largeQuery = window.matchMedia('(min-width: 992px)');
+    if (largeQuery.matches) {
         handleScroll();
         window.addEventListener('scroll', handleScroll);
     } else {
-        //window.removeEventListener('scroll', handleScroll);
         resetTransformations(['.scroll2moveup-lg', '.scroll2movedown-lg']);
     }
+
+    // Listen for changes in the screen width and apply changes accordingly
+    largeQuery.addEventListener('change', () => {
+        if (largeQuery.matches) {
+            handleScroll();
+            window.addEventListener('scroll', handleScroll);
+        } else {
+            resetTransformations(['.scroll2moveup-lg', '.scroll2movedown-lg']);
+        }
+    });
 }
 
 function resetTransformations(selectors) {
