@@ -16,18 +16,18 @@
 
         .horizontal-scroll-wrapper {
             position: relative;
-            height: 200px;
+            height: 500px;
             overflow: hidden;
         }
 
         .horizontal-scroll {
             display: flex;
-            height: 200px;
+            height: 500px;
             width: max-content;
         }
 
         .section {
-            height: 200px;
+            height: 500px;
             padding: 0 25px;
             display: flex;
             flex-direction: column;
@@ -49,21 +49,33 @@
 
         .progress-bar-container {
             position: sticky;
-            bottom: 0;
+            bottom: 43%;
             left: 0;
             width: 100%;
-            height: 2px;
+            height: 50px;
             background-color: none;
             z-index: 1000;
-            direction: rtl;
         }
 
         .progress-bar {
-            height: 100%;
+            height: 2px;
             width: 0;
-            background-color: #0c73b2;
-            /* transition: width 0.1s ease-out; */
-            direction: rtl;
+            background-color: #0c73b2 !important;
+            transition: width 0s !important;
+        }
+
+        .progress-icon {
+            color: #0c73b2;
+            position: absolute;
+            top: 0;
+            transform: translateY(-50%);
+            font-size: 20px;
+            width: auto;
+            transition: left 0s;
+        }
+
+        .process-icon {
+            max-width: 100px;
         }
     </style>
 </head>
@@ -178,45 +190,53 @@
 
         <div class="horizontal-scroll-wrapper">
             <div class="horizontal-scroll">
-                <div class="section d-none d-md-flex"></div>
-                <div class="section"></div>
+                <!-- <div class="section d-none d-md-flex"></div>
+                <div class="section"></div> -->
                 <div class="section">
                     <div class="title">1.</div>
                     <p>Received Samples/Drawing</p>
+                    <img src="img/Solution/mold&tool/icon_process_1.svg" alt="step 1" class="process-icon">
                 </div>
 
                 <div class="section">
                     <div class="title">2.</div>
                     <p>Communicate Design Targets</p>
+                    <img src="img/Solution/mold&tool/icon_process_2.svg" alt="step 2" class="process-icon">
                 </div>
 
                 <div class="section">
                     <div class="title">3.</div>
                     <p>Tooling DFM (Design for Manufacturing)</p>
+                    <img src="img/Solution/mold&tool/icon_process_3.svg" alt="step 4" class="process-icon">
                 </div>
 
                 <div class="section">
                     <div class="title">4.</div>
                     <p>Development</p>
+                    <img src="img/Solution/mold&tool/icon_process_4.svg" alt="step 4" class="process-icon">
                 </div>
 
                 <div class="section">
                     <div class="title">5.</div>
                     <p>Mold Production</p>
+                    <img src="img/Solution/mold&tool/icon_process_5.svg" alt="step 5" class="process-icon">
                 </div>
 
                 <div class="section">
                     <div class="title">6.</div>
                     <p>Mold & Product Certification</p>
+                    <img src="img/Solution/mold&tool/icon_process_6.svg" alt="step 6" class="process-icon">
                 </div>
 
                 <div class="section">
                     <div class="title">7.</div>
                     <p>Maintenance Plan</p>
+                    <img src="img/Solution/mold&tool/icon_process_7.svg" alt="step 7" class="process-icon">
                 </div>
             </div>
             <div class="progress-bar-container">
                 <div class="progress-bar"></div>
+                <i class="fa-solid fa-circle progress-icon"></i>
             </div>
         </div>
         <div style="height: 100px;"></div>
@@ -252,9 +272,14 @@
                     pin: true,
                     anticipatePin: 1,
                     onUpdate: self => {
-                        // Update the progress bar width
-                        const progress = self.progress * 100; // Get progress as a percentage
-                        document.querySelector('.progress-bar').style.width = `${progress}%`;
+                        const progress = Math.min(self.progress * 100, 71); // Limit max progress to 70%
+                        const progressBar = document.querySelector('.progress-bar');
+                        const progressIcon = document.querySelector('.progress-icon');
+
+                        progressBar.style.width = `${progress}%`;
+
+                        // Move the icon with the tip of the progress bar
+                        progressIcon.style.left = `${progress}%`;
                     }
                 }
             });
