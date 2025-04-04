@@ -5,79 +5,7 @@
     <?php include '../inc/HTMLhead.php'; ?>
     <title>CS Metal Mold & Tool</title>
     <meta name="description" content="CS Metal ensures precision in metal fabrication with advanced inspection tech like GOM Scan & Spectralight QC. Production with color accuracy, and compliance.">
-    <style>
-        ul {
-            padding-left: 18px;
-        }
-
-        strong {
-            font-weight: 500 !important;
-        }
-
-        .horizontal-scroll-wrapper {
-            position: relative;
-            height: 500px;
-            overflow: hidden;
-        }
-
-        .horizontal-scroll {
-            display: flex;
-            height: 500px;
-            width: max-content;
-        }
-
-        .section {
-            height: 500px;
-            padding: 0 25px;
-            display: flex;
-            flex-direction: column;
-            align-items: start;
-            justify-content: center;
-            opacity: 0;
-            transform: scale(0.8);
-        }
-
-        .mold-process-wrapper {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-        }
-
-        .mold-process {
-            width: calc(100% + 50px);
-        }
-
-        .progress-bar-container {
-            position: sticky;
-            bottom: 43%;
-            left: 0;
-            width: 100%;
-            height: 50px;
-            background-color: none;
-            z-index: 1000;
-        }
-
-        .progress-bar {
-            height: 2px;
-            width: 0;
-            background-color: #0c73b2 !important;
-            transition: width 0s !important;
-        }
-
-        .progress-icon {
-            color: #0c73b2;
-            position: absolute;
-            top: 0;
-            transform: translateY(-50%);
-            font-size: 20px;
-            width: auto;
-            transition: left 0s;
-        }
-
-        .process-icon {
-            max-width: 100px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/mold&tool.css">
 </head>
 
 <body>
@@ -94,10 +22,6 @@
 
     <div class="bg-black text-white">
         <div class="container" id="core-values">
-            <!-- <div class="line grey-border line-left"></div>
-            <div class="line grey-border line-1-3"></div>
-            <div class="line grey-border line-2-3"></div>
-            <div class="line grey-border line-right"></div> -->
             <div class="row section-padding padding-top pb-0">
                 <div class="col-sm-12 col-md-4 py-0">
                     <div class="title pb-3">Our Expertise</div>
@@ -190,53 +114,60 @@
 
         <div class="horizontal-scroll-wrapper">
             <div class="horizontal-scroll">
-                <!-- <div class="section d-none d-md-flex"></div>
-                <div class="section"></div> -->
                 <div class="section">
-                    <div class="title">1.</div>
-                    <p>Received Samples/Drawing</p>
-                    <img src="img/Solution/mold&tool/icon_process_1.svg" alt="step 1" class="process-icon">
+                    <div class="process-icon-wrapper">
+                        <img src="img/Solution/mold&tool/icon_process_1.svg" alt="step 1" class="process-icon">
+                    </div>
+                    <h5>Received Samples/Drawing</h5>
                 </div>
 
                 <div class="section">
-                    <div class="title">2.</div>
-                    <p>Communicate Design Targets</p>
-                    <img src="img/Solution/mold&tool/icon_process_2.svg" alt="step 2" class="process-icon">
+                    <div class="process-icon-wrapper">
+                        <img src="img/Solution/mold&tool/icon_process_2.svg" alt="step 2" class="process-icon">
+                    </div>
+                    <h5>Communicate Design Targets</h5>
                 </div>
 
                 <div class="section">
-                    <div class="title">3.</div>
-                    <p>Tooling DFM (Design for Manufacturing)</p>
-                    <img src="img/Solution/mold&tool/icon_process_3.svg" alt="step 4" class="process-icon">
+                    <div class="process-icon-wrapper">
+                        <img src="img/Solution/mold&tool/icon_process_3.svg" alt="step 4" class="process-icon">
+                    </div>
+                    <h5>Tooling DFM (Design for Manufacturing)</h5>
                 </div>
 
                 <div class="section">
-                    <div class="title">4.</div>
-                    <p>Development</p>
-                    <img src="img/Solution/mold&tool/icon_process_4.svg" alt="step 4" class="process-icon">
+                    <div class="process-icon-wrapper">
+                        <img src="img/Solution/mold&tool/icon_process_4.svg" alt="step 4" class="process-icon">
+                    </div>
+                    <h5>Development</h5>
                 </div>
 
                 <div class="section">
-                    <div class="title">5.</div>
-                    <p>Mold Production</p>
-                    <img src="img/Solution/mold&tool/icon_process_5.svg" alt="step 5" class="process-icon">
+                    <div class="process-icon-wrapper">
+                        <img src="img/Solution/mold&tool/icon_process_5.svg" alt="step 5" class="process-icon">
+                    </div>
+                    <h5>Mold Production</h5>
                 </div>
 
                 <div class="section">
-                    <div class="title">6.</div>
-                    <p>Mold & Product Certification</p>
-                    <img src="img/Solution/mold&tool/icon_process_6.svg" alt="step 6" class="process-icon">
+                    <div class="process-icon-wrapper">
+                        <img src="img/Solution/mold&tool/icon_process_6.svg" alt="step 6" class="process-icon">
+                    </div>
+                    <h5>Mold & Product Certification</h5>
                 </div>
 
                 <div class="section">
-                    <div class="title">7.</div>
-                    <p>Maintenance Plan</p>
-                    <img src="img/Solution/mold&tool/icon_process_7.svg" alt="step 7" class="process-icon">
+                    <div class="process-icon-wrapper">
+                        <img src="img/Solution/mold&tool/icon_process_7.svg" alt="step 7" class="process-icon">
+                    </div>
+                    <h5>Maintenance Plan</h5>
                 </div>
             </div>
             <div class="progress-bar-container">
                 <div class="progress-bar"></div>
-                <i class="fa-solid fa-circle progress-icon"></i>
+                <div class="progress-bar-icon-wrapper">
+                    <img src="img/Generic/logo_emblem.png" alt="" class="progress-bar-icon">
+                </div>
             </div>
         </div>
         <div style="height: 100px;"></div>
@@ -245,102 +176,7 @@
     <?php include '../inc/footer.php'; ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script>
-        function initScroll() {
-            ScrollTrigger.getAll().forEach(trigger => trigger.kill());
-            gsap.killTweensOf(".horizontal-scroll");
-
-            const container = document.querySelector('.horizontal-scroll-wrapper');
-            const sections = document.querySelectorAll(".section");
-            const containerWidth = container.clientWidth;
-            let sectionWidth;
-            if (window.innerWidth < 768) {
-                sectionWidth = containerWidth / 2;
-            } else {
-                sectionWidth = containerWidth / 3;
-            }
-            const horizontalScrollLength = (sections.length * sectionWidth) - containerWidth;
-
-            const horizontalScrollTween = gsap.to(".horizontal-scroll", {
-                x: -horizontalScrollLength,
-                ease: "none",
-                scrollTrigger: {
-                    trigger: ".horizontal-scroll-wrapper",
-                    start: "center center",
-                    end: () => `+=${horizontalScrollLength}`,
-                    scrub: true,
-                    pin: true,
-                    anticipatePin: 1,
-                    onUpdate: self => {
-                        const progress = Math.min(self.progress * 100, 71); // Limit max progress to 70%
-                        const progressBar = document.querySelector('.progress-bar');
-                        const progressIcon = document.querySelector('.progress-icon');
-
-                        progressBar.style.width = `${progress}%`;
-
-                        // Move the icon with the tip of the progress bar
-                        progressIcon.style.left = `${progress}%`;
-                    }
-                }
-            });
-
-            sections.forEach(section => {
-                gsap.set(section, {
-                    opacity: 0,
-                    scale: 0.8
-                });
-            });
-
-            sections.forEach(section => {
-                gsap.to(section, {
-                    opacity: 1,
-                    scale: 1,
-                    duration: 0.8,
-                    scrollTrigger: {
-                        trigger: section,
-                        containerAnimation: horizontalScrollTween,
-                        start: "left 80%",
-                        end: "right center",
-                        toggleActions: "play none none reverse"
-                    }
-                });
-            });
-
-            ScrollTrigger.create({
-                trigger: ".mold-process-wrapper",
-                start: "top top",
-                end: () => `+=${horizontalScrollLength}`,
-                pin: true,
-                pinSpacing: false
-            });
-        }
-
-        function setSectionWidth() {
-            const container = document.querySelector('.horizontal-scroll-wrapper');
-            const sections = document.querySelectorAll(".section");
-            const containerWidth = container.clientWidth;
-            let sectionWidth;
-            if (window.innerWidth < 768) {
-                sectionWidth = containerWidth / 2;
-            } else {
-                sectionWidth = containerWidth / 3;
-            }
-
-            sections.forEach(section => {
-                section.style.width = `${sectionWidth}px`;
-            });
-        }
-
-        document.addEventListener("DOMContentLoaded", function() {
-            setSectionWidth();
-            initScroll();
-        });
-
-        window.addEventListener('resize', function() {
-            setSectionWidth();
-            initScroll();
-        });
-    </script>
+    <script src="js/mold&tool.js"></script>
 </body>
 
 </html>
