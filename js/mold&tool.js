@@ -24,17 +24,24 @@ function initScroll() {
             pin: true,
             anticipatePin: 1,
             onUpdate: self => {
-                let progress = Math.min(self.progress * 100, 71.43);
+                // let progress = Math.min(self.progress * 100, 71.43);
                 // progress = Math.max(progress, 2.5);                
                 // console.log(progress);
-                // const progress = self.progress * 100;
+                const progress = self.progress * 100;
                 const progressBar = document.querySelector('.progress-bar');
                 const progressIcon = document.querySelector('.progress-bar-icon-wrapper');
 
                 progressBar.style.width = `${progress}%`;
-
-                // Move the icon with the tip of the progress bar
                 progressIcon.style.left = `${progress}%`;
+
+                // Determine the active section index
+                const totalSections = sections.length;
+                const sectionIndex = Math.floor(self.progress * totalSections);
+
+                // Remove active class from all sections
+                sections.forEach((section, index) => {
+                    section.classList.toggle('active', index === sectionIndex);
+                });
             }
         }
     });
