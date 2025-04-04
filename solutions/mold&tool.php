@@ -115,50 +115,50 @@
         <div class="horizontal-scroll-wrapper">
             <div class="horizontal-scroll">
                 <div class="section">
-                    <div class="process-icon-wrapper">
-                        <img src="img/Solution/mold&tool/icon_process_1.svg" alt="step 1" class="process-icon">
+                    <div class="mold-icon-wrapper">
+                        <img src="img/Solution/mold&tool/icon_process_1.svg" alt="step 1" class="mold-icon">
                     </div>
                     <h5>Received Samples/Drawing</h5>
                 </div>
 
                 <div class="section">
-                    <div class="process-icon-wrapper">
-                        <img src="img/Solution/mold&tool/icon_process_2.svg" alt="step 2" class="process-icon">
+                    <div class="mold-icon-wrapper">
+                        <img src="img/Solution/mold&tool/icon_process_2.svg" alt="step 2" class="mold-icon">
                     </div>
                     <h5>Communicate Design Targets</h5>
                 </div>
 
                 <div class="section">
-                    <div class="process-icon-wrapper">
-                        <img src="img/Solution/mold&tool/icon_process_3.svg" alt="step 4" class="process-icon">
+                    <div class="mold-icon-wrapper">
+                        <img src="img/Solution/mold&tool/icon_process_3.svg" alt="step 4" class="mold-icon">
                     </div>
                     <h5>Tooling DFM (Design for Manufacturing)</h5>
                 </div>
 
                 <div class="section">
-                    <div class="process-icon-wrapper">
-                        <img src="img/Solution/mold&tool/icon_process_4.svg" alt="step 4" class="process-icon">
+                    <div class="mold-icon-wrapper">
+                        <img src="img/Solution/mold&tool/icon_process_4.svg" alt="step 4" class="mold-icon">
                     </div>
                     <h5>Development</h5>
                 </div>
 
                 <div class="section">
-                    <div class="process-icon-wrapper">
-                        <img src="img/Solution/mold&tool/icon_process_5.svg" alt="step 5" class="process-icon">
+                    <div class="mold-icon-wrapper">
+                        <img src="img/Solution/mold&tool/icon_process_5.svg" alt="step 5" class="mold-icon">
                     </div>
                     <h5>Mold Production</h5>
                 </div>
 
                 <div class="section">
-                    <div class="process-icon-wrapper">
-                        <img src="img/Solution/mold&tool/icon_process_6.svg" alt="step 6" class="process-icon">
+                    <div class="mold-icon-wrapper">
+                        <img src="img/Solution/mold&tool/icon_process_6.svg" alt="step 6" class="mold-icon">
                     </div>
                     <h5>Mold & Product Certification</h5>
                 </div>
 
                 <div class="section">
-                    <div class="process-icon-wrapper">
-                        <img src="img/Solution/mold&tool/icon_process_7.svg" alt="step 7" class="process-icon">
+                    <div class="mold-icon-wrapper">
+                        <img src="img/Solution/mold&tool/icon_process_7.svg" alt="step 7" class="mold-icon">
                     </div>
                     <h5>Maintenance Plan</h5>
                 </div>
