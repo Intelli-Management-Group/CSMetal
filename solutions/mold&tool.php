@@ -114,7 +114,7 @@
 
         <div class="horizontal-scroll-wrapper">
             <div class="horizontal-scroll">
-                <div class="section">
+                <div class="section active">
                     <div class="mold-icon-wrapper">
                         <img src="img/Solution/mold&tool/icon_process_1.svg" alt="step 1" class="mold-icon">
                     </div>
@@ -166,7 +166,7 @@
             <div class="progress-bar-container">
                 <div class="progress-bar"></div>
                 <div class="progress-bar-icon-wrapper">
-                    <img src="img/Generic/logo_emblem.png" alt="" class="progress-bar-icon">
+                    <img src="img/Generic/logo_emblem.png" alt="CSMetal" class="progress-bar-icon">
                 </div>
             </div>
         </div>
