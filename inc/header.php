@@ -407,7 +407,7 @@
                 companyNav.classList.add('show');
                 solutionsNav.classList.remove('show');
                 productsNav.classList.remove('show');
-                facilitiesNav.classList.remove('show');
+                // facilitiesNav.classList.remove('show');
             });
 
             //Hide #company-nav when the mouse leaves either the link or the nav
@@ -423,7 +423,7 @@
                 companyNav.classList.remove('show');
                 solutionsNav.classList.remove('show');
                 productsNav.classList.remove('show');
-                facilitiesNav.classList.remove('show');
+                // facilitiesNav.classList.remove('show');
             });
 
             const solutionsLink = document.getElementById('solutions-link');
@@ -433,7 +433,7 @@
                 solutionsNav.classList.add('show');
                 companyNav.classList.remove('show');
                 productsNav.classList.remove('show');
-                facilitiesNav.classList.remove('show');
+                // facilitiesNav.classList.remove('show');
             });
 
             document.getElementById('nav').addEventListener('mouseout', () => {
@@ -448,7 +448,7 @@
                 solutionsNav.classList.remove('show');
                 companyNav.classList.remove('show');
                 productsNav.classList.remove('show');
-                facilitiesNav.classList.remove('show');
+                // facilitiesNav.classList.remove('show');
             });
 
             const productsLink = document.getElementById('products-link');
@@ -458,7 +458,7 @@
                 productsNav.classList.add('show');
                 companyNav.classList.remove('show');
                 solutionsNav.classList.remove('show');
-                facilitiesNav.classList.remove('show');
+                // facilitiesNav.classList.remove('show');
             });
 
             document.getElementById('nav').addEventListener('mouseout', () => {
@@ -473,34 +473,33 @@
                 companyNav.classList.remove('show');
                 solutionsNav.classList.remove('show');
                 productsNav.classList.remove('show');
-                facilitiesNav.classList.remove('show');
+                // facilitiesNav.classList.remove('show');
             });
 
-            const facilitiesLink = document.getElementById('facilities-link');
-            const facilitiesNav = document.getElementById('facilities-nav');
+            // const facilitiesLink = document.getElementById('facilities-link');
+            // const facilitiesNav = document.getElementById('facilities-nav');
 
-            facilitiesLink.addEventListener('mouseover', () => {
-                facilitiesNav.classList.add('show');
-                companyNav.classList.remove('show');
-                solutionsNav.classList.remove('show');
-                productsNav.classList.remove('show');
-            });
+            // facilitiesLink.addEventListener('mouseover', () => {
+            //     facilitiesNav.classList.add('show');
+            //     companyNav.classList.remove('show');
+            //     solutionsNav.classList.remove('show');
+            //     productsNav.classList.remove('show');
+            // });
 
-            document.getElementById('nav').addEventListener('mouseout', () => {
-                facilitiesNav.classList.remove('show');
-            });
+            // document.getElementById('nav').addEventListener('mouseout', () => {
+            //     facilitiesNav.classList.remove('show');
+            // });
 
-            facilitiesNav.addEventListener('mouseover', () => {
-                facilitiesNav.classList.add('show');
-            });
+            // facilitiesNav.addEventListener('mouseover', () => {
+            //     facilitiesNav.classList.add('show');
+            // });
 
-            facilitiesNav.addEventListener('mouseout', () => {
-                companyNav.classList.remove('show');
-                solutionsNav.classList.remove('show');
-                productsNav.classList.remove('show');
-                facilitiesNav.classList.remove('show');
-            });
-
+            // facilitiesNav.addEventListener('mouseout', () => {
+            //     companyNav.classList.remove('show');
+            //     solutionsNav.classList.remove('show');
+            //     productsNav.classList.remove('show');
+            //     facilitiesNav.classList.remove('show');
+            // });
         </script>
 
         <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

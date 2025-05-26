@@ -142,8 +142,8 @@
         </div>
     </div>
 
+    <script src="js/showMore.js"></script>
     <?php include '../inc/footer.php'; ?>
-
 </body>
 
 </html>

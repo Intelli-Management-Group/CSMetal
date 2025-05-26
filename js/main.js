@@ -165,17 +165,6 @@ document.addEventListener("DOMContentLoaded", function() {
 //     document.getElementById("intro").scrollIntoView({ behavior: "smooth" });
 // });
 
-//show more button
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelector(".show-more-button").addEventListener("click", function() {
-        var hiddenContent = document.querySelector(".hidden-content");
-        if (hiddenContent.style.display === "none") {
-            hiddenContent.style.display = "flex";
-            this.style.display = "none";
-        } 
-    });
-});
-
 document.addEventListener("DOMContentLoaded", function() {
     function toTitleCase(str) {
         // Define small words you want to keep lowercase
