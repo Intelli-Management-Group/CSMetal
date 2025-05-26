@@ -54,7 +54,7 @@
                         </a>
                     </div>
                     <h3 class="mt-3">Inspection</h3>
-                    <p class="mb-0">CS Metal upholds top-quality standards with advanced inspection tools: Gom Scan for early defect detection, Inspector CMM for precise measurements, Spectralight QC for color accuracy, and QMS software for real-time tracking. These technologies ensure reliability from inspection to production, highlighting our commitment to quality in every aspect of manufacturing.</p>
+                    <p class="mb-0">CS Metal upholds top-quality standards with advanced inspection tools: GOM Scan for early defect detection, Inspector CMM for precise measurements, Spectralight QC for color accuracy, and QMS software for real-time tracking. These technologies ensure reliability from inspection to production, highlighting our commitment to quality in every aspect of manufacturing.</p>
                 </div>
             </div>
 
