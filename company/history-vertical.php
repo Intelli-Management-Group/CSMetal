@@ -26,7 +26,7 @@
     <div class="container">
         <div class="row section-padding">
             <div class="col-md-8">
-                <h1 class="slash-title"><span class="text-color">/ </span>History</h1>
+                <h1 class="slash-title"><span class="text-color"> / </span><a href="company/about.php" class="text-color">Company</a><span class="text-color"> / </span>History</h1>
                 <div class="title">From Humble Beginnings to Global Leadership</div>
             </div>
         </div>

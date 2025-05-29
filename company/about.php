@@ -52,7 +52,7 @@
     <div class="container">
         <div class="row section-padding">
             <div class="col-12 py-0">
-                <h1 class="slash-title"><span class="text-color">/ </span>About</h1>
+                <h1 class="slash-title"><span class="text-color"> / </span><a href="company/about.php" class="text-color">Company</a><span class="text-color"> / </span>About</h1>
                 <div class="title">Crafting Excellence Through Innovation and Precision</div>
             </div>
         </div>

@@ -13,8 +13,8 @@
     <div class="container">
         <div class="row section-padding">
             <div class="col-md-8 py-0">
-                <h1 class="slash-title"><span class="text-color">/ </span>Solutions</h1>
-                <div class="title">Testing</div>
+                <h1 class="slash-title"><span class="text-color"> / </span><a href="solutions.php" class="text-color">Solutions</a><span class="text-color"> / </span>Testing</h1>
+                <div class="title">Slogan goes here</div>
             </div>
         </div>
         <div class="row mx-0 intro-container">

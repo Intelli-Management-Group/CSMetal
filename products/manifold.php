@@ -85,7 +85,7 @@
     <div class="container">
         <div class="row section-padding">
             <div class="col-12 py-0">
-                <h1 class="slash-title"><span class="text-color">/ </span>Manifold</h1>
+                <h1 class="slash-title"><span class="text-color"> / </span><a href="products.php" class="text-color">Products</a><span class="text-color"> / </span>Manifold</h1>
                 <div class="title">Custom Manifolds for Superior Performance!</div>
             </div>
         </div>

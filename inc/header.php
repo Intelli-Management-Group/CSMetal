@@ -1,3 +1,8 @@
+<?php
+    $current_path = $_SERVER['PHP_SELF'];
+    $current_page = basename($_SERVER['PHP_SELF']);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -186,14 +191,12 @@
                     <img src="img/Generic/logo_emblem.png" alt="Logo">
                 </a>
                 <nav>
-                <!-- center align the nav -->
                     <ul class="nav-links" style="height: 80px;">
-                        <li><a href="./index.php" class="first-nav active">HOME</a></li>
-                        <li id="company-link"><a href="company/about.php" class="first-nav">COMPANY</a></li>
-                        <li id="solutions-link"><a href="solutions.php" class="first-nav">SOLUTIONS</a></li>
-                        <li id="products-link"><a href="products.php" class="first-nav">PRODUCTS</a></li>
-                        <!-- <li id="facilities-link"><a href="#" class="first-nav">FACILITIES</a></li> -->
-                        <li><a href="./contact.php" class="text-nowrap first-nav">CONTACT US</a></li>
+                        <li><a href="./index.php" class="first-nav <?= strpos($current_path, 'index.php') !== false ? 'active' : '' ?>">HOME</a></li>
+                        <li id="company-link"><a href="company/about.php" class="first-nav <?= strpos($current_path, '/company') !== false ? 'active' : '' ?>">COMPANY</a></li>
+                        <li id="solutions-link"><a href="solutions.php" class="first-nav <?= strpos($current_path, '/solutions') !== false ? 'active' : '' ?>">SOLUTIONS</a></li>
+                        <li id="products-link"><a href="products.php" class="first-nav <?= strpos($current_path, '/products') !== false ? 'active' : '' ?>">PRODUCTS</a></li>
+                        <li><a href="./contact.php" class="text-nowrap first-nav <?= strpos($current_path, 'contact.php') !== false ? 'active' : '' ?>">CONTACT US</a></li>
                     </ul>
                 </nav>
             </div>
@@ -286,11 +289,11 @@
                     </div>
                     <div class="col-md-4 d-flex align-items-center">
                         <ul class="nav-links flex-column align-items-start">
-                            <li><a href="company/about.php">About Us</a></li>
-                            <li><a href="company/our-edge.php">Our Edge</a></li>
-                            <li><a href="company/history.php">History</a></li>
-                            <li><a href="company/awards.php">Awards</a></li>
-                            <li><a href="company/become-a-customer.php">Become a Customer</a></li>
+                            <li><a href="company/about.php" class="<?= $current_page == 'about.php' ? 'active' : '' ?>">About Us</a></li>
+                            <li><a href="company/our-edge.php" class="<?= $current_page == 'our-edge.php' ? 'active' : '' ?>">Our Edge</a></li>
+                            <li><a href="company/history.php" class="<?= $current_page == 'history.php' ? 'active' : '' ?>">History</a></li>
+                            <li><a href="company/awards.php" class="<?= $current_page == 'awards.php' ? 'active' : '' ?>">Awards</a></li>
+                            <li><a href="company/become-a-customer.php" class="<?= $current_page == 'become-a-customer.php' ? 'active' : '' ?>">Become a Customer</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4 d-flex align-items-center">
@@ -310,11 +313,11 @@
                     </div>
                     <div class="col-md-4 d-flex align-items-center">
                         <ul class="nav-links flex-column align-items-start">
-                            <li><a href="solutions/inspection.php">Inspection</a></li>
-                            <li><a href="solutions/machine.php">Machines</a></li>
-                            <li><a href="solutions/testing.php">Testing</a></li>
-                            <li><a href="solutions/R&D.php">R&D</a></li>
-                            <li><a href="solutions/mold&tool.php">Mold & Tool</a></li>
+                            <li><a href="solutions/inspection.php" class="<?= $current_page == 'inspection.php' ? 'active' : '' ?>">Inspection</a></li>
+                            <li><a href="solutions/machine.php" class="<?= $current_page == 'machine.php' ? 'active' : '' ?>">Machines</a></li>
+                            <li><a href="solutions/testing.php" class="<?= $current_page == 'testing.php' ? 'active' : '' ?>">Testing</a></li>
+                            <li><a href="solutions/R&D.php" class="<?= $current_page == 'R&D.php' ? 'active' : '' ?>">R&D</a></li>
+                            <li><a href="solutions/mold&tool.php" class="<?= $current_page == 'mold&tool.php' ? 'active' : '' ?>">Mold & Tool</a></li>
                         </ul>
                     </div>
                     <!-- <div class="col-md-4">
@@ -342,11 +345,11 @@
                     </div>
                     <div class="col-md-4 d-flex align-items-center">
                         <ul class="nav-links flex-column align-items-start">
-                            <li><a href="products/stamping-parts.php">Stamping Parts</a></li>
-                            <li><a href="products/handles.php">Handles</a></li>
-                            <li><a href="products/die-cast.php">Die Cast</a></li>
-                            <li><a href="products/manifold.php">Manifold</a></li>
-                            <li><a href="products/advertising.php">Advertising Fixtures & OEM Products</a></li>
+                            <li><a href="products/stamping-parts.php" class="<?= $current_page == 'stamping-parts.php' ? 'active' : '' ?>">Stamping Parts</a></li>
+                            <li><a href="products/handles.php" class="<?= $current_page == 'handles.php' ? 'active' : '' ?>">Handles</a></li>
+                            <li><a href="products/die-cast.php" class="<?= $current_page == 'die-cast.php' ? 'active' : '' ?>">Die Cast</a></li>
+                            <li><a href="products/manifold.php" class="<?= $current_page == 'manifold.php' ? 'active' : '' ?>">Manifold</a></li>
+                            <li><a href="products/advertising.php" class="<?= $current_page == 'advertising.php' ? 'active' : '' ?>">Advertising Fixtures & OEM Products</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4 d-flex align-items-center">
@@ -386,17 +389,17 @@
 
         <script>
             //highlight the current page's navigation link
-            const currentLocation = window.location.href;
-            const menuItem = document.querySelectorAll('.nav-links a');
-            const menuLength = menuItem.length;
+            // const currentLocation = window.location.href;
+            // const menuItem = document.querySelectorAll('.nav-links a');
+            // const menuLength = menuItem.length;
 
-            for (let i = 0; i < menuLength; i++) {
-                if (menuItem[i].href === currentLocation) {
-                    menuItem[i].classList.add('active');
-                } else {
-                    menuItem[i].classList.remove('active');
-                }
-            }
+            // for (let i = 0; i < menuLength; i++) {
+            //     if (menuItem[i].href === currentLocation) {
+            //         menuItem[i].classList.add('active');
+            //     } else {
+            //         menuItem[i].classList.remove('active');
+            //     }
+            // }
 
             // Get the COMPANY link and the company-nav element
             const companyLink = document.getElementById('company-link');

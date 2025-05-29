@@ -15,12 +15,12 @@
         }
 
         /* .company {
-                margin-bottom: auto;
-            }
+            margin-bottom: auto;
+        }
 
-            .award, .year {
-                margin-top: auto;
-            } */
+        .award, .year {
+            margin-top: auto;
+        } */
 
         @media only screen and (max-width: 767px) {
             .section-padding {
@@ -40,7 +40,7 @@
     <div class="container">
         <div class="row section-padding awards-section-padding">
             <div class="col-12 py-0">
-                <h1 class="slash-title"><span class="text-color">/ </span>Awards</h1>
+                <h1 class="slash-title"><span class="text-color"> / </span><a href="company/about.php" class="text-color">Company</a><span class="text-color"> / </span>Awards</h1>
                 <div class="title">Celebrating Excellence with Industry Leading Awards </div>
             </div>
         </div>

@@ -14,8 +14,8 @@
     <div class="container">
         <div class="row section-padding">
             <div class="col-md-8 py-0">
-                <h1 class="slash-title"><span class="text-color">/ </span>Solutions</h1>
-                <div class="title">Mold & Tool</div>
+                <h1 class="slash-title"><span class="text-color"> / </span><a href="solutions.php" class="text-color">Solutions</a><span class="text-color"> / </span>Mold & Tool</h1>
+                <div class="title">Slogan goes here</div>
             </div>
         </div>
     </div>

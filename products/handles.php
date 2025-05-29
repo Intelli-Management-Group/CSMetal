@@ -13,7 +13,7 @@
     <div class="container">
         <div class="row section-padding">
             <div class="col-12 py-0">
-                <h1 class="slash-title"><span class="text-color">/ </span>Handles</h1>
+                <h1 class="slash-title"><span class="text-color"> / </span><a href="products.php" class="text-color">Products</a><span class="text-color"> / </span>Handles</h1>
                 <div class="title">Engineered Handles for Stability and Style, Tailored to Your Needs!</div>
             </div>
         </div>
