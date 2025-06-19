@@ -103,13 +103,14 @@
                         </div>
                         <div class="col-sm-12 col-md-3 col-lg-4 p-0">
                             <div class="info-wrap email">
-                                <p class="mb-0">2A/F, Phase 1 Kingsford Industrial Bldg., <br>26-32 Kwai Hei St., Kwai Chung Hong Kong</p>
+                                Office: <a href="tel:+85226143700">+852-2614-3700</a><br>
+                                Factory: <a href="tel:+8676983391265">+86-769-83391265</a>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-3 col-lg-2 pl-lg-0 pl-md-3 p-0">
                             <div class="info-wrap phone pb-0">
-                                <a href="tel:+85226143700">+852-2614-3700</a><br>
-                                <a href="mailto:factory@chising.com.hk">factory@chising.com.hk</a>
+                                <p class="mb-0">Follow Us:</p>
+                                <a href="https://www.linkedin.com/company/cs-metal-int/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin" style="font-size: 32px;"></i></a>
                             </div>
                         </div>
                     </div>
