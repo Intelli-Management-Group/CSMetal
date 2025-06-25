@@ -232,32 +232,64 @@
         </div>
     </div>
 
-    <!-- Become a customer -->
+    <!-- Our Clients -->
     <div class="container">
         <div class="line line-left"></div>
         <div class="line line-right"></div>
-        <div class="row section-padding padding-top padding-bottom pl-0 pr-0">
-            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center pt-0">
-                <img src="img/Product/Stamping/img_customer.png" alt="customer" class="img-fluid">
+        <div class="row section-padding padding-top d-flex justify-content-center">
+            <div class="col-sm-12 col-md-8 py-0">
+                <p class="slash-title"><span class="text-color">/ </span>Our Clients</p>
+                <div class="products-intro">Distinguished by enduring partnerships with leading brands, Chi Sing has become synonymous with reliability and quality. Our work with top appliance manufacturers has not only earned us a preferred supplier status but also brought forth innovative collaborations.</div>
             </div>
+        </div>
+        <div class="row section-padding pt-0 d-flex justify-content-around pb-0">
+            <div class="col-6 col-md-1 p-md-0 d-flex align-items-center pt-0">
+                <img src="img/Company/About/client_1.png" class="client" alt="client 1">
+            </div>
+            <div class="col-6 col-md-1 p-md-0 d-flex align-items-center pt-0">
+                <img src="img/Company/About/client_2.png" class="client" alt="client 2">
+            </div>
+            <div class="col-6 col-md-1 p-md-0 d-flex align-items-center">
+                <img src="img/Company/About/client_3.png" class="client" alt="client 3">
+            </div>
+            <div class="col-6 col-md-1 p-md-2 d-flex align-items-center justify-content-center">
+                <img src="img/Company/About/client_4.png" class=" client client4" alt="client 4">
+            </div>
+            <div class="col-6 col-md-1 p-md-0 d-flex align-items-center">
+                <img src="img/Company/About/client_5.png" class="client" alt="client 5">
+            </div>
+            <div class="col-6 col-md-1 p-md-0 d-flex align-items-center">
+                <img src="img/Company/About/client_6.png" class="client" alt="client 6">
+            </div>
+            <div class="col-6 col-md-1 p-md-0 d-flex align-items-center">
+                <img src="img/Company/About/client_7.png" class="client" alt="client 7">
+            </div>
+            <div class="col-6 col-md-1 p-md-0 d-flex align-items-center">
+                <img src="img/Company/About/client_8.png" class="client" alt="client 8">
+            </div>
+        </div>
 
-            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center px-sm-5 pb-0">
-                <div class="pt-md-4 py-lg-0">
-                    <p class="slash-title"><span class="text-color">/ </span>Become a customer</p>
-                    <div class="title mt-4 mb-4">Shaping the Future of Metal Manufacturing</div>
-                    <p>At CS Metal, we’ve become synonymous with reliability and quality. Shaping the future of metal manufacturing, partner with us to experience exceptional quality and precision in every project.</p>
-                    <a href="company/become-a-customer.php" class="underline-link">LET'S TALK &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
+        <div class="row section-padding padding-bottom d-flex justify-content-around mt-md-4 pt-0">
+            <div class="col-6 col-md-2 px-4 d-flex align-items-center">
+                <img src="img/Company/About/client_9.png" class="client" alt="client 9">
+            </div>
+            <div class="col-6 col-md-2 px-4 d-flex align-items-center">
+                <img src="img/Company/About/client_10.png" class="client" alt="client 10">
+            </div>
+            <div class="col-6 col-md-2 px-4 d-flex align-items-center">
+                <img src="img/Company/About/client_11.png" class="client" alt="client 11">
+            </div>
+            <div class="col-6 col-md-2 px-4 d-flex align-items-center">
+                <img src="img/Company/About/client_12.png" class="client" alt="client 12">
+            </div>
+            <div class="col-6 col-md-2 px-4 d-flex align-items-center pb-0">
+                <img src="img/Company/About/client_13.png" class="client" alt="client 13">
+            </div>
+            <div class="col-6 col-md-2 px-4 d-flex align-items-center pb-0">
+                <img src="img/Company/About/client_14.png" class="client" alt="client 14">
             </div>
         </div>
     </div>
-
-    <!-- News -->
-    <!-- <div>
-            <div class="container">
-                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7237173380360085504" height="647" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-            </div>
-        </div> -->
 
     <?php include 'inc/footer.php'; ?>
 
