@@ -15,7 +15,7 @@
         <div class="row section-padding">
             <div class="col-md-8 py-0">
                 <h1 class="slash-title"><span class="text-color"> / </span><a href="solutions.php" class="text-color">Solutions</a><span class="text-color"> / </span>Mold & Tool</h1>
-                <div class="title">Slogan goes here</div>
+                <div class="title">Built for Accuracy. Backed by Experience.</div>
             </div>
         </div>
     </div>
@@ -26,7 +26,7 @@
                 <div class="col-sm-12 col-md-4 py-0">
                     <div class="title pb-3">Our Expertise</div>
                 </div>
-                <div class="col-sm-12 col-md-4 offset-md-4 py-0">
+                <div class="col-12 py-0">
                     <p class="mb-0">For over 30 years, we’ve designed and manufactured custom tools, dies, and molds that drive efficiency and reliability in metal fabrication.</p>
                 </div>
             </div>

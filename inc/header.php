@@ -226,7 +226,7 @@
                                     <a class="dropdown-item" href="company/our-edge.php">Our Edge</a>
                                     <a class="dropdown-item" href="company/history.php">History</a>
                                     <a class="dropdown-item" href="company/awards.php">Awards</a>
-                                    <a class="dropdown-item" href="company/become-a-customer.php">Become a Customer</a>
+                                    <!-- <a class="dropdown-item" href="company/become-a-customer.php">Become a Customer</a> -->
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
@@ -293,7 +293,7 @@
                             <li><a href="company/our-edge.php" class="<?= $current_page == 'our-edge.php' ? 'active' : '' ?>">Our Edge</a></li>
                             <li><a href="company/history.php" class="<?= $current_page == 'history.php' ? 'active' : '' ?>">History</a></li>
                             <li><a href="company/awards.php" class="<?= $current_page == 'awards.php' ? 'active' : '' ?>">Awards</a></li>
-                            <li><a href="company/become-a-customer.php" class="<?= $current_page == 'become-a-customer.php' ? 'active' : '' ?>">Become a Customer</a></li>
+                            <!-- <li><a href="company/become-a-customer.php" class="<?= $current_page == 'become-a-customer.php' ? 'active' : '' ?>">Become a Customer</a></li> -->
                         </ul>
                     </div>
                     <div class="col-md-4 d-flex align-items-center">

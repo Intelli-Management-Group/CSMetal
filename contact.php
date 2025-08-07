@@ -35,10 +35,11 @@
                 <h3 class="mb-3">Headquarter Info</h3>
                 <div class="customDiv">
                     <p>
-                        <div class="" target="_blank" rel="noopener">Chi Sing Metal MFY. CO. LTD. <br />
-                            2A/F, Phase 1 <br />
-                            Kingsford Industrial Bldg., <br />
-                            26-32 Kwai Hei St., Kwai Chung <br />
+                        <div class="" target="_blank" rel="noopener">
+                            Chi Sing Metal MFY. CO. LTD. <br>
+                            2A/F, Phase 1 <br>
+                            Kingsford Industrial Bldg., <br>
+                            26-32 Kwai Hei St., Kwai Chung <br>
                             Hong Kong</div>
                     </p>
                 </div>
@@ -47,7 +48,7 @@
                         <a class="address" href="tel:+85226143700" target="_blank" rel="noopener">+852-2614-3700</a>
                     </p>
                     <p class="mb-0">
-                        <a class="address" href="mailto:factory@chising.com.hk" target="_blank" rel="noopener">factory@chising.com.hk</a>
+                        <a class="address" href="mailto:info@cs-metal.ltd" target="_blank" rel="noopener">info@cs-metal.ltd</a>
                     </p>
                 </div>
             </div>
@@ -55,10 +56,11 @@
                 <h3 class="mb-3 pt-md-0 pt-3">Factory Info</h3>
                 <div class="customDiv">
                     <p>
-                        <div class="" href="#" target="_blank" rel="noopener"> Williamson Metal MFY. CO. LTD. <br />
-                            Shu Xin Village <br />
-                            Changping Town, Dongguan City <br />
-                            Guangdong Province, PR China <br />
+                        <div class="" href="#" target="_blank" rel="noopener">
+                            Williamson Metal MFY. CO. LTD. <br>
+                            Shu Xin Village <br>
+                            Changping Town, Dongguan City <br>
+                            Guangdong Province, PR China <br>
                             523560</div>
                     </p>
                 </div>
@@ -70,7 +72,7 @@
                         </a>
                     </p>
                     <p class="mb-0">
-                        <a class="address" href="mailto:factory@chising.com.hk" target="_blank" rel="noopener">factory@chising.com.hk</a>
+                        <a class="address" href="mailto:info@cs-metal.ltd" target="_blank" rel="noopener">info@cs-metal.ltd</a>
                     </p>
                 </div>
             </div>

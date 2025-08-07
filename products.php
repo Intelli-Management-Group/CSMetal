@@ -130,7 +130,7 @@
                             </div>
                         </div>
                         <h3 class="become-a-customer mt-3">Become a Customer</h3>
-                        <a class="image-arrow customer-arrow" href="company/become-a-customer.php">
+                        <a class="image-arrow customer-arrow" href="contact.php">
                             <div><i class="fa-solid fa-arrow-right"></i></div>
                         </a>
                     </div>

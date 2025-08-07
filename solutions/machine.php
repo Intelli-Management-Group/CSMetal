@@ -14,7 +14,7 @@
         <div class="row section-padding">
             <div class="col-md-8 py-0">
                 <h1 class="slash-title"><span class="text-color"> / </span><a href="solutions.php" class="text-color">Solutions</a><span class="text-color"> / </span>Machines</h1>
-                <div class="title">Slogan goes here</div>
+                <div class="title">Precision Automation. Scaled for Success.</div>
             </div>
         </div>
         <div class="row mx-0 intro-container">

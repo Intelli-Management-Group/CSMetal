@@ -14,7 +14,7 @@
         <div class="row section-padding">
             <div class="col-md-8 py-0">
                 <h1 class="slash-title"><span class="text-color"> / </span><a href="solutions.php" class="text-color">Solutions</a><span class="text-color"> / </span>Inspection</h1>
-                <div class="title">Slogan goes here</div>
+                <div class="title">From Detection to Perfection.</div>
             </div>
         </div>
         <div class="row mx-0 intro-container">
@@ -79,7 +79,7 @@
             <div class="title section-padding">PRECISE DIMENSIONAL MEASUREMENT</div>
             <div class="video-container">
                 <!-- <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4?mute=1"></iframe> -->
-                <video class="video" width="100%" controls muted>
+                <video class="video" width="100%" controls mutedpreload="metadata" poster="video/CSMetal_PreciseDimensionalMeasurement_web_1080p.jpg">
                     <source src="video/CSMetal_PreciseDimensionalMeasurement_web_1080p.mp4" type="video/mp4">
                 </video>
             </div>
