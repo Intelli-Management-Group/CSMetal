@@ -78,8 +78,7 @@
         <div class="text-center">
             <div class="title section-padding">PRECISE DIMENSIONAL MEASUREMENT</div>
             <div class="video-container">
-                <!-- <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4?mute=1"></iframe> -->
-                <video class="video" width="100%" controls mutedpreload="metadata" poster="video/CSMetal_PreciseDimensionalMeasurement_web_1080p.jpg">
+                <video class="video" width="100%" controls muted preload="metadata">
                     <source src="video/CSMetal_PreciseDimensionalMeasurement_web_1080p.mp4" type="video/mp4">
                 </video>
             </div>
@@ -148,7 +147,6 @@
         <div class="text-center">
             <div class="title section-padding">HIGH STANDARDS OF QUALITY & ACCOUNTABILITY</div>
             <div class="video-container">
-                <!-- <iframe src="https://www.youtube.com/embed/ScMzIvxBSi4?mute=1"></iframe> -->
                 <video class="video" width="100%" controls muted>
                     <source src="video/CSMetal_QMS_web_1080p.mp4" type="video/mp4">
                 </video>

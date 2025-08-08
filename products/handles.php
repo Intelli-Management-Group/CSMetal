@@ -30,7 +30,6 @@
         <div class="line line-right"></div>
         <div class="row section-padding-lg d-flex justify-content-center" id="intro">
             <div class="col-sm-12 col-md-8 py-0">
-                <!-- <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p> -->
                 <div class="products-intro">CS Metal offers a wide range of durable, high-quality metal handles, including tubular, hydroforming, and standoff options, with customizable options including brushed, mirror, and coloured finishes. Each handle is precisely engineered to meet industry standards, ensuring stability and style across different settings. </div>
             </div>
         </div>

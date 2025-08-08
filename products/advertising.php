@@ -30,7 +30,6 @@
         <div class="line line-right"></div>
         <div class="row section-padding-lg d-flex justify-content-center" id="intro">
             <div class="col-sm-12 col-md-8 py-0">
-                <!-- <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p> -->
                 <div class="products-intro">Our custom advertising fixtures and OEM products combine functionality and aesthetic appeal. Each product is precisely manufactured to the client’s request enhancing brand presence. We’ve worked with Christian Dior, Georg Jensen, Victoria’s Secret, Hermes, and many more, showcasing our ability to deliver high quality and meet aesthetic standards.</div>
             </div>
         </div>

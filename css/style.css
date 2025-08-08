@@ -18,7 +18,6 @@ h1 {
 
 .title {
     font-size: 40px;
-    /* text-transform: capitalize; */
     line-height: 1.2;
     font-weight: 300;
 }
@@ -39,7 +38,6 @@ h1 {
 body {
     font-family: "Roboto" !important;
     color: black !important;
-    /* letter-spacing: 0.3px !important; */
     overflow-x: hidden !important;
 }
 
@@ -71,7 +69,6 @@ h3 {
 .slogan {
     font-size: 17px !important;
     font-weight: bold;
-    /* text-transform: capitalize; */
 }
 
 .button {
@@ -90,7 +87,6 @@ h3 {
     bottom: 0;
     width: 1px;
     background-color: #eee;
-    /* z-index: -1; */
 }
 
 .line-left {
@@ -874,15 +870,6 @@ hr {
     opacity: 1;
 }
 
-.hover-link {
-    cursor: pointer;
-    padding: 15px 0;
-}
-
-.hover-link:hover {
-    color: #0c73b2;
-}
-
 .customDiv {
     margin: 0 0 20px;
 }
@@ -905,31 +892,19 @@ hr {
     text-transform: uppercase;
     -webkit-font-smoothing: antialiased;
     position: relative;
-    /* text-decoration: underline;
-    text-decoration-color: #0c73b2; */
 }
 
 .upparCasetextTransformed::after {
     content: '';
-    /* Create an empty pseudo-element */
     display: block;
-    /* Make it block-level */
     height: 2px;
-    /* Set the thickness of the underline */
     background: #0c73b2;
-    /* Set underline color */
     position: absolute;
-    /* Position it absolutely */
     left: 0;
-    /* Align it to the left */
     right: 0;
-    /* Align it to the right */
     bottom: -5px;
-    /* Adjust this value to control the space */
     transform: scaleX(0);
-    /* Start with no underline */
     transition: transform 0.3s ease;
-    /* Smooth transition */
 }
 
 .upparCasetextTransformed:hover::after {
@@ -939,65 +914,46 @@ hr {
 /* Form */
 .elementor-widget-container {
     background-color: #f9f9f9;
-    /* Light background color */
     padding: 0 5px;
 }
 
 .elementor-form-fields-wrapper {
     display: flex;
-    /* Use flexbox for layout */
     flex-wrap: wrap;
-    /* Allow items to wrap */
 }
 
 .elementor-field-group {
     flex: 0 0 50%;
-    /* Each field group takes 50% width (6 out of 12 columns) */
     padding: 20px;
-    /* Optional: padding around each field */
 }
 
 .elementor-field-group.elementor-col-100 {
     flex: 0 0 100%;
-    /* Textarea takes full width (12 out of 12 columns) */
 }
 
 .elementor-field-label {
     display: block;
-    /* Labels are block elements */
     margin-bottom: 5px;
-    /* Space between label and input */
 }
 
 .elementor-field {
     width: 100%;
-    /* Make inputs and textarea take full width */
     padding: 10px;
-    /* Padding inside inputs */
     border: 1px solid #ccc;
-    /* Border for inputs */
     border-radius: 4px;
-    /* Rounded corners for inputs */
 }
 
 .elementor-button {
     background-color: #000000;
-    /* Button background color */
     color: white;
-    /* Button text color */
     border: none;
-    /* No border for button */
     padding: 10px 20px;
-    /* Padding for button */
     border-radius: 5px;
-    /* Rounded corners for button */
     cursor: pointer;
-    /* Pointer cursor on hover */
 }
 
 .elementor-button:hover {
     background-color: #0c73b2;
-    /* Darker shade on hover */
 }
 
 .checkmark p {
@@ -1077,7 +1033,6 @@ hr {
     display: flex;
     justify-content: center;
     margin-bottom: 25px;
-    /* text-transform: capitalize; */
     font-weight: bold;
     text-align: center;
     padding: 0 10px;
@@ -1093,8 +1048,6 @@ hr {
     align-items: center;
     text-align: center;
     padding: 0 50px;
-    /* justify-content: space-between;
-    height: 100%; */
 }
 
 .our-edge-wrap {

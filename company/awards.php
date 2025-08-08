@@ -14,14 +14,6 @@
             font-size: 24px;
         }
 
-        /* .company {
-            margin-bottom: auto;
-        }
-
-        .award, .year {
-            margin-top: auto;
-        } */
-
         @media only screen and (max-width: 767px) {
             .section-padding {
                 padding-bottom: 0;

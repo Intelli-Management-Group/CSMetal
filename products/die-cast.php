@@ -35,7 +35,6 @@
         <!-- Intro Section -->
         <div class="row section-padding-lg d-flex justify-content-center" id="intro">
             <div class="col-sm-12 col-md-8 py-0">
-                <!-- <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p> -->
                 <div class="products-intro">Die-casting is a process that involves shaping molten metal under high pressure into a mold cavity, making it ideal for industries that require durable components. At CS Metal, we use advanced casting techniques to create complex, high-strength parts that deliver reliable, consistent results. Various die-cast parts include tweezers, foot pegs, and custom products.</div>
             </div>
         </div>

@@ -33,7 +33,6 @@
                 align-items: center;
                 margin: 0;
                 padding: 0;
-                /* height: 100px; */
             }
 
             .nav-links li {
@@ -41,22 +40,14 @@
                 height: 100%;
             }
 
-            /* .nav-links li:hover {
-                border-top: 4px solid #0c73b2;
-                padding-top: 2px;
-            } */
-
             .nav-links a {
                 color: black;
                 text-decoration: none;
                 font-size: 16px;
-                /* text-transform: uppercase; */
                 height: 100%;
                 width: 100%;
                 display: flex;
                 align-items: center;
-                /* font-weight: bold !important;
-                letter-spacing: 1px; */
             }
 
             .nav-links a.active {
@@ -72,7 +63,6 @@
                 color: black;
                 text-decoration: none;
                 font-size: 16px;
-                /* text-transform: uppercase; */
                 height: 100%;
                 width: 100%;
                 display: flex;
@@ -255,21 +245,6 @@
                                     <a class="dropdown-item" href="products/advertising.php">Advertising Fixtures & OEM Products</a>
                                 </div>
                             </li>
-                            <!-- <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                                Facilities
-                                </a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Assembly Department</a>
-                                    <a class="dropdown-item" href="#">Cargo Loading</a>
-                                    <a class="dropdown-item" href="#">Dust-free Stamping Area</a>
-                                    <a class="dropdown-item" href="#">Engineering Course Tooling Room</a>
-                                    <a class="dropdown-item" href="#">Laboratory</a>
-                                    <a class="dropdown-item" href="#">Measuring Chamber</a>
-                                    <a class="dropdown-item" href="#">Polishing Area</a>
-                                    <a class="dropdown-item" href="#">Stamping Area</a>
-                                </div>
-                            </li> -->
                             <li class="nav-item">
                                 <a class="nav-link" href="contact.php">Contact Us</a>
                             </li>
@@ -320,14 +295,6 @@
                             <li><a href="solutions/mold&tool.php" class="<?= $current_page == 'mold&tool.php' ? 'active' : '' ?>">Mold & Tool</a></li>
                         </ul>
                     </div>
-                    <!-- <div class="col-md-4">
-                        <ul class="nav-links flex-column align-items-start">
-                            <li><a href="#">GOM Scan</a></li>
-                            <li><a href="#">Inspector</a></li>
-                            <li><a href="#">Spectralight QC Machine</a></li>
-                            <li><a href="#">CS Metal Quality Management System (QMS) Overview</a></li>
-                        </ul>
-                    </div> -->
                     <div class="col-md-4 d-flex align-items-center">
                         <img src="img/Solution/img_solution.jpg" alt="cnc_turning" style="height: 200px;">
                     </div>
@@ -359,158 +326,47 @@
             </div>
         </div>
 
-        <!-- Facilities -->
-        <!-- <div class="menu-wrap bottom-border" id="facilities-nav">
-            <div class="container menu-container">
-                <div class="line line-1-3"></div>
-                <div class="row w-100">
-                    <div class="col-md-4 d-flex align-items-center">
-                        <h4>EXCEPTIONAL DRIVING EXPERIENCES THAT ARE KINDER TO THE PLANET</h4>
-                    </div>
-                    <div class="col-md-4 d-flex align-items-center">
-                        <ul class="nav-links flex-column align-items-start">
-                            <li><a href="#">Assembly Department</a></li>
-                            <li><a href="#">Cargo Loading</a></li>
-                            <li><a href="#">Dust-free Stamping Area</a></li>
-                            <li><a href="#">Engineering Course Tooling Room</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 d-flex align-items-center">
-                        <ul class="nav-links flex-column align-items-start">
-                            <li><a href="#">Laboratory</a></li>
-                            <li><a href="#">Measuring Chamber</a></li>
-                            <li><a href="#">Polishing Area</a></li>
-                            <li><a href="#">Stamping Area</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
         <script>
-            //highlight the current page's navigation link
-            // const currentLocation = window.location.href;
-            // const menuItem = document.querySelectorAll('.nav-links a');
-            // const menuLength = menuItem.length;
+            // Navigation dropdown management
+            const navConfig = [
+                { linkId: 'company-link', navId: 'company-nav' },
+                { linkId: 'solutions-link', navId: 'solutions-nav' },
+                { linkId: 'products-link', navId: 'products-nav' }
+            ];
 
-            // for (let i = 0; i < menuLength; i++) {
-            //     if (menuItem[i].href === currentLocation) {
-            //         menuItem[i].classList.add('active');
-            //     } else {
-            //         menuItem[i].classList.remove('active');
-            //     }
-            // }
+            const navElements = {};
+            const navContainer = document.getElementById('nav');
 
-            // Get the COMPANY link and the company-nav element
-            const companyLink = document.getElementById('company-link');
-            const companyNav = document.getElementById('company-nav');
-
-            // Show #company-nav on hover
-            companyLink.addEventListener('mouseover', () => {
-                companyNav.classList.add('show');
-                solutionsNav.classList.remove('show');
-                productsNav.classList.remove('show');
-                // facilitiesNav.classList.remove('show');
+            navConfig.forEach(config => {
+                const link = document.getElementById(config.linkId);
+                const nav = document.getElementById(config.navId);
+                
+                if (link && nav) {
+                    navElements[config.navId] = nav;
+                    link.addEventListener('mouseover', () => showNav(config.navId));
+                    nav.addEventListener('mouseover', () => showNav(config.navId));
+                    nav.addEventListener('mouseout', hideAllNavs);
+                }
             });
 
-            //Hide #company-nav when the mouse leaves either the link or the nav
-            document.getElementById('nav').addEventListener('mouseout', () => {
-                companyNav.classList.remove('show');
-            });
+            navContainer.addEventListener('mouseout', hideAllNavs);
 
-            companyNav.addEventListener('mouseover', () => {
-                companyNav.classList.add('show');
-            });
+            function showNav(navId) {
+                Object.keys(navElements).forEach(id => {
+                    navElements[id].classList.remove('show');
+                });
+                
+                navElements[navId].classList.add('show');
+            }
 
-            companyNav.addEventListener('mouseout', () => {
-                companyNav.classList.remove('show');
-                solutionsNav.classList.remove('show');
-                productsNav.classList.remove('show');
-                // facilitiesNav.classList.remove('show');
-            });
-
-            const solutionsLink = document.getElementById('solutions-link');
-            const solutionsNav = document.getElementById('solutions-nav');
-
-            solutionsLink.addEventListener('mouseover', () => {
-                solutionsNav.classList.add('show');
-                companyNav.classList.remove('show');
-                productsNav.classList.remove('show');
-                // facilitiesNav.classList.remove('show');
-            });
-
-            document.getElementById('nav').addEventListener('mouseout', () => {
-                solutionsNav.classList.remove('show');
-            });
-
-            solutionsNav.addEventListener('mouseover', () => {
-                solutionsNav.classList.add('show');
-            });
-
-            solutionsNav.addEventListener('mouseout', () => {
-                solutionsNav.classList.remove('show');
-                companyNav.classList.remove('show');
-                productsNav.classList.remove('show');
-                // facilitiesNav.classList.remove('show');
-            });
-
-            const productsLink = document.getElementById('products-link');
-            const productsNav = document.getElementById('products-nav');
-
-            productsLink.addEventListener('mouseover', () => {
-                productsNav.classList.add('show');
-                companyNav.classList.remove('show');
-                solutionsNav.classList.remove('show');
-                // facilitiesNav.classList.remove('show');
-            });
-
-            document.getElementById('nav').addEventListener('mouseout', () => {
-                productsNav.classList.remove('show');
-            });
-
-            productsNav.addEventListener('mouseover', () => {
-                productsNav.classList.add('show');
-            });
-
-            productsNav.addEventListener('mouseout', () => {
-                companyNav.classList.remove('show');
-                solutionsNav.classList.remove('show');
-                productsNav.classList.remove('show');
-                // facilitiesNav.classList.remove('show');
-            });
-
-            // const facilitiesLink = document.getElementById('facilities-link');
-            // const facilitiesNav = document.getElementById('facilities-nav');
-
-            // facilitiesLink.addEventListener('mouseover', () => {
-            //     facilitiesNav.classList.add('show');
-            //     companyNav.classList.remove('show');
-            //     solutionsNav.classList.remove('show');
-            //     productsNav.classList.remove('show');
-            // });
-
-            // document.getElementById('nav').addEventListener('mouseout', () => {
-            //     facilitiesNav.classList.remove('show');
-            // });
-
-            // facilitiesNav.addEventListener('mouseover', () => {
-            //     facilitiesNav.classList.add('show');
-            // });
-
-            // facilitiesNav.addEventListener('mouseout', () => {
-            //     companyNav.classList.remove('show');
-            //     solutionsNav.classList.remove('show');
-            //     productsNav.classList.remove('show');
-            //     facilitiesNav.classList.remove('show');
-            // });
+            function hideAllNavs() {
+                Object.values(navElements).forEach(nav => {
+                    nav.classList.remove('show');
+                });
+            }
         </script>
 
-        <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
-
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </body>

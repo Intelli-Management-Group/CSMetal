@@ -15,8 +15,6 @@
 
         p {
             margin-bottom: 0 !important;
-            /* text-wrap: balance; */
-            /* text-align: left; */
         }
 
         .horizontal-scroll-container {
@@ -37,7 +35,6 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            /* justify-content:space-between; */
         }
 
         .history-text {

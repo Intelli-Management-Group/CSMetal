@@ -161,24 +161,7 @@
     </div>
 
     <?php include '../inc/footer.php'; ?>
-    <!-- <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const image = document.querySelector(".rd-img");
 
-            function applyRotation() {
-                if (window.innerWidth >= 992) {
-                    let scrollPosition = window.scrollY;
-                    let rotationAngle = scrollPosition * 0.06;
-                    image.style.transform = `rotate(${rotationAngle}deg)`;
-                } else {
-                    image.style.transform = "rotate(30deg)";
-                }
-            }
-
-            window.addEventListener("scroll", applyRotation);
-            window.addEventListener("resize", applyRotation);
-        });
-    </script> -->
     <script>
         document.querySelectorAll(".toggle-container").forEach((container, index) => {
             const content = container.nextElementSibling;

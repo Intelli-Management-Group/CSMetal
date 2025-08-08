@@ -11,16 +11,6 @@
                 color: white;
             }
 
-            /* .info-wrap {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                text-align: left;
-                box-sizing: border-box;
-                padding: 0 15px;
-            } */
-
             .info-wrap a {
                 color: white;
                 text-decoration: none;
@@ -44,7 +34,6 @@
                 text-decoration: none;
                 font-size: 0.8em !important;
                 font-weight: 300 !important;
-                /* padding: 5px 10px; */
             }
 
             .terms li:nth-child(1) a {
@@ -73,7 +62,7 @@
                 position: fixed;
                 bottom: 20px;
                 right: 20px;
-                display: none; /* Hidden by default */
+                display: none;
                 background-color: #0c73b2;
                 color: white;
                 padding: 10px 18px;
@@ -144,15 +133,6 @@
             // Get the button
             const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
-            // Show button when user scrolls down 100px from top
-            // window.onscroll = function() {
-            //     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-            //         scrollToTopBtn.style.display = "block";
-            //     } else {
-            //         scrollToTopBtn.style.display = "none";
-            //     }
-            // };
-
             window.onscroll = function() {
                 const scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
                 const windowHeight = document.documentElement.clientHeight;
@@ -164,13 +144,6 @@
                 } else {
                     scrollToTopBtn.style.display = "none";
                 }
-
-                // Hide button near the bottom
-                // if (window.innerWidth < 576) {
-                //     if (scrollPosition + windowHeight >= documentHeight - 10) {
-                //         scrollToTopBtn.style.display = "none";
-                //     }
-                // }
             };
 
             // Scroll to the top of the document when the button is clicked

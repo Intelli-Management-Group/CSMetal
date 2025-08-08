@@ -10,53 +10,6 @@ window.addEventListener('scroll', function() {
     });
 });
 
-//move up items when scrolling
-// if (window.innerWidth >= 768) {
-//     window.addEventListener('scroll', function() {
-//         const productSections = document.querySelectorAll('.scroll2moveup');
-//         const scrollY = window.scrollY;
-//         productSections.forEach(product => {
-//             const movement = scrollY * 0.05;
-//             product.style.transform = `translateY(-${movement}px)`;
-//         });
-//     });
-// }
-
-// if (window.innerWidth >= 992) {
-//     window.addEventListener('scroll', function() {
-//         const productSections = document.querySelectorAll('.scroll2moveup-lg');
-//         const scrollY = window.scrollY;
-//         productSections.forEach(product => {
-//             const movement = scrollY * 0.05;
-//             product.style.transform = `translateY(-${movement}px)`;
-//         });
-//     });
-// }
-
-
-// //move down items when scrolling
-// if (window.innerWidth >= 768) {
-//     window.addEventListener('scroll', function() {
-//         const productSections = document.querySelectorAll('.scroll2movedown');
-//         const scrollY = window.scrollY;
-//         productSections.forEach(product => {
-//             const movement = scrollY * 0.05;
-//             product.style.transform = `translateY(${movement}px)`;
-//         });
-//     });
-// }
-
-// if (window.innerWidth >= 992) {
-//     window.addEventListener('scroll', function() {
-//         const productSections = document.querySelectorAll('.scroll2movedown-lg');
-//         const scrollY = window.scrollY;
-//         productSections.forEach(product => {
-//             const movement = scrollY * 0.05;
-//             product.style.transform = `translateY(${movement}px)`;
-//         });
-//     });
-// }
-
 // Reusable function to handle scroll movement
 function handleScrollMovement(selector, direction = 'up') {
     const elements = document.querySelectorAll(selector);
@@ -144,26 +97,6 @@ manageScrollListener();
 manageScrollListenerLg();
 window.addEventListener('resize', manageScrollListener);
 window.addEventListener('resize', manageScrollListenerLg);
-
-// hover and show the corresponding image
-document.addEventListener("DOMContentLoaded", function() {
-    const links = document.querySelectorAll('.hover-link');
-    const images = document.querySelectorAll('.product-banner-container img');
-
-    links.forEach(link => {
-        link.addEventListener('mouseover', function() {
-            images.forEach(img => img.classList.remove('active'));
-            const target = this.getAttribute('data-target');
-            document.getElementById(target).classList.add('active');
-        });
-    });
-});
-
-// scroll to intro section
-// document.querySelector(".scroll2intro").addEventListener("click", function(event) {
-//     event.preventDefault();
-//     document.getElementById("intro").scrollIntoView({ behavior: "smooth" });
-// });
 
 document.addEventListener("DOMContentLoaded", function() {
     function toTitleCase(str) {

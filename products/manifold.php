@@ -5,39 +5,27 @@
     <?php include '../inc/HTMLhead.php'; ?>
     <title>CS Metal Manifolds | Precision Manufacturing & Assembly</title>
     <meta name="description" content="CS Metal engineers custom manifolds for high-pressure systems, delivering durability & efficiency. Tailored to your specifications – partner with experts.">
-    <!-- <style>
-        .carousel-control-next,
-        .carousel-control-prev ,
-        .carousel-indicators {
-            filter: invert(100%);
-        }
-    </style> -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <style>
-        /* Container styling */
         .slick-container {
             width: 100%;
-            /* max-width: 600px; */
             margin: auto;
             position: relative;
         }
 
         .slick-slide img {
             width: 100%;
-            /* height: 400px; */
             object-fit: cover;
             position: relative;
         }
 
-        /* Position navigation arrows inside the images */
         .slick-prev,
         .slick-next {
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
             color: #fff;
-            /* font-size: 24px; */
             z-index: 2;
         }
 
@@ -52,19 +40,8 @@
         .slick-prev:before,
         .slick-next:before {
             color: #0c73b2;
-            /* Set your desired color */
             font-size: 24px;
-            /* Adjust the size if needed */
         }
-
-        /* Position the dots (pagination) inside the images */
-        /* .slick-dots {
-            position: absolute;
-            bottom: 0px;
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: 2;
-        } */
 
         /* Customize dots */
         .slick-dots li button:before {
@@ -102,7 +79,6 @@
         <!-- Intro Section -->
         <div class="row section-padding-lg d-flex justify-content-center" id="intro">
             <div class="col-sm-12 col-md-8 py-0">
-                <!-- <p class="mb-3"><span class="text-color">/ </span>Talented and Motivated Workforce</p> -->
                 <div class="products-intro">At CS Metal, our custom manifold solutions are designed to handle high-pressure systems and complex tasks; offering superior performance and durability. Our manifolds are tailored to the client’s exact specifications, delivering efficiency and reliability in industrial applications. </div>
             </div>
         </div>

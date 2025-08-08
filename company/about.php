@@ -177,65 +177,6 @@
         </div>
     </div>
 
-    <!-- Our Clients -->
-    <!-- <div class="container">
-        <div class="line line-left"></div>
-        <div class="line line-right"></div>
-        <div class="row section-padding padding-top d-flex justify-content-center">
-            <div class="col-sm-12 col-md-8 py-0">
-                <p class="slash-title"><span class="text-color">/ </span>Our Clients</p>
-                <div class="products-intro">Distinguished by enduring partnerships with leading brands, Chi Sing has become synonymous with reliability and quality. Our work with top appliance manufacturers has not only earned us a preferred supplier status but also brought forth innovative collaborations.</div>
-            </div>
-        </div>
-        <div class="row section-padding pt-0 d-flex justify-content-around pb-0">
-            <div class="col-6 col-md-1 p-md-0 d-flex align-items-center pt-0">
-                <img src="img/Company/About/client_1.png" class="client" alt="client 1">
-            </div>
-            <div class="col-6 col-md-1 p-md-0 d-flex align-items-center pt-0">
-                <img src="img/Company/About/client_2.png" class="client" alt="client 2">
-            </div>
-            <div class="col-6 col-md-1 p-md-0 d-flex align-items-center">
-                <img src="img/Company/About/client_3.png" class="client" alt="client 3">
-            </div>
-            <div class="col-6 col-md-1 p-md-2 d-flex align-items-center justify-content-center">
-                <img src="img/Company/About/client_4.png" class=" client client4" alt="client 4">
-            </div>
-            <div class="col-6 col-md-1 p-md-0 d-flex align-items-center">
-                <img src="img/Company/About/client_5.png" class="client" alt="client 5">
-            </div>
-            <div class="col-6 col-md-1 p-md-0 d-flex align-items-center">
-                <img src="img/Company/About/client_6.png" class="client" alt="client 6">
-            </div>
-            <div class="col-6 col-md-1 p-md-0 d-flex align-items-center">
-                <img src="img/Company/About/client_7.png" class="client" alt="client 7">
-            </div>
-            <div class="col-6 col-md-1 p-md-0 d-flex align-items-center">
-                <img src="img/Company/About/client_8.png" class="client" alt="client 8">
-            </div>
-        </div>
-
-        <div class="row section-padding padding-bottom d-flex justify-content-around mt-md-4 pt-0">
-            <div class="col-6 col-md-2 px-4 d-flex align-items-center">
-                <img src="img/Company/About/client_9.png" class="client" alt="client 9">
-            </div>
-            <div class="col-6 col-md-2 px-4 d-flex align-items-center">
-                <img src="img/Company/About/client_10.png" class="client" alt="client 10">
-            </div>
-            <div class="col-6 col-md-2 px-4 d-flex align-items-center">
-                <img src="img/Company/About/client_11.png" class="client" alt="client 11">
-            </div>
-            <div class="col-6 col-md-2 px-4 d-flex align-items-center">
-                <img src="img/Company/About/client_12.png" class="client" alt="client 12">
-            </div>
-            <div class="col-6 col-md-2 px-4 d-flex align-items-center pb-0">
-                <img src="img/Company/About/client_13.png" class="client" alt="client 13">
-            </div>
-            <div class="col-6 col-md-2 px-4 d-flex align-items-center pb-0">
-                <img src="img/Company/About/client_14.png" class="client" alt="client 14">
-            </div>
-        </div>
-    </div> -->
-
     <!-- Mission Vision -->
     <div class="black-white-background">
         <div class="container" id="locations">
@@ -295,14 +236,6 @@
                     <p class="mb-0">San Luis Potosi, Mexico</p>
                 </div>
             </div>
-            <!-- <div class="row section-padding">
-                <div class="col-md-4 pb-0">
-                    <h3 class="mb-3 pt-md-0 pt-3">Louisville, KY, USA (Sales Rep)</h3>
-                </div>
-                <div class="col-md-4 pb-0">
-                    <h3 class="mb-3 pt-md-0 pt-3">Vancouver, BC, Canada (Sales Rep)</h3>
-                </div>
-            </div> -->
         </div>
     </div>
 
