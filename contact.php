@@ -1,14 +1,4 @@
 <?php
-// session_start();
-// if (isset($_SESSION['success_message'])) {
-//     echo '<script>alert("' . $_SESSION['success_message'] . '");</script>';
-//     unset($_SESSION['success_message']);
-// }
-// if (isset($_SESSION['error_message'])) {
-//     echo '<script>alert("Error: ' . $_SESSION['error_message'] . '");</script>';
-//     unset($_SESSION['error_message']);
-// }
-
 define('SECURE_ACCESS', true);
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -117,7 +107,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="row section-padding padding-bottom align-items-stretch">
             <div class="col-sm-12 col-md-8 d-flex p-0">
                 <div class="elementor-widget-container flex-fill mr-md-4">
-                    <form class="elementor-form" action="submit-form.php" method="POST" name="Contact From">
+                    <form class="elementor-form" action="contact.php" method="POST" name="Contact From" id="form">
                         <input type="hidden" name="post_id" value="133">
                         <input type="hidden" name="form_id" value="cf6c9c3">
                         <input type="hidden" name="referer_title" value="Contact Us">
@@ -151,6 +141,26 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <label for="messages" class="elementor-field-label">Messages </label>
                                 <textarea class="elementor-field-textual elementor-field elementor-size-md" name="form_fields[messages]" id="messages" rows="3" required="required" aria-required="true"></textarea>
                             </div>
+                            
+                            <!-- Form Messages -->
+                            <?php if (isset($_GET['success'])): ?>
+                                <div class="elementor-field-group elementor-column elementor-col-100">
+                                    <div class="alert alert-success mb-0" style="background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; padding: 12px; border-radius: 4px;">
+                                        <i class="fa fa-check-circle" style="margin-right: 8px;"></i>
+                                        <?php echo htmlspecialchars($_GET['success']); ?>
+                                    </div>
+                                </div>
+                            <?php endif; ?>
+                            
+                            <?php if (isset($_GET['error'])): ?>
+                                <div class="elementor-field-group elementor-column elementor-col-100">
+                                    <div class="alert alert-danger mb-0" style="background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; padding: 12px; border-radius: 4px;">
+                                        <i class="fa fa-exclamation-circle" style="margin-right: 8px;"></i>
+                                        <?php echo htmlspecialchars($_GET['error']); ?>
+                                    </div>
+                                </div>
+                            <?php endif; ?>
+                            
                             <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
                                 <button class="elementor-button elementor-size-sm" type="submit">
                                     <span class="elementor-button-content-wrapper">
