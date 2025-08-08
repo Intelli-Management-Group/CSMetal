@@ -3,7 +3,7 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>CS Metal Stamping Parts – Durable Hinges, Wire Mesh & More</title>
+    <title>CS Metal Stamping Parts | Durable Hinges, Wire Mesh & More</title>
     <meta name="description" content="CS Metal engineers precision stamping parts: hinges, brackets, cooktops, vent trims & wire mesh. Built for durability across industries. Partner with experts.">
 </head>
 

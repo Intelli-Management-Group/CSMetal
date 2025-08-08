@@ -3,8 +3,8 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>CS Metal | Metal Fabrication Testing & Quality Assurance</title>
-    <meta name="description" content="Trust CS Metal’s rigorous testing for metal fabrication: hardness validation, force tests, and transit simulations. Ensure compliance and customer satisfaction. Learn more.">
+    <title>CS Metal Testing | Quality, Durability & Performance </title>
+    <meta name="description" content="CS Metal comprehensive testing ensures quality and durability. We conduct performance, material, and destructive testing to meet the highest standards.">
 </head>
 
 <body>

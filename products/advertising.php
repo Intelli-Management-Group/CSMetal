@@ -3,7 +3,7 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>CS Metal | Custom OEM Products & Brand Fixtures | Since 1981</title>
+    <title>CS Metal OEM | Custom OEM Products & Brand Fixtures</title>
     <meta name="description" content="CS Metal designs custom OEM products and advertising fixtures for brands like Dior & Hermès. Enhance your brand with custom solutions. Partner with experts.">
 </head>
 

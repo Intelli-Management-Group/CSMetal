@@ -1,10 +1,28 @@
+<?php
+// session_start();
+// if (isset($_SESSION['success_message'])) {
+//     echo '<script>alert("' . $_SESSION['success_message'] . '");</script>';
+//     unset($_SESSION['success_message']);
+// }
+// if (isset($_SESSION['error_message'])) {
+//     echo '<script>alert("Error: ' . $_SESSION['error_message'] . '");</script>';
+//     unset($_SESSION['error_message']);
+// }
+
+define('SECURE_ACCESS', true);
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    include 'submit-form.php';
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <?php include 'inc/HTMLhead.php'; ?>
-    <title>Contact CS Metal – Precision Metal Solutions | Get in Touch</title>
-    <meta name="description" content="Connect with CS Metal, your trusted metal partner since 1981. Reach for your custom stamping, die casts, handles, manifolds & OEM solutions. Let’s talk today!">
+    <title>Contact CS Metal | Quote, Support & Metal Solutions </title>
+    <meta name="description" content="Get in touch with the CS Metal team for a project quote, expert support, or to learn more about our custom metal fabrication and solutions. ">
 </head>
 
 <body>
@@ -79,8 +97,8 @@
         </div>
 
         <!-- <div class="col-12 p-0 horizontal-line-md">
-                <hr>
-            </div> -->
+            <hr>
+        </div> -->
     </div>
 
     <!-- Form -->
@@ -129,9 +147,9 @@
                                 <label for="company_address" class="elementor-field-label">Interested In </label>
                                 <input size="1" type="text" name="form_fields[company_address]" id="company_address" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true">
                             </div>
-                            <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-messages elementor-col-100">
+                            <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-messages elementor-col-100 elementor-field-required">
                                 <label for="messages" class="elementor-field-label">Messages </label>
-                                <textarea class="elementor-field-textual elementor-field elementor-size-md" name="form_fields[messages]" id="messages" rows="3"></textarea>
+                                <textarea class="elementor-field-textual elementor-field elementor-size-md" name="form_fields[messages]" id="messages" rows="3" required="required" aria-required="true"></textarea>
                             </div>
                             <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
                                 <button class="elementor-button elementor-size-sm" type="submit">

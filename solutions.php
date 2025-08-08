@@ -3,8 +3,8 @@
 
 <head>
     <?php include 'inc/HTMLhead.php'; ?>
-    <title>CS Metal | Metal Fabrication Solutions & Quality Assurance</title>
-    <meta name="description" content="CS Metal delivers precision-driven metal fabrication solutions with advanced inspection, machinery, and testing, to ensure product quality and efficiency.">
+    <title>CS Metal Solutions | Custom Engineering & Fabrication</title>
+    <meta name="description" content=" CS Metal provide custom metal solutions with our expertise in inspection, advanced machinery, comprehensive testing, R&D, and custom mold creation.">
 </head>
 
 <body>

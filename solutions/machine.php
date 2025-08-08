@@ -3,8 +3,8 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>CS Metal | Advanced Metal Fabrication Machines & Solutions</title>
-    <meta name="description" content="CS Metal's fabrication machines: AI-driven tube forming, 600T stamping presses, CNC lathes. Achieve <100 PPM defects & high efficiency. Get a quote!">
+    <title>CS Metal Machinery | CNC, Tube Forming & Stamping</title>
+    <meta name="description" content="CS Metal's capacity includes automated tube forming, 43 stamping machines, and CNC lathes, delivering high-quality, custom metal products with precision.">
 </head>
 
 <body>

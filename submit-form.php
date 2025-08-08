@@ -1,91 +1,77 @@
 <?php
-session_start();
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
+// Prevent direct access
+if (!defined('SECURE_ACCESS')) {
+    die('Direct access not allowed');
+}
 
-// Include PHPMailer's autoloader
-require 'vendor/autoload.php';
+// Simple email validation
+function isValidEmail($email)
+{
+    return filter_var(trim($email), FILTER_VALIDATE_EMAIL) !== false;
+}
 
-// Enable error reporting
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+// Simple input sanitization
+function sanitizeInput($input)
+{
+    return htmlspecialchars(trim($input), ENT_QUOTES, 'UTF-8');
+}
 
-// Check if the form is submitted
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Get the form data
-    $first_name = htmlspecialchars(trim($_POST['form_fields']['first_name']));
-    $last_name = htmlspecialchars(trim($_POST['form_fields']['last_name']));
-    $email = htmlspecialchars(trim($_POST['form_fields']['email']));
-    $phone = htmlspecialchars(trim($_POST['form_fields']['tel']));
-    $company_name = htmlspecialchars(trim($_POST['form_fields']['company_name']));
-    $company_address = htmlspecialchars(trim($_POST['form_fields']['company_address']));
-    $message = htmlspecialchars(trim($_POST['form_fields']['messages']));
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['form_fields'])) {
 
-    // Validate the email
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        echo "Invalid email format.";
+    // Extract and sanitize form data
+    $fields = $_POST['form_fields'];
+    $firstName = sanitizeInput($fields['first_name'] ?? '');
+    $lastName = sanitizeInput($fields['last_name'] ?? '');
+    $email = trim($fields['email'] ?? '');
+    $phone = sanitizeInput($fields['tel'] ?? '');
+    $companyName = sanitizeInput($fields['company_name'] ?? '');
+    $interestedIn = sanitizeInput($fields['company_address'] ?? '');
+    $message = sanitizeInput($fields['messages'] ?? '');
+
+    // Validate required fields
+    if (
+        empty($firstName) || empty($lastName) || empty($phone) ||
+        empty($companyName) || empty($interestedIn) || empty($message) ||
+        !isValidEmail($email)
+    ) {
+        header('Location: ./contact.php?error=Please fill all fields correctly.#form');
         exit;
     }
 
-    // Check if a file is uploaded
-    if (isset($_FILES['file']) && $_FILES['file']['error'] === UPLOAD_ERR_OK) {
-        $file = $_FILES['file'];
-        $uploadDir = 'uploads/';
-        $filePath = $uploadDir . basename($file['name']);
-        
-        // Save the uploaded file to the server
-        if (!move_uploaded_file($file['tmp_name'], $filePath)) {
-            echo 'Failed to upload the file.';
-            exit;
-        }
+    // Email configuration
+    $to = 'info@csmetal-int.com';
+    $subject = 'CS Metal Website Inquiry from ' . $firstName . ' ' . $lastName;
+
+    // Email body
+    $emailBody = "
+    Name: $firstName $lastName
+    Email: $email
+    Phone: $phone
+    Company: $companyName
+    Interested In: $interestedIn
+
+    Message:
+    $message
+
+    ---
+    This message was sent from the CS Metal website contact form.
+    ";
+
+    // Headers
+    $headers = [
+        'From: noreply@csmetal-int.com',
+        'Reply-To: ' . $email,
+        'Content-Type: text/plain; charset=UTF-8',
+        'X-Mailer: PHP/' . phpversion()
+    ];
+
+    // Send email
+    $mailSent = mail($to, $subject, $emailBody, implode("\r\n", $headers));
+
+    if ($mailSent) {
+        header('Location: ./contact.php?success=Your message has been sent#form');
     } else {
-        $filePath = null; // No file uploaded
+        header('Location: ./contact.php?error=Failed to send message. Please try again#form');
     }
-
-    // Create a new PHPMailer instance
-    $mail = new PHPMailer(true);
-
-    try {
-        // SMTP settings
-        $mail->isSMTP();
-        $mail->Host = 'localhost'; // MailHog
-        $mail->Port = 1025; // MailHog port
-
-        // Set sender and recipient
-        $mail->setFrom($email, "$first_name $last_name"); // Use user email as sender
-        $mail->addAddress('your-email@example.com'); // Replace with your email address
-
-        // Email subject and body
-        $mail->isHTML(false); // Set to false for plain text
-        $mail->Subject = "New Contact Form Submission";
-        $mail->Body = "Name: $first_name $last_name\n" .
-                      "Email: $email\n" .
-                      "Phone: $phone\n" .
-                      "Company Name: $company_name\n" .
-                      "Company Address: $company_address\n" .
-                      "Message: $message";
-
-        // Attach the file if it was uploaded
-        if ($filePath) {
-            $mail->Body .= "\n\nAttached file: " . basename($file['name']);
-            $mail->addAttachment($filePath);
-        }
-
-        // Send the email
-        $mail->send();
-        //echo "Thank you for contacting us. We will get back to you shortly.";
-        $_SESSION['success_message'] = "Thank you for contacting us. We will get back to you shortly.";
-    } catch (Exception $e) {
-        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-    } finally {
-        // Optionally delete the file from the server if it was uploaded
-        if ($filePath) {
-            unlink($filePath);
-        }
-    }
-    header("Location: " . $_SERVER['HTTP_REFERER']);
     exit;
-} else {
-    echo "Invalid request.";
 }
-?>

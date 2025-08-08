@@ -3,7 +3,7 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>CS Metal Die Casting – Complex, Durable, Custom Solutions</title>
+    <title>CS Metal Die Cast | Complex, Durable, Custom Solutions</title>
     <meta name="description" content="CS Metal engineers high-strength die-cast parts using advanced techniques. From tweezers to custom components, ensure durability & precision. Partner with experts.">
     <style>
         .products-image {

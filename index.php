@@ -3,8 +3,8 @@
 
 <head>
     <?php include 'inc/HTMLhead.php'; ?>
-    <title>CS Metal | Precision Stamping, Die Casts & OEM Parts Since 1981</title>
-    <meta name="description" content="CS Metal | Precision manufacturing since 1981. High-efficiency stamping, die casts & OEM parts. Trusted by Dior, Hermès. Sustainable solutions">
+    <title>CS Metal | Precision Metal Fabrication & Custom Solutions</title>
+    <meta name="description" content="A leader in metal fabrication since 1981, CS Metal delivers high-quality custom parts, and innovative metal solutions for all your projects.">
 </head>
 
 <body>

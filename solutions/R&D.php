@@ -3,8 +3,8 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>CS Metal R&D</title>
-    <meta name="description" content="CS Metal ensures precision in metal fabrication with advanced inspection tech like GOM Scan & Spectralight QC. Production with color accuracy, and compliance.">
+    <title>CS Metal R&D | Innovative Metal Fabrication Solutions</title>
+    <meta name="description" content="Turning Your Vision Into Reality. Our APQP and NPI frameworks mitigate risks, ensure compliance, and deliver end-to-end innovation for scalable solutions.">
     <style>
         hr {
             margin: 1rem 0 !important;

@@ -3,7 +3,8 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>About - CS Metal</title>
+    <title>About CS Metal | Excellence in Precision Metal Fabrication</title>
+    <meta name="description" content="CS Metal offers expert metal fabrication services, with sales in the USA, Canada, and Mexico, and manufacturing in China, delivering innovative solutions.">
     <style>
         .solution-wrap {
             padding: 25px 50px !important;

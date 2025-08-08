@@ -3,7 +3,7 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>CS Metal Quality Assurance | 3D Scanning & QC Testing</title>
+    <title>CS Metal Inspection | Precision Quality Control Services</title>
     <meta name="description" content="CS Metal ensures precision in metal fabrication with advanced inspection tech like GOM Scan & Spectralight QC. Production with color accuracy, and compliance.">
 </head>
 

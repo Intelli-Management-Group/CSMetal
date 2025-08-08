@@ -3,7 +3,7 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>CS Metal Awards | Industry-Recognized Excellence Since 1981</title>
+    <title>CS Metal Awards | Recognition for Quality & Innovation</title>
     <meta name="description" content="CS Metal’s award-winning metal solutions are recognized by GE, LG & HKPC. Celebrating 40+ years of industry excellence and impact. Explore our achievements.">
     <style>
         .company {

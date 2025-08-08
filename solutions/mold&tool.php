@@ -3,8 +3,8 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>CS Metal Mold & Tool</title>
-    <meta name="description" content="CS Metal ensures precision in metal fabrication with advanced inspection tech like GOM Scan & Spectralight QC. Production with color accuracy, and compliance.">
+    <title>CS Metal Molds & Tools | Custom Design & Manufacturing</title>
+    <meta name="description" content="CS Metal provides expert mold and tool design and manufacturing, ensuring high-quality, durable, and precise tooling for your custom metal projects.">
     <link rel="stylesheet" href="css/mold&tool.css">
 </head>
 

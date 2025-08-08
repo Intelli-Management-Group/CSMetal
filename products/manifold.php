@@ -3,7 +3,7 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>CS Metal | Custom High-Pressure Manifolds for superior performance</title>
+    <title>CS Metal Manifolds | Precision Manufacturing & Assembly</title>
     <meta name="description" content="CS Metal engineers custom manifolds for high-pressure systems, delivering durability & efficiency. Tailored to your specifications – partner with experts.">
     <!-- <style>
         .carousel-control-next,

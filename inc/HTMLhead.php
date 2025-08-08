@@ -1,14 +1,18 @@
 <?php
-$config = [
-    'base_url' => ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_ADDR'] == '192.168.0.47')
-        ? 'https://192.168.0.47/csmetal/' 
-        : 'https://csmetal.intelligrp.com/'
-];
+$host = $_SERVER['HTTP_HOST'];
+
+$isLocal = $host === 'localhost' 
+    || $host === '127.0.0.1' 
+    || str_starts_with($host, '192.168.');
+
+$baseUrl = $isLocal 
+    ? "https://$host/csmetal/" 
+    : "https://$host/";
 ?>
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<base href="<?php echo $config['base_url']; ?>">
+<base href="<?= htmlspecialchars($baseUrl, ENT_QUOTES) ?>">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/responsive.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">

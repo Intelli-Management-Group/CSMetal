@@ -3,7 +3,7 @@
 
 <head>
     <?php include 'inc/HTMLhead.php'; ?>
-    <title>CS Metal Products – Stamping, Die Cast, Handles & Custom OEM</title>
+    <title>CS Metal Products | Custom Metal & Fabrication Solutions</title>
     <meta name="description" content="CS Metal delivers precision stamping parts, die cast, handles, manifold and custom OEM product. Trusted by Dior, Hermès & global brands. Start your project now!">
 </head>
 

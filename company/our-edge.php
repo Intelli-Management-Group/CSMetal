@@ -3,7 +3,8 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>Our Edge - CS Metal</title>
+    <title>CS Metal's Edge | Global Reach, Quality & Customer Focus</title>
+    <meta name="description" content="Discover what sets CS Metal apart: bold innovation, exceptional quality, and a global reach. We deliver reliable, custom-engineered metal solutions.">
     <style>
         .solution-wrap {
             padding: 25px 50px !important;

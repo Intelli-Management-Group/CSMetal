@@ -3,7 +3,8 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>History - CS Metal</title>
+    <title>CS Metal History | Precision Metal Fabrication Since 1981 </title>
+    <meta name="description" content="Explore CS Metal's history, from our founding in 1981 to our evolution into a global leader in precision metal fabrication, driven by a commitment to quality.">
     <style>
         div hr {
             border: none !important;

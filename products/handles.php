@@ -3,7 +3,7 @@
 
 <head>
     <?php include '../inc/HTMLhead.php'; ?>
-    <title>CS Metal | Custom Metal Handles – Hydro-form, Tubular & Finishes</title>
+    <title>CS Metal Handle | Custom Metal Handles Solutions</title>
     <meta name="description" content="Engineered for durability, CS Metal’s handles offer hydroforming, standoff, and premium finishes. Trusted by global brands – request a custom solution today.">
 </head>
 
