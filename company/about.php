@@ -181,13 +181,10 @@
     <div class="black-white-background">
         <div class="container" id="locations">
             <div class="line line-left grey-border"></div>
-            <!-- <div class="line line-1-3 grey-border"></div>
-            <div class="line line-2-3 grey-border"></div> -->
             <div class="line line-right grey-border"></div>
             <div class="row section-padding-lg text-white">
                 <div class="col-sm-12 col-md-4 pt-0">
                     <div class="title">MISSION & VISION</div>
-                    <!-- <div class="title">Locations</div> -->
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <h5>Mission</h5>
@@ -219,7 +216,7 @@
 
                 <div class="col-md-4 pt-0">
                     <h5>Headquarter</h5>
-                    <p class="mb-0">CHI SING METAL MFY. CO. LTD.<br>Hong Kong</p>
+                    <p class="mb-0">CHI SING METAL MFY. CO. LTD.<br>Hong Kong SAR</p>
                     <br>
 
                     <h5>Sales Rep</h5>

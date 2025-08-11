@@ -33,7 +33,6 @@
         <!-- Intro Section -->
         <div class="row section-padding" id="intro">
             <div class="col-sm-12 col-md-4 pt-0">
-                <!-- <p class="slogan">Delivering Quality, Precision, and Durability / Precision Engineered. Built to Last</p> -->
                 <p class="slogan mb-0">Delivering Quality, Precision, and Durability</p>
             </div>
             <div class="col-sm-12 col-md-4">

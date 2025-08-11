@@ -26,7 +26,7 @@
 
     <!-- banner -->
     <div class="banner-container" style="z-index: -1;">
-        <img src="img/Product/Diecast/banner_product_diecast.jpg" alt="Home Banner" class="banner" style="object-position: 70% center;">
+        <img src="img/Product/Diecast/banner_product_diecast.jpg" alt="Home Banner" class="banner">
     </div>
 
     <div class="container">

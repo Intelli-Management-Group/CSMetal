@@ -71,8 +71,7 @@
                 <h5>Post-Delivery Support</h5>
                 <ul>
                     <li>
-                        <p><strong>Maintenance Plans</strong><br>Proactive upkeep with scheduled inspections and adjustments to extend tool life.
-                        </p>
+                        <p><strong>Maintenance Plans</strong><br>Proactive upkeep with scheduled inspections and adjustments to extend tool life.</p>
                     </li>
                     <li>
                         <p class="mb-0"><strong>Warranty</strong><br>Comprehensive warranty ensures confidence in durability and performance.</p>

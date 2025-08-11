@@ -71,65 +71,6 @@
             </div>
         </div>
 
-        <!-- Solutions Section HIDE-->
-        <!-- <div class="row section-padding">
-                <div class="col-sm-12 col-md-4">
-                    <div class="title">A LEADER IN PRECISION METAL SOLUTIONS</div>
-                </div>
-                <div class="col-sm-12 col-md-4"></div>
-                <div class="col-sm-12 col-md-4">
-                    <p>At CS Metal, we’re dedicated to sharing our achievements and advancements in precision metal solutions with our clients and partners. Through this commitment, we aim to inspire and elevate industry standards, contributing to a more innovative and quality-driven metal manufacturing sector.</p>
-                </div>
-            </div>
-
-            <div class="banner-container">
-                <img src="./img/Home/banner_1.jpg" alt="Home Banner" class="banner">
-                <a class="col-md-4 image-button" href="contact.php">
-                    <div class="d-flex justify-content-between w-100">
-                        <div class="mb-0 button">CONTACT US</div>
-                        <div class="mb-0 button"><i class="fa-solid fa-arrow-right"></i></div>
-                    </div>
-                </a>
-                <div class="col-md-4 solutions">
-                    <p class="mb-0"><span class="text-color">/ </span>Solutions</p>
-                </div>
-            </div>
-
-            <div class="row section-padding">
-                <div class="col-sm-12 col-md-4">
-                    <div class="product-wrap">
-                        <div class="product-image-wrap">
-                            <img src="./img/Solution/img_inspection.jpg" alt="product 1" style="width: 100%;">
-                            <a class="image-arrow" href="solutions/inspection.php"><div><i class="fa-solid fa-arrow-right"></i></div></a>
-                        </div>
-                        <h3 class="mt-3">Inspection</h3>
-                        <p>CS Metal upholds top-quality standards with advanced inspection tools: Gom Scan for early defect detection, Inspector CMM for precise measurements, Spectralight QC for color accuracy, and QMS software for real-time tracking. These technologies ensure reliability from inspection to production, highlighting our commitment to quality in every aspect of manufacturing.</p>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-4">
-                    <div class="product-wrap">
-                        <div class="product-image-wrap">
-                            <img src="./img/Solution/img_machines.jpg" alt="product 2" style="width: 100%;">
-                            <a class="image-arrow" href="solutions/machine.php"><div><i class="fa-solid fa-arrow-right"></i></div></a>
-                        </div>
-                        <h3 class="mt-3">Machines</h3>
-                        <p>CS Metal’s advanced machines enhance manufacturing precision: the Automated Tube Forming Machine uses AI for real-time control, the 600 Ton Stamping Press delivers low-defect stamping, the LG 1370 CNC Lathe enables precise tooling, and the Semi-Automatic Tube Forming Machine ensures high-quality, scratch-free tubes with efficient part transfer.</p>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-md-4">
-                    <div class="product-wrap">
-                        <div class="product-image-wrap">
-                            <img src="./img/Solution/img_testing.jpg" alt="product 3" style="width: 100%;">
-                            <a class="image-arrow" href="solutions/testing.php"><div><i class="fa-solid fa-arrow-right"></i></div></a>
-                        </div>
-                        <h3 class="mt-3">Testing</h3>
-                        <p>CS Metal’s testing solutions ensure reliability. The Metal Hardness Measurement Machine offers precise hardness testing for validation. The Push-Pull Force Test evaluates connection strength over 1500 lbs. The Transportation Compression Test simulates transit conditions, while the Transportation Vibration Test assesses resilience against vibrations.</p>
-                    </div>
-                </div>
-            </div> -->
-
         <!-- Products Section -->
         <div class="section-padding">
             <div class="row">

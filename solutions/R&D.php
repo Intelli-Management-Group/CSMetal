@@ -109,8 +109,8 @@
         <div class="line line-left"></div>
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
-        <div class="row section-padding">
-            <div class="col-md-8">
+        <div class="row section-padding py-0">
+            <div class="col-md-8 px-0">
                 <img src="img/Solution/R&D/cs_flowchart_npi.png" alt="new product introduction" class="img-fluid">
             </div>
 
@@ -128,12 +128,12 @@
         <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
-        <div class="row section-padding padding-top pb-0">
+        <div class="row section-padding pb-0">
             <div class="col-sm-12 col-md-4 py-0">
                 <div class="title pb-3">Partner With Confidence</div>
             </div>
         </div>
-        <div class="row section-padding padding-bottom">
+        <div class="row section-padding">
             <div class="col-sm-12 col-md-4">
                 <div class="our-edge-wrap">
                     <img src="img/Solution/R&D/icon_end-to-end.svg" alt="End-to-End Innovation" class="icon">

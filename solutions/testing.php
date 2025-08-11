@@ -154,7 +154,7 @@
         <div class="text-center">
             <div class="title section-padding">Transportation Vibration Test</div>
             <div class="video-container">
-                <video class="video" width="100%" controls muted>
+                <video class="video" width="100%" controls muted poster="img/Solution/testing/video_thumbnail.png" preload="metadata">
                     <source src="video/CSMetal_TransportationVibrationTest_web_1080p.mp4" type="video/mp4">
                 </video>
             </div>

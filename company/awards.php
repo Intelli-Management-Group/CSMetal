@@ -43,7 +43,6 @@
         <img src="img/Company/Awards/banner_company_awards.jpg" alt="awards-banner" class="banner" style="object-position: left center;">
     </div>
 
-
     <div class="container">
         <div class="line line-left"></div>
         <div class="line line-1-3"></div>
@@ -63,7 +62,6 @@
         </div>
 
         <!-- Company Profile -->
-
         <div class="row section-padding">
             <div class="col-sm-12 col-md-4 pt-0">
                 <div class="award-container">
@@ -145,9 +143,7 @@
         </div>
     </div>
 
-
     <?php include '../inc/footer.php'; ?>
-
 </body>
 
 </html>

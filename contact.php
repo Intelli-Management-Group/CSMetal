@@ -35,7 +35,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="container bottom-border">
         <div class="line line-left"></div>
         <div class="line line-1-3"></div>
-        <!-- <div class="line line-2-3"></div> -->
         <div class="line line-right"></div>
 
         <div class="row section-padding">
@@ -48,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             2A/F, Phase 1 <br>
                             Kingsford Industrial Bldg., <br>
                             26-32 Kwai Hei St., Kwai Chung <br>
-                            Hong Kong</div>
+                            Hong Kong SAR</div>
                     </p>
                 </div>
                 <div class="customDiv mb-0">
@@ -75,7 +74,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <div class="customDiv mb-0">
                     <p class="mb-1">
                         <a class="address" href="tel:+8676983391265" target="_blank" rel="noopener">
-                            <!-- <i class="fa-solid fa-phone"></i>  -->
                             +86-769-83391265
                         </a>
                     </p>
@@ -85,16 +83,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
             </div>
         </div>
-
-        <!-- <div class="col-12 p-0 horizontal-line-md">
-            <hr>
-        </div> -->
     </div>
 
     <!-- Form -->
     <div class="container">
         <div class="line line-left"></div>
-        <!-- <div class="line line-1-3"></div>  -->
         <div class="line line-2-3"></div>
         <div class="line line-right"></div>
 

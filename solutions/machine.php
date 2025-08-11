@@ -27,11 +27,6 @@
         </div>
     </div>
 
-    <!-- <div class="container padding-bottom">
-        <div class="line line-left"></div>
-        <div class="line line-right"></div>
-    </div> -->
-
     <!-- Automated tube Forming Machine -->
     <div class="container" id="machine">
         <div class="line line-left"></div>
@@ -39,7 +34,7 @@
         <div class="text-center">
             <div class="title section-padding">AUTOMATED TUBE FORMING MACHINE</div>
             <div class="video-container">
-                <video class="video" width="100%" controls muted>
+                <video class="video" width="100%" controls muted poster="img/Solution/machine/video_thumbnail_1.png" preload="metadata">
                     <source src="video/CSMetal_AutomatedTubeFormingMachine_web_1080p.mp4" type="video/mp4">
                 </video>
             </div>
@@ -67,12 +62,7 @@
     <!-- 600t -->
     <div class="container bottom-border-lg">
         <div class="line line-left"></div>
-        <!-- <div class="line line-1-3-lg"></div>
-        <div class="line line-2-3-lg"></div> -->
         <div class="line line-right"></div>
-        <!-- <div class="col-12 p-0 horizontal-line-lg">
-            <hr>
-        </div> -->
 
         <div class="section-padding pb-0-lg">
             <div class="row">
@@ -155,7 +145,7 @@
         <div class="text-center">
             <div class="title section-padding">Semi-Automatic Tube Forming Machine</div>
             <div class="video-container">
-                <video class="video" width="100%" controls muted>
+                <video class="video" width="100%" controls muted poster="img/Solution/machine/video_thumbnail_2.png" preload="metadata">
                     <source src="video/CSMetal_SemiAutomatedTubeFormingMachine_web_1080p.mp4" type="video/mp4">
                 </video>
             </div>

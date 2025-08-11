@@ -30,8 +30,6 @@
     <!-- GOM Scan Section -->
     <div class="container bottom-border-lg" id="gom">
         <div class="line line-left"></div>
-        <!-- <div class="line line-1-3-lg"></div>
-        <div class="line line-2-3-lg"></div> -->
         <div class="line line-right"></div>
 
         <div class="section-padding pb-0-lg">
@@ -53,11 +51,9 @@
         <div class="section-padding padding-bottom-md-50">
             <div class="row">
                 <div class="col-12 col-lg-4 py-0">
-                    <div>
-                        <p>Welcome to our introduction to GOM Scan, a leading solution in 3D scanning technology, specifically designed for precision in metal stamping parts. With GOM Scan, we ensure the highest quality through rigorous first piece inspections, enabling us to detect any deviations from specifications right from the start.</p>
-                        <p>As we transition into mass production, GOM Scan plays a crucial role in maintaining consistent quality control (QC), allowing for real-time monitoring and adjustment throughout the manufacturing process. This not only enhances the reliability of our products but also drives process improvement initiatives by identifying areas for optimization.</p>
-                        <p class="mb-0">Join us as we explore how GOM Scan is revolutionizing the metal stamping industry, ensuring accuracy and efficiency at every stage, from the first inspection to large-scale production!</p>
-                    </div>
+                    <p>Welcome to our introduction to GOM Scan, a leading solution in 3D scanning technology, specifically designed for precision in metal stamping parts. With GOM Scan, we ensure the highest quality through rigorous first piece inspections, enabling us to detect any deviations from specifications right from the start.</p>
+                    <p>As we transition into mass production, GOM Scan plays a crucial role in maintaining consistent quality control (QC), allowing for real-time monitoring and adjustment throughout the manufacturing process. This not only enhances the reliability of our products but also drives process improvement initiatives by identifying areas for optimization.</p>
+                    <p class="mb-0">Join us as we explore how GOM Scan is revolutionizing the metal stamping industry, ensuring accuracy and efficiency at every stage, from the first inspection to large-scale production!</p>
                 </div>
 
                 <div class="col-6 col-lg-4 py-0 solution-image-1">
@@ -78,7 +74,7 @@
         <div class="text-center">
             <div class="title section-padding">PRECISE DIMENSIONAL MEASUREMENT</div>
             <div class="video-container">
-                <video class="video" width="100%" controls muted preload="metadata">
+                <video class="video" width="100%" controls muted preload="metadata" poster="img/Solution/inspection/video_thumbnail_1.png">
                     <source src="video/CSMetal_PreciseDimensionalMeasurement_web_1080p.mp4" type="video/mp4">
                 </video>
             </div>
@@ -147,7 +143,7 @@
         <div class="text-center">
             <div class="title section-padding">HIGH STANDARDS OF QUALITY & ACCOUNTABILITY</div>
             <div class="video-container">
-                <video class="video" width="100%" controls muted>
+                <video class="video" width="100%" controls muted poster="img/Solution/inspection/video_thumbnail_2.png" preload="metadata">
                     <source src="video/CSMetal_QMS_web_1080p.mp4" type="video/mp4">
                 </video>
             </div>

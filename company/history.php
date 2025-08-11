@@ -53,7 +53,7 @@
             top: 330px;
         }
 
-        @media only screen and (max-width: 767px) {
+        @media only screen and (max-width: 991px) {
             .history-line {
                 top: 280px;
             }
@@ -338,8 +338,6 @@
             scrollContainer.scrollLeft = scrollLeftStart + walk * 2;
         });
     </script>
-
-
 </body>
 
 </html>
