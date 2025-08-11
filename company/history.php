@@ -17,7 +17,7 @@
             margin-bottom: 0 !important;
         }
 
-        .horizontal-scroll-container {
+        .scroll-container {
             display: flex;
             overflow-x: auto;
             white-space: nowrap;
@@ -26,6 +26,8 @@
             border: 1px solid #eee;
             border-top: none;
             height: 600px;
+            scroll-snap-type: x mandatory;
+            scroll-padding-left: 10px;
         }
 
         .scroll-item {
@@ -35,6 +37,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            scroll-snap-align: start;
         }
 
         .history-text {
@@ -51,12 +54,6 @@
             z-index: 10;
             position: absolute;
             top: 330px;
-        }
-
-        @media only screen and (max-width: 991px) {
-            .history-line {
-                top: 280px;
-            }
         }
 
         .dot {
@@ -86,6 +83,73 @@
             padding: 0 70px;
             margin-bottom: 42px;
             z-index: -1;
+        }
+
+        .scroll-navigation {
+            position: absolute;
+            top: 342px;
+            left: 0;
+            right: 0;
+            transform: translateY(-50%);
+            z-index: 20;
+            pointer-events: none;
+        }
+
+        .scroll-btn {
+            position: absolute;
+            background: #0c73b2;
+            color: white;
+            border: none;
+            padding: 10px 13px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            pointer-events: auto;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        /* .scroll-btn:hover {
+            background: #095a8a;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(12, 115, 178, 0.3);
+        } */
+
+        /* .scroll-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        } */
+
+        .scroll-btn#scrollLeftBtn {
+            left: 10px;
+        }
+
+        .scroll-btn#scrollRightBtn {
+            right: 10px;
+        }
+
+        .scroll-container-wrapper {
+            position: relative;
+        }
+
+        @media only screen and (max-width: 991px) {
+            .scroll-container {
+                height: 550px;
+            }
+
+            .history-line {
+                top: 280px;
+            }
+
+            .scroll-navigation {
+                top: 292px;
+            }
         }
     </style>
 </head>
@@ -129,178 +193,182 @@
 
     <div class="container">
         <div class="history-line"></div>
-        <div class="horizontal-scroll-container padding-top">
-
-            <div class="scroll-item">
-                <img src="./img/Company/History/img_1981.jpg" alt="1981" class="image scroll-image">
-                <div class="history-text">
-                    <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
-                    <h3 class="text-color">1981</h3>
-                    <p>CHI SING opened in Hong Kong</p>
-                </div>
+        <div class="scroll-container-wrapper">
+            <div class="scroll-navigation">
+                <button class="scroll-btn" id="scrollLeftBtn">
+                    <i class="fa-solid fa-angle-left"></i>
+                </button>
+                <button class="scroll-btn" id="scrollRightBtn">
+                    <i class="fa-solid fa-angle-right"></i>
+                </button>
             </div>
-            <div class="scroll-item">
-                <img src="./img/Company/History/img_1982.jpg" alt="1982" class="image scroll-image-logo">
-                <div class="history-text">
-                    <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
-                    <h3 class="text-color">1982</h3>
-                    <p>COMMODORE C36 stamping parts</p>
+            <div class="scroll-container padding-top">
+                <div class="scroll-item">
+                    <img src="./img/Company/History/img_1981.jpg" alt="1981" class="image scroll-image">
+                    <div class="history-text">
+                        <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
+                        <h3 class="text-color">1981</h3>
+                        <p>CHI SING opened in Hong Kong</p>
+                    </div>
                 </div>
-            </div>
-            <div class="scroll-item">
-                <img src="./img/Company/History/img_1992.jpg" alt="1992" class="image scroll-image">
-                <div class="history-text">
-                    <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
-                    <h3 class="text-color">1992</h3>
-                    <p>China factory opened</p>
-                    <hr style="width: 150px;">
-                    <h3 class="text-color">1992-2002</h3>
-                    <p>Begin development of bathroom handles, towel racks, etc</p>
+                <div class="scroll-item">
+                    <img src="./img/Company/History/img_1982.jpg" alt="1982" class="image scroll-image-logo">
+                    <div class="history-text">
+                        <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
+                        <h3 class="text-color">1982</h3>
+                        <p>COMMODORE C36 stamping parts</p>
+                    </div>
                 </div>
-            </div>
-            <div class="scroll-item">
-                <img src="./img/Company/History/img_2003.jpg" alt="2003" class="image scroll-image-logo">
-                <div class="history-text">
-                    <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
-                    <h3 class="text-color">2003</h3>
-                    <p>Business with GENERAL ELECTRIC</p>
-                    <hr>
-                    <p>Electric scooter for SHARPER IMAGE</p>
+                <div class="scroll-item">
+                    <img src="./img/Company/History/img_1992.jpg" alt="1992" class="image scroll-image">
+                    <div class="history-text">
+                        <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
+                        <h3 class="text-color">1992</h3>
+                        <p>China factory opened</p>
+                        <hr style="width: 150px;">
+                        <h3 class="text-color">1992-2002</h3>
+                        <p>Begin development of bathroom handles,<br>towel racks, etc</p>
+                    </div>
                 </div>
-            </div>
-            <div class="scroll-item">
-                <img src="./img/Company/History/img_2004.jpg" alt="2004" class="image scroll-image-logo">
-                <div class="history-text">
-                    <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
-                    <h3 class="text-color">2004</h3>
-                    <p>
-                        Business with
-                        MABE CELAYA, </br>
-                        CHRISTIAN DIOR &
-                        JC PENNEY
-                    </p>
+                <div class="scroll-item">
+                    <img src="./img/Company/History/img_2003.jpg" alt="2003" class="image scroll-image-logo">
+                    <div class="history-text">
+                        <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
+                        <h3 class="text-color">2003</h3>
+                        <p>Business with GENERAL ELECTRIC</p>
+                        <hr>
+                        <p>Electric scooter for SHARPER IMAGE</p>
+                    </div>
                 </div>
-            </div>
-            <div class="scroll-item">
-                <img src="./img/Company/History/img_2005.jpg" alt="2005" class="image scroll-image-logo">
-                <div class="history-text">
-                    <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
-                    <h3 class="text-color">2005</h3>
-                    <p>Business with TOTO Japan and MIDEA</p>
+                <div class="scroll-item">
+                    <img src="./img/Company/History/img_2004.jpg" alt="2004" class="image scroll-image-logo">
+                    <div class="history-text">
+                        <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
+                        <h3 class="text-color">2004</h3>
+                        <p>Business with MABE CELAYA, </br> CHRISTIAN DIOR & JC PENNEY</p>
+                    </div>
                 </div>
-            </div>
-            <div class="scroll-item">
-                <img src="./img/Company/History/img_2006.jpg" alt="2006" class="image scroll-image-logo">
-                <div class="history-text">
-                    <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
-                    <h3 class="text-color">2006</h3>
-                    <p>Business with SAECO Italy to build coffee machines</p>
-                    <hr>
-                    <p>China factory rename to Williamson MFY.CO.LTD.</p>
+                <div class="scroll-item">
+                    <img src="./img/Company/History/img_2005.jpg" alt="2005" class="image scroll-image-logo">
+                    <div class="history-text">
+                        <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
+                        <h3 class="text-color">2005</h3>
+                        <p>Business with TOTO Japan and MIDEA</p>
+                    </div>
                 </div>
-            </div>
-            <div class="scroll-item">
-                <img src="./img/Company/History/img_2007.jpg" alt="2007" class="image scroll-image-logo">
-                <div class="history-text">
-                    <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
-                    <h3 class="text-color">2007</h3>
-                    <p>Factory expansion from 8000 to 14000 sq. meters</p>
-                    <hr style="width: 165px;">
-                    <p>Business with LG Korea</p>
-                    <hr style="width: 165px;">
-                    <p>Won LG Supplier Award</p>
+                <div class="scroll-item">
+                    <img src="./img/Company/History/img_2006.jpg" alt="2006" class="image scroll-image-logo">
+                    <div class="history-text">
+                        <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
+                        <h3 class="text-color">2006</h3>
+                        <p>Business with SAECO Italy to build coffee machines</p>
+                        <hr>
+                        <p>China factory rename to Williamson MFY.CO.LTD.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="scroll-item">
-                <img src="./img/Company/History/img_2009.jpg" alt="2009" class="image scroll-image-logo">
-                <div class="history-text">
-                    <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
-                    <h3 class="text-color">2009</h3>
-                    <p>Business with ELECTROLUX home products, USA</p>
+                <div class="scroll-item">
+                    <img src="./img/Company/History/img_2007.jpg" alt="2007" class="image scroll-image-logo">
+                    <div class="history-text">
+                        <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
+                        <h3 class="text-color">2007</h3>
+                        <p>Factory expansion from 8000 to 14000 sq. meters</p>
+                        <hr style="width: 165px;">
+                        <p>Business with LG Korea</p>
+                        <hr style="width: 165px;">
+                        <p>Won LG Supplier Award</p>
+                    </div>
                 </div>
-            </div>
-            <div class="scroll-item">
-                <img src="./img/Company/History/img_2010.jpg" alt="2010" class="image scroll-image-logo">
-                <div class="history-text">
-                    <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
-                    <h3 class="text-color">2010</h3>
-                    <p>Business with ELECTROLUX home products, Mexico</p>
+                <div class="scroll-item">
+                    <img src="./img/Company/History/img_2009.jpg" alt="2009" class="image scroll-image-logo">
+                    <div class="history-text">
+                        <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
+                        <h3 class="text-color">2009</h3>
+                        <p>Business with ELECTROLUX home products, USA</p>
+                    </div>
                 </div>
-            </div>
-            <div class="scroll-item">
-                <img src="./img/Company/History/img_2011.jpg" alt="2011" class="image scroll-image-logo">
-                <div class="history-text">
-                    <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
-                    <h3 class="text-color">2011</h3>
-                    <p>Business with WHIRPOOL</p>
+                <div class="scroll-item">
+                    <img src="./img/Company/History/img_2010.jpg" alt="2010" class="image scroll-image-logo">
+                    <div class="history-text">
+                        <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
+                        <h3 class="text-color">2010</h3>
+                        <p>Business with ELECTROLUX home products, Mexico</p>
+                    </div>
                 </div>
-            </div>
-            <div class="scroll-item">
-                <img src="./img/Company/History/img_2012.jpg" alt="2012" class="image scroll-image">
-                <div class="history-text">
-                    <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
-                    <h3 class="text-color">2012</h3>
-                    <p>Won GE Supplier Award</p>
-                    <hr>
-                    <p>Won MABE Supplier Award</p>
+                <div class="scroll-item">
+                    <img src="./img/Company/History/img_2011.jpg" alt="2011" class="image scroll-image-logo">
+                    <div class="history-text">
+                        <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
+                        <h3 class="text-color">2011</h3>
+                        <p>Business with WHIRPOOL</p>
+                    </div>
                 </div>
-            </div>
-            <div class="scroll-item">
-                <img src="./img/Company/History/img_2013.jpg" alt="2013" class="image scroll-image">
-                <div class="history-text">
-                    <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
-                    <h3 class="text-color">2013</h3>
-                    <p>Distinguished Supplier Award from MABE</p>
-                    <hr>
-                    <p>10th Anniversary award from GENERAL ELECTRIC</p>
+                <div class="scroll-item">
+                    <img src="./img/Company/History/img_2012.jpg" alt="2012" class="image scroll-image">
+                    <div class="history-text">
+                        <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
+                        <h3 class="text-color">2012</h3>
+                        <p>Won GE Supplier Award</p>
+                        <hr>
+                        <p>Won MABE Supplier Award</p>
+                    </div>
                 </div>
-            </div>
-            <div class="scroll-item">
-                <img src="./img/Company/History/img_2014.jpg" alt="2014" class="image scroll-image-logo">
-                <div class="history-text">
-                    <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
-                    <h3 class="text-color">2014</h3>
-                    <p>Business with SCHINDLER ELEVATOR</p>
+                <div class="scroll-item">
+                    <img src="./img/Company/History/img_2013.jpg" alt="2013" class="image scroll-image">
+                    <div class="history-text">
+                        <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
+                        <h3 class="text-color">2013</h3>
+                        <p>Distinguished Supplier Award from MABE</p>
+                        <hr>
+                        <p>10th Anniversary award from GENERAL ELECTRIC</p>
+                    </div>
                 </div>
-            </div>
-            <div class="scroll-item">
-                <img src="./img/Company/History/img_2015.jpg" alt="2015" class="image scroll-image-logo">
-                <div class="history-text">
-                    <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
-                    <h3 class="text-color">2015</h3>
-                    <p>Business with WEBER GRILL</p>
+                <div class="scroll-item">
+                    <img src="./img/Company/History/img_2014.jpg" alt="2014" class="image scroll-image-logo">
+                    <div class="history-text">
+                        <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
+                        <h3 class="text-color">2014</h3>
+                        <p>Business with SCHINDLER ELEVATOR</p>
+                    </div>
                 </div>
-            </div>
-            <div class="scroll-item">
-                <img src="./img/Company/History/img_2016.jpg" alt="2016" class="image scroll-image">
-                <div class="history-text">
-                    <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
-                    <h3 class="text-color">2016</h3>
-                    <p>Learn manufacturing seminar at Toyota factory</p>
+                <div class="scroll-item">
+                    <img src="./img/Company/History/img_2015.jpg" alt="2015" class="image scroll-image-logo">
+                    <div class="history-text">
+                        <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
+                        <h3 class="text-color">2015</h3>
+                        <p>Business with WEBER GRILL</p>
+                    </div>
                 </div>
-            </div>
-            <div class="scroll-item">
-                <img src="./img/Company/History/img_2017.jpg" alt="2017" class="image scroll-image">
-                <div class="history-text">
-                    <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
-                    <h3 class="text-color">2017</h3>
-                    <p>2nd time distinguished Supplier Award from General Electric</p>
+                <div class="scroll-item">
+                    <img src="./img/Company/History/img_2016.jpg" alt="2016" class="image scroll-image">
+                    <div class="history-text">
+                        <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
+                        <h3 class="text-color">2016</h3>
+                        <p>Learn manufacturing seminar at Toyota factory</p>
+                    </div>
                 </div>
-            </div>
-            <div class="scroll-item">
-                <img src="./img/Company/History/img_2018.jpg" alt="2018" class="image scroll-image">
-                <div class="history-text">
-                    <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
-                    <h3 class="text-color">2018</h3>
-                    <p>New process: integrated automatic roll forming and <br> tube cutting system, automatic stamping system</p>
+                <div class="scroll-item">
+                    <img src="./img/Company/History/img_2017.jpg" alt="2017" class="image scroll-image">
+                    <div class="history-text">
+                        <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
+                        <h3 class="text-color">2017</h3>
+                        <p>2nd time distinguished Supplier Award<br> from General Electric</p>
+                    </div>
                 </div>
-            </div>
-            <div class="scroll-item mr-0">
-                <img src="./img/Company/History/img_2019.jpg" alt="2019" class="image scroll-image">
-                <div class="history-text">
-                    <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
-                    <h3 class="text-color">2019-2022</h3>
-                    <p>Covid-19 did not stop us from producing. <br>No single missing shipments</p>
+                <div class="scroll-item">
+                    <img src="./img/Company/History/img_2018.jpg" alt="2018" class="image scroll-image">
+                    <div class="history-text">
+                        <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
+                        <h3 class="text-color">2018</h3>
+                        <p>New process: integrated automatic roll forming and <br> tube cutting system, automatic stamping system</p>
+                    </div>
+                </div>
+                <div class="scroll-item mr-0">
+                    <img src="./img/Company/History/img_2019.jpg" alt="2019" class="image scroll-image">
+                    <div class="history-text">
+                        <img src="./img/Generic/logo_emblem.png" alt="logo" class="history-logo">
+                        <h3 class="text-color">2019-2022</h3>
+                        <p>Covid-19 did not stop us from producing. <br>No single missing shipments</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -310,7 +378,9 @@
     <?php include '../inc/footer.php'; ?>
 
     <script>
-        const scrollContainer = document.querySelector('.horizontal-scroll-container');
+        const scrollContainer = document.querySelector('.scroll-container');
+        const scrollLeftBtn = document.getElementById('scrollLeftBtn');
+        const scrollRightBtn = document.getElementById('scrollRightBtn');
 
         // Handle mouse wheel scroll
         scrollContainer.addEventListener('wheel', (event) => {
@@ -337,6 +407,63 @@
             const walk = startX - x; // Calculate distance moved in touch
             scrollContainer.scrollLeft = scrollLeftStart + walk * 2;
         });
+
+        // Helper to get items and find the closest index to current scroll
+        const scrollItems = Array.from(scrollContainer.querySelectorAll('.scroll-item'));
+
+        function getClosestIndex() {
+            const scrollLeft = scrollContainer.scrollLeft;
+            let closestIndex = 0;
+            let minDiff = Infinity;
+            scrollItems.forEach((item, index) => {
+                const diff = Math.abs(item.offsetLeft - scrollLeft);
+                if (diff < minDiff) {
+                    minDiff = diff;
+                    closestIndex = index;
+                }
+            });
+            return closestIndex;
+        }
+
+        function scrollToIndex(index) {
+            const clamped = Math.max(0, Math.min(scrollItems.length - 1, index));
+            const targetLeft = scrollItems[clamped].offsetLeft;
+            scrollContainer.scrollTo({
+                left: targetLeft,
+                behavior: 'smooth'
+            });
+        }
+
+        // Add event listeners for navigation buttons (scroll exactly one item)
+        scrollLeftBtn.addEventListener('click', () => {
+            const current = getClosestIndex();
+            scrollToIndex(current - 1);
+        });
+
+        scrollRightBtn.addEventListener('click', () => {
+            const current = getClosestIndex();
+            scrollToIndex(current + 1);
+        });
+
+        // Disable/Enable buttons based on closest item index
+        // function updateScrollButtons() {
+        //     const idx = getClosestIndex();
+        //     scrollLeftBtn.disabled = idx === 0;
+        //     scrollRightBtn.disabled = idx >= scrollItems.length - 1;
+        // }
+
+        // // Update buttons while scrolling and after inertia settles
+        // scrollContainer.addEventListener('scroll', () => {
+        //     // Throttle updates using requestAnimationFrame for performance
+        //     if (!window.__updatingScrollButtons) {
+        //         window.__updatingScrollButtons = true;
+        //         requestAnimationFrame(() => {
+        //             updateScrollButtons();
+        //             window.__updatingScrollButtons = false;
+        //         });
+        //     }
+        // });
+        // updateScrollButtons(); // Initial call to set button states
     </script>
 </body>
 

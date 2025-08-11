@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="row section-padding pt-3 pb-0">
-            <div class="col-md-4 pt-0">
+            <div class="col-md-4 pt-md-0">
                 <div class="product-wrap">
                     <div class="product-image-wrap">
                         <img src="img/Company/Our-Edge/product_1.jpg" alt="production technology" class="img-fluid">
@@ -49,7 +49,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 pt-0">
+            <div class="col-md-4 pt-md-0">
                 <div class="product-wrap">
                     <div class="product-image-wrap">
                         <img src="img/Company/Our-Edge/product_2.jpg" alt="Fully equipped Lab" class="img-fluid">
@@ -62,7 +62,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 pt-0">
+            <div class="col-md-4 pt-md-0">
                 <div class="product-wrap">
                     <div class="product-image-wrap">
                         <img src="img/Company/Our-Edge/product_3.jpg" alt="Molds Production" class="img-fluid">

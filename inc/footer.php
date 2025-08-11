@@ -87,16 +87,16 @@
                     <div class="row section-padding" style="padding-top: 50px; padding-bottom: 50px;">
                         <div class="col-sm-12 col-md-6 col-lg-6 p-0">
                             <div class="info-wrap location pt-0">
-                                <h3 class="mb-0">Redefining The Standards in Metal Manufacturing</h3>
+                                <h3 class="mb-0">Redefining The Standards in <br class="d-xl-none d-block">Metal Manufacturing</h3>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-3 col-lg-4 p-0">
+                        <div class="col-sm-12 col-md-4 col-lg-4 p-0">
                             <div class="info-wrap email">
                                 Office: <a href="tel:+85226143700">+852-2614-3700</a><br>
                                 Factory: <a href="tel:+8676983391265">+86-769-83391265</a>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-3 col-lg-2 pl-lg-0 pl-md-3 p-0">
+                        <div class="col-sm-12 col-md-2 col-lg-2 pl-lg-0 pl-md-3 p-0">
                             <div class="info-wrap phone pb-0">
                                 <p class="mb-0">Follow Us:</p>
                                 <a href="https://www.linkedin.com/company/cs-metal-int/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin" style="font-size: 32px;"></i></a>
