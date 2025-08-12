@@ -20,7 +20,7 @@
 
     <!-- banner -->
     <div class="banner-container" style="z-index: -1;">
-        <img src="./img/Home/banner_home.jpg" alt="Home Banner" class="banner">
+        <img src="img/Home/banner_home.jpg" alt="Home Banner" class="banner">
     </div>
 
     <div class="container bottom-border">
@@ -91,7 +91,6 @@
                             </a>
                         </div>
                         <h3 class="mt-3">Stamping Parts</h3>
-                        <!-- <p class="mb-0">CS Metal delivers a wide range of high-quality stamping solutions tailored to meet the needs of diverse industries. From brackets and wire mesh to panels, rings, or specialized parts like cooking drip bowls and vent trims, our precision components are built for durability and performance. We ensure consistent and reliable results for every application.</p> -->
                     </div>
                 </div>
 
@@ -104,7 +103,6 @@
                             </a>
                         </div>
                         <h3 class="mt-3">Handles</h3>
-                        <!-- <p class="mb-0">CS Metal offers a wide range of durable, high-quality metal handles, including tubular, hydroforming, and standoff options, with customizable options including brushed, mirror, and coloured finishes. Each handle is precisely engineered to meet industry standards, ensuring stability and style across different settings. </p> -->
                     </div>
                 </div>
 
@@ -117,7 +115,6 @@
                             </a>
                         </div>
                         <h3 class="mt-3">Die Cast</h3>
-                        <!-- <p class="mb-0">Die-casting is a process that involves shaping molten metal under high pressure into a mold cavity, making it ideal for industries that require durable components. At CS Metal, we use advanced casting techniques to create complex, high-strength parts that deliver reliable, consistent results. Various die-cast parts include tweezers, foot pegs, and custom products.</p> -->
                     </div>
                 </div>
             </div>
@@ -133,7 +130,6 @@
                             </a>
                         </div>
                         <h3 class="mt-3">Manifold</h3>
-                        <!-- <p class="mb-0">At CS Metal, our custom manifold solutions are designed to handle high-pressure systems and complex tasks; offering superior performance and durability. Our manifolds are tailored to the client’s exact specifications, delivering efficiency and reliability in industrial applications. </p> -->
                     </div>
                 </div>
 
@@ -146,7 +142,6 @@
                             </a>
                         </div>
                         <h3 class="mt-3">Advertising Fixture & OEM Products</h3>
-                        <!-- <p class="mb-0">Our custom advertising fixtures and OEM products blend functionality with aesthetic appeal, tailored to enhance brand presence. Trusted by brands like Christian Dior, Georg Jensen, Victoria’s Secret, and Hermes, we deliver exceptional quality and style.</p> -->
                     </div>
                 </div>
 

@@ -89,49 +89,103 @@
         <div class="show-more-button">Show More &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></div>
     </div>
 
-    <div class="container">
-        <div class="line line-left"></div>
-        <div class="line line-1-3"></div>
-        <div class="line line-2-3"></div>
-        <div class="line line-right"></div>
-        <div class="line-1-2-md"></div>
+    <div class="d-md-block d-none">
+        <div class="container">
+            <div class="line line-left"></div>
+            <div class="line line-1-3"></div>
+            <div class="line line-2-3"></div>
+            <div class="line line-right"></div>
+            <div class="line-1-2-md"></div>
+            <div class="row section-padding py-0 hidden-content" style="display: none;">
+                <div class="col-12 p-0 horizontal-line">
+                    <hr>
+                </div>
+                <div class="col-12 p-0 horizontal-line-md">
+                    <hr>
+                </div>
+                <div class="col-6 col-md-4 p-0">
+                    <img src="img/Product/OEM/img_7.jpg" alt="oem 7" class="products-image">
+                    <p class="product-name">Bike Stand</p>
+                </div>
+                <div class="col-6 col-md-4 p-0">
+                    <img src="img/Product/OEM/img_8.jpg" alt="oem 8" class="products-image">
+                    <p class="product-name">Elastic Band Piercing</p>
+                </div>
+                <div class="col-12 p-0 horizontal-line-md">
+                    <hr>
+                </div>
+                <div class="col-6 col-md-4 p-0">
+                    <img src="img/Product/OEM/img_9.jpg" alt="oem 9" class="products-image">
+                    <p class="product-name">BEER KOBO</p>
+                </div>
+                <div class="col-12 p-0 horizontal-line">
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="line line-left"></div>
+            <div class="line line-1-3"></div>
+            <div class="line line-right"></div>
+            <div class="line-1-2-md"></div>
+            <div class="row section-padding py-0 hidden-content" style="display: none;">
+                <div class="col-6 col-md-4 p-0 last-row-single-product">
+                    <img src="img/Product/OEM/img_10.jpg" alt="oem 10" class="products-image">
+                    <p class="product-name">Others</p>
+                </div>
+                <div class="col-12 p-0 horizontal-line-md">
+                    <hr>
+                </div>
+                <div class="col-12 p-0 horizontal-line">
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <div class="row section-padding py-0 hidden-content" style="display: none;">
-            <div class="col-12 p-0 horizontal-line">
-                <hr>
-            </div>
-            <div class="col-12 p-0 horizontal-line-md">
-                <hr>
-            </div>
-            <div class="col-6 col-md-4 p-0">
-                <img src="img/Product/OEM/img_7.jpg" alt="oem 7" class="products-image">
-                <p class="product-name">Bike Stand</p>
-            </div>
-            <div class="col-6 col-md-4 p-0">
-                <img src="img/Product/OEM/img_8.jpg" alt="oem 8" class="products-image">
-                <p class="product-name">Elastic Band Piercing</p>
-            </div>
-            <div class="col-12 p-0 horizontal-line-md">
-                <hr>
-            </div>
-            <div class="col-6 col-md-4 p-0">
-                <img src="img/Product/OEM/img_9.jpg" alt="oem 9" class="products-image">
-                <p class="product-name">BEER KOBO</p>
-            </div>
+    <div class="d-md-none">
+        <div class="container">
+            <div class="line line-left"></div>
+            <div class="line line-1-3"></div>
+            <div class="line line-2-3"></div>
+            <div class="line line-right"></div>
+            <div class="line-1-2-md"></div>
+            <div class="row section-padding py-0 hidden-content" style="display: none;">
+                <div class="col-12 p-0 horizontal-line">
+                    <hr>
+                </div>
+                <div class="col-12 p-0 horizontal-line-md">
+                    <hr>
+                </div>
+                <div class="col-6 col-md-4 p-0">
+                    <img src="img/Product/OEM/img_7.jpg" alt="oem 7" class="products-image">
+                    <p class="product-name">Bike Stand</p>
+                </div>
+                <div class="col-6 col-md-4 p-0">
+                    <img src="img/Product/OEM/img_8.jpg" alt="oem 8" class="products-image">
+                    <p class="product-name">Elastic Band Piercing</p>
+                </div>
+                <div class="col-12 p-0 horizontal-line-md">
+                    <hr>
+                </div>
+                <div class="col-6 col-md-4 p-0">
+                    <img src="img/Product/OEM/img_9.jpg" alt="oem 9" class="products-image">
+                    <p class="product-name">BEER KOBO</p>
+                </div>
+                <div class="col-12 p-0 horizontal-line">
+                    <hr>
+                </div>
 
-            <div class="col-12 p-0 horizontal-line">
-                <hr>
-            </div>
-            <div class="col-6 col-md-4 p-0">
-                <img src="img/Product/OEM/img_10.jpg" alt="oem 10" class="products-image">
-                <p class="product-name">Others</p>
-            </div>
-            <div class="col-12 p-0 horizontal-line-md">
-                <hr>
-            </div>
-
-            <div class="col-12 p-0 horizontal-line">
-                <hr>
+                <div class="col-6 col-md-4 p-0 last-row-single-product">
+                    <img src="img/Product/OEM/img_10.jpg" alt="oem 10" class="products-image">
+                    <p class="product-name">Others</p>
+                </div>
+                <div class="col-12 p-0 horizontal-line-md">
+                    <hr>
+                </div>
+                <div class="col-12 p-0 horizontal-line">
+                    <hr>
+                </div>
             </div>
         </div>
     </div>
@@ -156,7 +210,19 @@
         </div>
     </div>
 
-    <script src="js/showMore.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector(".show-more-button").addEventListener("click", function() {
+                var hiddenContents = document.querySelectorAll(".hidden-content");
+                hiddenContents.forEach(function(hiddenContent) {
+                    if (hiddenContent.style.display === "none") {
+                        hiddenContent.style.display = "flex";
+                    }
+                });
+                this.style.display = "none";
+            });
+        });
+    </script>
     <?php include '../inc/footer.php'; ?>
 </body>
 
