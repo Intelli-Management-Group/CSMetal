@@ -113,19 +113,6 @@
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
         }
 
-        /* .scroll-btn:hover {
-            background: #095a8a;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(12, 115, 178, 0.3);
-        } */
-
-        /* .scroll-btn:disabled {
-            background: #ccc;
-            cursor: not-allowed;
-            transform: none;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        } */
-
         .scroll-btn#scrollLeftBtn {
             left: 10px;
         }
@@ -383,10 +370,10 @@
         const scrollRightBtn = document.getElementById('scrollRightBtn');
 
         // Handle mouse wheel scroll
-        scrollContainer.addEventListener('wheel', (event) => {
-            event.preventDefault();
-            scrollContainer.scrollLeft += event.deltaY * 2;
-        });
+        // scrollContainer.addEventListener('wheel', (event) => {
+        //     event.preventDefault();
+        //     scrollContainer.scrollLeft += event.deltaY * 2;
+        // });
 
         // Variables to store touch start position
         let startX;
@@ -444,26 +431,6 @@
             const current = getClosestIndex();
             scrollToIndex(current + 1);
         });
-
-        // Disable/Enable buttons based on closest item index
-        // function updateScrollButtons() {
-        //     const idx = getClosestIndex();
-        //     scrollLeftBtn.disabled = idx === 0;
-        //     scrollRightBtn.disabled = idx >= scrollItems.length - 1;
-        // }
-
-        // // Update buttons while scrolling and after inertia settles
-        // scrollContainer.addEventListener('scroll', () => {
-        //     // Throttle updates using requestAnimationFrame for performance
-        //     if (!window.__updatingScrollButtons) {
-        //         window.__updatingScrollButtons = true;
-        //         requestAnimationFrame(() => {
-        //             updateScrollButtons();
-        //             window.__updatingScrollButtons = false;
-        //         });
-        //     }
-        // });
-        // updateScrollButtons(); // Initial call to set button states
     </script>
 </body>
 

@@ -3,9 +3,6 @@ $current_path = $_SERVER['PHP_SELF'];
 $current_page = basename($_SERVER['PHP_SELF']);
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
@@ -369,5 +366,3 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
-</html>

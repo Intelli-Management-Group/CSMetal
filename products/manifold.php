@@ -24,30 +24,40 @@
         .slick-next {
             position: absolute;
             top: 50%;
-            transform: translateY(-50%);
+            transform: translate(-50%, -50%);
             color: #fff;
             z-index: 2;
         }
 
         .slick-prev {
-            left: 10px;
+            left: 20px;
         }
 
         .slick-next {
-            right: 10px;
+            right: 20px;
         }
 
         .slick-prev:before,
         .slick-next:before {
-            color: #0c73b2;
-            font-size: 24px;
+            background: #0c73b2;
+            color: white;
+            padding: 10px 13px;
+            border-radius: 25px;
+            opacity: 1;
+            font-size: 16px;
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            content: "\f104";
         }
 
-        /* Customize dots */
+        .slick-next:before {
+            content: "\f105";
+        }
+
         .slick-dots li button:before {
             font-size: 12px;
             color: #ccc;
-            opacity: 0.8;
+            opacity: 1 !important;
         }
 
         .slick-dots li.slick-active button:before {
@@ -131,7 +141,7 @@
                 speed: 500, // Speed of slide transition
                 slidesToShow: 1, // Show one slide at a time
                 slidesToScroll: 1, // Scroll one slide at a time
-                arrows: false, // Enable left and right arrows
+                arrows: true, // Enable left and right arrows
             });
         });
     </script>
