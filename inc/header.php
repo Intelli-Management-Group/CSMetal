@@ -156,7 +156,6 @@ $current_page = basename($_SERVER['PHP_SELF']);
 </div>
 
 <script>
-    // Navigation dropdown management
     const navConfig = [{
             linkId: 'company-link',
             navId: 'company-nav'
@@ -174,30 +173,84 @@ $current_page = basename($_SERVER['PHP_SELF']);
     const navElements = {};
     const navContainer = document.getElementById('nav');
 
+    let activeNavId = null;
+    let switchTimer = null;
+    let hideTimer = null;
+
+    const SWITCH_DELAY = 200; // delay before switching to a different dropdown (ms)
+    const HIDE_DELAY = 200; // delay before hiding menus when leaving (ms)
+
+    function clearTimers() {
+        clearTimeout(switchTimer);
+        clearTimeout(hideTimer);
+    }
+
+    function setActive(navId) {
+        clearTimeout(switchTimer);
+        activeNavId = navId;
+        Object.keys(navElements).forEach(id => {
+            navElements[id].classList.toggle('show', id === navId);
+        });
+    }
+
+    function startHideTimer() {
+        clearTimeout(hideTimer);
+        hideTimer = setTimeout(() => {
+            activeNavId = null;
+            Object.values(navElements).forEach(nav => nav.classList.remove('show'));
+        }, HIDE_DELAY);
+    }
+
+    function onLinkEnter(navId) {
+        clearTimeout(hideTimer);
+
+        if (!activeNavId) {
+            // Nothing open — open immediately
+            setActive(navId);
+            return;
+        }
+
+        if (activeNavId === navId) {
+            // Already open — keep it
+            setActive(navId);
+            return;
+        }
+
+        // Another menu is open — delay switching to avoid accidental switches
+        clearTimeout(switchTimer);
+        switchTimer = setTimeout(() => {
+            setActive(navId);
+        }, SWITCH_DELAY);
+    }
+
+    function onLinkLeave() {
+        // Give a short window for the user to move into the dropdown panel
+        startHideTimer();
+    }
+
     navConfig.forEach(config => {
         const link = document.getElementById(config.linkId);
         const nav = document.getElementById(config.navId);
 
         if (link && nav) {
             navElements[config.navId] = nav;
-            link.addEventListener('mouseover', () => showNav(config.navId));
-            nav.addEventListener('mouseover', () => showNav(config.navId));
-            nav.addEventListener('mouseout', hideAllNavs);
+
+            // Use mouseenter/leave which don't bubble (more consistent across browsers)
+            link.addEventListener('mouseenter', () => onLinkEnter(config.navId));
+            link.addEventListener('mouseleave', onLinkLeave);
+
+            nav.addEventListener('mouseenter', () => {
+                clearTimers();
+                setActive(config.navId);
+            });
+
+            nav.addEventListener('mouseleave', startHideTimer);
         }
     });
 
-    navContainer.addEventListener('mouseout', hideAllNavs);
+    // If the pointer leaves the whole nav area, start hide timer
+    navContainer.addEventListener('mouseleave', startHideTimer);
 
-    function showNav(navId) {
-        Object.keys(navElements).forEach(id => {
-            navElements[id].classList.remove('show');
-        });
-        navElements[navId].classList.add('show');
-    }
-
-    function hideAllNavs() {
-        Object.values(navElements).forEach(nav => {
-            nav.classList.remove('show');
-        });
-    }
+    // Optional: if pointer re-enters nav area, cancel hide
+    navContainer.addEventListener('mouseenter', () => clearTimers());
 </script>
