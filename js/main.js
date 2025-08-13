@@ -127,7 +127,6 @@ document.addEventListener("DOMContentLoaded", function() {
     elements.forEach(element => {
         element.textContent = toTitleCase(element.textContent);
     });
-
 });
 
   

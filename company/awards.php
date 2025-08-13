@@ -6,21 +6,9 @@
     <title>CS Metal Awards | Recognition for Quality & Innovation</title>
     <meta name="description" content="CS Metal’s award-winning metal solutions are recognized by GE, LG & HKPC. Celebrating 40+ years of industry excellence and impact. Explore our achievements.">
     <style>
-        .company {
-            font-size: 16px;
-        }
-
-        .award {
-            font-size: 24px;
-        }
-
         @media only screen and (max-width: 767px) {
             .section-padding {
                 padding-bottom: 0;
-            }
-
-            .awards-section-padding {
-                padding-bottom: 25px;
             }
         }
     </style>

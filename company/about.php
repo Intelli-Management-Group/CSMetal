@@ -5,47 +5,6 @@
     <?php include '../inc/HTMLhead.php'; ?>
     <title>About CS Metal | Excellence in Precision Metal Fabrication</title>
     <meta name="description" content="CS Metal offers expert metal fabrication services, with sales in the USA, Canada, and Mexico, and manufacturing in China, delivering innovative solutions.">
-    <style>
-        .solution-wrap {
-            padding: 25px 50px !important;
-            height: 150px !important;
-            display: flex;
-            border: 1px solid #4b4b4b;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            box-sizing: border-box;
-        }
-
-        .gom-wrap {
-            border-left: none;
-        }
-
-        .hardness-wrap {
-            border-left: none;
-        }
-
-        @media only screen and (max-width: 767px) {
-            .gom-wrap {
-                border-left: 1px solid #4b4b4b;
-                border-top: none;
-            }
-
-            .hardness-wrap {
-                border-left: 1px solid #4b4b4b;
-                border-top: none;
-            }
-
-            .solution-wrap {
-                height: 100px !important;
-            }
-        }
-
-        .card-arrow h5 {
-            position: relative;
-            z-index: 1;
-        }
-    </style>
 </head>
 
 <body>

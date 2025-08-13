@@ -2,68 +2,11 @@
 <html lang="en">
 
 <head>
-    <?php include '../inc/HTMLhead.php'; ?>
     <title>CS Metal Manifolds | Precision Manufacturing & Assembly</title>
     <meta name="description" content="CS Metal engineers custom manifolds for high-pressure systems, delivering durability & efficiency. Tailored to your specifications – partner with experts.">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-    <style>
-        .slick-container {
-            width: 100%;
-            margin: auto;
-            position: relative;
-        }
-
-        .slick-slide img {
-            width: 100%;
-            object-fit: cover;
-            position: relative;
-        }
-
-        .slick-prev,
-        .slick-next {
-            position: absolute;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            color: #fff;
-            z-index: 2;
-        }
-
-        .slick-prev {
-            left: 20px;
-        }
-
-        .slick-next {
-            right: 20px;
-        }
-
-        .slick-prev:before,
-        .slick-next:before {
-            background: #0c73b2;
-            color: white;
-            padding: 10px 13px;
-            border-radius: 25px;
-            opacity: 1;
-            font-size: 16px;
-            font-family: "Font Awesome 6 Free";
-            font-weight: 900;
-            content: "\f104";
-        }
-
-        .slick-next:before {
-            content: "\f105";
-        }
-
-        .slick-dots li button:before {
-            font-size: 12px;
-            color: #ccc;
-            opacity: 1 !important;
-        }
-
-        .slick-dots li.slick-active button:before {
-            color: #0c73b2;
-        }
-    </style>
+    <?php include '../inc/HTMLhead.php'; ?>
 </head>
 
 <body>
