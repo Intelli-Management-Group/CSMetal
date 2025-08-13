@@ -81,48 +81,37 @@ $current_page = basename($_SERVER['PHP_SELF']);
             text-decoration: none;
         }
 
-        #company-nav {
-            display: none;
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-        }
-
-        #company-nav.show {
-            display: block;
-            opacity: 1;
-        }
-
-        #solutions-nav {
-            display: none;
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-        }
-
-        #solutions-nav.show {
-            display: block;
-            opacity: 1;
-        }
-
+        #company-nav,
+        #solutions-nav,
         #products-nav {
             display: none;
             opacity: 0;
             transition: opacity 0.3s ease-in-out;
         }
 
+        #company-nav.show,
+        #solutions-nav.show,
         #products-nav.show {
             display: block;
             opacity: 1;
         }
 
-        #facilities-nav {
-            display: none;
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
+        #company-link,
+        #solutions-link,
+        #products-link {
+            position: relative;
         }
 
-        #facilities-nav.show {
-            display: block;
-            opacity: 1;
+        #company-link::after,
+        #solutions-link::after,
+        #products-link::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -20px;
+            /* extend hover area down */
+            height: 20px;
         }
 
         .menu-wrap {
@@ -362,10 +351,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
         navContainer.addEventListener('mouseout', hideAllNavs);
 
-        let hideTimeout;
-
         function showNav(navId) {
-            clearTimeout(hideTimeout);
             Object.keys(navElements).forEach(id => {
                 navElements[id].classList.remove('show');
             });
@@ -373,11 +359,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
         }
 
         function hideAllNavs() {
-            hideTimeout = setTimeout(() => {
-                Object.values(navElements).forEach(nav => {
-                    nav.classList.remove('show');
-                });
-            }, 150);
+            Object.values(navElements).forEach(nav => {
+                nav.classList.remove('show');
+            });
         }
     </script>
 
