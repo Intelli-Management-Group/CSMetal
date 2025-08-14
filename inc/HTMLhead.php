@@ -1,18 +1,5 @@
-<?php
-$host = $_SERVER['HTTP_HOST'];
-
-$isLocal = $host === 'localhost' 
-    || $host === '127.0.0.1' 
-    || str_starts_with($host, '192.168.');
-
-$baseUrl = $isLocal 
-    ? "https://$host/csmetal/" 
-    : "https://$host/";
-?>
-
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<base href="<?= htmlspecialchars($baseUrl, ENT_QUOTES) ?>">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/responsive.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
