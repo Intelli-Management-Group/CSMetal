@@ -21,7 +21,7 @@
     </div>
 
     <div class="bg-black text-white">
-        <div class="container" id="core-values">
+        <div class="container">
             <div class="row section-padding padding-top pb-0">
                 <div class="col-sm-12 col-md-4 py-0">
                     <div class="title pb-3">Our Expertise</div>
@@ -50,7 +50,7 @@
         </div>
     </div>
 
-    <div class="container bottom-border" id="core-values">
+    <div class="container bottom-border">
         <div class="line line-left"></div>
         <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>
@@ -95,7 +95,7 @@
         </div>
     </div>
 
-    <div class="container" id="core-values">
+    <div class="container">
         <div class="line line-left"></div>
         <div class="line line-1-3"></div>
         <div class="line line-2-3"></div>

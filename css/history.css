@@ -112,11 +112,11 @@ p {
 }
 
 .scroll-btn#scrollLeftBtn {
-    left: 10px;
+    left: 15px;
 }
 
 .scroll-btn#scrollRightBtn {
-    right: 10px;
+    right: 15px;
 }
 
 .scroll-container-wrapper {

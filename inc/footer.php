@@ -1,4 +1,4 @@
-<footer style="background-color:black;" id="main-footer">
+<footer style="background-color:black;">
     <div class="container">
         <div class="footer">
             <div class="row section-padding" style="padding-top: 50px; padding-bottom: 50px;">
