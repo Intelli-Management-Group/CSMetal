@@ -79,7 +79,7 @@
     <script>
         $(document).ready(function() {
             $('.slick-container').slick({
-                dots: true, // Enable dot indicators
+                dots: false, // Enable dot indicators
                 infinite: true, // Loop through slides infinitely
                 speed: 500, // Speed of slide transition
                 slidesToShow: 1, // Show one slide at a time

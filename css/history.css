@@ -20,6 +20,12 @@ p {
     height: 600px;
     scroll-snap-type: x mandatory;
     scroll-padding-left: 10px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
 }
 
 .scroll-item {
