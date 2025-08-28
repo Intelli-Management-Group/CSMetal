@@ -1347,6 +1347,11 @@ hr {
     color: white;
 }
 
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .info-wrap a {
     color: white;
     text-decoration: none;
