@@ -169,27 +169,34 @@
             <div class="line line-right"></div>
 
             <div class="row section-padding">
-                <div class="col-md-4 pt-0">
-                    <div class="title">Locations</div>
-                </div>
+                <div class="col-md-4">
+                    <div class="title locations">Locations</div>
 
-                <div class="col-md-4 pt-0">
+                    <br>
                     <h5>Headquarter</h5>
-                    <p class="mb-0">CHI SING METAL MFY. CO. LTD.<br>Hong Kong SAR</p>
-                    <br>
-
-                    <h5>Sales Rep</h5>
-                    <p class="mb-0">Louisville, USA</p>
-                    <p class="mb-0">Vancouver, Canada</p>
+                    <p class="mb-0"><strong>CHI SING METAL MFY. CO. LTD.</strong><br>Hong Kong SAR</p>
                 </div>
 
-                <div class="col-md-4 pb-0">
-                    <h5>Factory</h5>
-                    <p class="mb-0">WILLIAMSON Metal MFY. CO. LTD.<br>Dongguan, China</p>
-                    <br>
+                <div class="col-md-4">
+                    <div class="locations">
+                        <h5>Sales Rep</h5>
+                        <p class="mb-0">Louisville, USA</p>
+                        <p class="mb-0">Vancouver, Canada</p>
+                    </div>
 
+                    <br>
                     <h5>Sales Rep & Warehouse</h5>
                     <p class="mb-0">San Luis Potosi, Mexico</p>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="locations">
+                        <h5>Factory</h5>
+                        <p class="mb-0"><strong>WILLIAMSON Metal MFY. CO. LTD.</strong><br>Dongguan, China</p>
+                    </div>
+                    
+                    <br>
+                    <p class="mb-0"><strong>CS Metal Mexico</strong><br>Querétaro, Mexico</p>
                 </div>
             </div>
         </div>

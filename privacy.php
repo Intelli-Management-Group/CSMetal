@@ -1,3 +1,7 @@
+<?php
+$domain = "https://" . $_SERVER['HTTP_HOST'];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,7 +41,7 @@
             <div class="col-12 col-lg-10 mx-auto">
 
                 <p>CS Metal has adopted a data protection procedure, this procedure provides a global and simplified legal basis for all databases and applications sharing personal data within the company. The CS Metal data protection procedure is a company-wide procedure ensuring a minimum standard of protection for personal data shared at global level.</p>
-                <p>This Privacy Policy explains how we collect and use personal data obtained through this Website (<a href="https://www.csmetal-int.com">https://www.csmetal-int.com</a>). Some online forms may have a specific Policy or Privacy Statement that differs from this Privacy Policy. Please review the Policy or Privacy Statement for any information that applies specifically to that particular form.</p>
+                <p>This Privacy Policy explains how we collect and use personal data obtained through this Website (<a href="<?= $domain ?>"><?= $domain ?></a>). Some online forms may have a specific Policy or Privacy Statement that differs from this Privacy Policy. Please review the Policy or Privacy Statement for any information that applies specifically to that particular form.</p>
 
                 <div class="title">Personal Data</div>
                 <p>In general, you are not required to disclose your personal data as a condition of using this Website. No personally identifiable information, such as your name, address, or e-mail address, is automatically collected from your visit to the Website.</p>

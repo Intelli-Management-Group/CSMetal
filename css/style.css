@@ -199,6 +199,10 @@ a {
     font-weight: 300 !important;
 }
 
+strong {
+    font-weight: 400;
+}
+
 h3 {
     font-size: 1.7rem !important;
     font-weight: 300 !important;
@@ -1396,4 +1400,8 @@ hr {
     color: #0c73b2;
     background-color: white;
     border: 1px solid #0c73b2;
+}
+
+.locations {
+    height: 80px;
 }

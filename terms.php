@@ -1,3 +1,7 @@
+<?php
+$domain = "https://" . $_SERVER['HTTP_HOST'];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -47,7 +51,7 @@
 
                 <div class="title">Scope</div>
                 <p>These Terms of Use are an agreement between you and/or the entity you are authorized to represent with CS Metal and shall govern your use of the Website and all applications, software, and services available via the Website. All the materials contained in the Website are provided for informational purposes only and shall not be construed as a commercial offer, a license, an advisory, fiduciary, or professional relationship between you and CS Metal or its affiliates. No information provided on this Website shall be considered a substitute for your independent investigation.</p>
-                <p>To the extent that any of our web pages or applications accessible through the URL <a href="https://www.csmetal-int.com">https://www.csmetal-int.com</a> are ruled by additional or different practices or policies, these practices or policies will be accessible on that page.</p>
+                <p>To the extent that any of our web pages or applications accessible through the URL <a href="<?= $domain ?>"><?= $domain ?></a> are ruled by additional or different practices or policies, these practices or policies will be accessible on that page.</p>
 
                 <div class="title">Modifications</div>
                 <p>CS Metal reserves the right to modify or update the Terms of Use at its sole discretion, at any time and without prior announcement. You are responsible for informing yourself of the Terms of Use in force at the time of use of this Website. Your continued usage of the Website following the posting of changes to these Terms of Use will mean you accept those changes.</p>

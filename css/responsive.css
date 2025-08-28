@@ -206,6 +206,10 @@
     .rd-img {
         max-width: 40%;
     }
+
+    .locations {
+        height: 100px;
+    }
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -498,7 +502,11 @@
     }
 
     .awards-section-padding {
-        padding-bottom: 25px;
+        padding-bottom: 25px !important;
+    }
+
+    .locations {
+        height: auto;
     }
 }
 
