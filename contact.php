@@ -13,6 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php include 'inc/HTMLhead.php'; ?>
     <title>Contact CS Metal | Quote, Support & Metal Solutions </title>
     <meta name="description" content="Get in touch with the CS Metal team for a project quote, expert support, or to learn more about our custom metal fabrication and solutions. ">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -42,12 +43,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <h3 class="mb-3">Headquarter Info</h3>
                 <div class="customDiv">
                     <p>
-                        <div class="" target="_blank" rel="noopener">
-                            Chi Sing Metal MFY. CO. LTD. <br>
-                            2A/F, Phase 1 <br>
-                            Kingsford Industrial Bldg., <br>
-                            26-32 Kwai Hei St., Kwai Chung <br>
-                            Hong Kong SAR</div>
+                    <div class="" target="_blank" rel="noopener">
+                        Chi Sing Metal MFY. CO. LTD. <br>
+                        2A/F, Phase 1 <br>
+                        Kingsford Industrial Bldg., <br>
+                        26-32 Kwai Hei St., Kwai Chung <br>
+                        Hong Kong SAR</div>
                     </p>
                 </div>
                 <div class="customDiv mb-0">
@@ -63,12 +64,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <h3 class="mb-3 pt-md-0 pt-3">Factory Info</h3>
                 <div class="customDiv">
                     <p>
-                        <div class="" href="#" target="_blank" rel="noopener">
-                            Williamson Metal MFY. CO. LTD. <br>
-                            Shu Xin Village <br>
-                            Changping Town, Dongguan City <br>
-                            Guangdong Province, PR China <br>
-                            523560</div>
+                    <div class="" href="#" target="_blank" rel="noopener">
+                        Williamson Metal MFY. CO. LTD. <br>
+                        Shu Xin Village <br>
+                        Changping Town, Dongguan City <br>
+                        Guangdong Province, PR China <br>
+                        523560</div>
                     </p>
                 </div>
                 <div class="customDiv mb-0">
@@ -120,7 +121,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             </div>
                             <div class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-tel elementor-col-50 elementor-field-required">
                                 <label for="tel" class="elementor-field-label">Phone Number </label>
-                                <input size="1" type="tel" name="form_fields[tel]" id="tel" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true" pattern="[0-9()#&amp;+*-=.]+" title="Only numbers and phone characters (#, -, *, etc) are accepted.">
+                                <input size="1" type="tel" name="form_fields[tel]" id="tel" class="elementor-field elementor-size-md elementor-field-textual" required="required" aria-required="true">
                             </div>
                             <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-company_name elementor-col-50 elementor-field-required">
                                 <label for="company_name" class="elementor-field-label">Company Name </label>
@@ -134,7 +135,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <label for="messages" class="elementor-field-label">Messages </label>
                                 <textarea class="elementor-field-textual elementor-field elementor-size-md" name="form_fields[messages]" id="messages" rows="3" required="required" aria-required="true"></textarea>
                             </div>
-                            
+
+                            <!-- reCAPTCHA v2 Widget -->
+                            <div class="elementor-field-group elementor-column elementor-col-100">
+                                <div class="g-recaptcha" data-sitekey="6LfOZvkrAAAAAM--YU6Y_8akwnxOTyAG4z-jCrq-"></div>
+                            </div>
+
                             <!-- Form Messages -->
                             <?php if (isset($_GET['success'])): ?>
                                 <div class="elementor-field-group elementor-column elementor-col-100">
@@ -144,7 +150,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                     </div>
                                 </div>
                             <?php endif; ?>
-                            
+
                             <?php if (isset($_GET['error'])): ?>
                                 <div class="elementor-field-group elementor-column elementor-col-100">
                                     <div class="alert alert-danger mb-0" style="background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; padding: 12px; border-radius: 4px;">
@@ -153,7 +159,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                     </div>
                                 </div>
                             <?php endif; ?>
-                            
+
                             <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
                                 <button class="elementor-button elementor-size-sm" type="submit">
                                     <span class="elementor-button-content-wrapper">
@@ -177,6 +183,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
 
     <?php include 'inc/footer.php'; ?>
+
+    <script>
+        // Prevent form submission if reCAPTCHA is not completed
+        document.getElementById('form').addEventListener('submit', function(e) {
+            const recaptchaResponse = grecaptcha.getResponse();
+
+            if (!recaptchaResponse) {
+                e.preventDefault();
+                alert('Please complete the reCAPTCHA verification before submitting.');
+                return false;
+            }
+        });
+    </script>
 </body>
 
 </html>

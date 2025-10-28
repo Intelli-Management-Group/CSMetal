@@ -1,4 +1,6 @@
 <?php
+$config = require 'config.php';
+
 // Prevent direct access
 if (!defined('SECURE_ACCESS')) {
     die('Direct access not allowed');
@@ -17,6 +19,22 @@ function sanitizeInput($input)
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['form_fields'])) {
+    $ch = curl_init('https://www.google.com/recaptcha/api/siteverify');
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, [
+        'secret' => $config['recaptcha_secret'],
+        'response' => $_POST['g-recaptcha-response']
+    ]);
+    $response = curl_exec($ch);
+    curl_close($ch);
+
+    $responseKeys = json_decode($response);
+
+    if (!$responseKeys->success) {
+        header('Location: ./contact.php?error=Please complete the reCAPTCHA verification.#form');
+        exit;
+    }
 
     // Extract and sanitize form data
     $fields = $_POST['form_fields'];
